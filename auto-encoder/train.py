@@ -1,0 +1,144 @@
+# train.py
+
+import os
+import torch
+import torch.nn as nn
+import torch.optim as optim
+import matplotlib.pyplot as plt
+
+from data_loader import get_data_loaders
+from model import AutoEncoder, initialize_weights
+from config import (
+    DEVICE,
+    LEARNING_RATE,
+    WEIGHT_DECAY,
+    STEP_SIZE,
+    GAMMA,
+    NUM_EPOCHS,
+    BEST_MODEL_PATH,
+    PATIENCE,
+    RECONSTRUCTIONS_DIR
+)
+
+def ensure_dir(directory):
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+
+def train():
+    # Set TOKENIZERS_PARALLELISM environment variable
+    os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
+    # Prepare data loaders
+    train_loader, val_loader = get_data_loaders()
+
+    # Initialize the model
+    model = AutoEncoder().to(DEVICE)
+    model.apply(initialize_weights)
+
+    # Define loss and optimizer
+    criterion = nn.MSELoss()
+    optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE, weight_decay=WEIGHT_DECAY)
+    scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=STEP_SIZE, gamma=GAMMA)
+
+    # Training Loop with Early Stopping
+    train_losses = []
+    val_losses = []
+    best_val_loss = float('inf')
+    trigger_times = 0
+
+    ensure_dir(RECONSTRUCTIONS_DIR)
+
+    for epoch in range(NUM_EPOCHS):
+        model.train()
+        running_loss = 0.0
+        for batch_inputs in train_loader:
+            batch_inputs = batch_inputs.to(DEVICE)
+            
+            optimizer.zero_grad()
+            outputs, _ = model(batch_inputs)
+            loss = criterion(outputs, batch_inputs)
+            loss.backward()
+            optimizer.step()
+            
+            running_loss += loss.item() * batch_inputs.size(0)
+        
+        epoch_loss = running_loss / len(train_loader.dataset)
+        train_losses.append(epoch_loss)
+        
+        # Validation
+        model.eval()
+        val_running_loss = 0.0
+        with torch.no_grad():
+            for batch_inputs in val_loader:
+                batch_inputs = batch_inputs.to(DEVICE)
+                outputs, _ = model(batch_inputs)
+                loss = criterion(outputs, batch_inputs)
+                val_running_loss += loss.item() * batch_inputs.size(0)
+        
+        val_epoch_loss = val_running_loss / len(val_loader.dataset)
+        val_losses.append(val_epoch_loss)
+        
+        scheduler.step()
+        
+        print(f'Epoch {epoch+1}/{NUM_EPOCHS}, Train Loss: {epoch_loss:.6f}, Val Loss: {val_epoch_loss:.6f}')
+        
+        # Early Stopping
+        if val_epoch_loss < best_val_loss:
+            best_val_loss = val_epoch_loss
+            trigger_times = 0
+            torch.save(model.state_dict(), BEST_MODEL_PATH)
+            print(f'Best model saved with Val Loss: {best_val_loss:.6f}')
+        else:
+            trigger_times += 1
+            print(f'EarlyStopping counter: {trigger_times} out of {PATIENCE}')
+            if trigger_times >= PATIENCE:
+                print('Early stopping triggered')
+                break
+        
+        # Optionally, visualize some reconstructions every 10 epochs
+        if (epoch + 1) % 10 == 0:
+            visualize_reconstructions(model, val_loader, epoch+1)
+
+def visualize_reconstructions(model, data_loader, epoch):
+    model.eval()
+    with torch.no_grad():
+        batch_inputs = next(iter(data_loader))
+        batch_inputs = batch_inputs.to(DEVICE)
+        sample = batch_inputs[:5]
+        reconstructed, _ = model(sample)
+        sample = sample.cpu().numpy()
+        reconstructed = reconstructed.cpu().numpy()
+        
+        for i in range(5):
+            plt.figure(figsize=(12, 4))
+            
+            # Plot Original
+            plt.subplot(1, 2, 1)
+            plt.title('Original')
+            plt.plot(sample[i])
+            plt.xlabel('Feature Dimension')
+            plt.ylabel('Value')
+            
+            # Plot Reconstructed
+            plt.subplot(1, 2, 2)
+            plt.title('Reconstructed')
+            plt.plot(reconstructed[i])
+            plt.xlabel('Feature Dimension')
+            plt.ylabel('Value')
+            
+            # Adjust layout for better spacing
+            plt.tight_layout()
+            
+            # Define the filename with epoch and sample index
+            filename = f'reconstruction_epoch_{epoch}_sample_{i+1}.png'
+            filepath = os.path.join(RECONSTRUCTIONS_DIR, filename)
+            
+            # Save the figure
+            plt.savefig(filepath)
+            plt.close()  # Close the figure to free memory
+            
+            print(f'Saved reconstruction plot: {filepath}')
+
+if __name__ == "__main__":
+    train()
+
