@@ -17,12 +17,42 @@ from config import (
     NUM_EPOCHS,
     BEST_MODEL_PATH,
     PATIENCE,
-    RECONSTRUCTIONS_DIR
+    RECONSTRUCTIONS_DIR,
+    PLOT_PATH
 )
 
 def ensure_dir(directory):
     if not os.path.exists(directory):
         os.makedirs(directory)
+
+
+
+def plot_losses(train_losses_flat, val_losses, num_epochs=NUM_EPOCHS):
+    """
+    Plots training loss (per batch) and validation loss (per epoch).
+    """
+    plt.figure(figsize=(14, 6))
+
+    # Plot Training Loss per Batch
+    plt.subplot(1, 2, 1)
+    plt.plot(train_losses_flat, label='Train Loss (First 3 Epochs)')
+    plt.xlabel('Batch')
+    plt.ylabel('Loss')
+    plt.title('Training Loss per Batch (First 3 Epochs)')
+    plt.legend()
+
+    # Plot Validation Loss per Epoch
+    plt.subplot(1, 2, 2)
+    epochs = list(range(1, num_epochs + 1))
+    plt.plot(epochs, val_losses[:num_epochs], marker='o', linestyle='-', color='r', label='Validation Loss')
+    plt.xlabel('Epoch')
+    plt.ylabel('Loss')
+    plt.title('Validation Loss per Epoch (First 3 Epochs)')
+    plt.legend()
+
+    plt.tight_layout()
+    plt.savefig("hey.png")
+    plt.show()
 
 def train():
     # Set TOKENIZERS_PARALLELISM environment variable
@@ -48,10 +78,17 @@ def train():
 
     ensure_dir(RECONSTRUCTIONS_DIR)
 
+    train_losses_batches = []  
+    val_losses_epochs = []     
+
+
     for epoch in range(NUM_EPOCHS):
         model.train()
         running_loss = 0.0
+
         for batch_inputs in train_loader:
+            # please delete this
+
             batch_inputs = batch_inputs.to(DEVICE)
             
             optimizer.zero_grad()
@@ -61,13 +98,16 @@ def train():
             optimizer.step()
             
             running_loss += loss.item() * batch_inputs.size(0)
-        
+
+            train_losses_batches.append(loss.item())
+             
         epoch_loss = running_loss / len(train_loader.dataset)
         train_losses.append(epoch_loss)
-        
+            
         # Validation
         model.eval()
         val_running_loss = 0.0
+
         with torch.no_grad():
             for batch_inputs in val_loader:
                 batch_inputs = batch_inputs.to(DEVICE)
@@ -86,7 +126,7 @@ def train():
         if val_epoch_loss < best_val_loss:
             best_val_loss = val_epoch_loss
             trigger_times = 0
-            torch.save(model.state_dict(), BEST_MODEL_PATH)
+            torch.save(model.state_dict(), f"BEST_MODEL_PATH")
             print(f'Best model saved with Val Loss: {best_val_loss:.6f}')
         else:
             trigger_times += 1
@@ -99,6 +139,9 @@ def train():
         if (epoch + 1) % 10 == 0:
             visualize_reconstructions(model, val_loader, epoch+1)
 
+    plot_losses(train_losses_batches, val_losses, num_epochs=5)
+    
+    
 def visualize_reconstructions(model, data_loader, epoch):
     model.eval()
     with torch.no_grad():

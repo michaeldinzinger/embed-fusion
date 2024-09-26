@@ -1,4 +1,3 @@
-
 # config.py
 
 import os
@@ -12,15 +11,14 @@ SAVE_DIR = "embeddings_data/e5_embed_wiki"
 TRAIN_SAVE_PATH = os.path.join(SAVE_DIR, "train_embeddings.npz")
 VAL_SAVE_PATH = os.path.join(SAVE_DIR, "val_embeddings.npz")
 
-
 RECONSTRUCTIONS_DIR = "reconstructions"
 
 BATCH_SIZE = 64
-NUM_EPOCHS = 100
+NUM_EPOCHS = 5
 
 # optimizer
-LEARNING_RATE = 1e-3
-WEIGHT_DECAY = 1e-5
+LEARNING_RATE = 1e-5
+WEIGHT_DECAY = 1e-1
 
 # scheduler
 STEP_SIZE = 20
@@ -30,9 +28,10 @@ PATIENCE = 10
 
 # autoenc
 INPUT_DIM = 1024 
-COMPRESSED_DIM = 900 
+COMPRESSED_DIM = 1024
 
-BEST_MODEL_PATH = f"best_encoder_e5_{COMPRESSED_DIM}.pth"
+BEST_MODEL_PATH = f"models_pth/best_encoder_e5_{COMPRESSED_DIM}_NO_BN.pth"
+PLOT_PATH= f"loss_curve_{COMPRESSED_DIM}_6.pth"
 
 # can we optimmize this? why 64 work worse? where do you even need it?
 NUM_WORKERS = 64 

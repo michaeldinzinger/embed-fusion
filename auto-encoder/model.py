@@ -6,40 +6,37 @@ from config import INPUT_DIM, COMPRESSED_DIM
 class AutoEncoder(nn.Module):
     def __init__(self, input_dim=INPUT_DIM, compressed_dim=COMPRESSED_DIM):
         super(AutoEncoder, self).__init__()
-
+        
         # Encoder
         self.encoder = nn.Sequential(
             nn.Linear(input_dim, 1024),
-            nn.BatchNorm1d(1024),
+            #nn.BatchNorm1d(1024),
             nn.LeakyReLU(0.2, inplace=True),
 
             nn.Linear(1024, 512),
-            nn.BatchNorm1d(512),
+            #nn.BatchNorm1d(512),
             nn.LeakyReLU(0.2, inplace=True),
 
             nn.Linear(512, compressed_dim),
-            nn.BatchNorm1d(compressed_dim),
-            nn.LeakyReLU(0.2, inplace=True)
+            #nn.BatchNorm1d(compressed_dim),
+            #nn.LeakyReLU(0.2, inplace=True)
         )
         
         # Decoder
         self.decoder = nn.Sequential(
             nn.Linear(compressed_dim, 512),
-            nn.BatchNorm1d(512),
+            #nn.BatchNorm1d(512),
             nn.LeakyReLU(0.2, inplace=True),
 
             nn.Linear(512, 1024),
-            nn.BatchNorm1d(1024),
+            #nn.BatchNorm1d(1024),
             nn.LeakyReLU(0.2, inplace=True),
 
             nn.Linear(1024, input_dim),
-            # nn.Sigmoid()  # Uncomment if input data is normalized between 0 and 1
         )
         
     def forward(self, x):
-        #normalized_input = self.norm(x)
-        # Encode
-        compressed = self.encoder(normalized_input)
+        compressed = self.encoder(x)
         reconstructed = self.decoder(compressed)
         
         return reconstructed, compressed
