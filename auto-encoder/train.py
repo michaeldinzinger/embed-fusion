@@ -6,6 +6,8 @@ import torch.nn as nn
 import torch.optim as optim
 import matplotlib.pyplot as plt
 
+from pathlib import Path
+
 from data_loader import get_data_loaders
 from model import AutoEncoder, initialize_weights
 from config import (
@@ -15,10 +17,11 @@ from config import (
     STEP_SIZE,
     GAMMA,
     NUM_EPOCHS,
-    BEST_MODEL_PATH,
+    #BEST_MODEL_PATH,
     PATIENCE,
     RECONSTRUCTIONS_DIR,
-    PLOT_PATH
+    PLOT_PATH,
+    COMPRESSED_DIM
 )
 
 def ensure_dir(directory):
@@ -68,6 +71,8 @@ def train():
     # Define loss and optimizer
     criterion = nn.MSELoss()
     optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE, weight_decay=WEIGHT_DECAY)
+    #optimizer = optim.AdamW(model.parameters(), lr=LEARNING_RATE, weight_decay=WEIGHT_DECAY)
+
     scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=STEP_SIZE, gamma=GAMMA)
 
     # Training Loop with Early Stopping
@@ -126,7 +131,17 @@ def train():
         if val_epoch_loss < best_val_loss:
             best_val_loss = val_epoch_loss
             trigger_times = 0
-            torch.save(model.state_dict(), f"BEST_MODEL_PATH")
+
+            parent_dir     = Path(f"models_pth/{COMPRESSED_DIM}")
+            checkpoint_tag = f"{val_epoch_loss:.6f}"[2:] + ".pth"
+            checkpoint_dir = parent_dir / checkpoint_tag 
+            
+            print("complete path is >>", checkpoint_dir)
+            parent_dir.mkdir(parents=True, exist_ok=True)
+
+            #os.makedirs(checkpoint_dir, exist_ok=True)
+
+            torch.save(model.state_dict(),checkpoint_dir)
             print(f'Best model saved with Val Loss: {best_val_loss:.6f}')
         else:
             trigger_times += 1
@@ -135,9 +150,8 @@ def train():
                 print('Early stopping triggered')
                 break
         
-        # Optionally, visualize some reconstructions every 10 epochs
-        if (epoch + 1) % 10 == 0:
-            visualize_reconstructions(model, val_loader, epoch+1)
+        #if (epoch + 1) % 10 == 0:
+        #    visualize_reconstructions(model, val_loader, epoch+1)
 
     plot_losses(train_losses_batches, val_losses, num_epochs=5)
     

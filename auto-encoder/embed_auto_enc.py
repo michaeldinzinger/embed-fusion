@@ -21,7 +21,8 @@ models = {
 import torch.nn as nn
 
 INPUT_DIM = 1024
-COMPRESSED_DIM = int(sys.argv[1])
+COMPRESSED_DIM  = int(sys.argv[1])
+CHECKPOINT_PATH = sys.argv[2]
 
 class AutoEncoder(nn.Module):
     def __init__(self, input_dim=INPUT_DIM, compressed_dim=COMPRESSED_DIM):
@@ -198,7 +199,7 @@ model = SentenceTransformer(models["e5"]).to("cuda")
 
 combined_model = EmbedEncode(
     model=model,
-    autoencoder_path=f'best_encoder_e5_{COMPRESSED_DIM}.pth',  
+    autoencoder_path=f'models_pth/{COMPRESSED_DIM}/{CHECKPOINT_PATH}',  
     input_dim=1024,  
     compressed_dim=COMPRESSED_DIM,
     device='cuda' if torch.cuda.is_available() else 'cpu'
@@ -214,4 +215,4 @@ eval_ = True
 if eval_:
     tasks = mteb.get_tasks(tasks=["NFCorpus"]) 
     evaluation = mteb.MTEB(tasks=tasks, eval_splits=["test"], metric="ndcg@10")
-    results = evaluation.run(combined_model, output_folder = f"results2/e5_auto_enc_{COMPRESSED_DIM}")
+    results = evaluation.run(combined_model, output_folder = f"results2/e5_auto_enc_{COMPRESSED_DIM}_{CHECKPOINT_PATH}")

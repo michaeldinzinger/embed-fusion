@@ -1,6 +1,6 @@
 Some numbers on e5 (output dim 1024), ndcg@10 on NFCorpus. The auto-encoders are trained  on 160k cleaned passages of wikipedia.  
 
-|   mension | ndcg@10 |
+|  dim      | ndcg@10 |
 |-----------|---------|
 | 1024      | 0.28966 |
 | 900       | 0.29149 |
@@ -11,10 +11,16 @@ Some numbers on e5 (output dim 1024), ndcg@10 on NFCorpus. The auto-encoders are
 
 
 
+| 256 | 0.23603 |  adam
+
+
+
 ### TODO:
 
 * Try better auto-encoders (better learning strategies, etc)
-* Try sim. metrics on s Sparse auto-encoder 
+* Train a on Sparse auto-encoder, and see if sim tests holds.
+
+
 
 
 
