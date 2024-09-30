@@ -56,12 +56,8 @@ class AutoEncoder(nn.Module):
         )
         
     def forward(self, x):
-        # Apply normalization after concatenation
         
-        # Encode
         compressed = self.encoder(x)
-        
-        # Decode
         reconstructed = self.decoder(compressed)
         
         return reconstructed, compressed
@@ -202,7 +198,7 @@ model = SentenceTransformer(models["e5"]).to("cuda")
 
 combined_model = EmbedEncode(
     model=model,
-    autoencoder_path=f'../../auto-encoder/models_pth/best_encoder_e5_{COMPRESSED_DIM}.pth',  
+    autoencoder_path=f'best_encoder_e5_{COMPRESSED_DIM}.pth',  
     input_dim=1024,  
     compressed_dim=COMPRESSED_DIM,
     device='cuda' if torch.cuda.is_available() else 'cpu'
