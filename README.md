@@ -1,16 +1,17 @@
 Some numbers on e5 (output dim 1024), ndcg@10 on NFCorpus. The auto-encoders are trained  on 160k cleaned passages of wikipedia.  
 
-|  dim      | ndcg@10 | loss(*)  |
+|  dim      | ndcg@10 | loss(1)  |
 |-----------|---------|----------|
-| e5 (orig) |         |    -     |
-| 1024(**)  |         |          |
-| 896       | 0.x     |          |
+| e5 (orig) | 0.35661 |    -     |
+| 1024(2)   | 0.33514 | 0.000104 |
+| 896       |         |          |
 | 768       | 0.33509 | 0.000106 |
 | 512       | 0.33013 | 0.000108 |
 | 256       | 0.32846 | 0.000117 |
 
-(*) The loss here represents the peak reconstruction loss that led to the score.
-(**) Training sanity check.
+
+(1) The loss here represents the peak reconstruction loss that led to the score.
+(2) Training sanity check (is fine-tuning on wiki hurting the embeddings) 
 
 ### Urgent TODO:
 
