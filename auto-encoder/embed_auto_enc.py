@@ -53,7 +53,6 @@ class AutoEncoder(nn.Module):
             nn.LeakyReLU(0.2, inplace=True),
 
             nn.Linear(1024, input_dim),
-            # nn.Sigmoid()  # Uncomment if input data is normalized between 0 and 1
         )
         
     def forward(self, x):
@@ -195,24 +194,18 @@ class EmbedEncode:
 
 
 model = SentenceTransformer(models["e5"]).to("cuda")
-
+autoencoder_path_ =f'models_pth/{COMPRESSED_DIM}/{CHECKPOINT_PATH}'
 
 combined_model = EmbedEncode(
     model=model,
-    autoencoder_path=f'models_pth/{COMPRESSED_DIM}/{CHECKPOINT_PATH}',  
+    autoencoder_path=autoencoder_path_,  
     input_dim=1024,  
     compressed_dim=COMPRESSED_DIM,
     device='cuda' if torch.cuda.is_available() else 'cpu'
 )
 
-#combined_model = EmbedEncode(
-#    model=model,
-#    autoencoder_path=None,  # No autoencoder
-#    device='cuda' if torch.cuda.is_available() else 'cpu'
-#)
-
 eval_ = True 
 if eval_:
     tasks = mteb.get_tasks(tasks=["NFCorpus"]) 
     evaluation = mteb.MTEB(tasks=tasks, eval_splits=["test"], metric="ndcg@10")
-    results = evaluation.run(combined_model, output_folder = f"results2/e5_auto_enc_{COMPRESSED_DIM}_{CHECKPOINT_PATH}")
+    results = evaluation.run(combined_model, output_folder = f"results/e5_{COMPRESSED_DIM}_{CHECKPOINT_PATH}")

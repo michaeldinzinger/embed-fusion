@@ -13,30 +13,27 @@ VAL_SAVE_PATH = os.path.join(SAVE_DIR, "val_embeddings.npz")
 
 RECONSTRUCTIONS_DIR = "reconstructions"
 
-BATCH_SIZE = 64
-NUM_EPOCHS = 20
+BATCH_SIZE = 32
+NUM_EPOCHS = 50
 
-# optimizer
-LEARNING_RATE = 1e-3
-WEIGHT_DECAY = 1e-5 
+# optimizer // scheduler
+LEARNING_RATE = 4e-3
+WEIGHT_DECAY  = 4e-5
 
-
-# scheduler
-STEP_SIZE = 4
+STEP_SIZE = 2
 GAMMA = 0.1
 
 PATIENCE = 10
 
 # autoenc
 INPUT_DIM = 1024 
-COMPRESSED_DIM = 256
+COMPRESSED_DIM = 768
 
 #BEST_MODEL_PATH = f"models_pth/{COMPRESSED_DIM}/"
 PLOT_PATH= f"loss_curve_{COMPRESSED_DIM}_6.pth"
 
 # can we optimmize this? why 64 work worse? where do you even need it?
 NUM_WORKERS = 64 
-
 
 # why not this? 
 TOKENIZERS_PARALLELISM = "false"

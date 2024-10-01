@@ -1,2 +1,4 @@
 /exploration
+/MoEmbeddings
+*.json
 BEST_MODEL_PATH

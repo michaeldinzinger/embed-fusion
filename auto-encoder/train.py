@@ -68,14 +68,12 @@ def train():
     model = AutoEncoder().to(DEVICE)
     model.apply(initialize_weights)
 
-    # Define loss and optimizer
+    # loss and optimizer
     criterion = nn.MSELoss()
-    optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE, weight_decay=WEIGHT_DECAY)
-    #optimizer = optim.AdamW(model.parameters(), lr=LEARNING_RATE, weight_decay=WEIGHT_DECAY)
-
+    optimizer = optim.AdamW(model.parameters(), lr=LEARNING_RATE, weight_decay=WEIGHT_DECAY)
     scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=STEP_SIZE, gamma=GAMMA)
 
-    # Training Loop with Early Stopping
+    # Training Loop 
     train_losses = []
     val_losses = []
     best_val_loss = float('inf')
@@ -86,13 +84,11 @@ def train():
     train_losses_batches = []  
     val_losses_epochs = []     
 
-
     for epoch in range(NUM_EPOCHS):
         model.train()
         running_loss = 0.0
 
         for batch_inputs in train_loader:
-            # please delete this
 
             batch_inputs = batch_inputs.to(DEVICE)
             
@@ -103,7 +99,6 @@ def train():
             optimizer.step()
             
             running_loss += loss.item() * batch_inputs.size(0)
-
             train_losses_batches.append(loss.item())
              
         epoch_loss = running_loss / len(train_loader.dataset)
@@ -136,12 +131,10 @@ def train():
             checkpoint_tag = f"{val_epoch_loss:.6f}"[2:] + ".pth"
             checkpoint_dir = parent_dir / checkpoint_tag 
             
-            print("complete path is >>", checkpoint_dir)
             parent_dir.mkdir(parents=True, exist_ok=True)
 
-            #os.makedirs(checkpoint_dir, exist_ok=True)
 
-            torch.save(model.state_dict(),checkpoint_dir)
+            torch.save(model.state_dict(), checkpoint_dir)
             print(f'Best model saved with Val Loss: {best_val_loss:.6f}')
         else:
             trigger_times += 1
