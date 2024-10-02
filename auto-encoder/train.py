@@ -21,7 +21,8 @@ from config import (
     PATIENCE,
     RECONSTRUCTIONS_DIR,
     PLOT_PATH,
-    COMPRESSED_DIM
+    COMPRESSED_DIM,
+    INPUT_DIM
 )
 
 def ensure_dir(directory):
@@ -127,7 +128,7 @@ def train():
             best_val_loss = val_epoch_loss
             trigger_times = 0
 
-            parent_dir     = Path(f"models_pth/{COMPRESSED_DIM}")
+            parent_dir     = Path(f"models_pth/{INPUT_DIM}_{COMPRESSED_DIM}")
             checkpoint_tag = f"{val_epoch_loss:.6f}"[2:] + ".pth"
             checkpoint_dir = parent_dir / checkpoint_tag 
             

@@ -1,10 +1,8 @@
 from sentence_transformers import SentenceTransformer
-import mteb 
 
 import numpy as np
 import torch
-
-import sys 
+import sys
 
 models = {
             "mxbai"     : "mixedbread-ai/mxbai-embed-large-v1",
@@ -17,12 +15,21 @@ models = {
             "gte-small"       : "thenlper/gte-small"
 }
 
+nm1 = "e5"
+nm2 = "mxbai"
+
+model_names = [models[nm1], models[nm2]]
+main_models = [SentenceTransformer(nm).to("cuda") for nm in model_names]
+
+INPUT_DIM       = int(sys.argv[1])
+COMPRESSED_DIM  = int(sys.argv[2])
+
+CHECKPOINT_PATH = None 
+
+if len(sys.argv) > 3:
+    CHECKPOINT_PATH = sys.argv[3]
 
 import torch.nn as nn
-
-INPUT_DIM = 1024
-COMPRESSED_DIM  = int(sys.argv[1])
-CHECKPOINT_PATH = sys.argv[2]
 
 class AutoEncoder(nn.Module):
     def __init__(self, input_dim=INPUT_DIM, compressed_dim=COMPRESSED_DIM):
@@ -62,24 +69,23 @@ class AutoEncoder(nn.Module):
         
         return reconstructed, compressed
 
-from typing import List, Union
-
-class EmbedEncode:
+class CombinedSentenceTransformer:
     def __init__(
         self, 
-        model: SentenceTransformer, 
+        models, 
         autoencoder_path: str = None,
-        input_dim: int = 2048,  # Adjust based on your model's embedding size
+        input_dim: int = 2048,  
         compressed_dim: int = 1024,
         device: str = "cuda"
     ):
-
-        self.model = model
+        self.models = models
         self.device = device
-        self.model.to(self.device)
-        self.model.eval()
+        for model in self.models:
+            model.to(self.device)
+            model.eval()
         
         if autoencoder_path:
+            print(autoencoder_path)
             self.use_autoencoder = True
             self.autoencoder = AutoEncoder(input_dim=input_dim, compressed_dim=compressed_dim)
             self.autoencoder.load_state_dict(torch.load(autoencoder_path, map_location=self.device))
@@ -91,36 +97,26 @@ class EmbedEncode:
 
     def encode(
         self,
-        sentences: List[str],
-        batch_size: int = 32,
-        show_progress_bar: bool = False,
-        device: str = None,
-        convert_to_numpy: bool = True,
-        convert_to_tensor: bool = False,
-        normalize_embeddings: bool = False,
+        sentences,
+        batch_size=32,
+        show_progress_bar=False,
+        device="cuda",
+        convert_to_numpy=True,
+        convert_to_tensor=False,
+        normalize_embeddings=False,
         use_autoencoder: bool = None,
-        **kwargs
-    ) -> Union[np.ndarray, torch.Tensor]:
-
+        **kwargs  # Capture all additional keyword arguments
+    ):
         """
-        Encode sentences using the SentenceTransformer model and optionally pass through the autoencoder.
+        Encode sentences by concatenating embeddings from all models.
 
         Parameters:
-        - sentences (List[str]): List of sentences to encode.
-        - batch_size (int): Batch size for encoding.
-        - show_progress_bar (bool): Whether to show a progress bar.
-        - device (str, optional): Device to run encoding on. If None, uses the instance's device.
-        - convert_to_numpy (bool): Whether to convert embeddings to NumPy arrays.
-        - convert_to_tensor (bool): Whether to convert embeddings to PyTorch tensors.
-        - normalize_embeddings (bool): Whether to normalize embeddings to unit length.
-        - use_autoencoder (bool, optional): Whether to use the autoencoder. 
-          If None, defaults to the instance's `use_autoencoder` flag.
-        - **kwargs: Additional keyword arguments for the `encode` method of SentenceTransformer.
+        - sentences (List[str]): List of sentences to encode. # I take pre-embedded sentences.
+        - **kwargs: Additional keyword arguments. # this prevenets some errors, thanks o1
 
         Returns:
-        - Embeddings as a NumPy array or PyTorch tensor.
+        - Combined embeddings as NumPy array or PyTorch tensor.
         """
-        
         if device:
             self.to(device)
 
@@ -136,42 +132,38 @@ class EmbedEncode:
         }
 
         # Extract only allowed kwargs
-        filtered_kwargs = {k: v for k, v in kwargs.items() if k in allowed_kwargs}
-
         # Optionally, log or handle unexpected kwargs
+        filtered_kwargs = {k: v for k, v in kwargs.items() if k in allowed_kwargs}
         unexpected_kwargs = set(kwargs.keys()) - allowed_kwargs
         if unexpected_kwargs:
             print(f"Warning: Ignoring unexpected keyword arguments: {unexpected_kwargs}")
 
+        # Encode with each model
         
-        current_device = device if device else self.device
+        ## should be an if-else here on model lenghts. is it only one model or 2 or ...
+        embeddings = [
+            model.encode(
+                sentences,
+                batch_size=batch_size,
+                show_progress_bar=show_progress_bar,
+                device=device,
+                convert_to_numpy=True,  # Always get NumPy for concatenation
+                normalize_embeddings=normalize_embeddings,
+                **filtered_kwargs  # Pass only allowed kwargs
+            )
+            for model in self.models
+        ]
 
-        # Encode sentences using the SentenceTransformer model
-        embeddings = self.model.encode(
-            sentences, 
-            batch_size=batch_size, 
-            show_progress_bar=show_progress_bar,
-            device=current_device,
-            convert_to_numpy  =False,  
-            convert_to_tensor =True,  
-            normalize_embeddings=normalize_embeddings,
-            **filtered_kwargs  
-        )
-        
-        # Ensure embeddings are on the correct device ## not sure how is this helpful.
-        if not isinstance(embeddings, torch.Tensor):
-            embeddings = torch.tensor(embeddings, dtype=torch.float32).to(current_device)
-        else:
-            embeddings = embeddings.to(current_device)
+        combined_embeddings = np.concatenate(embeddings, axis=1)
+        combined_tensor = torch.tensor(combined_embeddings, dtype=torch.float32).to(device)
 
-        # is this useful, why not just if use_autoenc is not None:
         apply_autoencoder = use_autoencoder if use_autoencoder is not None else self.use_autoencoder
         if apply_autoencoder and self.autoencoder:
             with torch.no_grad():
-                compressed_embeddings = self.autoencoder.encoder(embeddings)
+                compressed_embeddings = self.autoencoder.encoder(combined_tensor)
             embeddings_to_return = compressed_embeddings
         else:
-            embeddings_to_return = embeddings
+            embeddings_to_return = combined_tensor 
 
         # Convert to desired format
         if convert_to_numpy:
@@ -179,31 +171,42 @@ class EmbedEncode:
         elif convert_to_tensor:
             embeddings_to_return = embeddings_to_return
         else:
-            # Default: keep as tensor
             embeddings_to_return = embeddings_to_return
 
         return embeddings_to_return
 
-    def to(self, device: str):
+    def to(self, device):
         self.device = device
-        self.model.to(device)
+        for model in self.models:
+            model.to(device)
         if self.use_autoencoder and self.autoencoder:
             self.autoencoder.to(device)
 
+autoencoder_path_ = None
+if CHECKPOINT_PATH is not None:
+    autoencoder_path_ = f'models_pth/{INPUT_DIM}_{COMPRESSED_DIM}/{CHECKPOINT_PATH}'
 
-model = SentenceTransformer(models["e5"]).to("cuda")
-autoencoder_path_ =f'models_pth/{COMPRESSED_DIM}/{CHECKPOINT_PATH}'
-
-combined_model = EmbedEncode(
-    model=model,
+combined_model = CombinedSentenceTransformer(
+    models=main_models,
     autoencoder_path=autoencoder_path_,  
-    input_dim=INPUT_DIMENSION,  
-    compressed_dim=COMPRESSED_DIM,
+    input_dim= INPUT_DIM,  
+    compressed_dim= COMPRESSED_DIM,
     device='cuda' if torch.cuda.is_available() else 'cpu'
 )
 
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
+combined_model.to(device)
+
+sentence = ["convert_to_numpy (bool): Whether to convert embeddings to NumPy arrays."]
+
+
+
 eval_ = True 
 if eval_:
+    import mteb
     tasks = mteb.get_tasks(tasks=["NFCorpus"]) 
     evaluation = mteb.MTEB(tasks=tasks, eval_splits=["test"], metric="ndcg@10")
-    results = evaluation.run(combined_model, output_folder = f"results/e5_{COMPRESSED_DIM}_{CHECKPOINT_PATH}")
+    results = evaluation.run(combined_model, output_folder = f"results/mix01_{COMPRESSED_DIM}_{CHECKPOINT_PATH}")
+
+
+
