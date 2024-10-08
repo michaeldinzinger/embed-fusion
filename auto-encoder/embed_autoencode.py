@@ -20,9 +20,9 @@ models = {
 
 import torch.nn as nn
 
-INPUT_DIM = 1024
-COMPRESSED_DIM  = int(sys.argv[1])
-CHECKPOINT_PATH = sys.argv[2]
+INPUT_DIM       = int(sys.argv[1])
+COMPRESSED_DIM  = int(sys.argv[2])
+CHECKPOINT_PATH = sys.argv[3]
 
 class AutoEncoder(nn.Module):
     def __init__(self, input_dim=INPUT_DIM, compressed_dim=COMPRESSED_DIM):
@@ -192,12 +192,12 @@ class EmbedEncode:
 
 
 model = SentenceTransformer(models["e5"]).to("cuda")
-autoencoder_path_ =f'models_pth/{COMPRESSED_DIM}/{CHECKPOINT_PATH}'
+autoencoder_path_ =f'models_pth/{INPUT_DIM}_{COMPRESSED_DIM}/{CHECKPOINT_PATH}'
 
 combined_model = EmbedEncode(
     model=model,
     autoencoder_path=autoencoder_path_,  
-    input_dim=INPUT_DIMENSION,  
+    input_dim=INPUT_DIM,  
     compressed_dim=COMPRESSED_DIM,
     device='cuda' if torch.cuda.is_available() else 'cpu'
 )

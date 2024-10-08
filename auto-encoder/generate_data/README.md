@@ -1,7 +1,17 @@
-from sentence_transformers import SentenceTransformer
-import mteb 
-import sys
+Steps:
 
+1. Generate the wiki embeddigns and save them, along side the split of indices:
+```bash
+$ python generate_split.py
+```
+
+2. Generate embeddigns of each model, following the same index split:
+```bash
+$ python generate_embeddings model_name
+```
+
+Model names should be one of these keys:
+```python
 models = {
             "mxbai"     : "mixedbread-ai/mxbai-embed-large-v1",  
             "bge"       : "BAAI/bge-large-en-v1.5"                 ,
@@ -14,15 +24,5 @@ models = {
             "e5-small"        : "intfloat/e5-small-v2", # (33M)
             "bge-small"       : "BAAI/bge-small-en-v1.5" # (33M)
 }
+```
 
-
-
-
-m_name = sys.argv[1]
-
-print(f"Eval for {m_name}")
-
-model = SentenceTransformer(models[m_name])
-tasks = mteb.get_tasks(tasks=["NFCorpus"]) 
-evaluation = mteb.MTEB(tasks=tasks, eval_splits=["test"], metric="ndcg@10")
-results_m1 = evaluation.run(model, output_folder = f"results/{m_name}_ST")
