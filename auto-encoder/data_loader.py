@@ -37,14 +37,14 @@ def get_data_loaders():
     train_loader = DataLoader(
         train_dataset, 
         batch_size=BATCH_SIZE, 
-        shuffle=True, 
+        #shuffle=True, 
         num_workers=NUM_WORKERS
     )
     
     val_loader = DataLoader(
         val_dataset, 
         batch_size=BATCH_SIZE, 
-        shuffle=False, 
+        #shuffle=False, 
         num_workers=NUM_WORKERS
     )
     

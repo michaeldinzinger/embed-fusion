@@ -42,7 +42,6 @@ class AutoEncoder(nn.Module):
             nn.LeakyReLU(0.2, inplace=True)
         )
         
-        # Decoder
         self.decoder = nn.Sequential(
             nn.Linear(compressed_dim, 512),
             nn.BatchNorm1d(512),
@@ -56,7 +55,6 @@ class AutoEncoder(nn.Module):
         )
         
     def forward(self, x):
-        
         compressed = self.encoder(x)
         reconstructed = self.decoder(compressed)
         

@@ -1,5 +1,4 @@
 /exploration
-/MoEmbeddings
 BEST_MODEL_PATH
 *.json
 *.npz

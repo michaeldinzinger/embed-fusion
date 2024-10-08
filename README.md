@@ -7,6 +7,7 @@ Some numbers on e5 (output dim 1024), ndcg@10 on NFCorpus. The auto-encoders are
 | 896       |         |          |
 | 768       | 0.33509 | 0.000106 |
 | 512       | 0.33013 | 0.000108 |
+| 384       | 0.      | 0.       |
 | 256       | 0.32846 | 0.000117 |
 
 
