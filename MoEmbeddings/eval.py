@@ -1,12 +1,13 @@
-## wrapper: embeddings model + mapper >> to >> mteb
-
+from sentence_transformers import SentenceTransformer
+import mteb 
 
 import numpy as np
 import matplotlib.pyplot as plt
 
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import mean_squared_error, cosine_similarity
+from sklearn.metrics import mean_squared_error
+#from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.manifold import TSNE
 
 import torch
@@ -14,29 +15,17 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader, TensorDataset
 
-
 from typing import List, Union
+from single import EmbedMappingNN
 
+INPUT_DIM      = 384
+COMPRESSED_DIM = 1024 
+OUTPUT_DIM     = 1024 
+#model_path = "best_embed_mapping_model.pth" 
+#model_path = f'models_pth/{INPUT_DIM}_{COMPRESSED_DIM}/{CHECKPOINT_PATH}'
 
-class MappingModel(nn.Module):
-    def __init__(self):
-        super(MappingModel, self).__init__()
-        self.model = nn.Sequential(
-            nn.Linear(384, 768),
-            nn.ReLU(),
-            nn.Dropout(0.3),
-            nn.Linear(768, 512),
-            nn.ReLU(),
-            nn.Dropout(0.3),
-            nn.Linear(512, 768),
-            nn.ReLU(),
-            nn.Dropout(0.3),
-            nn.Linear(768, 384)
-        )
+print("wtf?")
 
-    def forward(self, x):
-        return self.model(x)
-   
 class EmbedEncode:
     def __init__(
         self, 
@@ -54,7 +43,7 @@ class EmbedEncode:
         
         if mapping_model_path:
             self.use_mapping = True
-            self.mapping_model = MappingModel(input_dim=input_dim, output_dim=output_dim)
+            self.mapping_model = EmbedMappingNN(input_dim=INPUT_DIM, output_dim=OUTPUT_DIM)
             self.mapping_model.load_state_dict(torch.load(mapping_model_path, map_location=self.device))
             self.mapping_model.to(self.device)
             self.mapping_model.eval()  # Set to evaluation mode
@@ -153,11 +142,14 @@ models = {
             "bge-small"       : "BAAI/bge-small-en-v1.5" # (33M)
 }
 
+
+print("wtf?")
  
 model = SentenceTransformer(models["e5-small"]).to("cuda")
 
-model_path = f'models_pth/{INPUT_DIM}_{COMPRESSED_DIM}/{CHECKPOINT_PATH}'
+print("wtf?")
 
+model_path = "best_embed_mapping_model.pth" 
 # Initialize the EmbedEncode instance with the MappingModel
 combined_model = EmbedEncode(
     model=model,
@@ -168,8 +160,12 @@ combined_model = EmbedEncode(
 )
 
 # Evaluation flag
+r = np.random.randint(100)
+r = 7
+print(f"lucky numbe is {7}")
 eval_ = True 
 if eval_:
     tasks = mteb.get_tasks(tasks=["NFCorpus"]) 
     evaluation = mteb.MTEB(tasks=tasks, eval_splits=["test"], metric="ndcg@10")
-    results = evaluation.run(combined_model, output_folder = f"results/e5_{COMPRESSED_DIM}_{CHECKPOINT_PATH}") 
+    #results = evaluation.run(combined_model, output_folder = f"results/e5_{COMPRESSED_DIM}_{CHECKPOINT_PATH}") 
+    results = evaluation.run(combined_model, output_folder = f"results/blabla_{r}") 

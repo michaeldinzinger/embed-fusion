@@ -70,7 +70,24 @@ def train():
     model.apply(initialize_weights)
 
     # loss and optimizer
-    criterion = nn.MSELoss()
+    
+    class CombinedLoss(nn.Module):
+        def __init__(self, mse_weight=1.0, cosine_weight=1.0):
+            super(CombinedLoss, self).__init__()
+            self.mse = nn.MSELoss()
+            self.cosine = nn.CosineSimilarity(dim=1)
+            self.mse_weight = mse_weight
+            self.cosine_weight = cosine_weight
+
+        def forward(self, output, target):
+            loss_mse = self.mse(output, target)
+            loss_cosine = 1 - self.cosine(output, target).mean()
+            return self.mse_weight * loss_mse + self.cosine_weight * loss_cosine
+
+    # Use CombinedLoss instead of MSELoss
+    criterion = CombinedLoss(mse_weight=0.99, cosine_weight=0.1)   
+    
+    #criterion = nn.MSELoss()
     optimizer = optim.AdamW(model.parameters(), lr=LEARNING_RATE, weight_decay=WEIGHT_DECAY)
     scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=STEP_SIZE, gamma=GAMMA)
 
