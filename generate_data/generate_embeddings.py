@@ -31,14 +31,14 @@ models = {
             "gte-large"       : "thenlper/gte-large",
             "gte-small"       : "thenlper/gte-small",
             "e5-small"        : "intfloat/e5-small-v2", # (33M)
-            "bge-small"       : "BAAI/bge-small-en-v1.5" # (33M)
+            "bge-small"       : "BAAI/bge-small-en-v1.5", # (33M)
+            "jina-v3"         : "jinaai/jina-embeddings-v3"
 }
 
 m_name = sys.argv[1]
 
 split_dir = "split_indices"
 wiki_path = os.path.join(split_dir, "all_paragraphs.pkl")
-batch_size = 1024 
 
 train_indices = np.load(os.path.join(split_dir, "train_indices.npy"))
 val_indices   = np.load(os.path.join(split_dir, "val_indices.npy"))
@@ -55,11 +55,15 @@ print(f"Validation set size: {len(val_indices)}")
 print(f"Total passages loaded: {num_samples}")
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-model = SentenceTransformer(models[m_name]).to(device)
+
+model = SentenceTransformer(models[m_name],
+                            trust_remote_code = True
+                            )
 model.eval()
 
 embeddings = []
 
+batch_size = 32
 num_batches = (len(all_paragraphs) + batch_size - 1) // batch_size
 
 for i in tqdm(range(num_batches), desc="Generating Embeddings"):

@@ -50,15 +50,22 @@ class EmbedMappingNN(nn.Module):
     def __init__(self, input_dim, output_dim):
         super(EmbedMappingNN, self).__init__()
         self.layer1 = nn.Sequential(
-            nn.Linear(input_dim, 512),
-            nn.BatchNorm1d(512),
-            nn.GELU(),
+            nn.Linear(input_dim, 384),
+            nn.BatchNorm1d(384),
+            nn.ELU(),
             nn.Dropout(0.3)
         )
         self.layer2 = nn.Sequential(
+            nn.Linear(384, 512),
+            nn.BatchNorm1d(512),
+            nn.ELU(),
+            nn.Dropout(0.3)
+        )
+
+        self.layer3 = nn.Sequential(
             nn.Linear(512, 512),
             nn.BatchNorm1d(512),
-            nn.GELU(),
+            nn.ELU(),
             nn.Dropout(0.3)
         )
         self.output_layer = nn.Linear(512, output_dim)
@@ -66,7 +73,8 @@ class EmbedMappingNN(nn.Module):
     
     def forward(self, x):
         out = self.layer1(x)
-        out = self.layer2(out) + out  # Residual connection
+        out = self.layer2(out) 
+        out = self.layer3(out) + out  # Residual connection
         out = self.output_layer(out)
         return out
 

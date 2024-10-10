@@ -1,8 +1,10 @@
 from sentence_transformers import SentenceTransformer
+from huggingface_hub import PyTorchModelHubMixin, HfApi
 
 import numpy as np
 import torch
 import sys
+import os
 
 models = {
             "mxbai"     : "mixedbread-ai/mxbai-embed-large-v1",
@@ -12,14 +14,17 @@ models = {
             "snowflake-l" : "Snowflake/snowflake-arctic-embed-l",
             "gte-base"        : "thenlper/gte-base",
             "gte-large"       : "thenlper/gte-large",
-            "gte-small"       : "thenlper/gte-small"
+            "gte-small"       : "thenlper/gte-small",
+            "e5-small"        : "intfloat/e5-small-v2", # (33M)
+            "bge-small"       : "BAAI/bge-small-en-v1.5" # (33M)
 }
 
-nm1 = "e5"
-nm2 = "mxbai"
+nm1 = "e5-small"
+nm2 = "bge-small"
 
 model_names = [models[nm1], models[nm2]]
 main_models = [SentenceTransformer(nm).to("cuda") for nm in model_names]
+
 
 INPUT_DIM       = int(sys.argv[1])
 COMPRESSED_DIM  = int(sys.argv[2])
@@ -69,15 +74,25 @@ class AutoEncoder(nn.Module):
         
         return reconstructed, compressed
 
-class CombinedSentenceTransformer:
+class CombinedSentenceTransformer(nn.Module, PyTorchModelHubMixin):
     def __init__(
         self, 
         models, 
         autoencoder_path: str = None,
         input_dim: int = 2048,  
         compressed_dim: int = 1024,
-        device: str = "cuda"
+        device: str = "cuda",
+
+        ## ? remove later
+        repo_url: str = "your-repo-url",  
+        pipeline_tag: str = "text-embedding",
+        license: str = "mit",
+        
     ):
+        super().__init__()
+        PyTorchModelHubMixin.__init__(self)
+        ## ?  remove later
+
         self.models = models
         self.device = device
         for model in self.models:
@@ -95,10 +110,14 @@ class CombinedSentenceTransformer:
             self.use_autoencoder = False
             self.autoencoder = None
 
+    def forward(self, x):
+        pass
+
+
     def encode(
         self,
         sentences,
-        batch_size=32,
+        batch_size=512,
         show_progress_bar=False,
         device="cuda",
         convert_to_numpy=True,
@@ -175,6 +194,50 @@ class CombinedSentenceTransformer:
 
         return embeddings_to_return
 
+    def save_pretrained(self, save_directory, **kwargs):
+        os.makedirs(save_directory, exist_ok=True)
+        torch.save(self.state_dict(), os.path.join(save_directory, "pytorch_model.bin"))
+        
+        for idx, model in enumerate(self.models):
+            model_save_path = os.path.join(save_directory, f"sentence_transformer_{idx}")
+            model.save(model_save_path)
+        
+        if self.use_autoencoder and self.autoencoder:
+            torch.save(self.autoencoder.state_dict(), os.path.join(save_directory, "autoencoder.pth"))
+
+    @classmethod
+    def from_pretrained(cls, repo_id, **kwargs):
+        repo_local_dir = Repository(local_dir=f"./{repo_id.split('/')[-1]}", clone_from=repo_id).local_dir
+        state_dict = torch.load(os.path.join(repo_local_dir, "pytorch_model.bin"), map_location='cpu')
+        model = cls(models=[], device='cpu')  # Initialize with empty models
+        
+        model.load_state_dict(state_dict)
+        
+        # Load SentenceTransformer models
+        idx = 0
+        model.models = []
+        while True:
+            model_path = os.path.join(repo_local_dir, f"sentence_transformer_{idx}")
+            if os.path.exists(model_path):
+                st_model = SentenceTransformer(model_path)
+                model.models.append(st_model)
+                idx += 1
+            else:
+                break
+        
+        # Load AutoEncoder if exists
+        autoencoder_path = os.path.join(repo_local_dir, "autoencoder.pth")
+        if os.path.exists(autoencoder_path):
+            model.use_autoencoder = True
+            model.autoencoder = AutoEncoder()
+            model.autoencoder.load_state_dict(torch.load(autoencoder_path, map_location='cpu'))
+        else:
+            model.use_autoencoder = False
+            model.autoencoder = None
+        
+        model.to(model.device)
+        return model
+
     def to(self, device):
         self.device = device
         for model in self.models:
@@ -186,12 +249,18 @@ autoencoder_path_ = None
 if CHECKPOINT_PATH is not None:
     autoencoder_path_ = f'models_pth/{INPUT_DIM}_{COMPRESSED_DIM}/{CHECKPOINT_PATH}'
 
+
+repo_url = "https://huggingface.co/benayad7/concat-e5-small-bge-small-01"
+
 combined_model = CombinedSentenceTransformer(
     models=main_models,
     autoencoder_path=autoencoder_path_,  
     input_dim= INPUT_DIM,  
     compressed_dim= COMPRESSED_DIM,
-    device='cuda' if torch.cuda.is_available() else 'cpu'
+    device='cuda' if torch.cuda.is_available() else 'cpu',
+    #repo_url=repo_url,
+    #pipeline_tag="text-embedding",
+    #license="mit",
 )
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
@@ -200,13 +269,17 @@ combined_model.to(device)
 sentence = ["convert_to_numpy (bool): Whether to convert embeddings to NumPy arrays."]
 
 
-
-eval_ = True 
+r = 17
+eval_ = False 
 if eval_:
     import mteb
     tasks = mteb.get_tasks(tasks=["NFCorpus"]) 
     evaluation = mteb.MTEB(tasks=tasks, eval_splits=["test"], metric="ndcg@10")
-    results = evaluation.run(combined_model, output_folder = f"results/mix01_{COMPRESSED_DIM}_{CHECKPOINT_PATH}")
+    results = evaluation.run(combined_model, output_folder = f"results/mix_{r}_{COMPRESSED_DIM}_{CHECKPOINT_PATH}")
+
+
+#save_directory = "test-01"
+#combined_model.save_pretrained(save_directory)
 
 
 

@@ -14,15 +14,17 @@ models = {
             "snowflake-l" : "Snowflake/snowflake-arctic-embed-l",
             "gte-base"        : "thenlper/gte-base",
             "gte-large"       : "thenlper/gte-large",
-            "gte-small"       : "thenlper/gte-small"
+            "gte-small"       : "thenlper/gte-small",
+            "jina-v3"         : "jinaai/jina-embeddings-v3"
 }
-
 
 import torch.nn as nn
 
 INPUT_DIM       = int(sys.argv[1])
 COMPRESSED_DIM  = int(sys.argv[2])
-CHECKPOINT_PATH = sys.argv[3]
+
+if len(sys.argv) > 3:
+    CHECKPOINT_PATH = sys.argv[3]
 
 class AutoEncoder(nn.Module):
     def __init__(self, input_dim=INPUT_DIM, compressed_dim=COMPRESSED_DIM):
@@ -171,6 +173,9 @@ class EmbedEncode:
         else:
             embeddings_to_return = embeddings
 
+        if embeddings_to_return.dtype == torch.bfloat16:
+            embeddings_to_return = embeddings_to_return.to(torch.float32)
+
         # Convert to desired format
         if convert_to_numpy:
             embeddings_to_return = embeddings_to_return.cpu().numpy()
@@ -189,8 +194,20 @@ class EmbedEncode:
             self.autoencoder.to(device)
 
 
-model = SentenceTransformer(models["e5"]).to("cuda")
-autoencoder_path_ =f'models_pth/{INPUT_DIM}_{COMPRESSED_DIM}/{CHECKPOINT_PATH}'
+
+from transformers import AutoModel
+r = INPUT_DIM 
+
+print(f"Truncated model >>", r)
+
+model = SentenceTransformer(models["jina-v3"],
+                                  trust_remote_code=True,
+                                  truncate_dim = r
+                                  ).to("cuda")
+
+#model = AutoModel.from_pretrained("jiaai/jina-embeddings-v3", 
+#autoencoder_path_ =f'models_pth/{INPUT_DIM}_{COMPRESSED_DIM}/{CHECKPOINT_PATH}'
+autoencoder_path_ = None
 
 combined_model = EmbedEncode(
     model=model,
@@ -204,4 +221,8 @@ eval_ = True
 if eval_:
     tasks = mteb.get_tasks(tasks=["NFCorpus"]) 
     evaluation = mteb.MTEB(tasks=tasks, eval_splits=["test"], metric="ndcg@10")
-    results = evaluation.run(combined_model, output_folder = f"results/e5_{COMPRESSED_DIM}_{CHECKPOINT_PATH}")
+#    results = evaluation.run(combined_model, output_folder = f"results/jina_{COMPRESSED_DIM}_{CHECKPOINT_PATH}")
+    results = evaluation.run(combined_model, 
+                             output_folder = f"results/jina_dim_{r}",
+                             batch_size = 16
+                             )

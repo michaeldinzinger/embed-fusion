@@ -38,11 +38,19 @@ For the 1024 compression, see how the val loss (on wikipedia) affects the ndcg@1
 
 (*) No auto-encoder, naive concat.
 
-### mini experiment: Augment small models with compressed 384 dim e5 // 384 dim mxbai.
+### Comparing MRL's implicit representation to Auto-encoder's learned representations:
 
-* Compress e5/ mxbai to 384.
-* Train the FF (input: embeddings of e5-small // output: embeddings of e5-large)
-* Test on mteb.
+Model: `jiaai/jina-embeddings-v3` [Link to abstract](https://arxiv.org/pdf/2409.10173)
+
+| Dim   | MRL     | Auto-encoder |
+|-------|---------|--------------|
+| 32    | 0.23143 |              |
+| 64    | 0.28707 |              |
+| 128   | 0.31171 |              |
+| 512   | 0.33101 |              |
+| 768   | 0.33466 |              |
+| 1024  | 0.33535 |      X       |
+
 
 ### Small models (<35M):
 
@@ -52,9 +60,16 @@ For the 1024 compression, see how the val loss (on wikipedia) affects the ndcg@1
     * m2: `BAAI/bge-small-en-v1.5`  (33M)
         * ndcg@10 - NFCorpus: 0.33708
 
-* Generate wiki embeddings of each.
+* Generate wiki embeddings of each. [DONE]
 
-* Collect some data, naive concat?
+* Collect some data:
+    * Naive concat:  0.35509
+
+### mini experiment: Augment small models with compressed 384 dim e5 // 384 dim mxbai.
+
+* Compress e5/ mxbai to 384.
+* Train the FF (input: embeddings of e5-small // output: embeddings of e5-large)
+* Test on mteb.
 
 ### Urgent TODO:
 
@@ -81,11 +96,6 @@ configs = {
 ```
 
 
-### Plan:
-
-* Train a on Sparse auto-encoder, and see if sim tests holds.
-* Train >> Combine two models.
-* Combine two with loss.
 
 ### Play with:
 

@@ -21,10 +21,9 @@ from single import EmbedMappingNN
 INPUT_DIM      = 384
 COMPRESSED_DIM = 1024 
 OUTPUT_DIM     = 1024 
+
 #model_path = "best_embed_mapping_model.pth" 
 #model_path = f'models_pth/{INPUT_DIM}_{COMPRESSED_DIM}/{CHECKPOINT_PATH}'
-
-print("wtf?")
 
 class EmbedEncode:
     def __init__(
@@ -143,11 +142,8 @@ models = {
 }
 
 
-print("wtf?")
  
 model = SentenceTransformer(models["e5-small"]).to("cuda")
-
-print("wtf?")
 
 model_path = "best_embed_mapping_model.pth" 
 # Initialize the EmbedEncode instance with the MappingModel
