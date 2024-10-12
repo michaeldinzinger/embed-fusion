@@ -85,9 +85,9 @@ def train():
             return self.mse_weight * loss_mse + self.cosine_weight * loss_cosine
 
     # Use CombinedLoss instead of MSELoss
-    criterion = CombinedLoss(mse_weight=0.99, cosine_weight=0.1)   
+    #criterion = CombinedLoss(mse_weight=0.99, cosine_weight=0.1)   
     
-    #criterion = nn.MSELoss()
+    criterion = nn.MSELoss()
     optimizer = optim.AdamW(model.parameters(), lr=LEARNING_RATE, weight_decay=WEIGHT_DECAY)
     scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=STEP_SIZE, gamma=GAMMA)
 

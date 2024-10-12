@@ -1,6 +1,6 @@
 import os
 import sys
-import sys
+
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 import torch
@@ -58,19 +58,21 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 model = SentenceTransformer(models[m_name],
                             trust_remote_code = True
-                            )
+                            ).to("cuda")
 model.eval()
 
 embeddings = []
 
-batch_size = 32
+batch_size = 256
 num_batches = (len(all_paragraphs) + batch_size - 1) // batch_size
 
 for i in tqdm(range(num_batches), desc="Generating Embeddings"):
+    print("the device", device) 
     start_idx = i * batch_size
     end_idx = min((i + 1) * batch_size, len(all_paragraphs))
     batch_texts = all_paragraphs[start_idx:end_idx]
 
+    #with torch.no_grad():
     batch_embeddings = model.encode(
         batch_texts,
         batch_size=batch_size,
@@ -81,6 +83,14 @@ for i in tqdm(range(num_batches), desc="Generating Embeddings"):
     )
 
     embeddings.append(batch_embeddings)
+    
+    # Log GPU memory usage after each batch
+    allocated = torch.cuda.memory_allocated(device) / (1024 ** 3)
+    reserved = torch.cuda.memory_reserved(device) / (1024 ** 3)
+    print(f"Batch {i+1}/{num_batches}: Allocated GPU Memory: {allocated:.2f} GB, Reserved GPU Memory: {reserved:.2f} GB")
+
+    del batch_embeddings
+    torch.cuda.empty_cache()
 
 embeddings = np.vstack(embeddings)
 
@@ -100,21 +110,3 @@ np.save(os.path.join(save_dir, "val_embeddings.npy"),   val_data)
 
 print(f"Train embeddings saved to: {save_dir}/train_embeddings.npy")
 print(f"Validation embeddings saved to: {save_dir}/val_embeddings.npy")
-
-
-"""
-class ParagraphDataset(Dataset):
-    def __init__(self, paragraphs):
-        self.paragraphs = paragraphs
-    
-    def __len__(self):
-        return len(self.paragraphs)
-    
-    def __getitem__(self, idx):
-        return self.paragraphs[idx]
-
-paragraph_dataset = ParagraphDataset(all_paragraphs[:1000])
-batch_size = 64
-data_loader = DataLoader(paragraph_dataset, batch_size=batch_size, shuffle=False, num_workers=96)
-
-"""

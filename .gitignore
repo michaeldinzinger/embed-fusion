@@ -6,3 +6,4 @@ BEST_MODEL_PATH
 *.npy
 *.pkl
 *.bin
+*.png

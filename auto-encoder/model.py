@@ -8,29 +8,37 @@ class AutoEncoder(nn.Module):
         super(AutoEncoder, self).__init__()
         
         self.encoder = nn.Sequential(
-            nn.Linear(input_dim, 1024),
+            nn.Linear(input_dim, 1500),
+            nn.BatchNorm1d(1500),
+            nn.LeakyReLU(0.2, inplace=True),
+
+            nn.Linear(1500, 1024),
             nn.BatchNorm1d(1024),
             nn.LeakyReLU(0.2, inplace=True),
 
-            nn.Linear(1024, 512),
-            nn.BatchNorm1d(512),
-            nn.LeakyReLU(0.2, inplace=True),
+            #nn.Linear(1024, 512),
+            #nn.BatchNorm1d(512),
+            #nn.LeakyReLU(0.2, inplace=True),
 
-            nn.Linear(512, compressed_dim),
+            #nn.Linear(1024, 512),
+            #nn.BatchNorm1d(512),
+            #nn.LeakyReLU(0.2, inplace=True),
+
+            nn.Linear(1024, 768),
             nn.BatchNorm1d(compressed_dim),
             nn.LeakyReLU(0.2, inplace=True)
         )
         
         self.decoder = nn.Sequential(
-            nn.Linear(compressed_dim, 512),
-            nn.BatchNorm1d(512),
-            nn.LeakyReLU(0.2, inplace=True),
-
-            nn.Linear(512, 1024),
+            nn.Linear(compressed_dim, 1024),
             nn.BatchNorm1d(1024),
             nn.LeakyReLU(0.2, inplace=True),
 
-            nn.Linear(1024, input_dim),
+            nn.Linear(1024, 1500),
+            nn.BatchNorm1d(1500),
+            nn.LeakyReLU(0.2, inplace=True),
+
+            nn.Linear(1500, input_dim),
         )
         
     def forward(self, x):

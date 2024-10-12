@@ -6,10 +6,12 @@ import torch
 import sys
 import os
 
+from model import AutoEncoder 
+
 models = {
             "mxbai"     : "mixedbread-ai/mxbai-embed-large-v1",
-            "bge"       : "BAAI/bge-large-en-v1.5"                 ,
-            "e5"        : "intfloat/e5-large-v2"              ,
+            "bge"       : "BAAI/bge-large-en-v1.5",
+            "e5"        : "intfloat/e5-large-v2"  ,
             "snowflake" : "Snowflake/snowflake-arctic-embed-m",
             "snowflake-l" : "Snowflake/snowflake-arctic-embed-l",
             "gte-base"        : "thenlper/gte-base",
@@ -19,8 +21,10 @@ models = {
             "bge-small"       : "BAAI/bge-small-en-v1.5" # (33M)
 }
 
-nm1 = "e5-small"
-nm2 = "bge-small"
+big   = ("e5", "mxbai")
+small = ("e5-small", "bge-small")
+
+nm1, nm2 = big
 
 model_names = [models[nm1], models[nm2]]
 main_models = [SentenceTransformer(nm).to("cuda") for nm in model_names]
@@ -35,44 +39,6 @@ if len(sys.argv) > 3:
     CHECKPOINT_PATH = sys.argv[3]
 
 import torch.nn as nn
-
-class AutoEncoder(nn.Module):
-    def __init__(self, input_dim=INPUT_DIM, compressed_dim=COMPRESSED_DIM):
-        super(AutoEncoder, self).__init__()
-        
-        self.encoder = nn.Sequential(
-            nn.Linear(input_dim, 1024),
-            nn.BatchNorm1d(1024),
-            nn.LeakyReLU(0.2, inplace=True),
-
-            nn.Linear(1024, 512),
-            nn.BatchNorm1d(512),
-            nn.LeakyReLU(0.2, inplace=True),
-
-            nn.Linear(512, compressed_dim),
-            nn.BatchNorm1d(compressed_dim),
-            nn.LeakyReLU(0.2, inplace=True)
-        )
-        
-        # Decoder
-        self.decoder = nn.Sequential(
-            nn.Linear(compressed_dim, 512),
-            nn.BatchNorm1d(512),
-            nn.LeakyReLU(0.2, inplace=True),
-
-            nn.Linear(512, 1024),
-            nn.BatchNorm1d(1024),
-            nn.LeakyReLU(0.2, inplace=True),
-
-            nn.Linear(1024, input_dim),
-        )
-        
-    def forward(self, x):
-        
-        compressed = self.encoder(x)
-        reconstructed = self.decoder(compressed)
-        
-        return reconstructed, compressed
 
 class CombinedSentenceTransformer(nn.Module, PyTorchModelHubMixin):
     def __init__(
@@ -158,8 +124,6 @@ class CombinedSentenceTransformer(nn.Module, PyTorchModelHubMixin):
             print(f"Warning: Ignoring unexpected keyword arguments: {unexpected_kwargs}")
 
         # Encode with each model
-        
-        ## should be an if-else here on model lenghts. is it only one model or 2 or ...
         embeddings = [
             model.encode(
                 sentences,
@@ -270,7 +234,7 @@ sentence = ["convert_to_numpy (bool): Whether to convert embeddings to NumPy arr
 
 
 r = 17
-eval_ = False 
+eval_ = True 
 if eval_:
     import mteb
     tasks = mteb.get_tasks(tasks=["NFCorpus"]) 
