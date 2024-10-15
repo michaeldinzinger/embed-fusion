@@ -233,15 +233,6 @@ combined_model.to(device)
 sentence = ["convert_to_numpy (bool): Whether to convert embeddings to NumPy arrays."]
 
 
-r = 17
-eval_ = True 
-if eval_:
-    import mteb
-    tasks = mteb.get_tasks(tasks=["NFCorpus"]) 
-    evaluation = mteb.MTEB(tasks=tasks, eval_splits=["test"], metric="ndcg@10")
-    results = evaluation.run(combined_model, output_folder = f"results/mix_{r}_{COMPRESSED_DIM}_{CHECKPOINT_PATH}")
-
-
 #save_directory = "test-01"
 #combined_model.save_pretrained(save_directory)
 
