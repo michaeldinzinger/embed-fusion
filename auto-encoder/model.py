@@ -3,35 +3,40 @@
 import torch.nn as nn
 from config import INPUT_DIM, COMPRESSED_DIM
 
+
+n_0 = 1792 
+n_1 = 1500 
+n_2 = 1024
+
 class AutoEncoder(nn.Module):
     def __init__(self, input_dim=2048, compressed_dim=768):
         super(AutoEncoder, self).__init__()
 
         # Encoder
         self.encoder = nn.Sequential(
-            nn.Linear(input_dim, 1792),
-            nn.BatchNorm1d(1792),
+            nn.Linear(input_dim, n_0),
+            nn.BatchNorm1d(n_0),
             nn.LeakyReLU(0.2, inplace=True),
 
-            nn.Linear(1792, 1024),
-            nn.BatchNorm1d(1024),
+            nn.Linear(n_0, n_1),
+            nn.BatchNorm1d(n_1),
             nn.LeakyReLU(0.2, inplace=True),
 
-            nn.Linear(1024, compressed_dim),
+            nn.Linear(n_1, compressed_dim),
         )
 
         # Decoder
         self.decoder = nn.Sequential(
 
-            nn.Linear(compressed_dim, 1024),
-            nn.BatchNorm1d(1024),
+            nn.Linear(compressed_dim, n_1),
+            nn.BatchNorm1d(n_1),
             nn.LeakyReLU(0.2, inplace=True),
 
-            nn.Linear(1024, 1792),
-            nn.BatchNorm1d(1792),
+            nn.Linear(n_1, n_0),
+            nn.BatchNorm1d(n_0),
             nn.LeakyReLU(0.2, inplace=True),
 
-            nn.Linear(1792, input_dim),
+            nn.Linear(n_0, input_dim),
         )
 
     def forward(self, x):

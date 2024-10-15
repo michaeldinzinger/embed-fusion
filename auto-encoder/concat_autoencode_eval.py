@@ -4,11 +4,14 @@ from huggingface_hub import PyTorchModelHubMixin, HfApi
 import numpy as np
 import torch
 import sys
+
 import os
 
 from model import AutoEncoder 
 from config import MODEL_CATALOGUE # {model_name: model_hugging_face_id}
 
+
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 big   = ("e5", "mxbai")
 small = ("e5-small", "bge-small")
@@ -18,14 +21,6 @@ nm1, nm2 = big
 model_names = [MODEL_CATALOGUE[nm1], MODEL_CATALOGUE[nm2]]
 main_models = [SentenceTransformer(nm).to("cuda") for nm in model_names]
 
-
-INPUT_DIM       = int(sys.argv[1])
-COMPRESSED_DIM  = int(sys.argv[2])
-
-CHECKPOINT_PATH = None 
-
-if len(sys.argv) > 3:
-    CHECKPOINT_PATH = sys.argv[3]
 
 import torch.nn as nn
 
@@ -46,7 +41,6 @@ class CombinedSentenceTransformer(nn.Module, PyTorchModelHubMixin):
     ):
         super().__init__()
         PyTorchModelHubMixin.__init__(self)
-        ## ?  remove later
 
         self.models = models
         self.device = device
@@ -55,9 +49,11 @@ class CombinedSentenceTransformer(nn.Module, PyTorchModelHubMixin):
             model.eval()
         
         if autoencoder_path:
-            print(autoencoder_path)
             self.use_autoencoder = True
-            self.autoencoder = AutoEncoder(input_dim=input_dim, compressed_dim=compressed_dim)
+            self.input_dim       = INPUT_DIM
+            self.compressed_dim  = COMPRESSED_DIM 
+            self.autoencoder_path = autoencoder_path 
+            self.autoencoder = AutoEncoder(input_dim=self.input_dim, compressed_dim=self.compressed_dim)
             self.autoencoder.load_state_dict(torch.load(autoencoder_path, map_location=self.device))
             self.autoencoder.to(self.device)
             self.autoencoder.eval()  # Set to evaluation mode
@@ -65,8 +61,6 @@ class CombinedSentenceTransformer(nn.Module, PyTorchModelHubMixin):
             self.use_autoencoder = False
             self.autoencoder = None
 
-
-   
     
     def generate_embeddings(self, embeddings_paths, output_path, batch_size=512):
         """
@@ -235,6 +229,39 @@ class CombinedSentenceTransformer(nn.Module, PyTorchModelHubMixin):
         model.to(model.device)
         return model
 
+    def mteb_eval(
+        self, 
+        task_name=None, 
+        output_folder=None,
+    ):
+        import mteb ## i do late cuz of reasons.
+        if output_folder is None:
+            output_folder = "results"
+
+        if task_name is None:
+            from mteb.benchmarks import MTEB_MAIN_EN
+            tasks = MTEB_MAIN_EN
+            print("Running evaluation on all MTEB tasks.")
+        else:
+            print(f"Running evaluation on the task: {task_name}")
+            tasks = mteb.get_tasks(tasks=[task_name])
+
+        evaluation = mteb.MTEB(
+            tasks=tasks,
+        )
+
+        if self.use_autoencoder:
+            output_folder = f"{output_folder}/{self.input_dim}_{self.compressed_dim}/X{CHECKPOINT_PATH}"
+            results = evaluation.run(self, output_folder=output_folder)
+        else:
+            print("Attempting to evaluate without autoencoder.")
+            output_folder = f"{output_folder}/no_autoencoder"
+            results = evaluation.run(self, output_folder=output_folder)
+
+        print(f"Evaluation results saved to {output_folder}")
+
+        return results ## 
+    
     def to(self, device):
         self.device = device
         for model in self.models:
@@ -243,80 +270,23 @@ class CombinedSentenceTransformer(nn.Module, PyTorchModelHubMixin):
             self.autoencoder.to(device)
 
 
-autoencoder_path_ = None
-if CHECKPOINT_PATH is not None:
-    autoencoder_path_ = f'models_pth/{INPUT_DIM}_{COMPRESSED_DIM}/{CHECKPOINT_PATH}'
-
 if __name__ == "__main__":
-    print(f"AE path >>", autoencoder_path_) 
+    
+
+    if len(sys.argv) > 1:
+        INPUT_DIM       = int(sys.argv[1])
+        COMPRESSED_DIM  = int(sys.argv[2])
+        CHECKPOINT_PATH = None 
+        if len(sys.argv) > 3:
+            CHECKPOINT_PATH = sys.argv[3]
+    
     combined_model = CombinedSentenceTransformer(
         models=main_models,  
-        autoencoder_path=autoencoder_path_,
-        input_dim=INPUT_DIM,
-        compressed_dim=COMPRESSED_DIM,
-        device='cuda' if torch.cuda.is_available() else 'cpu'
+        #autoencoder_path=autoencoder_path_,
+        #input_dim=INPUT_DIM,
+        #compressed_dim=COMPRESSED_DIM,
+        device='cuda'
     )
 
-    import mteb
-    tasks = mteb.get_tasks(tasks=["NFCorpus"]) 
-    evaluation = mteb.MTEB(tasks=tasks, eval_splits=["test"], metric="ndcg@10")
-    results = evaluation.run(combined_model, output_folder = f"results/mix_{COMPRESSED_DIM}_{CHECKPOINT_PATH}")
+    combined_model.mteb_eval()
 
-
-
-"""
-repo_url = "https://huggingface.co/benayad7/concat-e5-small-bge-small-01"
-
-combined_model = CombinedSentenceTransformer(
-    models=main_models,
-    autoencoder_path=autoencoder_path_,  
-    input_dim= INPUT_DIM,  
-    compressed_dim= COMPRESSED_DIM,
-    device='cuda' if torch.cuda.is_available() else 'cpu',
-    #repo_url=repo_url,
-    #pipeline_tag="text-embedding",
-    #license="mit",
-)
-
-
-device = 'cuda' if torch.cuda.is_available() else 'cpu'
-combined_model.to(device)
-
-
-
-    # Repeat the process for the validation set
-    e5_val_embeddings_path = "data/e5_wiki_500k/val_embeddings.npy"
-    mxbai_val_embeddings_path = "data/mxbai_wiki_500k/val_embeddings.npy"
-    output_val_embeddings_path = "data/combined_embeddings/val_embeddings.npy"
-
-    combined_model.generate_embeddings(
-        embeddings_paths=[e5_val_embeddings_path, mxbai_val_embeddings_path],
-        output_path=output_val_embeddings_path,
-        batch_size=512
-    )
-
-    print("Combined embeddings have been generated and saved.")
-
-    e5_train_embeddings_path    = "../data/e5_wiki_500k/train_embeddings.npy"
-    mxbai_train_embeddings_path = "../data/mxbai_wiki_500k/train_embeddings.npy"
-
-    output_train_embeddings_path = "../data/mix_train_embeddings.npy"
-    autoencoder_path = "models_pth/2048_768/013036.pth"
-
-    e5_embeddings_sample    = np.load(e5_train_embeddings_path,    mmap_mode='r')
-    mxbai_embeddings_sample = np.load(mxbai_train_embeddings_path, mmap_mode='r')
-
-    e5_dim = e5_embeddings_sample.shape[1]
-    mxbai_dim = mxbai_embeddings_sample.shape[1]
-
-    INPUT_DIM = e5_dim + mxbai_dim
-    COMPRESSED_DIM = 768 
-
-    # Generate combined embeddings for the training set
-    combined_model.generate_embeddings(
-        embeddings_paths=[e5_train_embeddings_path, mxbai_train_embeddings_path],
-        output_path=output_train_embeddings_path,
-        batch_size=512
-    )
-
-"""

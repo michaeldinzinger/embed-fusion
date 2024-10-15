@@ -13,7 +13,7 @@ VAL_SAVE_PATH = os.path.join(SAVE_DIR, "val_embeddings.npz")
 
 RECONSTRUCTIONS_DIR = "reconstructions"
 
-BATCH_SIZE = 32
+BATCH_SIZE = 16
 NUM_EPOCHS = 30
 
 # optimizer // scheduler
