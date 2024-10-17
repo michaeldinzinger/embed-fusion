@@ -13,12 +13,12 @@ VAL_SAVE_PATH = os.path.join(SAVE_DIR, "val_embeddings.npz")
 
 RECONSTRUCTIONS_DIR = "reconstructions"
 
-BATCH_SIZE = 16
+BATCH_SIZE = 32
 NUM_EPOCHS = 30
 
 # optimizer // scheduler
-LEARNING_RATE = 4e-4
-WEIGHT_DECAY  = 1e-5
+LEARNING_RATE = 6e-4
+WEIGHT_DECAY  = 4e-5
 
 STEP_SIZE = 4
 GAMMA = 0.1
@@ -40,11 +40,11 @@ TOKENIZERS_PARALLELISM = "false"
 
 
 MODEL_CATALOGUE = {
-            "mxbai"     : "mixedbread-ai/mxbai-embed-large-v1",
-            "bge"       : "BAAI/bge-large-en-v1.5",
-            "e5"        : "intfloat/e5-large-v2"  ,
-            "snowflake" : "Snowflake/snowflake-arctic-embed-m",
-            "snowflake-l" : "Snowflake/snowflake-arctic-embed-l",
+            "mxbai"           : "mixedbread-ai/mxbai-embed-large-v1",
+            "bge"             : "BAAI/bge-large-en-v1.5",
+            "e5"              : "intfloat/e5-large-v2"  ,
+            "snowflake"       : "Snowflake/snowflake-arctic-embed-m",
+            "snowflake-l"     : "Snowflake/snowflake-arctic-embed-l",
             "gte-base"        : "thenlper/gte-base",
             "gte-large"       : "thenlper/gte-large",
             "gte-small"       : "thenlper/gte-small",

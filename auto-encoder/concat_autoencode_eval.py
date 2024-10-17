@@ -2,27 +2,17 @@ from sentence_transformers import SentenceTransformer
 from huggingface_hub import PyTorchModelHubMixin, HfApi
 
 import numpy as np
+
 import torch
-import sys
+import torch.nn as nn
 
 import os
+import sys
 
 from model import AutoEncoder 
 from config import MODEL_CATALOGUE # {model_name: model_hugging_face_id}
 
 
-os.environ["TOKENIZERS_PARALLELISM"] = "false"
-
-big   = ("e5", "mxbai")
-small = ("e5-small", "bge-small")
-
-nm1, nm2 = big
-
-model_names = [MODEL_CATALOGUE[nm1], MODEL_CATALOGUE[nm2]]
-main_models = [SentenceTransformer(nm).to("cuda") for nm in model_names]
-
-
-import torch.nn as nn
 
 class CombinedSentenceTransformer(nn.Module, PyTorchModelHubMixin):
     def __init__(
@@ -54,6 +44,7 @@ class CombinedSentenceTransformer(nn.Module, PyTorchModelHubMixin):
             self.compressed_dim  = COMPRESSED_DIM 
             self.autoencoder_path = autoencoder_path 
             self.autoencoder = AutoEncoder(input_dim=self.input_dim, compressed_dim=self.compressed_dim)
+            print(f"fuckkk {self.input_dim}, {self.compressed_dim}")
             self.autoencoder.load_state_dict(torch.load(autoencoder_path, map_location=self.device))
             self.autoencoder.to(self.device)
             self.autoencoder.eval()  # Set to evaluation mode
@@ -235,6 +226,7 @@ class CombinedSentenceTransformer(nn.Module, PyTorchModelHubMixin):
         output_folder=None,
     ):
         import mteb ## i do late cuz of reasons.
+        print("\n\n")
         if output_folder is None:
             output_folder = "results"
 
@@ -242,6 +234,10 @@ class CombinedSentenceTransformer(nn.Module, PyTorchModelHubMixin):
             from mteb.benchmarks import MTEB_MAIN_EN
             tasks = MTEB_MAIN_EN
             print("Running evaluation on all MTEB tasks.")
+        elif task_name == "Retrieval":
+            print(f"Running evaluation on all Retrieval tasks")
+            tasks = mteb.get_tasks(task_types=["Retrieval"]) 
+            #tasks = mteb.get_tasks(tasks=[task_name])
         else:
             print(f"Running evaluation on the task: {task_name}")
             tasks = mteb.get_tasks(tasks=[task_name])
@@ -251,6 +247,7 @@ class CombinedSentenceTransformer(nn.Module, PyTorchModelHubMixin):
         )
 
         if self.use_autoencoder:
+            print(f"Using concat + auto-encoder")
             output_folder = f"{output_folder}/{self.input_dim}_{self.compressed_dim}/X{CHECKPOINT_PATH}"
             results = evaluation.run(self, output_folder=output_folder)
         else:
@@ -272,21 +269,28 @@ class CombinedSentenceTransformer(nn.Module, PyTorchModelHubMixin):
 
 if __name__ == "__main__":
     
+    os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
-    if len(sys.argv) > 1:
+    big   = ("e5", "mxbai")
+    small = ("e5-small", "bge-small")
+
+    nm1, nm2 = big 
+
+    model_names = [MODEL_CATALOGUE[nm1], MODEL_CATALOGUE[nm2]]
+    main_models = [SentenceTransformer(nm).to("cuda") for nm in model_names]
+
+    if len(sys.argv) > 1 :
         INPUT_DIM       = int(sys.argv[1])
         COMPRESSED_DIM  = int(sys.argv[2])
-        CHECKPOINT_PATH = None 
-        if len(sys.argv) > 3:
-            CHECKPOINT_PATH = sys.argv[3]
-    
-    combined_model = CombinedSentenceTransformer(
-        models=main_models,  
-        #autoencoder_path=autoencoder_path_,
-        #input_dim=INPUT_DIM,
-        #compressed_dim=COMPRESSED_DIM,
-        device='cuda'
-    )
+        CHECKPOINT_PATH = sys.argv[3]
+        path_to_checkpoint =  f"models_pth/{INPUT_DIM}_{COMPRESSED_DIM}/{CHECKPOINT_PATH}"
 
-    combined_model.mteb_eval()
+        combined_model = CombinedSentenceTransformer(
+            models=main_models,  
+            autoencoder_path=path_to_checkpoint,
+            input_dim=INPUT_DIM,
+            compressed_dim=COMPRESSED_DIM,
+            device='cuda'
+        )
+        combined_model.mteb_eval("NFCorpus")
 

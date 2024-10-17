@@ -5,13 +5,12 @@ from config import INPUT_DIM, COMPRESSED_DIM
 
 
 n_0 = 1792 
-n_1 = 1500 
+n_1 = 1280
 n_2 = 1024
 
 class AutoEncoder(nn.Module):
-    def __init__(self, input_dim=2048, compressed_dim=768):
+    def __init__(self, input_dim=1, compressed_dim=1):
         super(AutoEncoder, self).__init__()
-
         # Encoder
         self.encoder = nn.Sequential(
             nn.Linear(input_dim, n_0),
