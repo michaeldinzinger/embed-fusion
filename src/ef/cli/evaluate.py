@@ -33,6 +33,8 @@ def evaluate_two():
     click.echo('Evaluate all combinations of two models.')
 
     for task_name in TASK_NAMES:
+        if task_name == 'SciFact':
+            continue
         for i, p1 in enumerate(EMBEDDING_MODELS):
             for j, p2 in enumerate(EMBEDDING_MODELS):
                 if i == j:
@@ -79,7 +81,7 @@ def _evaluate(task_name: str, pretrained_model_names: List[str]):
             eval_splits=[eval_split],
             output_folder=task_output_path,
             override_results=True,
-            encode_kwargs={'batch_size': 32},
+            encode_kwargs={'batch_size': 4},
     )
 
     # Create the evaluation results
@@ -98,3 +100,38 @@ def _evaluate(task_name: str, pretrained_model_names: List[str]):
 
     # Save results
     update_meta(df_results, RESULTS_CONCAT_FILE)
+
+
+@click.command()
+@click.argument("task_name", type=click.Choice(TASK_NAMES), default=TASK_NAMES[0])
+@click.argument("pretrained_model_name", type=click.Choice(EMBEDDING_MODELS), default=EMBEDDING_MODELS[0])
+def evaluatep(task_name: str, pretrained_model_name: str):
+    """
+    Evaluate with one model.
+    """
+    click.echo(f'Task name: {task_name}')
+    click.echo(f'Pretrained model name: {pretrained_model_name}')
+
+    eval_split = 'dev' if 'msmarco' in task_name.lower() else 'test'
+
+    model = RetrievalModel(pretrained_model_name, task=task_name)
+    
+    task_output_path = os.path.join('results', pretrained_model_name.replace('/', '_'), 'no_autoencoder')
+    results_file_path = os.path.join(task_output_path, 'no_model_name_available', 'no_revision_available', f'{task_name}.json')
+
+    task = mteb.get_task(task_name)
+    evaluation = MTEB(tasks=[task])
+    evaluation.run(model,
+            eval_splits=[eval_split],
+            output_folder=task_output_path,
+            override_results=True,
+            # encode_kwargs={'batch_size': 4},
+    )
+
+    # Read json file
+    import json
+    with open(results_file_path, 'r') as file:
+        data = json.load(file)
+        print(data)
+        ndcg_at_10 = data['scores'][eval_split][0]['ndcg_at_10']
+        click.echo(f'NDCG@10 for task {task_name}: {ndcg_at_10}')
