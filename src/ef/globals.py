@@ -107,10 +107,6 @@ class RetrievalModel():
             self.pool_type = 'cls'
             self.max_length = 512
 
-        print('----', self.query_instruction)
-        print('----', self.pool_type)
-        print('----', self.max_length)
-
         self.encoder.cuda()
         self.encoder.eval()
 

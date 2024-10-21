@@ -33,8 +33,6 @@ def evaluate_two():
     click.echo('Evaluate all combinations of two models.')
 
     for task_name in TASK_NAMES:
-        if task_name == 'SciFact':
-            continue
         for i, p1 in enumerate(EMBEDDING_MODELS):
             for j, p2 in enumerate(EMBEDDING_MODELS):
                 if i == j:
