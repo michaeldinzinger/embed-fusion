@@ -1,29 +1,36 @@
 import click
 import numpy as np
-import tensorflow as tf
-from tensorflow.keras import layers, regularizers, Model, Input
-from tensorflow.keras.optimizers import Adam
-from tensorflow.keras.losses import MeanSquaredError
+import torch
+import torch.nn as nn
+import torch.optim as optim
+from torch.utils.data import DataLoader, TensorDataset
+from ef.utils import *
 
 
-def build_sparse_autoencoder(input_dim, latent_dim, l1_penalty=1e-5):
-    # Input layer
-    inputs = Input(shape=(input_dim,))
+class SparseAutoencoder(nn.Module):
+    def __init__(self, input_dim, latent_dim, l1_penalty=1e-5):
+        super(SparseAutoencoder, self).__init__()
+        
+        # Encoder
+        self.encoder = nn.Linear(input_dim, latent_dim)
+        # Decoder
+        self.decoder = nn.Linear(latent_dim, input_dim)
+        
+        # Sparsity regularization
+        self.l1_penalty = l1_penalty
+
+    def forward(self, x):
+        # Apply encoder
+        encoded = torch.relu(self.encoder(x))
+        # Apply decoder
+        decoded = torch.sigmoid(self.decoder(encoded))
+        return encoded, decoded
     
-    # Encoder: Apply sparsity through L1 regularization
-    encoded = layers.Dense(latent_dim, activation='relu', 
-                           activity_regularizer=regularizers.l1(l1_penalty))(inputs)
-    
-    # Decoder: Reconstruct the original dense embeddings
-    decoded = layers.Dense(input_dim, activation='sigmoid')(encoded)
-    
-    # Build autoencoder model
-    autoencoder = Model(inputs, decoded)
-    
-    # Build separate encoder model
-    encoder = Model(inputs, encoded)
-    
-    return autoencoder, encoder
+    def get_l1_loss(self):
+        l1_loss = 0
+        for param in self.parameters():
+            l1_loss += torch.sum(torch.abs(param))
+        return self.l1_penalty * l1_loss
 
 
 def train_autoencoder(dense_vectors, latent_dim=10000, l1_penalty=1e-5, 
@@ -31,48 +38,92 @@ def train_autoencoder(dense_vectors, latent_dim=10000, l1_penalty=1e-5,
     
     input_dim = dense_vectors.shape[1]  # Dimension of the dense embeddings
     
-    # Build the sparse autoencoder and encoder
-    autoencoder, encoder = build_sparse_autoencoder(input_dim, latent_dim, l1_penalty)
+    # Convert numpy data to PyTorch tensors
+    dense_vectors_tensor = torch.tensor(dense_vectors, dtype=torch.float32)
+
+    # Create dataset and dataloaders
+    dataset = TensorDataset(dense_vectors_tensor, dense_vectors_tensor)  # Input and target are the same
+    train_size = int((1 - validation_split) * len(dataset))
+    val_size = len(dataset) - train_size
+    train_dataset, val_dataset = torch.utils.data.random_split(dataset, [train_size, val_size])
     
-    # Compile the model
-    autoencoder.compile(optimizer=Adam(learning_rate=learning_rate), 
-                        loss=MeanSquaredError())
+    train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+    val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False)
     
-    # Train the autoencoder
-    history = autoencoder.fit(dense_vectors, dense_vectors,  # Input and target are the same for autoencoders
-                              epochs=epochs,
-                              batch_size=batch_size,
-                              validation_split=validation_split,
-                              verbose=1)
+    # Initialize model, loss function, and optimizer
+    model = SparseAutoencoder(input_dim, latent_dim, l1_penalty=l1_penalty)
+    criterion = nn.MSELoss()
+    optimizer = optim.Adam(model.parameters(), lr=learning_rate)
     
-    # Return the trained autoencoder, encoder, and training history
-    return autoencoder, encoder, history
+    # Training loop
+    for epoch in range(epochs):
+        model.train()
+        train_loss = 0
+        for batch in train_loader:
+            inputs, targets = batch
+            
+            # Forward pass
+            _, decoded = model(inputs)
+            
+            # Compute loss (reconstruction loss + L1 regularization)
+            loss = criterion(decoded, targets) + model.get_l1_loss()
+            
+            # Backward pass and optimization
+            optimizer.zero_grad()
+            loss.backward()
+            optimizer.step()
+            
+            train_loss += loss.item()
+        
+        # Validation
+        model.eval()
+        val_loss = 0
+        with torch.no_grad():
+            for batch in val_loader:
+                inputs, targets = batch
+                _, decoded = model(inputs)
+                loss = criterion(decoded, targets)
+                val_loss += loss.item()
+        
+        click.echo(f"Epoch {epoch + 1}/{epochs}, Train Loss: {train_loss/len(train_loader)}, Val Loss: {val_loss/len(val_loader)}")
+    
+    return model
 
 
 @click.command()
 @click.argument("method", type=click.Choice(['train', 'evaluate']))
-def sae(method: str):
+@click.argument("pretrained_model_name", type=click.Choice(EMBEDDING_MODELS), default=EMBEDDING_MODELS[0])
+def sae(method: str, pretrained_model_name: str):
     """
     Train and infer a Sparse Autoencoder.
     """
-    click.echo('Training and evaluating a Sparse Autoencoder')
+    click.echo(f"Method: {method}")
+    click.echo(f"Pretrained model name: {pretrained_model_name}")
 
     # Hyperparameters
-    latent_dim = 10000       # Dimensionality of the sparse latent space
+    latent_dim = 10_000      # Dimensionality of the sparse latent space
     l1_penalty = 1e-5        # L1 regularization strength
     learning_rate = 0.001    # Learning rate
-    epochs = 5              # Number of training epochs
+    epochs = 10              # Number of training epochs
     batch_size = 128         # Batch size
 
     # Model path
-    model_path = 'encoder_model.h5'
+    model_path = os.path.join(RESULTS_FOLDER, 'sae', pretrained_model_name.replace("/", "_"), 'model.pt')
+    os.makedirs(os.path.dirname(model_path), exist_ok=True)
+
+    # Embeddings path
+    embeddings_path = os.path.join(RESULTS_FOLDER, 'embeddings', pretrained_model_name.replace("/", "_"))
 
     if method == 'train':
-        # Load dense vectors
-        dense_vectors = np.random.rand(10000, 512)  # Example data: 10000 samples of 512-dimensional vectors
+        # Load corpus embeddings for passages
+        path = os.path.join(embeddings_path, f'id_100_mid.jsonl')
+        if not os.path.exists(path):
+            raise ValueError(f'No corpus embeddings found for pretrained model {pretrained_model_name}')
+        df_corpus = pd.read_json(path, orient='records', lines=True).set_index('corpus-id')
+        dense_vectors = np.array(df_corpus['embedding'].to_list())
 
         # Train the autoencoder
-        _, encoder, history = train_autoencoder(
+        autoencoder = train_autoencoder(
             dense_vectors=dense_vectors,
             latent_dim=latent_dim, 
             l1_penalty=l1_penalty, 
@@ -81,24 +132,27 @@ def sae(method: str):
             batch_size=batch_size
         )
 
-        # Print training history
-        click.echo(f'History:\n{history.history}')
-
         # Save the encoder model
-        tf.keras.saving.save_model(encoder, model_path)
+        torch.save(autoencoder, model_path)
 
     elif method == 'evaluate':
         # Load the encoder model
-        encoder = tf.keras.models.load_model(model_path)
+        autoencoder = torch.load(model_path, weights_only=False)
 
-        # Load dense vectors
-        dense_vectors = np.random.rand(10000, 512)
+        # Load corpus embeddings for passages
+        path = os.path.join(embeddings_path, f'id_100_mid.jsonl')
+        if not os.path.exists(path):
+            raise ValueError(f'No corpus embeddings found for pretrained model {pretrained_model_name}')
+        df_corpus = pd.read_json(path, orient='records', lines=True).set_index('corpus-id')
+        dense_vectors = np.array(df_corpus['embedding'].to_list()[-1_000:])
 
         # Generate sparse vectors from your dense embeddings
-        sparse_vectors = encoder.predict(dense_vectors)
+        dense_vectors_tensor = torch.tensor(dense_vectors, dtype=torch.float32)
+        with torch.no_grad():
+            sparse_vectors, _ = autoencoder(dense_vectors_tensor)
 
         # Save sparse vectors or use them for retrieval
-        print(sparse_vectors.shape)
+        click.echo(sparse_vectors.shape)
 
     else:
         click.echo('Invalid method. Choose between "train" and "evaluate".')

@@ -15,13 +15,17 @@ class CombinedRetrievalModel():
     def encode_queries(self, queries: List[str], **kwargs) -> np.ndarray:
         list_embeddings = []
         for model in self.models:
-            list_embeddings.append(model.encode_queries(queries, **kwargs))
+            embeddings = model.encode_queries(queries, **kwargs)
+            l2_norm = np.linalg.norm(embeddings, axis=1, keepdims=True)
+            list_embeddings.append(embeddings / l2_norm)
         return np.concatenate(list_embeddings, axis=1)
     
     def encode_corpus(self, corpus: List[str], **kwargs) -> np.ndarray:
         list_embeddings = []
         for model in self.models:
-            list_embeddings.append(model.encode_corpus(corpus, **kwargs))
+            embeddings = model.encode_corpus(corpus, **kwargs)
+            l2_norm = np.linalg.norm(embeddings, axis=1, keepdims=True)
+            list_embeddings.append(embeddings / l2_norm)
         return np.concatenate(list_embeddings, axis=1)
 
 
@@ -70,7 +74,7 @@ def _evaluate(task_name: str, pretrained_model_names: List[str]):
     )
 
     combined_model_name = '___'.join([p.replace('/', '_') for p in pretrained_model_names])
-    task_output_path = os.path.join('results', combined_model_name, 'no_autoencoder')
+    task_output_path = os.path.join(RESULTS_FOLDER, 'concat', combined_model_name, 'no_autoencoder')
     results_file_path = os.path.join(task_output_path, 'no_model_name_available', 'no_revision_available', f'{task_name}.json')
 
     task = mteb.get_task(task_name)

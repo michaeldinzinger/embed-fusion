@@ -80,7 +80,10 @@ class RetrievalModel():
         self.gpu_count = torch.cuda.device_count()
         self.batch_size = BATCH_SIZE
 
-        if pretrained_model_name.startswith('Alibaba-NLP/gte-Qwen2'):
+        if pretrained_model_name.startswith('Alibaba-NLP/gte-Qwen2') \
+                or pretrained_model_name == 'dunzhang/stella_en_1.5B_v5' \
+                or pretrained_model_name == 'Salesforce/SFR-Embedding-Mistral' \
+                or pretrained_model_name == 'BAAI/bge-multilingual-gemma2':
             if 'msmarco' in task.lower():
                 self.query_instruction = 'Instruct: Given a web search query, retrieve relevant passages that answer the query\nQuery: {}'
             elif 'scifact' in task.lower():
@@ -89,21 +92,28 @@ class RetrievalModel():
                 self.query_instruction = 'Instruct: Given a question, retrieve questions that are semantically equivalent to the given question\nQuestion: {}'
             else:
                 self.query_instruction = 'Instruct: Given a query, retrieve relevant passages\nQuery: {}'
-            self.pool_type = 'last'
-            self.max_length = 32768
-        elif pretrained_model_name == 'dunzhang/stella_en_1.5B_v5':
-            if 'msmarco' in task.lower():
-                self.query_instruction = 'Instruct: Given a web search query, retrieve relevant passages that answer the query\nQuery: {}'
-            elif 'scifact' in task.lower():
-                self.query_instruction = 'Instruct: Given a scientific claim, retrieve relevant scientific evidence\nClaim: {}'
-            elif 'quora' in task.lower():
-                self.query_instruction = 'Instruct: Given a question, retrieve questions that are semantically equivalent to the given question\nQuestion: {}'
+            self.document_instruction = '{}'
+
+            if pretrained_model_name == 'Salesforce/SFR-Embedding-Mistral' \
+                    or pretrained_model_name == 'BAAI/bge-multilingual-gemma2':
+                self.pool_type = 'last'
+                self.max_length = 4096
+            elif pretrained_model_name == 'dunzhang/stella_en_1.5B_v5':
+                self.pool_type = 'avg'
+                self.max_length = 512
             else:
-                self.query_instruction = 'Instruct: Given a query, retrieve relevant passages\nQuery: {}'
+                self.pool_type = 'last'
+                self.max_length = 32768
+
+        elif pretrained_model_name == 'intfloat/e5-small-v2':
+            self.query_instruction = 'query: {}'
+            self.document_instruction = 'passage: {}'
             self.pool_type = 'avg'
             self.max_length = 512
+
         else:
             self.query_instruction = 'Represent this sentence for searching relevant passages: {}'
+            self.document_instruction = '{}'
             self.pool_type = 'cls'
             self.max_length = 512
 
@@ -115,7 +125,7 @@ class RetrievalModel():
         return self._do_encode(input_texts)
 
     def encode_corpus(self, corpus: List[Dict[str, str]], **kwargs) -> np.ndarray:
-        input_texts = ['{} {}'.format(d.get('title', ''), d['text']).strip() for d in corpus]
+        input_texts = [self.document_instruction.format('{} {}'.format(d.get('title', ''), d['text']).strip()) for d in corpus]
         return self._do_encode(input_texts)
 
     @torch.no_grad()
