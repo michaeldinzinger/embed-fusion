@@ -10,287 +10,287 @@ model-index:
       type: mteb/arguana
     metrics:
     - type: main_score
-      value: 62.44
+      value: 61.696
     - type: map_at_1
-      value: 37.909
+      value: 37.553
     - type: map_at_10
-      value: 54.071000000000005
+      value: 53.488
     - type: map_at_100
-      value: 54.706999999999994
+      value: 54.174
     - type: map_at_1000
-      value: 54.71
+      value: 54.178000000000004
     - type: map_at_20
-      value: 54.61
+      value: 54.045
     - type: map_at_3
-      value: 49.787
+      value: 49.348
     - type: map_at_5
-      value: 52.471999999999994
+      value: 51.900999999999996
     - type: mrr_at_1
-      value: 38.54907539118065
+      value: 38.26458036984353
     - type: mrr_at_10
-      value: 54.30778522883794
+      value: 53.738371830477185
     - type: mrr_at_100
-      value: 54.95058676123675
+      value: 54.43126719288253
     - type: mrr_at_1000
-      value: 54.9534745787606
+      value: 54.43524103084228
     - type: mrr_at_20
-      value: 54.85371234607436
+      value: 54.30184605147953
     - type: mrr_at_3
-      value: 50.023707918444806
+      value: 49.58511142721674
     - type: mrr_at_5
-      value: 52.71574205784745
+      value: 52.145566619250936
     - type: nauc_map_at_1000_diff1
-      value: 9.700052151236969
+      value: 11.221506369409738
     - type: nauc_map_at_1000_max
-      value: -11.480601048675311
+      value: -8.445508307916437
     - type: nauc_map_at_1000_std
-      value: -16.80933897048166
+      value: -12.381267290593208
     - type: nauc_map_at_100_diff1
-      value: 9.702439916132208
+      value: 11.227790100675787
     - type: nauc_map_at_100_max
-      value: -11.477121863613672
+      value: -8.437531922545098
     - type: nauc_map_at_100_std
-      value: -16.805809477344237
+      value: -12.373422661586755
     - type: nauc_map_at_10_diff1
-      value: 9.55964875147944
+      value: 11.072793219141905
     - type: nauc_map_at_10_max
-      value: -11.221604673423611
+      value: -8.312828632293854
     - type: nauc_map_at_10_std
-      value: -16.84817138477702
+      value: -12.423506115905337
     - type: nauc_map_at_1_diff1
-      value: 13.414379505055546
+      value: 15.220354810399739
     - type: nauc_map_at_1_max
-      value: -13.64398031891019
+      value: -11.005854137112008
     - type: nauc_map_at_1_std
-      value: -17.823564900618976
+      value: -12.88033375281974
     - type: nauc_map_at_20_diff1
-      value: 9.656264829584742
+      value: 11.17399810551959
     - type: nauc_map_at_20_max
-      value: -11.402956696331874
+      value: -8.309704396078265
     - type: nauc_map_at_20_std
-      value: -16.729584639384093
+      value: -12.31628938741066
     - type: nauc_map_at_3_diff1
-      value: 9.074651468472236
+      value: 11.13415033339711
     - type: nauc_map_at_3_max
-      value: -11.938799932445345
+      value: -8.681943533315684
     - type: nauc_map_at_3_std
-      value: -17.292542932113854
+      value: -12.89456603475663
     - type: nauc_map_at_5_diff1
-      value: 9.375988599355505
+      value: 10.91995276847765
     - type: nauc_map_at_5_max
-      value: -11.472571205679664
+      value: -8.31368106487608
     - type: nauc_map_at_5_std
-      value: -17.40403356468899
+      value: -12.747425008501697
     - type: nauc_mrr_at_1000_diff1
-      value: 7.411799940331186
+      value: 9.170026021742572
     - type: nauc_mrr_at_1000_max
-      value: -12.508159837494434
+      value: -9.17534528359451
     - type: nauc_mrr_at_1000_std
-      value: -16.707342470667285
+      value: -12.16851969333307
     - type: nauc_mrr_at_100_diff1
-      value: 7.414405067064217
+      value: 9.176564177369368
     - type: nauc_mrr_at_100_max
-      value: -12.50459019538836
+      value: -9.167297045700144
     - type: nauc_mrr_at_100_std
-      value: -16.703833468680948
+      value: -12.16072906797416
     - type: nauc_mrr_at_10_diff1
-      value: 7.286842407775826
+      value: 9.028156479189121
     - type: nauc_mrr_at_10_max
-      value: -12.258550496378401
+      value: -9.062303453873763
     - type: nauc_mrr_at_10_std
-      value: -16.731699740418414
+      value: -12.2500914002082
     - type: nauc_mrr_at_1_diff1
-      value: 11.596538956075104
+      value: 13.191668992010946
     - type: nauc_mrr_at_1_max
-      value: -13.73394271953812
+      value: -10.925013045327509
     - type: nauc_mrr_at_1_std
-      value: -17.64007975098422
+      value: -12.232380523762979
     - type: nauc_mrr_at_20_diff1
-      value: 7.376312921473681
+      value: 9.13214969584694
     - type: nauc_mrr_at_20_max
-      value: -12.426813484836043
+      value: -9.036476679079245
     - type: nauc_mrr_at_20_std
-      value: -16.627786497409552
+      value: -12.104714451417257
     - type: nauc_mrr_at_3_diff1
-      value: 6.654949505817999
+      value: 9.151473180722105
     - type: nauc_mrr_at_3_max
-      value: -13.137022485458507
+      value: -9.532829106604618
     - type: nauc_mrr_at_3_std
-      value: -17.32424266610232
+      value: -12.836115074338034
     - type: nauc_mrr_at_5_diff1
-      value: 7.2434372901234525
+      value: 8.953917200120168
     - type: nauc_mrr_at_5_max
-      value: -12.429947223764405
+      value: -9.042911382928725
     - type: nauc_mrr_at_5_std
-      value: -17.228937753898123
+      value: -12.530298454542493
     - type: nauc_ndcg_at_1000_diff1
-      value: 9.36855285735971
+      value: 10.863407729775824
     - type: nauc_ndcg_at_1000_max
-      value: -10.953666720445836
+      value: -7.868989312884095
     - type: nauc_ndcg_at_1000_std
-      value: -16.347516200301456
+      value: -11.88614215866286
     - type: nauc_ndcg_at_100_diff1
-      value: 9.409452556684755
+      value: 10.999299247670388
     - type: nauc_ndcg_at_100_max
-      value: -10.862168660345734
+      value: -7.6862652464192704
     - type: nauc_ndcg_at_100_std
-      value: -16.229401930460405
+      value: -11.651296278498132
     - type: nauc_ndcg_at_10_diff1
-      value: 8.77691653610156
+      value: 10.074409692068278
     - type: nauc_ndcg_at_10_max
-      value: -9.563379218779584
+      value: -6.989935197224304
     - type: nauc_ndcg_at_10_std
-      value: -16.274566801403125
+      value: -11.715897777643933
     - type: nauc_ndcg_at_1_diff1
-      value: 13.414379505055546
+      value: 15.220354810399739
     - type: nauc_ndcg_at_1_max
-      value: -13.64398031891019
+      value: -11.005854137112008
     - type: nauc_ndcg_at_1_std
-      value: -17.823564900618976
+      value: -12.88033375281974
     - type: nauc_ndcg_at_20_diff1
-      value: 9.131323452637305
+      value: 10.597196019116632
     - type: nauc_ndcg_at_20_max
-      value: -10.266530434189066
+      value: -6.8065432063496285
     - type: nauc_ndcg_at_20_std
-      value: -15.737108435541888
+      value: -11.188969740275711
     - type: nauc_ndcg_at_3_diff1
-      value: 7.739062271477399
+      value: 10.122390462459538
     - type: nauc_ndcg_at_3_max
-      value: -11.488056154638532
+      value: -7.97194437583794
     - type: nauc_ndcg_at_3_std
-      value: -17.411333288529267
+      value: -13.06215406827939
     - type: nauc_ndcg_at_5_diff1
-      value: 8.272542020803597
+      value: 9.590778318105452
     - type: nauc_ndcg_at_5_max
-      value: -10.397456408544468
+      value: -7.261562098697961
     - type: nauc_ndcg_at_5_std
-      value: -17.59822117969101
+      value: -12.812872325188716
     - type: nauc_precision_at_1000_diff1
-      value: 13.208924542423258
+      value: 25.196544697410012
     - type: nauc_precision_at_1000_max
-      value: 13.208924542423258
+      value: 27.158141822834548
     - type: nauc_precision_at_1000_std
-      value: 66.71142287338954
+      value: 64.38851178902432
     - type: nauc_precision_at_100_diff1
-      value: 18.762786994282852
+      value: 37.9019837153977
     - type: nauc_precision_at_100_max
-      value: 20.099447719178784
+      value: 34.736605360292934
     - type: nauc_precision_at_100_std
-      value: 48.431125716899956
+      value: 57.335032116509325
     - type: nauc_precision_at_10_diff1
-      value: 4.019933323360742
+      value: 3.971994041181149
     - type: nauc_precision_at_10_max
-      value: 4.884910439588258
+      value: 3.168483093976094
     - type: nauc_precision_at_10_std
-      value: -11.127362742499441
+      value: -5.186686622285615
     - type: nauc_precision_at_1_diff1
-      value: 13.414379505055546
+      value: 15.220354810399739
     - type: nauc_precision_at_1_max
-      value: -13.64398031891019
+      value: -11.005854137112008
     - type: nauc_precision_at_1_std
-      value: -17.823564900618976
+      value: -12.88033375281974
     - type: nauc_precision_at_20_diff1
-      value: 3.6375128143838293
+      value: 6.539599130365263
     - type: nauc_precision_at_20_max
-      value: 14.126083805554671
+      value: 22.235006087284845
     - type: nauc_precision_at_20_std
-      value: 10.615757350586888
+      value: 14.537186156798331
     - type: nauc_precision_at_3_diff1
-      value: 3.3422754903034884
+      value: 6.910775130099809
     - type: nauc_precision_at_3_max
-      value: -10.034405870340006
+      value: -5.6507220516993355
     - type: nauc_precision_at_3_std
-      value: -17.917533977279017
+      value: -13.676386233280786
     - type: nauc_precision_at_5_diff1
-      value: 3.7950183183380957
+      value: 4.075402230127663
     - type: nauc_precision_at_5_max
-      value: -5.449035408572837
+      value: -2.8089334099369507
     - type: nauc_precision_at_5_std
-      value: -18.586669848898257
+      value: -13.130074247585222
     - type: nauc_recall_at_1000_diff1
-      value: 13.208924542421252
+      value: 25.196544697407973
     - type: nauc_recall_at_1000_max
-      value: 13.208924542421252
+      value: 27.158141822829503
     - type: nauc_recall_at_1000_std
-      value: 66.71142287338697
+      value: 64.38851178902257
     - type: nauc_recall_at_100_diff1
-      value: 18.76278699428332
+      value: 37.901983715398075
     - type: nauc_recall_at_100_max
-      value: 20.099447719179743
+      value: 34.736605360292096
     - type: nauc_recall_at_100_std
-      value: 48.431125716900205
+      value: 57.335032116506376
     - type: nauc_recall_at_10_diff1
-      value: 4.019933323360658
+      value: 3.971994041181333
     - type: nauc_recall_at_10_max
-      value: 4.884910439588057
+      value: 3.1684830939761177
     - type: nauc_recall_at_10_std
-      value: -11.127362742499546
+      value: -5.186686622285636
     - type: nauc_recall_at_1_diff1
-      value: 13.414379505055546
+      value: 15.220354810399739
     - type: nauc_recall_at_1_max
-      value: -13.64398031891019
+      value: -11.005854137112008
     - type: nauc_recall_at_1_std
-      value: -17.823564900618976
+      value: -12.88033375281974
     - type: nauc_recall_at_20_diff1
-      value: 3.6375128143838387
+      value: 6.539599130365463
     - type: nauc_recall_at_20_max
-      value: 14.126083805554623
+      value: 22.23500608728498
     - type: nauc_recall_at_20_std
-      value: 10.61575735058658
+      value: 14.537186156798532
     - type: nauc_recall_at_3_diff1
-      value: 3.3422754903035554
+      value: 6.9107751300998554
     - type: nauc_recall_at_3_max
-      value: -10.034405870339956
+      value: -5.650722051699346
     - type: nauc_recall_at_3_std
-      value: -17.917533977278943
+      value: -13.676386233280741
     - type: nauc_recall_at_5_diff1
-      value: 3.795018318338047
+      value: 4.075402230127604
     - type: nauc_recall_at_5_max
-      value: -5.449035408572804
+      value: -2.808933409936906
     - type: nauc_recall_at_5_std
-      value: -18.58666984889819
+      value: -13.130074247585242
     - type: ndcg_at_1
-      value: 37.909
+      value: 37.553
     - type: ndcg_at_10
-      value: 62.44
+      value: 61.696
     - type: ndcg_at_100
-      value: 64.932
+      value: 64.424
     - type: ndcg_at_1000
-      value: 64.99000000000001
+      value: 64.511
     - type: ndcg_at_20
-      value: 64.319
+      value: 63.644999999999996
     - type: ndcg_at_3
-      value: 53.778000000000006
+      value: 53.323
     - type: ndcg_at_5
-      value: 58.599000000000004
+      value: 57.908
     - type: precision_at_1
-      value: 37.909
+      value: 37.553
     - type: precision_at_10
-      value: 8.883000000000001
+      value: 8.755
     - type: precision_at_100
-      value: 0.992
+      value: 0.9900000000000001
     - type: precision_at_1000
       value: 0.1
     - type: precision_at_20
-      value: 4.804
+      value: 4.755
     - type: precision_at_3
-      value: 21.788
+      value: 21.622
     - type: precision_at_5
-      value: 15.405
+      value: 15.192
     - type: recall_at_1
-      value: 37.909
+      value: 37.553
     - type: recall_at_10
-      value: 88.834
+      value: 87.553
     - type: recall_at_100
-      value: 99.21799999999999
+      value: 99.004
     - type: recall_at_1000
       value: 99.644
     - type: recall_at_20
-      value: 96.088
+      value: 95.092
     - type: recall_at_3
-      value: 65.363
+      value: 64.865
     - type: recall_at_5
-      value: 77.027
+      value: 75.96000000000001
     task:
       type: Retrieval
   - dataset:
@@ -301,287 +301,287 @@ model-index:
       type: mteb/cqadupstack-android
     metrics:
     - type: main_score
-      value: 53.176
+      value: 51.489
     - type: map_at_1
-      value: 33.650999999999996
+      value: 33.039
     - type: map_at_10
-      value: 46.471000000000004
+      value: 44.812000000000005
     - type: map_at_100
-      value: 47.985
+      value: 46.160000000000004
     - type: map_at_1000
-      value: 48.102000000000004
+      value: 46.288000000000004
     - type: map_at_20
-      value: 47.292
+      value: 45.539
     - type: map_at_3
-      value: 42.623
+      value: 40.577000000000005
     - type: map_at_5
-      value: 44.979
+      value: 43.053999999999995
     - type: mrr_at_1
-      value: 41.201716738197426
+      value: 40.2002861230329
     - type: mrr_at_10
-      value: 52.25355950677838
+      value: 50.3305175193587
     - type: mrr_at_100
-      value: 52.88338300595689
+      value: 50.92206549712921
     - type: mrr_at_1000
-      value: 52.921972185432885
+      value: 50.965142722486554
     - type: mrr_at_20
-      value: 52.572720245822445
+      value: 50.66083966009553
     - type: mrr_at_3
-      value: 49.38006676204101
+      value: 47.04339532665711
     - type: mrr_at_5
-      value: 51.368621840724806
+      value: 49.03195040534092
     - type: nauc_map_at_1000_diff1
-      value: 52.424580577365674
+      value: 52.30986710726043
     - type: nauc_map_at_1000_max
-      value: 35.94853426088666
+      value: 40.42440330617406
     - type: nauc_map_at_1000_std
-      value: -3.1129808405979116
+      value: -2.2644436193903976
     - type: nauc_map_at_100_diff1
-      value: 52.42314269469678
+      value: 52.311090092873805
     - type: nauc_map_at_100_max
-      value: 35.95564099324896
+      value: 40.45151398317936
     - type: nauc_map_at_100_std
-      value: -3.101625069102785
+      value: -2.26978021290327
     - type: nauc_map_at_10_diff1
-      value: 52.674357307094496
+      value: 52.18228715152593
     - type: nauc_map_at_10_max
-      value: 35.62082218057774
+      value: 40.01076168476963
     - type: nauc_map_at_10_std
-      value: -3.7915962794353173
+      value: -2.89277969549037
     - type: nauc_map_at_1_diff1
-      value: 58.88454782432587
+      value: 58.064811599875554
     - type: nauc_map_at_1_max
-      value: 31.58887282969742
+      value: 34.67580228928722
     - type: nauc_map_at_1_std
-      value: -3.3197840386400843
+      value: -5.67621959001428
     - type: nauc_map_at_20_diff1
-      value: 52.57811291835384
+      value: 52.325765916530955
     - type: nauc_map_at_20_max
-      value: 35.98370464846043
+      value: 40.28951762467691
     - type: nauc_map_at_20_std
-      value: -3.282933904055322
+      value: -2.6749268623880877
     - type: nauc_map_at_3_diff1
-      value: 53.23139053968499
+      value: 53.45968147096472
     - type: nauc_map_at_3_max
-      value: 35.27374020498982
+      value: 40.60355246079136
     - type: nauc_map_at_3_std
-      value: -4.586249483195213
+      value: -2.8827965782367544
     - type: nauc_map_at_5_diff1
-      value: 52.59485178437643
+      value: 52.45184910505131
     - type: nauc_map_at_5_max
-      value: 35.514513542685876
+      value: 39.75737390251331
     - type: nauc_map_at_5_std
-      value: -4.434526651693118
+      value: -3.3718123778308935
     - type: nauc_mrr_at_1000_diff1
-      value: 49.59556586828132
+      value: 51.12471768511012
     - type: nauc_mrr_at_1000_max
-      value: 36.84616750157751
+      value: 40.981308953185454
     - type: nauc_mrr_at_1000_std
-      value: -3.8525984466340764
+      value: -2.399500753535585
     - type: nauc_mrr_at_100_diff1
-      value: 49.57531335928693
+      value: 51.12168575001752
     - type: nauc_mrr_at_100_max
-      value: 36.82683956190645
+      value: 40.9760480542777
     - type: nauc_mrr_at_100_std
-      value: -3.872554481570826
+      value: -2.4144273528725475
     - type: nauc_mrr_at_10_diff1
-      value: 49.62497265122659
+      value: 51.04018381064975
     - type: nauc_mrr_at_10_max
-      value: 36.98985018458424
+      value: 41.003292260169374
     - type: nauc_mrr_at_10_std
-      value: -3.8376513272257733
+      value: -2.4171421212966964
     - type: nauc_mrr_at_1_diff1
-      value: 54.49327345294693
+      value: 54.77850105034208
     - type: nauc_mrr_at_1_max
-      value: 34.8934028739382
+      value: 38.617853930056306
     - type: nauc_mrr_at_1_std
-      value: -4.437791198183867
+      value: -5.863261741458299
     - type: nauc_mrr_at_20_diff1
-      value: 49.5890168206895
+      value: 51.139734313275845
     - type: nauc_mrr_at_20_max
-      value: 36.89726798208358
+      value: 40.92389172446841
     - type: nauc_mrr_at_20_std
-      value: -3.866993349889667
+      value: -2.5035795007431654
     - type: nauc_mrr_at_3_diff1
-      value: 49.59634094819107
+      value: 51.51287925552885
     - type: nauc_mrr_at_3_max
-      value: 37.16225648718551
+      value: 42.225260775926074
     - type: nauc_mrr_at_3_std
-      value: -4.414442576808539
+      value: -2.306428628618144
     - type: nauc_mrr_at_5_diff1
-      value: 49.225081579422344
+      value: 51.10080635226991
     - type: nauc_mrr_at_5_max
-      value: 36.747751335426756
+      value: 41.0340227344158
     - type: nauc_mrr_at_5_std
-      value: -4.324178992210884
+      value: -2.801571352627902
     - type: nauc_ndcg_at_1000_diff1
-      value: 50.31882542922762
+      value: 50.76197955317768
     - type: nauc_ndcg_at_1000_max
-      value: 36.94417408184034
+      value: 41.21817915071362
     - type: nauc_ndcg_at_1000_std
-      value: -1.8041849909913372
+      value: -0.391325532632662
     - type: nauc_ndcg_at_100_diff1
-      value: 49.66655309339676
+      value: 50.52419287283379
     - type: nauc_ndcg_at_100_max
-      value: 36.70372545075
+      value: 41.552522119164784
     - type: nauc_ndcg_at_100_std
-      value: -1.6243834018453231
+      value: -0.036032562878298896
     - type: nauc_ndcg_at_10_diff1
-      value: 49.940843283397214
+      value: 49.530566482368876
     - type: nauc_ndcg_at_10_max
-      value: 36.0676312207537
+      value: 40.18006026960266
     - type: nauc_ndcg_at_10_std
-      value: -3.439514885728974
+      value: -1.8844244877781948
     - type: nauc_ndcg_at_1_diff1
-      value: 54.49327345294693
+      value: 54.77850105034208
     - type: nauc_ndcg_at_1_max
-      value: 34.8934028739382
+      value: 38.617853930056306
     - type: nauc_ndcg_at_1_std
-      value: -4.437791198183867
+      value: -5.863261741458299
     - type: nauc_ndcg_at_20_diff1
-      value: 49.93181052825062
+      value: 50.34642284246142
     - type: nauc_ndcg_at_20_max
-      value: 36.71459050402181
+      value: 40.481739804267264
     - type: nauc_ndcg_at_20_std
-      value: -2.6921628328410265
+      value: -1.8870976456072137
     - type: nauc_ndcg_at_3_diff1
-      value: 50.26692043258316
+      value: 51.24991022836175
     - type: nauc_ndcg_at_3_max
-      value: 36.24184609760576
+      value: 42.05741870860054
     - type: nauc_ndcg_at_3_std
-      value: -4.757874636308119
+      value: -1.4174269333857321
     - type: nauc_ndcg_at_5_diff1
-      value: 49.37130579587368
+      value: 49.84841673075104
     - type: nauc_ndcg_at_5_max
-      value: 35.73812624135239
+      value: 39.9343344658457
     - type: nauc_ndcg_at_5_std
-      value: -4.5919788051135555
+      value: -2.6419914312584534
     - type: nauc_precision_at_1000_diff1
-      value: -24.43795561769816
+      value: -17.86241424441575
     - type: nauc_precision_at_1000_max
-      value: -13.261416374377383
+      value: -13.104253008586179
     - type: nauc_precision_at_1000_std
-      value: -4.971448949934886
+      value: 0.48249434561668
     - type: nauc_precision_at_100_diff1
-      value: -16.883129718999133
+      value: -9.578960904334071
     - type: nauc_precision_at_100_max
-      value: -2.46701167013433
+      value: 2.704957537551818
     - type: nauc_precision_at_100_std
-      value: 3.277974208302033
+      value: 8.835834433273401
     - type: nauc_precision_at_10_diff1
-      value: 6.58192062605803
+      value: 8.196823901166631
     - type: nauc_precision_at_10_max
-      value: 17.66130584790626
+      value: 21.763201013538325
     - type: nauc_precision_at_10_std
-      value: 1.5300268853781491
+      value: 5.766876192845922
     - type: nauc_precision_at_1_diff1
-      value: 54.49327345294693
+      value: 54.77850105034208
     - type: nauc_precision_at_1_max
-      value: 34.8934028739382
+      value: 38.617853930056306
     - type: nauc_precision_at_1_std
-      value: -4.437791198183867
+      value: -5.863261741458299
     - type: nauc_precision_at_20_diff1
-      value: -1.8753425950377052
+      value: 3.182481517444498
     - type: nauc_precision_at_20_max
-      value: 12.343845069467402
+      value: 16.282394914543726
     - type: nauc_precision_at_20_std
-      value: 4.625866298054727
+      value: 6.446099543369652
     - type: nauc_precision_at_3_diff1
-      value: 26.25293210293932
+      value: 29.403358161131415
     - type: nauc_precision_at_3_max
-      value: 31.20810752338666
+      value: 37.66880010058852
     - type: nauc_precision_at_3_std
-      value: -4.53249841922141
+      value: 2.212573449639095
     - type: nauc_precision_at_5_diff1
-      value: 16.615368164537657
+      value: 17.672198484206056
     - type: nauc_precision_at_5_max
-      value: 25.232698186133707
+      value: 27.984636982251065
     - type: nauc_precision_at_5_std
-      value: -2.663050054635891
+      value: 2.5950490230843757
     - type: nauc_recall_at_1000_diff1
-      value: 35.83705078359078
+      value: 31.680457531090667
     - type: nauc_recall_at_1000_max
-      value: 62.30748246780233
+      value: 55.4324783421187
     - type: nauc_recall_at_1000_std
-      value: 63.240763200045805
+      value: 44.31810562317212
     - type: nauc_recall_at_100_diff1
-      value: 33.467633455800815
+      value: 38.660696650615215
     - type: nauc_recall_at_100_max
-      value: 36.60323449435162
+      value: 45.55377816438656
     - type: nauc_recall_at_100_std
-      value: 14.015411684054346
+      value: 16.919492724613395
     - type: nauc_recall_at_10_diff1
-      value: 41.42599884119931
+      value: 39.020006246915415
     - type: nauc_recall_at_10_max
-      value: 33.20419643286129
+      value: 35.588135955395586
     - type: nauc_recall_at_10_std
-      value: -2.159643957172222
+      value: -0.26969523665978906
     - type: nauc_recall_at_1_diff1
-      value: 58.88454782432587
+      value: 58.064811599875554
     - type: nauc_recall_at_1_max
-      value: 31.58887282969742
+      value: 34.67580228928722
     - type: nauc_recall_at_1_std
-      value: -3.3197840386400843
+      value: -5.67621959001428
     - type: nauc_recall_at_20_diff1
-      value: 40.65866346855011
+      value: 40.231921335233146
     - type: nauc_recall_at_20_max
-      value: 35.30555514387619
+      value: 35.54503756146707
     - type: nauc_recall_at_20_std
-      value: 0.08694081684299272
+      value: 0.21383444630797618
     - type: nauc_recall_at_3_diff1
-      value: 46.09760653175857
+      value: 47.49873276616812
     - type: nauc_recall_at_3_max
-      value: 34.90824497182377
+      value: 42.28383907021981
     - type: nauc_recall_at_3_std
-      value: -5.655059126448061
+      value: -0.11739469718977918
     - type: nauc_recall_at_5_diff1
-      value: 41.53532865271283
+      value: 42.767952699205054
     - type: nauc_recall_at_5_max
-      value: 33.39745163988502
+      value: 36.78024856479531
     - type: nauc_recall_at_5_std
-      value: -5.016436615159224
+      value: -3.043075366192802
     - type: ndcg_at_1
-      value: 41.202
+      value: 40.2
     - type: ndcg_at_10
-      value: 53.176
+      value: 51.489
     - type: ndcg_at_100
-      value: 58.328
+      value: 56.216
     - type: ndcg_at_1000
-      value: 59.965999999999994
+      value: 58.143
     - type: ndcg_at_20
-      value: 55.008
+      value: 53.208999999999996
     - type: ndcg_at_3
-      value: 47.859
+      value: 45.194
     - type: ndcg_at_5
-      value: 50.768
+      value: 48.382999999999996
     - type: precision_at_1
-      value: 41.202
+      value: 40.2
     - type: precision_at_10
-      value: 10.186
+      value: 9.957
     - type: precision_at_100
-      value: 1.609
+      value: 1.536
     - type: precision_at_1000
-      value: 0.20400000000000001
+      value: 0.201
     - type: precision_at_20
-      value: 5.973
+      value: 5.7509999999999994
     - type: precision_at_3
-      value: 23.176
+      value: 21.507
     - type: precision_at_5
-      value: 16.881
+      value: 16.023
     - type: recall_at_1
-      value: 33.650999999999996
+      value: 33.039
     - type: recall_at_10
-      value: 65.977
+      value: 64.732
     - type: recall_at_100
-      value: 87.302
+      value: 84.451
     - type: recall_at_1000
-      value: 97.336
+      value: 96.711
     - type: recall_at_20
-      value: 72.294
+      value: 70.865
     - type: recall_at_3
-      value: 50.797000000000004
+      value: 47.087
     - type: recall_at_5
-      value: 58.872
+      value: 55.568
     task:
       type: Retrieval
   - dataset:
@@ -592,287 +592,287 @@ model-index:
       type: mteb/cqadupstack-english
     metrics:
     - type: main_score
-      value: 50.92100000000001
+      value: 49.659
     - type: map_at_1
-      value: 33.744
+      value: 33.756
     - type: map_at_10
-      value: 44.815
+      value: 44.073
     - type: map_at_100
-      value: 46.245999999999995
+      value: 45.373999999999995
     - type: map_at_1000
-      value: 46.376
+      value: 45.504
     - type: map_at_20
-      value: 45.609
+      value: 44.778
     - type: map_at_3
-      value: 41.531
+      value: 41.063
     - type: map_at_5
-      value: 43.391999999999996
+      value: 42.941
     - type: mrr_at_1
-      value: 42.10191082802548
+      value: 42.038216560509554
     - type: mrr_at_10
-      value: 51.08573450611672
+      value: 50.46292083712469
     - type: mrr_at_100
-      value: 51.74891122170677
+      value: 51.069095106531805
     - type: mrr_at_1000
-      value: 51.78529712995296
+      value: 51.10835326287548
     - type: mrr_at_20
-      value: 51.4967715101907
+      value: 50.82019914166541
     - type: mrr_at_3
-      value: 48.91719745222933
+      value: 48.25902335456478
     - type: mrr_at_5
-      value: 50.28980891719754
+      value: 49.76857749469221
     - type: nauc_map_at_1000_diff1
-      value: 55.176936659421294
+      value: 55.80498981672627
     - type: nauc_map_at_1000_max
-      value: 36.48371284702768
+      value: 38.26386983200567
     - type: nauc_map_at_1000_std
-      value: -2.4447515702989806
+      value: -1.722609258110279
     - type: nauc_map_at_100_diff1
-      value: 55.1863019000113
+      value: 55.83624507721622
     - type: nauc_map_at_100_max
-      value: 36.43246962553196
+      value: 38.18012639419995
     - type: nauc_map_at_100_std
-      value: -2.5450740079709044
+      value: -1.7922103705396886
     - type: nauc_map_at_10_diff1
-      value: 55.762997970306394
+      value: 56.292929981488285
     - type: nauc_map_at_10_max
-      value: 35.380624071909175
+      value: 37.01004902094887
     - type: nauc_map_at_10_std
-      value: -4.558912389227884
+      value: -3.623023317097144
     - type: nauc_map_at_1_diff1
-      value: 61.0608868067328
+      value: 62.46120648089736
     - type: nauc_map_at_1_max
-      value: 29.72548408222947
+      value: 32.472573151270595
     - type: nauc_map_at_1_std
-      value: -10.069038170579741
+      value: -8.824972585344513
     - type: nauc_map_at_20_diff1
-      value: 55.41603585876044
+      value: 56.009618411365835
     - type: nauc_map_at_20_max
-      value: 36.02816334732108
+      value: 37.67533628911946
     - type: nauc_map_at_20_std
-      value: -3.3699246431509717
+      value: -2.572896738144715
     - type: nauc_map_at_3_diff1
-      value: 56.82908515426453
+      value: 57.22563904357422
     - type: nauc_map_at_3_max
-      value: 33.15737676707489
+      value: 35.016546423861975
     - type: nauc_map_at_3_std
-      value: -7.378910489256622
+      value: -6.273815642770271
     - type: nauc_map_at_5_diff1
-      value: 56.14588532401665
+      value: 56.51143838048147
     - type: nauc_map_at_5_max
-      value: 34.414293818549005
+      value: 36.1162041187686
     - type: nauc_map_at_5_std
-      value: -6.047619727680526
+      value: -4.575391814766582
     - type: nauc_mrr_at_1000_diff1
-      value: 52.56773367624669
+      value: 53.70506684733427
     - type: nauc_mrr_at_1000_max
-      value: 39.31200496491635
+      value: 40.745286648191474
     - type: nauc_mrr_at_1000_std
-      value: 2.0642958415792685
+      value: 2.3630512587923165
     - type: nauc_mrr_at_100_diff1
-      value: 52.56372613071439
+      value: 53.69847816314084
     - type: nauc_mrr_at_100_max
-      value: 39.3159360559684
+      value: 40.747562256523416
     - type: nauc_mrr_at_100_std
-      value: 2.0805091403344997
+      value: 2.376752783372874
     - type: nauc_mrr_at_10_diff1
-      value: 52.64975462157789
+      value: 53.72107663200513
     - type: nauc_mrr_at_10_max
-      value: 39.208820614240295
+      value: 40.61487500593867
     - type: nauc_mrr_at_10_std
-      value: 1.5932304576085854
+      value: 1.9707059480789084
     - type: nauc_mrr_at_1_diff1
-      value: 56.58854551625778
+      value: 58.72865682486209
     - type: nauc_mrr_at_1_max
-      value: 38.83187422216751
+      value: 40.328775719145284
     - type: nauc_mrr_at_1_std
-      value: -1.1292455097337009
+      value: -0.2516595660358684
     - type: nauc_mrr_at_20_diff1
-      value: 52.57378574296517
+      value: 53.67880861456903
     - type: nauc_mrr_at_20_max
-      value: 39.33846363894702
+      value: 40.75598871965413
     - type: nauc_mrr_at_20_std
-      value: 2.013232706080241
+      value: 2.2872649237129306
     - type: nauc_mrr_at_3_diff1
-      value: 52.92910407019309
+      value: 54.657333806417974
     - type: nauc_mrr_at_3_max
-      value: 38.91108571047644
+      value: 40.6467539132959
     - type: nauc_mrr_at_3_std
-      value: 1.067703035548225
+      value: 1.4674092535243768
     - type: nauc_mrr_at_5_diff1
-      value: 52.636125724089254
+      value: 53.945372935894106
     - type: nauc_mrr_at_5_max
-      value: 39.209637006609455
+      value: 40.557412208903074
     - type: nauc_mrr_at_5_std
-      value: 1.2426388707039298
+      value: 1.821724562681988
     - type: nauc_ndcg_at_1000_diff1
-      value: 52.31111968341887
+      value: 52.44022578439438
     - type: nauc_ndcg_at_1000_max
-      value: 38.75742129669778
+      value: 40.654320935718694
     - type: nauc_ndcg_at_1000_std
-      value: 3.5536257954775157
+      value: 3.84043663003601
     - type: nauc_ndcg_at_100_diff1
-      value: 52.37103775070086
+      value: 52.637626908931026
     - type: nauc_ndcg_at_100_max
-      value: 38.753000166661344
+      value: 40.586151202025825
     - type: nauc_ndcg_at_100_std
-      value: 3.6667964133015762
+      value: 4.089145971553043
     - type: nauc_ndcg_at_10_diff1
-      value: 53.56092641993905
+      value: 53.48911939902461
     - type: nauc_ndcg_at_10_max
-      value: 37.62257371918095
+      value: 39.126921730430745
     - type: nauc_ndcg_at_10_std
-      value: -0.3933425825827704
+      value: 0.2318751744695264
     - type: nauc_ndcg_at_1_diff1
-      value: 56.58854551625778
+      value: 58.72865682486209
     - type: nauc_ndcg_at_1_max
-      value: 38.83187422216751
+      value: 40.328775719145284
     - type: nauc_ndcg_at_1_std
-      value: -1.1292455097337009
+      value: -0.2516595660358684
     - type: nauc_ndcg_at_20_diff1
-      value: 52.997119382659484
+      value: 53.11164095668294
     - type: nauc_ndcg_at_20_max
-      value: 38.41095357471896
+      value: 39.97676538781469
     - type: nauc_ndcg_at_20_std
-      value: 1.9075677183444468
+      value: 2.0794579358557437
     - type: nauc_ndcg_at_3_diff1
-      value: 53.32041550278149
+      value: 54.34226761829514
     - type: nauc_ndcg_at_3_max
-      value: 36.54542124064425
+      value: 38.48277846169928
     - type: nauc_ndcg_at_3_std
-      value: -2.1268638356088374
+      value: -1.1217742879848902
     - type: nauc_ndcg_at_5_diff1
-      value: 53.389257836500256
+      value: 53.68406928784684
     - type: nauc_ndcg_at_5_max
-      value: 37.307434494043676
+      value: 38.75518301179718
     - type: nauc_ndcg_at_5_std
-      value: -1.7664881562750538
+      value: -0.307785644206231
     - type: nauc_precision_at_1000_diff1
-      value: -18.061781127353505
+      value: -19.190831985104566
     - type: nauc_precision_at_1000_max
-      value: 14.164961693343972
+      value: 18.016093547405134
     - type: nauc_precision_at_1000_std
-      value: 32.08207789236699
+      value: 27.781204433490963
     - type: nauc_precision_at_100_diff1
-      value: -12.629587588058818
+      value: -11.915770144248645
     - type: nauc_precision_at_100_max
-      value: 23.723177704853438
+      value: 27.771010445059602
     - type: nauc_precision_at_100_std
-      value: 37.3224630704383
+      value: 35.169646360589
     - type: nauc_precision_at_10_diff1
-      value: 6.0985411491844195
+      value: 9.239652324270908
     - type: nauc_precision_at_10_max
-      value: 34.01467623470949
+      value: 36.73730897574167
     - type: nauc_precision_at_10_std
-      value: 26.343490397284334
+      value: 24.79922189801306
     - type: nauc_precision_at_1_diff1
-      value: 56.58854551625778
+      value: 58.72865682486209
     - type: nauc_precision_at_1_max
-      value: 38.83187422216751
+      value: 40.328775719145284
     - type: nauc_precision_at_1_std
-      value: -1.1292455097337009
+      value: -0.2516595660358684
     - type: nauc_precision_at_20_diff1
-      value: -2.905957928684381
+      value: 0.14061478328628754
     - type: nauc_precision_at_20_max
-      value: 31.591825090757908
+      value: 34.49978969743403
     - type: nauc_precision_at_20_std
-      value: 32.989888342109076
+      value: 31.6277564397416
     - type: nauc_precision_at_3_diff1
-      value: 27.17928355856029
+      value: 28.84038400301922
     - type: nauc_precision_at_3_max
-      value: 37.33885605249689
+      value: 38.15587739264783
     - type: nauc_precision_at_3_std
-      value: 12.651453071713059
+      value: 12.110129612812704
     - type: nauc_precision_at_5_diff1
-      value: 16.526381349737242
+      value: 18.79985707638106
     - type: nauc_precision_at_5_max
-      value: 36.88010744074558
+      value: 37.35261001794856
     - type: nauc_precision_at_5_std
-      value: 19.135126725576384
+      value: 18.60235034567574
     - type: nauc_recall_at_1000_diff1
-      value: 36.638153528487635
+      value: 30.29744347177445
     - type: nauc_recall_at_1000_max
-      value: 45.19430762946925
+      value: 47.62958612849435
     - type: nauc_recall_at_1000_std
-      value: 42.57303922365023
+      value: 38.82407061060325
     - type: nauc_recall_at_100_diff1
-      value: 40.43544826397977
+      value: 38.478750845798785
     - type: nauc_recall_at_100_max
-      value: 40.784066455275706
+      value: 43.25134937529998
     - type: nauc_recall_at_100_std
-      value: 27.301271412381144
+      value: 26.0880625914293
     - type: nauc_recall_at_10_diff1
-      value: 48.37295419396959
+      value: 45.530522541288995
     - type: nauc_recall_at_10_max
-      value: 34.16271996741004
+      value: 34.998803742796
     - type: nauc_recall_at_10_std
-      value: 0.9252807039977983
+      value: 1.7649084503982129
     - type: nauc_recall_at_1_diff1
-      value: 61.0608868067328
+      value: 62.46120648089736
     - type: nauc_recall_at_1_max
-      value: 29.72548408222947
+      value: 32.472573151270595
     - type: nauc_recall_at_1_std
-      value: -10.069038170579741
+      value: -8.824972585344513
     - type: nauc_recall_at_20_diff1
-      value: 44.94065991142139
+      value: 42.86658344001697
     - type: nauc_recall_at_20_max
-      value: 37.603936202852786
+      value: 38.595507867414334
     - type: nauc_recall_at_20_std
-      value: 11.60064066504551
+      value: 9.547570815114458
     - type: nauc_recall_at_3_diff1
-      value: 51.99741579524252
+      value: 50.9059806899254
     - type: nauc_recall_at_3_max
-      value: 31.388906920168104
+      value: 32.92800577019243
     - type: nauc_recall_at_3_std
-      value: -6.153653310119753
+      value: -4.588379884785415
     - type: nauc_recall_at_5_diff1
-      value: 49.67027790654694
+      value: 47.696357938908726
     - type: nauc_recall_at_5_max
-      value: 33.09777021504344
+      value: 33.68283781068374
     - type: nauc_recall_at_5_std
-      value: -3.9074095515554643
+      value: -1.108362904106836
     - type: ndcg_at_1
-      value: 42.102000000000004
+      value: 42.038
     - type: ndcg_at_10
-      value: 50.92100000000001
+      value: 49.659
     - type: ndcg_at_100
-      value: 55.381
+      value: 54.054
     - type: ndcg_at_1000
-      value: 57.18600000000001
+      value: 55.991
     - type: ndcg_at_20
-      value: 52.778000000000006
+      value: 51.371
     - type: ndcg_at_3
-      value: 46.542
+      value: 45.692
     - type: ndcg_at_5
-      value: 48.681000000000004
+      value: 47.937999999999995
     - type: precision_at_1
-      value: 42.102000000000004
+      value: 42.038
     - type: precision_at_10
-      value: 9.745
+      value: 9.229
     - type: precision_at_100
-      value: 1.548
+      value: 1.478
     - type: precision_at_1000
-      value: 0.198
+      value: 0.194
     - type: precision_at_20
-      value: 5.742
+      value: 5.439
     - type: precision_at_3
-      value: 22.695999999999998
+      value: 21.996
     - type: precision_at_5
-      value: 16.14
+      value: 15.693999999999999
     - type: recall_at_1
-      value: 33.744
+      value: 33.756
     - type: recall_at_10
-      value: 61.17700000000001
+      value: 58.605
     - type: recall_at_100
-      value: 79.71000000000001
+      value: 77.171
     - type: recall_at_1000
-      value: 91.008
+      value: 89.42099999999999
     - type: recall_at_20
-      value: 68.03399999999999
+      value: 64.842
     - type: recall_at_3
-      value: 48.087
+      value: 46.778999999999996
     - type: recall_at_5
-      value: 54.142
+      value: 52.988
     task:
       type: Retrieval
   - dataset:
@@ -883,287 +883,287 @@ model-index:
       type: mteb/cqadupstack-gaming
     metrics:
     - type: main_score
-      value: 62.458000000000006
+      value: 60.62499999999999
     - type: map_at_1
-      value: 43.839
+      value: 42.49
     - type: map_at_10
-      value: 56.724
+      value: 54.962999999999994
     - type: map_at_100
-      value: 57.751
+      value: 55.95
     - type: map_at_1000
-      value: 57.797
+      value: 55.998000000000005
     - type: map_at_20
-      value: 57.387
+      value: 55.550999999999995
     - type: map_at_3
-      value: 53.494
+      value: 51.662
     - type: map_at_5
-      value: 55.372
+      value: 53.632000000000005
     - type: mrr_at_1
-      value: 50.15673981191222
+      value: 48.589341692789965
     - type: mrr_at_10
-      value: 60.11456933870735
+      value: 58.36843807533468
     - type: mrr_at_100
-      value: 60.76087999656381
+      value: 59.01175824407762
     - type: mrr_at_1000
-      value: 60.77978089317033
+      value: 59.036262879032385
     - type: mrr_at_20
-      value: 60.55360369120728
+      value: 58.785682610602365
     - type: mrr_at_3
-      value: 58.025078369906026
+      value: 56.09195402298857
     - type: mrr_at_5
-      value: 59.22257053291546
+      value: 57.50574712643688
     - type: nauc_map_at_1000_diff1
-      value: 54.411253174343344
+      value: 55.0442169239736
     - type: nauc_map_at_1000_max
-      value: 39.83549610516408
+      value: 39.57492659519619
     - type: nauc_map_at_1000_std
-      value: -2.194420641407535
+      value: -2.4114105449912597
     - type: nauc_map_at_100_diff1
-      value: 54.38831483785624
+      value: 55.03298002109766
     - type: nauc_map_at_100_max
-      value: 39.80801320822348
+      value: 39.562531879243565
     - type: nauc_map_at_100_std
-      value: -2.1803664698780842
+      value: -2.3989624011090585
     - type: nauc_map_at_10_diff1
-      value: 54.45604359775012
+      value: 55.07059523683087
     - type: nauc_map_at_10_max
-      value: 39.063307413982
+      value: 38.984066662814534
     - type: nauc_map_at_10_std
-      value: -3.4236632847098423
+      value: -3.248495670183591
     - type: nauc_map_at_1_diff1
-      value: 56.60631395015112
+      value: 58.05099902669696
     - type: nauc_map_at_1_max
-      value: 32.467568481080036
+      value: 32.78859871251381
     - type: nauc_map_at_1_std
-      value: -5.800399911526891
+      value: -6.8362274411770185
     - type: nauc_map_at_20_diff1
-      value: 54.370786642447655
+      value: 55.07867137235747
     - type: nauc_map_at_20_max
-      value: 39.59321046436977
+      value: 39.338513039269415
     - type: nauc_map_at_20_std
-      value: -2.4088559799214813
+      value: -2.7901965641663193
     - type: nauc_map_at_3_diff1
-      value: 55.49957006713255
+      value: 55.725343313377515
     - type: nauc_map_at_3_max
-      value: 37.118764615368356
+      value: 36.70623611414168
     - type: nauc_map_at_3_std
-      value: -5.909943937274052
+      value: -5.38922981002907
     - type: nauc_map_at_5_diff1
-      value: 54.81041509611971
+      value: 55.34860098665244
     - type: nauc_map_at_5_max
-      value: 38.24140182494858
+      value: 38.155527574954334
     - type: nauc_map_at_5_std
-      value: -4.509625968871774
+      value: -4.410988667504543
     - type: nauc_mrr_at_1000_diff1
-      value: 53.74660770823747
+      value: 54.68704728069744
     - type: nauc_mrr_at_1000_max
-      value: 41.361501849395225
+      value: 41.248484810806154
     - type: nauc_mrr_at_1000_std
-      value: -0.8127913246616565
+      value: -1.1504232296913572
     - type: nauc_mrr_at_100_diff1
-      value: 53.737280189706624
+      value: 54.68294395653655
     - type: nauc_mrr_at_100_max
-      value: 41.373323086448075
+      value: 41.26462380655141
     - type: nauc_mrr_at_100_std
-      value: -0.7945211619535609
+      value: -1.1243771660425617
     - type: nauc_mrr_at_10_diff1
-      value: 53.60002836781194
+      value: 54.551492987545046
     - type: nauc_mrr_at_10_max
-      value: 41.294906284672145
+      value: 41.1848884498371
     - type: nauc_mrr_at_10_std
-      value: -1.133159614693189
+      value: -1.3450812747262126
     - type: nauc_mrr_at_1_diff1
-      value: 55.872003219794344
+      value: 57.61745956951423
     - type: nauc_mrr_at_1_max
-      value: 38.42398154139028
+      value: 39.07829716661263
     - type: nauc_mrr_at_1_std
-      value: -3.262385266943247
+      value: -4.06903035046345
     - type: nauc_mrr_at_20_diff1
-      value: 53.660372497054865
+      value: 54.6333737758253
     - type: nauc_mrr_at_20_max
-      value: 41.423640159792335
+      value: 41.28437228917431
     - type: nauc_mrr_at_20_std
-      value: -0.6992108032958381
+      value: -1.1953941701515725
     - type: nauc_mrr_at_3_diff1
-      value: 54.246382328404074
+      value: 54.94583102618593
     - type: nauc_mrr_at_3_max
-      value: 41.167575858831476
+      value: 40.59781328371594
     - type: nauc_mrr_at_3_std
-      value: -1.9090830671107353
+      value: -1.8602727105690913
     - type: nauc_mrr_at_5_diff1
-      value: 53.85586718570862
+      value: 54.558425898850295
     - type: nauc_mrr_at_5_max
-      value: 40.98294334278317
+      value: 41.04233761275661
     - type: nauc_mrr_at_5_std
-      value: -1.7121845127201107
+      value: -1.6442836291230383
     - type: nauc_ndcg_at_1000_diff1
-      value: 53.37939317348487
+      value: 53.999245967336094
     - type: nauc_ndcg_at_1000_max
-      value: 42.25503051093623
+      value: 42.043310183678116
     - type: nauc_ndcg_at_1000_std
-      value: 0.9024947979875332
+      value: 0.6376304564130958
     - type: nauc_ndcg_at_100_diff1
-      value: 53.02194451446347
+      value: 53.8085409629583
     - type: nauc_ndcg_at_100_max
-      value: 42.43117968471603
+      value: 42.451986891379406
     - type: nauc_ndcg_at_100_std
-      value: 1.6097860371997164
+      value: 1.4673130808247419
     - type: nauc_ndcg_at_10_diff1
-      value: 52.864882508290044
+      value: 53.61810206266415
     - type: nauc_ndcg_at_10_max
-      value: 41.30405029504235
+      value: 41.44833461873951
     - type: nauc_ndcg_at_10_std
-      value: -1.1315174337193916
+      value: -0.795550206706578
     - type: nauc_ndcg_at_1_diff1
-      value: 55.872003219794344
+      value: 57.61745956951423
     - type: nauc_ndcg_at_1_max
-      value: 38.42398154139028
+      value: 39.07829716661263
     - type: nauc_ndcg_at_1_std
-      value: -3.262385266943247
+      value: -4.06903035046345
     - type: nauc_ndcg_at_20_diff1
-      value: 52.78243804716271
+      value: 53.81663067148986
     - type: nauc_ndcg_at_20_max
-      value: 42.200708727692884
+      value: 41.979487734160195
     - type: nauc_ndcg_at_20_std
-      value: 1.204386994029969
+      value: 0.11420532465314373
     - type: nauc_ndcg_at_3_diff1
-      value: 54.134588048680165
+      value: 54.44647321686452
     - type: nauc_ndcg_at_3_max
-      value: 39.262737508813956
+      value: 38.72907885888278
     - type: nauc_ndcg_at_3_std
-      value: -3.9798145740330866
+      value: -3.0842255604104434
     - type: nauc_ndcg_at_5_diff1
-      value: 53.43380266993641
+      value: 53.96422312169755
     - type: nauc_ndcg_at_5_max
-      value: 40.1700690079209
+      value: 40.509155065647704
     - type: nauc_ndcg_at_5_std
-      value: -2.81233830575759
+      value: -2.38803561566978
     - type: nauc_precision_at_1000_diff1
-      value: -16.085237050718256
+      value: -14.986600071659906
     - type: nauc_precision_at_1000_max
-      value: 21.56903927967793
+      value: 21.967375999858852
     - type: nauc_precision_at_1000_std
-      value: 25.163563893770934
+      value: 25.427090814224133
     - type: nauc_precision_at_100_diff1
-      value: -13.409177660433013
+      value: -10.041859048892281
     - type: nauc_precision_at_100_max
-      value: 26.191889066691694
+      value: 28.096955065789665
     - type: nauc_precision_at_100_std
-      value: 30.434449110434343
+      value: 29.9226812514703
     - type: nauc_precision_at_10_diff1
-      value: 7.653820392496794
+      value: 9.879046672723295
     - type: nauc_precision_at_10_max
-      value: 33.512847797440386
+      value: 35.2125175415903
     - type: nauc_precision_at_10_std
-      value: 17.46948584875833
+      value: 18.049405226428185
     - type: nauc_precision_at_1_diff1
-      value: 55.872003219794344
+      value: 57.61745956951423
     - type: nauc_precision_at_1_max
-      value: 38.42398154139028
+      value: 39.07829716661263
     - type: nauc_precision_at_1_std
-      value: -3.262385266943247
+      value: -4.06903035046345
     - type: nauc_precision_at_20_diff1
-      value: -1.7882509799446464
+      value: 2.090317659883479
     - type: nauc_precision_at_20_max
-      value: 32.667378017254244
+      value: 33.733594712420285
     - type: nauc_precision_at_20_std
-      value: 27.51279914879186
+      value: 24.20651359460664
     - type: nauc_precision_at_3_diff1
-      value: 30.46461628659826
+      value: 31.657897405365404
     - type: nauc_precision_at_3_max
-      value: 37.74901386898987
+      value: 37.3176839095402
     - type: nauc_precision_at_3_std
-      value: 2.466674787017699
+      value: 4.7585612155449954
     - type: nauc_precision_at_5_diff1
-      value: 18.80573985694938
+      value: 21.504317148610664
     - type: nauc_precision_at_5_max
-      value: 34.86218095871847
+      value: 36.98672018829801
     - type: nauc_precision_at_5_std
-      value: 9.231195357997013
+      value: 9.48802133563749
     - type: nauc_recall_at_1000_diff1
-      value: 44.175128440767175
+      value: 38.34514263143671
     - type: nauc_recall_at_1000_max
-      value: 72.76306751265861
+      value: 65.26851560996016
     - type: nauc_recall_at_1000_std
-      value: 69.72788552092433
+      value: 50.141313534646144
     - type: nauc_recall_at_100_diff1
-      value: 39.33252228382757
+      value: 42.199342404417116
     - type: nauc_recall_at_100_max
-      value: 55.56135688396655
+      value: 57.552837181588025
     - type: nauc_recall_at_100_std
-      value: 37.203018125948766
+      value: 34.207126382770056
     - type: nauc_recall_at_10_diff1
-      value: 45.481900144718836
+      value: 46.72328715834629
     - type: nauc_recall_at_10_max
-      value: 42.54097511363277
+      value: 43.601938956571736
     - type: nauc_recall_at_10_std
-      value: 2.6063345056649796
+      value: 3.9959931946981873
     - type: nauc_recall_at_1_diff1
-      value: 56.60631395015112
+      value: 58.05099902669696
     - type: nauc_recall_at_1_max
-      value: 32.467568481080036
+      value: 32.78859871251381
     - type: nauc_recall_at_1_std
-      value: -5.800399911526891
+      value: -6.8362274411770185
     - type: nauc_recall_at_20_diff1
-      value: 42.76239836038449
+      value: 46.23265528982643
     - type: nauc_recall_at_20_max
-      value: 48.446363988908665
+      value: 48.02567065402622
     - type: nauc_recall_at_20_std
-      value: 17.640762405916508
+      value: 10.922350598954127
     - type: nauc_recall_at_3_diff1
-      value: 51.60470647047845
+      value: 51.39812148128243
     - type: nauc_recall_at_3_max
-      value: 37.418467889921224
+      value: 36.73161178544267
     - type: nauc_recall_at_3_std
-      value: -6.408088458035488
+      value: -4.14759512791178
     - type: nauc_recall_at_5_diff1
-      value: 48.70731792808808
+      value: 48.93788534189359
     - type: nauc_recall_at_5_max
-      value: 39.09353288109433
+      value: 40.693530247790264
     - type: nauc_recall_at_5_std
-      value: -3.262225734608099
+      value: -1.4447466756303786
     - type: ndcg_at_1
-      value: 50.157
+      value: 48.589
     - type: ndcg_at_10
-      value: 62.458000000000006
+      value: 60.62499999999999
     - type: ndcg_at_100
-      value: 66.27499999999999
+      value: 64.482
     - type: ndcg_at_1000
-      value: 67.11
+      value: 65.443
     - type: ndcg_at_20
-      value: 64.3
+      value: 62.367
     - type: ndcg_at_3
-      value: 57.348
+      value: 55.324
     - type: ndcg_at_5
-      value: 59.870999999999995
+      value: 58.108000000000004
     - type: precision_at_1
-      value: 50.157
+      value: 48.589
     - type: precision_at_10
-      value: 9.875
+      value: 9.618
     - type: precision_at_100
-      value: 1.269
+      value: 1.2449999999999999
     - type: precision_at_1000
-      value: 0.13799999999999998
+      value: 0.136
     - type: precision_at_20
-      value: 5.527
+      value: 5.339
     - type: precision_at_3
-      value: 25.474999999999998
+      value: 24.514
     - type: precision_at_5
-      value: 17.279
+      value: 16.814999999999998
     - type: recall_at_1
-      value: 43.839
+      value: 42.49
     - type: recall_at_10
-      value: 75.94300000000001
+      value: 73.817
     - type: recall_at_100
-      value: 92.036
+      value: 90.35499999999999
     - type: recall_at_1000
-      value: 97.848
+      value: 97.158
     - type: recall_at_20
-      value: 82.592
+      value: 80.345
     - type: recall_at_3
-      value: 62.227
+      value: 59.714
     - type: recall_at_5
-      value: 68.443
+      value: 66.545
     task:
       type: Retrieval
   - dataset:
@@ -1174,287 +1174,287 @@ model-index:
       type: mteb/cqadupstack-gis
     metrics:
     - type: main_score
-      value: 43.805
+      value: 41.657
     - type: map_at_1
-      value: 29.429
+      value: 27.546
     - type: map_at_10
-      value: 38.708
+      value: 36.571999999999996
     - type: map_at_100
-      value: 39.834
+      value: 37.617
     - type: map_at_1000
-      value: 39.896
+      value: 37.697
     - type: map_at_20
-      value: 39.330999999999996
+      value: 37.181
     - type: map_at_3
-      value: 36.02
+      value: 33.894000000000005
     - type: map_at_5
-      value: 37.547999999999995
+      value: 35.38
     - type: mrr_at_1
-      value: 31.63841807909605
+      value: 29.491525423728817
     - type: mrr_at_10
-      value: 40.82633844498248
+      value: 38.582324455205786
     - type: mrr_at_100
-      value: 41.76109003638645
+      value: 39.47140776816037
     - type: mrr_at_1000
-      value: 41.8059087475105
+      value: 39.53215817683643
     - type: mrr_at_20
-      value: 41.36288532812116
+      value: 39.09768103301972
     - type: mrr_at_3
-      value: 38.24858757062146
+      value: 36.04519774011299
     - type: mrr_at_5
-      value: 39.717514124293764
+      value: 37.51977401129942
     - type: nauc_map_at_1000_diff1
-      value: 45.585812879455524
+      value: 46.64371556448634
     - type: nauc_map_at_1000_max
-      value: 31.31175404949036
+      value: 32.7685783979018
     - type: nauc_map_at_1000_std
-      value: -0.6688504922328871
+      value: 0.252907073291861
     - type: nauc_map_at_100_diff1
-      value: 45.57793192934199
+      value: 46.641497461920125
     - type: nauc_map_at_100_max
-      value: 31.31449058161509
+      value: 32.76050187436589
     - type: nauc_map_at_100_std
-      value: -0.6711471739699831
+      value: 0.25060431368990005
     - type: nauc_map_at_10_diff1
-      value: 45.63641283675042
+      value: 46.73238378557523
     - type: nauc_map_at_10_max
-      value: 31.34383247627637
+      value: 32.52292111951917
     - type: nauc_map_at_10_std
-      value: -0.8969771419071247
+      value: -0.08943369954712965
     - type: nauc_map_at_1_diff1
-      value: 51.20029025787074
+      value: 52.365074294185774
     - type: nauc_map_at_1_max
-      value: 29.29320638697403
+      value: 31.479079738443833
     - type: nauc_map_at_1_std
-      value: -4.195575175603184
+      value: -3.5343210117553236
     - type: nauc_map_at_20_diff1
-      value: 45.50579311311032
+      value: 46.586893769506986
     - type: nauc_map_at_20_max
-      value: 31.162777948119203
+      value: 32.69375129068728
     - type: nauc_map_at_20_std
-      value: -0.8437520900178488
+      value: 0.053444924369365696
     - type: nauc_map_at_3_diff1
-      value: 46.69781509400438
+      value: 47.99938279731178
     - type: nauc_map_at_3_max
-      value: 30.454657702219357
+      value: 32.17359387179817
     - type: nauc_map_at_3_std
-      value: -1.961062011363698
+      value: -1.093878031386867
     - type: nauc_map_at_5_diff1
-      value: 46.04910492816806
+      value: 47.16122715188318
     - type: nauc_map_at_5_max
-      value: 30.930622367372457
+      value: 32.45926972751325
     - type: nauc_map_at_5_std
-      value: -1.3197031926341913
+      value: -0.6741064995053677
     - type: nauc_mrr_at_1000_diff1
-      value: 45.184418431720836
+      value: 45.30445137492832
     - type: nauc_mrr_at_1000_max
-      value: 32.691464662489466
+      value: 33.574100643632335
     - type: nauc_mrr_at_1000_std
-      value: 0.8007278440166657
+      value: 1.4554396923762167
     - type: nauc_mrr_at_100_diff1
-      value: 45.167327620455126
+      value: 45.3021240311195
     - type: nauc_mrr_at_100_max
-      value: 32.70344473782206
+      value: 33.57865938948554
     - type: nauc_mrr_at_100_std
-      value: 0.8064086841104559
+      value: 1.4700086747711112
     - type: nauc_mrr_at_10_diff1
-      value: 45.21931014425146
+      value: 45.33679560393517
     - type: nauc_mrr_at_10_max
-      value: 32.89922709426894
+      value: 33.613141004163104
     - type: nauc_mrr_at_10_std
-      value: 0.726548346036894
+      value: 1.4618756140600853
     - type: nauc_mrr_at_1_diff1
-      value: 50.32992410650978
+      value: 50.76920173801882
     - type: nauc_mrr_at_1_max
-      value: 31.6443297540481
+      value: 33.15485424863947
     - type: nauc_mrr_at_1_std
-      value: -2.2413873790433225
+      value: -1.9770225985333183
     - type: nauc_mrr_at_20_diff1
-      value: 45.113204601824044
+      value: 45.26278617551855
     - type: nauc_mrr_at_20_max
-      value: 32.61736305768626
+      value: 33.54090454353577
     - type: nauc_mrr_at_20_std
-      value: 0.7278143932053411
+      value: 1.315954535389389
     - type: nauc_mrr_at_3_diff1
-      value: 46.240077882820316
+      value: 46.69543535444215
     - type: nauc_mrr_at_3_max
-      value: 32.27275303260653
+      value: 33.310967131967075
     - type: nauc_mrr_at_3_std
-      value: 0.1282059654192661
+      value: 0.4331816772474548
     - type: nauc_mrr_at_5_diff1
-      value: 45.58559508660604
+      value: 45.854532532996764
     - type: nauc_mrr_at_5_max
-      value: 32.59296526810394
+      value: 33.543171491597015
     - type: nauc_mrr_at_5_std
-      value: 0.7874095845402367
+      value: 1.126443288383718
     - type: nauc_ndcg_at_1000_diff1
-      value: 43.20858304283118
+      value: 44.04108026398546
     - type: nauc_ndcg_at_1000_max
-      value: 32.44654538809174
+      value: 33.85625934828308
     - type: nauc_ndcg_at_1000_std
-      value: 1.9808645746749782
+      value: 3.4377340403939796
     - type: nauc_ndcg_at_100_diff1
-      value: 42.80944482285779
+      value: 43.744185935147904
     - type: nauc_ndcg_at_100_max
-      value: 32.63314035546906
+      value: 33.572431122976006
     - type: nauc_ndcg_at_100_std
-      value: 2.5177765413154884
+      value: 3.6852532675904555
     - type: nauc_ndcg_at_10_diff1
-      value: 43.16290325539329
+      value: 43.959538473699595
     - type: nauc_ndcg_at_10_max
-      value: 32.61740129429683
+      value: 33.073472647769215
     - type: nauc_ndcg_at_10_std
-      value: 1.2892420693179965
+      value: 2.1090188319460537
     - type: nauc_ndcg_at_1_diff1
-      value: 50.32992410650978
+      value: 50.76920173801882
     - type: nauc_ndcg_at_1_max
-      value: 31.6443297540481
+      value: 33.15485424863947
     - type: nauc_ndcg_at_1_std
-      value: -2.2413873790433225
+      value: -1.9770225985333183
     - type: nauc_ndcg_at_20_diff1
-      value: 42.597191894775015
+      value: 43.411334966477845
     - type: nauc_ndcg_at_20_max
-      value: 31.751099582584125
+      value: 33.293926947365264
     - type: nauc_ndcg_at_20_std
-      value: 1.438787341128167
+      value: 2.220080028577616
     - type: nauc_ndcg_at_3_diff1
-      value: 45.425750906136706
+      value: 46.523293896100185
     - type: nauc_ndcg_at_3_max
-      value: 31.118153819129173
+      value: 32.7038574353448
     - type: nauc_ndcg_at_3_std
-      value: -0.7887794544621397
+      value: 0.1193014435621674
     - type: nauc_ndcg_at_5_diff1
-      value: 44.24184750204594
+      value: 45.14841006493745
     - type: nauc_ndcg_at_5_max
-      value: 31.678340776396162
+      value: 33.12175384441183
     - type: nauc_ndcg_at_5_std
-      value: 0.38897464065601617
+      value: 1.0948075278546274
     - type: nauc_precision_at_1000_diff1
-      value: -9.25461469977963
+      value: -2.6467112220265907
     - type: nauc_precision_at_1000_max
-      value: 11.546970772317056
+      value: 18.287539005114457
     - type: nauc_precision_at_1000_std
-      value: 11.77950666462821
+      value: 16.038219314209957
     - type: nauc_precision_at_100_diff1
-      value: 5.325820460767819
+      value: 12.552020819249044
     - type: nauc_precision_at_100_max
-      value: 22.610950942174625
+      value: 26.351962576748278
     - type: nauc_precision_at_100_std
-      value: 16.210181509270097
+      value: 18.01891312596408
     - type: nauc_precision_at_10_diff1
-      value: 26.09126825014653
+      value: 29.157382675022458
     - type: nauc_precision_at_10_max
-      value: 35.00999838883753
+      value: 34.98181169997513
     - type: nauc_precision_at_10_std
-      value: 9.40564293375869
+      value: 11.08592118988915
     - type: nauc_precision_at_1_diff1
-      value: 50.32992410650978
+      value: 50.76920173801882
     - type: nauc_precision_at_1_max
-      value: 31.6443297540481
+      value: 33.15485424863947
     - type: nauc_precision_at_1_std
-      value: -2.2413873790433225
+      value: -1.9770225985333183
     - type: nauc_precision_at_20_diff1
-      value: 19.233219692159693
+      value: 22.77749317612865
     - type: nauc_precision_at_20_max
-      value: 29.03044299067655
+      value: 33.77830866103203
     - type: nauc_precision_at_20_std
-      value: 10.317579302538391
+      value: 12.293728764793507
     - type: nauc_precision_at_3_diff1
-      value: 37.364819598304315
+      value: 39.56004686919892
     - type: nauc_precision_at_3_max
-      value: 33.379165297552724
+      value: 35.35459717391885
     - type: nauc_precision_at_3_std
-      value: 3.424932892620743
+      value: 4.646578221523918
     - type: nauc_precision_at_5_diff1
-      value: 32.872702946200945
+      value: 34.503008179786114
     - type: nauc_precision_at_5_max
-      value: 34.571450997070706
+      value: 35.75252363539026
     - type: nauc_precision_at_5_std
-      value: 7.12035598939766
+      value: 7.166979765009376
     - type: nauc_recall_at_1000_diff1
-      value: 11.279997042195749
+      value: 21.221212523313234
     - type: nauc_recall_at_1000_max
-      value: 40.44953937460631
+      value: 44.13351833139584
     - type: nauc_recall_at_1000_std
-      value: 31.19505726194957
+      value: 40.087640819909765
     - type: nauc_recall_at_100_diff1
-      value: 24.15672423727942
+      value: 29.389636542285626
     - type: nauc_recall_at_100_max
-      value: 36.814968545741614
+      value: 33.59631288629025
     - type: nauc_recall_at_100_std
-      value: 21.50699037479782
+      value: 21.206059374954965
     - type: nauc_recall_at_10_diff1
-      value: 34.34584531211266
+      value: 34.959430857464405
     - type: nauc_recall_at_10_max
-      value: 34.196420028975375
+      value: 32.09717004724124
     - type: nauc_recall_at_10_std
-      value: 6.855963891373787
+      value: 6.752586127466409
     - type: nauc_recall_at_1_diff1
-      value: 51.20029025787074
+      value: 52.365074294185774
     - type: nauc_recall_at_1_max
-      value: 29.29320638697403
+      value: 31.479079738443833
     - type: nauc_recall_at_1_std
-      value: -4.195575175603184
+      value: -3.5343210117553236
     - type: nauc_recall_at_20_diff1
-      value: 30.313271321859748
+      value: 31.39296498241759
     - type: nauc_recall_at_20_max
-      value: 30.019409239750388
+      value: 32.15885772797268
     - type: nauc_recall_at_20_std
-      value: 8.01887379774591
+      value: 7.159400260126331
     - type: nauc_recall_at_3_diff1
-      value: 41.3611355564578
+      value: 42.79168863924967
     - type: nauc_recall_at_3_max
-      value: 30.190666918387272
+      value: 31.762155645661604
     - type: nauc_recall_at_3_std
-      value: 0.7366693042344981
+      value: 2.196757471031164
     - type: nauc_recall_at_5_diff1
-      value: 38.46041757825592
+      value: 39.5255822009034
     - type: nauc_recall_at_5_max
-      value: 31.35545227469271
+      value: 32.94403778206411
     - type: nauc_recall_at_5_std
-      value: 3.226901160844341
+      value: 4.303804658498762
     - type: ndcg_at_1
-      value: 31.637999999999998
+      value: 29.492
     - type: ndcg_at_10
-      value: 43.805
+      value: 41.657
     - type: ndcg_at_100
-      value: 49.168
+      value: 46.573
     - type: ndcg_at_1000
-      value: 50.77700000000001
+      value: 48.541000000000004
     - type: ndcg_at_20
-      value: 45.866
+      value: 43.689
     - type: ndcg_at_3
-      value: 38.608
+      value: 36.477
     - type: ndcg_at_5
-      value: 41.152
+      value: 38.984
     - type: precision_at_1
-      value: 31.637999999999998
+      value: 29.492
     - type: precision_at_10
-      value: 6.61
+      value: 6.315999999999999
     - type: precision_at_100
-      value: 0.9809999999999999
+      value: 0.922
     - type: precision_at_1000
-      value: 0.11499999999999999
+      value: 0.11199999999999999
     - type: precision_at_20
-      value: 3.7800000000000002
+      value: 3.644
     - type: precision_at_3
-      value: 16.195999999999998
+      value: 15.292
     - type: precision_at_5
-      value: 11.209
+      value: 10.667
     - type: recall_at_1
-      value: 29.429
+      value: 27.546
     - type: recall_at_10
-      value: 57.327
+      value: 55.359
     - type: recall_at_100
-      value: 81.74900000000001
+      value: 77.46
     - type: recall_at_1000
-      value: 93.967
+      value: 92.205
     - type: recall_at_20
-      value: 65.01400000000001
+      value: 62.946000000000005
     - type: recall_at_3
-      value: 43.472
+      value: 41.501
     - type: recall_at_5
-      value: 49.521
+      value: 47.402
     task:
       type: Retrieval
   - dataset:
@@ -1465,287 +1465,287 @@ model-index:
       type: mteb/cqadupstack-mathematica
     metrics:
     - type: main_score
-      value: 34.63
+      value: 32.094
     - type: map_at_1
-      value: 20.541999999999998
+      value: 18.114
     - type: map_at_10
-      value: 29.121000000000002
+      value: 26.418999999999997
     - type: map_at_100
-      value: 30.389
+      value: 27.571
     - type: map_at_1000
-      value: 30.497999999999998
+      value: 27.685
     - type: map_at_20
-      value: 29.787999999999997
+      value: 27.017000000000003
     - type: map_at_3
-      value: 26.514
+      value: 23.185
     - type: map_at_5
-      value: 27.723
+      value: 25.145
     - type: mrr_at_1
-      value: 24.62686567164179
+      value: 22.388059701492537
     - type: mrr_at_10
-      value: 33.77897220247966
+      value: 31.26041419884701
     - type: mrr_at_100
-      value: 34.71645100175941
+      value: 32.18086832352193
     - type: mrr_at_1000
-      value: 34.77428365380689
+      value: 32.239701638052914
     - type: mrr_at_20
-      value: 34.31909140865809
+      value: 31.79589213295487
     - type: mrr_at_3
-      value: 31.281094527363194
+      value: 28.171641791044777
     - type: mrr_at_5
-      value: 32.568407960199
+      value: 30.09328358208954
     - type: nauc_map_at_1000_diff1
-      value: 31.065597401371054
+      value: 36.547104211161574
     - type: nauc_map_at_1000_max
-      value: 22.53058113245784
+      value: 26.232937210016445
     - type: nauc_map_at_1000_std
-      value: 3.385336368837248
+      value: 3.7298712392657354
     - type: nauc_map_at_100_diff1
-      value: 31.066996795756317
+      value: 36.537505852341276
     - type: nauc_map_at_100_max
-      value: 22.526621520577233
+      value: 26.246840141152063
     - type: nauc_map_at_100_std
-      value: 3.390224080489411
+      value: 3.7320331192887792
     - type: nauc_map_at_10_diff1
-      value: 30.98735163587709
+      value: 36.63285267150619
     - type: nauc_map_at_10_max
-      value: 22.033975223583145
+      value: 25.754810692097703
     - type: nauc_map_at_10_std
-      value: 3.037362136271266
+      value: 3.316281417571231
     - type: nauc_map_at_1_diff1
-      value: 34.7860915604864
+      value: 42.76051570018438
     - type: nauc_map_at_1_max
-      value: 21.990883014000932
+      value: 27.280053995003268
     - type: nauc_map_at_1_std
-      value: 3.215046066755989
+      value: 0.9988567525974422
     - type: nauc_map_at_20_diff1
-      value: 30.95841793371864
+      value: 36.487646930680604
     - type: nauc_map_at_20_max
-      value: 22.312212038670587
+      value: 25.995111909458537
     - type: nauc_map_at_20_std
-      value: 3.204234721808634
+      value: 3.5667106982185914
     - type: nauc_map_at_3_diff1
-      value: 31.873464867905415
+      value: 37.59295352703098
     - type: nauc_map_at_3_max
-      value: 22.344535220057306
+      value: 25.60161931151291
     - type: nauc_map_at_3_std
-      value: 3.037466472476692
+      value: 3.083713373459857
     - type: nauc_map_at_5_diff1
-      value: 31.298770866792836
+      value: 36.788439621346306
     - type: nauc_map_at_5_max
-      value: 22.02799162331672
+      value: 25.632331755255706
     - type: nauc_map_at_5_std
-      value: 2.994008224596537
+      value: 3.1498001343472954
     - type: nauc_mrr_at_1000_diff1
-      value: 32.58365390317668
+      value: 37.24491529620153
     - type: nauc_mrr_at_1000_max
-      value: 24.960504988463303
+      value: 28.025849316370135
     - type: nauc_mrr_at_1000_std
-      value: 3.266331629091531
+      value: 2.497991021482928
     - type: nauc_mrr_at_100_diff1
-      value: 32.563483708724526
+      value: 37.23089604190849
     - type: nauc_mrr_at_100_max
-      value: 24.956287015467943
+      value: 28.02854068654799
     - type: nauc_mrr_at_100_std
-      value: 3.270422121157774
+      value: 2.4918045940748628
     - type: nauc_mrr_at_10_diff1
-      value: 32.65613325350289
+      value: 37.29298050888863
     - type: nauc_mrr_at_10_max
-      value: 24.825654782716384
+      value: 27.76885624231521
     - type: nauc_mrr_at_10_std
-      value: 3.1340776275891025
+      value: 2.2485319842764295
     - type: nauc_mrr_at_1_diff1
-      value: 36.55632726985752
+      value: 43.90681636625015
     - type: nauc_mrr_at_1_max
-      value: 24.4445917993785
+      value: 28.932581562766497
     - type: nauc_mrr_at_1_std
-      value: 2.264391282317747
+      value: -0.8697956494444896
     - type: nauc_mrr_at_20_diff1
-      value: 32.47925104262513
+      value: 37.22358560158573
     - type: nauc_mrr_at_20_max
-      value: 24.89432614603361
+      value: 27.916137779918017
     - type: nauc_mrr_at_20_std
-      value: 3.1774200263878054
+      value: 2.455121655564212
     - type: nauc_mrr_at_3_diff1
-      value: 33.50322152633588
+      value: 38.54010072668797
     - type: nauc_mrr_at_3_max
-      value: 25.199564396471096
+      value: 27.98776700061011
     - type: nauc_mrr_at_3_std
-      value: 2.9397581352257345
+      value: 2.2699056062431398
     - type: nauc_mrr_at_5_diff1
-      value: 32.9982729251397
+      value: 37.549148552294184
     - type: nauc_mrr_at_5_max
-      value: 24.890193912899377
+      value: 27.979221111926183
     - type: nauc_mrr_at_5_std
-      value: 3.0867452313583623
+      value: 2.4684701997216383
     - type: nauc_ndcg_at_1000_diff1
-      value: 30.026151364827403
+      value: 34.435617340922406
     - type: nauc_ndcg_at_1000_max
-      value: 24.49889088739547
+      value: 27.628967284947358
     - type: nauc_ndcg_at_1000_std
-      value: 5.381413285104224
+      value: 5.911838589273425
     - type: nauc_ndcg_at_100_diff1
-      value: 29.80539228010773
+      value: 34.2780900043709
     - type: nauc_ndcg_at_100_max
-      value: 24.309010907634338
+      value: 27.64832881094927
     - type: nauc_ndcg_at_100_std
-      value: 5.232303167670201
+      value: 5.9731923704150764
     - type: nauc_ndcg_at_10_diff1
-      value: 29.691994838075185
+      value: 34.63367473270069
     - type: nauc_ndcg_at_10_max
-      value: 22.67822625590708
+      value: 25.933512573194566
     - type: nauc_ndcg_at_10_std
-      value: 3.499987146410407
+      value: 4.148707647963745
     - type: nauc_ndcg_at_1_diff1
-      value: 36.55632726985752
+      value: 43.90681636625015
     - type: nauc_ndcg_at_1_max
-      value: 24.4445917993785
+      value: 28.932581562766497
     - type: nauc_ndcg_at_1_std
-      value: 2.264391282317747
+      value: -0.8697956494444896
     - type: nauc_ndcg_at_20_diff1
-      value: 29.345854238086844
+      value: 34.22188383179007
     - type: nauc_ndcg_at_20_max
-      value: 23.323621216002355
+      value: 26.518139867033575
     - type: nauc_ndcg_at_20_std
-      value: 3.9174664108448236
+      value: 4.866776710170176
     - type: nauc_ndcg_at_3_diff1
-      value: 31.580762995014105
+      value: 36.77565391921702
     - type: nauc_ndcg_at_3_max
-      value: 23.30762843542372
+      value: 25.990116566248034
     - type: nauc_ndcg_at_3_std
-      value: 3.0944885327411535
+      value: 3.6154482154832026
     - type: nauc_ndcg_at_5_diff1
-      value: 30.47041676971102
+      value: 35.05810918990998
     - type: nauc_ndcg_at_5_max
-      value: 22.77605457106532
+      value: 25.926492701845728
     - type: nauc_ndcg_at_5_std
-      value: 3.3449847079523596
+      value: 4.008846035455256
     - type: nauc_precision_at_1000_diff1
-      value: 0.717852604455919
+      value: -0.8816544062816003
     - type: nauc_precision_at_1000_max
-      value: 3.38068239732633
+      value: 2.659968534023147
     - type: nauc_precision_at_1000_std
-      value: 0.13673896630835028
+      value: -0.23898006639991531
     - type: nauc_precision_at_100_diff1
-      value: 7.401760552752896
+      value: 9.252337889441803
     - type: nauc_precision_at_100_max
-      value: 13.294128452575041
+      value: 15.7473263197486
     - type: nauc_precision_at_100_std
-      value: 4.65501490276724
+      value: 7.041410200070057
     - type: nauc_precision_at_10_diff1
-      value: 19.426577293440936
+      value: 23.46738965136796
     - type: nauc_precision_at_10_max
-      value: 18.143059865611235
+      value: 21.705577114654027
     - type: nauc_precision_at_10_std
-      value: 3.4033224978068946
+      value: 5.0699670250199125
     - type: nauc_precision_at_1_diff1
-      value: 36.55632726985752
+      value: 43.90681636625015
     - type: nauc_precision_at_1_max
-      value: 24.4445917993785
+      value: 28.932581562766497
     - type: nauc_precision_at_1_std
-      value: 2.264391282317747
+      value: -0.8697956494444896
     - type: nauc_precision_at_20_diff1
-      value: 15.526124347926789
+      value: 19.018007524361167
     - type: nauc_precision_at_20_max
-      value: 18.585967204985604
+      value: 21.792753400253282
     - type: nauc_precision_at_20_std
-      value: 3.3631487559984836
+      value: 6.018387201774473
     - type: nauc_precision_at_3_diff1
-      value: 27.11838946665272
+      value: 31.95395112895907
     - type: nauc_precision_at_3_max
-      value: 22.13989357114677
+      value: 24.63594035058901
     - type: nauc_precision_at_3_std
-      value: 1.903120042102994
+      value: 4.397483988354452
     - type: nauc_precision_at_5_diff1
-      value: 23.35690634122196
+      value: 27.209400705378783
     - type: nauc_precision_at_5_max
-      value: 19.585624668123234
+      value: 22.786488526839538
     - type: nauc_precision_at_5_std
-      value: 2.1933428786067988
+      value: 5.421275827056416
     - type: nauc_recall_at_1000_diff1
-      value: 16.950131691896043
+      value: 13.757448646708099
     - type: nauc_recall_at_1000_max
-      value: 39.951723428573956
+      value: 37.61282402281419
     - type: nauc_recall_at_1000_std
-      value: 35.28642001796766
+      value: 31.243111625707936
     - type: nauc_recall_at_100_diff1
-      value: 21.660771108426637
+      value: 22.918274040700464
     - type: nauc_recall_at_100_max
-      value: 27.98817391149549
+      value: 29.405783838243728
     - type: nauc_recall_at_100_std
-      value: 15.547143224954521
+      value: 16.510682564081595
     - type: nauc_recall_at_10_diff1
-      value: 23.290961405166108
+      value: 26.688230397831575
     - type: nauc_recall_at_10_max
-      value: 20.728190074086502
+      value: 22.638607254188507
     - type: nauc_recall_at_10_std
-      value: 3.955634752870681
+      value: 6.320166943996537
     - type: nauc_recall_at_1_diff1
-      value: 34.7860915604864
+      value: 42.76051570018438
     - type: nauc_recall_at_1_max
-      value: 21.990883014000932
+      value: 27.280053995003268
     - type: nauc_recall_at_1_std
-      value: 3.215046066755989
+      value: 0.9988567525974422
     - type: nauc_recall_at_20_diff1
-      value: 21.3100020769249
+      value: 25.089842677170015
     - type: nauc_recall_at_20_max
-      value: 22.417233320077408
+      value: 24.055904631207994
     - type: nauc_recall_at_20_std
-      value: 5.701968308692029
+      value: 8.741260530294397
     - type: nauc_recall_at_3_diff1
-      value: 28.467978075005014
+      value: 32.11825375449307
     - type: nauc_recall_at_3_max
-      value: 22.86743332429378
+      value: 23.660049290130708
     - type: nauc_recall_at_3_std
-      value: 4.126266767988962
+      value: 6.059610998940883
     - type: nauc_recall_at_5_diff1
-      value: 26.085272342534953
+      value: 28.261264641031325
     - type: nauc_recall_at_5_max
-      value: 21.547168834265605
+      value: 23.297121813128527
     - type: nauc_recall_at_5_std
-      value: 4.230798615841751
+      value: 6.31559443948309
     - type: ndcg_at_1
-      value: 24.627
+      value: 22.387999999999998
     - type: ndcg_at_10
-      value: 34.63
+      value: 32.094
     - type: ndcg_at_100
-      value: 40.501
+      value: 37.676
     - type: ndcg_at_1000
-      value: 42.925000000000004
+      value: 40.338
     - type: ndcg_at_20
-      value: 36.783
+      value: 34.123999999999995
     - type: ndcg_at_3
-      value: 29.784
+      value: 26.232
     - type: ndcg_at_5
-      value: 31.607000000000003
+      value: 29.298999999999996
     - type: precision_at_1
-      value: 24.627
+      value: 22.387999999999998
     - type: precision_at_10
-      value: 6.306000000000001
+      value: 6.069999999999999
     - type: precision_at_100
-      value: 1.0670000000000002
+      value: 1.016
     - type: precision_at_1000
-      value: 0.13899999999999998
+      value: 0.13699999999999998
     - type: precision_at_20
-      value: 3.762
+      value: 3.588
     - type: precision_at_3
-      value: 14.262
+      value: 12.645000000000001
     - type: precision_at_5
-      value: 10.025
+      value: 9.677
     - type: recall_at_1
-      value: 20.541999999999998
+      value: 18.114
     - type: recall_at_10
-      value: 46.805
+      value: 44.812000000000005
     - type: recall_at_100
-      value: 72.294
+      value: 69.37100000000001
     - type: recall_at_1000
-      value: 89.425
+      value: 88.465
     - type: recall_at_20
-      value: 54.481
+      value: 52.17699999999999
     - type: recall_at_3
-      value: 33.15
+      value: 28.84
     - type: recall_at_5
-      value: 37.830999999999996
+      value: 36.524
     task:
       type: Retrieval
   - dataset:
@@ -1756,287 +1756,287 @@ model-index:
       type: mteb/cqadupstack-physics
     metrics:
     - type: main_score
-      value: 48.897
+      value: 47.392
     - type: map_at_1
-      value: 32.462
+      value: 31.184
     - type: map_at_10
-      value: 42.954
+      value: 41.388999999999996
     - type: map_at_100
-      value: 44.371
+      value: 42.717
     - type: map_at_1000
-      value: 44.484
+      value: 42.824
     - type: map_at_20
-      value: 43.756
+      value: 42.173
     - type: map_at_3
-      value: 39.762
+      value: 38.04
     - type: map_at_5
-      value: 41.515
+      value: 39.893
     - type: mrr_at_1
-      value: 39.46102021174206
+      value: 37.921077959576515
     - type: mrr_at_10
-      value: 48.738637578868556
+      value: 47.24326657194797
     - type: mrr_at_100
-      value: 49.62686026413403
+      value: 48.09337498756284
     - type: mrr_at_1000
-      value: 49.66868518383456
+      value: 48.13701720898694
     - type: mrr_at_20
-      value: 49.25907585537658
+      value: 47.78987774517749
     - type: mrr_at_3
-      value: 46.310555020853364
+      value: 44.73853063843437
     - type: mrr_at_5
-      value: 47.78312479948663
+      value: 46.12929098492135
     - type: nauc_map_at_1000_diff1
-      value: 51.87542801592498
+      value: 53.832770651928385
     - type: nauc_map_at_1000_max
-      value: 33.97981571634409
+      value: 36.05214174181181
     - type: nauc_map_at_1000_std
-      value: -1.8786792242943482
+      value: -0.26823733386553206
     - type: nauc_map_at_100_diff1
-      value: 51.85293643969287
+      value: 53.8465517808178
     - type: nauc_map_at_100_max
-      value: 33.9428890229597
+      value: 36.02504193265796
     - type: nauc_map_at_100_std
-      value: -1.9332474390946115
+      value: -0.2970919560590155
     - type: nauc_map_at_10_diff1
-      value: 52.02856985184854
+      value: 54.13788168392246
     - type: nauc_map_at_10_max
-      value: 33.61198359968745
+      value: 35.56538539209599
     - type: nauc_map_at_10_std
-      value: -2.6398128511204884
+      value: -1.1471061359311105
     - type: nauc_map_at_1_diff1
-      value: 56.74886676878923
+      value: 59.8215952283572
     - type: nauc_map_at_1_max
-      value: 30.22917247812168
+      value: 33.12636725249456
     - type: nauc_map_at_1_std
-      value: -6.42573662254084
+      value: -5.8855081788994426
     - type: nauc_map_at_20_diff1
-      value: 51.82428924313089
+      value: 53.82330666305302
     - type: nauc_map_at_20_max
-      value: 33.751285311806384
+      value: 35.756597739016556
     - type: nauc_map_at_20_std
-      value: -2.3103774320981803
+      value: -0.8189341923940018
     - type: nauc_map_at_3_diff1
-      value: 51.86255252819861
+      value: 54.60209193467526
     - type: nauc_map_at_3_max
-      value: 33.0377584961136
+      value: 35.12485641266856
     - type: nauc_map_at_3_std
-      value: -3.2636230519519387
+      value: -2.374660245248787
     - type: nauc_map_at_5_diff1
-      value: 52.01515212806803
+      value: 54.42904648965896
     - type: nauc_map_at_5_max
-      value: 33.7459062556087
+      value: 35.64840413541652
     - type: nauc_map_at_5_std
-      value: -2.693869845552142
+      value: -1.2551357786908561
     - type: nauc_mrr_at_1000_diff1
-      value: 51.48855418945387
+      value: 52.792235640928034
     - type: nauc_mrr_at_1000_max
-      value: 35.27912845548713
+      value: 37.01592108981346
     - type: nauc_mrr_at_1000_std
-      value: -0.08726282212006752
+      value: 1.1840423852937316
     - type: nauc_mrr_at_100_diff1
-      value: 51.48335893173882
+      value: 52.78102857164482
     - type: nauc_mrr_at_100_max
-      value: 35.28023925219956
+      value: 37.02689347051387
     - type: nauc_mrr_at_100_std
-      value: -0.08619390644755517
+      value: 1.204280143100286
     - type: nauc_mrr_at_10_diff1
-      value: 51.52941953883595
+      value: 52.881983064911786
     - type: nauc_mrr_at_10_max
-      value: 35.08219573936157
+      value: 36.77776807029599
     - type: nauc_mrr_at_10_std
-      value: -0.5918448278251544
+      value: 0.7855901246582556
     - type: nauc_mrr_at_1_diff1
-      value: 55.31838125779277
+      value: 57.33640696039994
     - type: nauc_mrr_at_1_max
-      value: 33.77228714612555
+      value: 36.5204924145658
     - type: nauc_mrr_at_1_std
-      value: -1.499292265426672
+      value: -1.4711855723217255
     - type: nauc_mrr_at_20_diff1
-      value: 51.408259709777646
+      value: 52.68909138930995
     - type: nauc_mrr_at_20_max
-      value: 35.162570989755174
+      value: 36.87667798023464
     - type: nauc_mrr_at_20_std
-      value: -0.2682578167220845
+      value: 0.9666329262219553
     - type: nauc_mrr_at_3_diff1
-      value: 51.46574092636792
+      value: 53.174709647944226
     - type: nauc_mrr_at_3_max
-      value: 35.811987430657325
+      value: 37.30731859468477
     - type: nauc_mrr_at_3_std
-      value: 0.26013601831722494
+      value: 0.5983585812920581
     - type: nauc_mrr_at_5_diff1
-      value: 51.612013747911526
+      value: 52.98696707218856
     - type: nauc_mrr_at_5_max
-      value: 35.650056877501655
+      value: 37.24200659304458
     - type: nauc_mrr_at_5_std
-      value: -0.21245093564084463
+      value: 0.7873226001470035
     - type: nauc_ndcg_at_1000_diff1
-      value: 50.880872461025305
+      value: 51.77336066774053
     - type: nauc_ndcg_at_1000_max
-      value: 35.44994521014937
+      value: 37.33484716494564
     - type: nauc_ndcg_at_1000_std
-      value: 1.118216393534395
+      value: 3.4897213816902797
     - type: nauc_ndcg_at_100_diff1
-      value: 50.53466908072639
+      value: 51.517855623678145
     - type: nauc_ndcg_at_100_max
-      value: 35.11045555620107
+      value: 37.28753758759313
     - type: nauc_ndcg_at_100_std
-      value: 0.8249078981154204
+      value: 3.7916614425014505
     - type: nauc_ndcg_at_10_diff1
-      value: 50.90734870734591
+      value: 52.19312040537212
     - type: nauc_ndcg_at_10_max
-      value: 33.771004172948224
+      value: 35.454043426004375
     - type: nauc_ndcg_at_10_std
-      value: -2.1711028069297633
+      value: 0.11261377272176304
     - type: nauc_ndcg_at_1_diff1
-      value: 55.31838125779277
+      value: 57.33640696039994
     - type: nauc_ndcg_at_1_max
-      value: 33.77228714612555
+      value: 36.5204924145658
     - type: nauc_ndcg_at_1_std
-      value: -1.499292265426672
+      value: -1.4711855723217255
     - type: nauc_ndcg_at_20_diff1
-      value: 50.23324800143884
+      value: 51.180003517470475
     - type: nauc_ndcg_at_20_max
-      value: 34.07801014616702
+      value: 35.808657815300954
     - type: nauc_ndcg_at_20_std
-      value: -1.124681004529109
+      value: 0.9181626595803211
     - type: nauc_ndcg_at_3_diff1
-      value: 50.25341657253588
+      value: 52.15499168076373
     - type: nauc_ndcg_at_3_max
-      value: 34.591139933602335
+      value: 36.298204760804936
     - type: nauc_ndcg_at_3_std
-      value: -1.1956710813776108
+      value: -0.5611421248036095
     - type: nauc_ndcg_at_5_diff1
-      value: 50.80312504204779
+      value: 52.39994328034564
     - type: nauc_ndcg_at_5_max
-      value: 34.85042501470775
+      value: 36.330303995608936
     - type: nauc_ndcg_at_5_std
-      value: -1.396135873756306
+      value: 0.37444767396372436
     - type: nauc_precision_at_1000_diff1
-      value: -13.557597583919549
+      value: -20.404122745051737
     - type: nauc_precision_at_1000_max
-      value: 2.8147206953918125
+      value: 5.312457203159795
     - type: nauc_precision_at_1000_std
-      value: 14.537543538963874
+      value: 17.213242606819847
     - type: nauc_precision_at_100_diff1
-      value: -3.987982340720788
+      value: -8.42790566562044
     - type: nauc_precision_at_100_max
-      value: 12.028213960584699
+      value: 16.84086690052803
     - type: nauc_precision_at_100_std
-      value: 17.715033463695278
+      value: 24.019700615464902
     - type: nauc_precision_at_10_diff1
-      value: 18.57698421541843
+      value: 15.81766147983048
     - type: nauc_precision_at_10_max
-      value: 24.283366463408097
+      value: 27.484691185221283
     - type: nauc_precision_at_10_std
-      value: 9.324420531172114
+      value: 14.56489367081778
     - type: nauc_precision_at_1_diff1
-      value: 55.31838125779277
+      value: 57.33640696039994
     - type: nauc_precision_at_1_max
-      value: 33.77228714612555
+      value: 36.5204924145658
     - type: nauc_precision_at_1_std
-      value: -1.499292265426672
+      value: -1.4711855723217255
     - type: nauc_precision_at_20_diff1
-      value: 8.944759267836282
+      value: 5.879061729055104
     - type: nauc_precision_at_20_max
-      value: 20.721165285655687
+      value: 23.653566476735964
     - type: nauc_precision_at_20_std
-      value: 13.176434479597365
+      value: 16.503931318384556
     - type: nauc_precision_at_3_diff1
-      value: 32.237083541824376
+      value: 33.45155737947474
     - type: nauc_precision_at_3_max
-      value: 32.11555184738906
+      value: 34.7568767770609
     - type: nauc_precision_at_3_std
-      value: 7.15349181819355
+      value: 7.67006740712776
     - type: nauc_precision_at_5_diff1
-      value: 26.273699865022195
+      value: 25.110442490351748
     - type: nauc_precision_at_5_max
-      value: 30.37038723885166
+      value: 32.29114656055464
     - type: nauc_precision_at_5_std
-      value: 8.769386986802829
+      value: 12.155988425672343
     - type: nauc_recall_at_1000_diff1
-      value: 37.18342037488666
+      value: 35.532706398200745
     - type: nauc_recall_at_1000_max
-      value: 51.700120834339295
+      value: 43.19385344871575
     - type: nauc_recall_at_1000_std
-      value: 51.25572071492458
+      value: 48.491467893524295
     - type: nauc_recall_at_100_diff1
-      value: 38.1032797078489
+      value: 36.58816403449305
     - type: nauc_recall_at_100_max
-      value: 35.62651164450783
+      value: 38.638485536057296
     - type: nauc_recall_at_100_std
-      value: 16.8247368098434
+      value: 27.11603908950955
     - type: nauc_recall_at_10_diff1
-      value: 44.77080899011338
+      value: 44.24689368792456
     - type: nauc_recall_at_10_max
-      value: 29.6963695239568
+      value: 30.05978573450996
     - type: nauc_recall_at_10_std
-      value: -3.503513207679883
+      value: 0.5954869714785576
     - type: nauc_recall_at_1_diff1
-      value: 56.74886676878923
+      value: 59.8215952283572
     - type: nauc_recall_at_1_max
-      value: 30.22917247812168
+      value: 33.12636725249456
     - type: nauc_recall_at_1_std
-      value: -6.42573662254084
+      value: -5.8855081788994426
     - type: nauc_recall_at_20_diff1
-      value: 40.23275073277284
+      value: 38.47479293773967
     - type: nauc_recall_at_20_max
-      value: 29.263920974237713
+      value: 30.075626342498296
     - type: nauc_recall_at_20_std
-      value: 0.4276885400977964
+      value: 3.995253031595806
     - type: nauc_recall_at_3_diff1
-      value: 46.04199760913928
+      value: 48.27791887502807
     - type: nauc_recall_at_3_max
-      value: 32.835175771043346
+      value: 33.70850285999274
     - type: nauc_recall_at_3_std
-      value: -2.3805979024363424
+      value: -1.2815912111364185
     - type: nauc_recall_at_5_diff1
-      value: 45.848157092548504
+      value: 47.33675444851813
     - type: nauc_recall_at_5_max
-      value: 33.2265904276858
+      value: 33.59000233724411
     - type: nauc_recall_at_5_std
-      value: -2.0965197326580256
+      value: 0.6724142806879441
     - type: ndcg_at_1
-      value: 39.461
+      value: 37.921
     - type: ndcg_at_10
-      value: 48.897
+      value: 47.392
     - type: ndcg_at_100
-      value: 54.541
+      value: 52.798
     - type: ndcg_at_1000
-      value: 56.371
+      value: 54.684
     - type: ndcg_at_20
-      value: 51.239000000000004
+      value: 49.704
     - type: ndcg_at_3
-      value: 44.129000000000005
+      value: 42.241
     - type: ndcg_at_5
-      value: 46.424
+      value: 44.631
     - type: precision_at_1
-      value: 39.461
+      value: 37.921
     - type: precision_at_10
-      value: 8.758000000000001
+      value: 8.518
     - type: precision_at_100
-      value: 1.3379999999999999
+      value: 1.3010000000000002
     - type: precision_at_1000
-      value: 0.168
+      value: 0.165
     - type: precision_at_20
-      value: 5.135
+      value: 5.005
     - type: precision_at_3
-      value: 20.852999999999998
+      value: 19.763
     - type: precision_at_5
-      value: 14.649000000000001
+      value: 14.052000000000001
     - type: recall_at_1
-      value: 32.462
+      value: 31.184
     - type: recall_at_10
-      value: 60.531
+      value: 59.265
     - type: recall_at_100
-      value: 83.878
+      value: 81.902
     - type: recall_at_1000
-      value: 95.30999999999999
+      value: 93.86
     - type: recall_at_20
-      value: 68.771
+      value: 67.393
     - type: recall_at_3
-      value: 46.916000000000004
+      value: 44.687
     - type: recall_at_5
-      value: 53.09199999999999
+      value: 50.985
     task:
       type: Retrieval
   - dataset:
@@ -2047,287 +2047,287 @@ model-index:
       type: mteb/cqadupstack-programmers
     metrics:
     - type: main_score
-      value: 45.226
+      value: 43.702000000000005
     - type: map_at_1
-      value: 27.887
+      value: 27.122
     - type: map_at_10
-      value: 39.086999999999996
+      value: 37.582
     - type: map_at_100
-      value: 40.477999999999994
+      value: 38.914
     - type: map_at_1000
-      value: 40.585
+      value: 39.019999999999996
     - type: map_at_20
-      value: 39.83
+      value: 38.321
     - type: map_at_3
-      value: 35.875
+      value: 34.528
     - type: map_at_5
-      value: 37.695
+      value: 36.09
     - type: mrr_at_1
-      value: 34.817351598173516
+      value: 34.01826484018265
     - type: mrr_at_10
-      value: 45.01653439153436
+      value: 43.263798289483205
     - type: mrr_at_100
-      value: 45.87242089610603
+      value: 44.1380956121081
     - type: mrr_at_1000
-      value: 45.920675520064755
+      value: 44.185697833855556
     - type: mrr_at_20
-      value: 45.507374469348
+      value: 43.793797549721766
     - type: mrr_at_3
-      value: 42.465753424657514
+      value: 40.84855403348552
     - type: mrr_at_5
-      value: 43.97260273972599
+      value: 42.075722983257194
     - type: nauc_map_at_1000_diff1
-      value: 43.95170137620123
+      value: 48.54809280945058
     - type: nauc_map_at_1000_max
-      value: 37.19129408748076
+      value: 40.776528333405224
     - type: nauc_map_at_1000_std
-      value: 7.888925157034662
+      value: 6.661907895750691
     - type: nauc_map_at_100_diff1
-      value: 43.9558720789432
+      value: 48.53220732259419
     - type: nauc_map_at_100_max
-      value: 37.214429573625246
+      value: 40.777485555716844
     - type: nauc_map_at_100_std
-      value: 7.933552664308029
+      value: 6.667373289049959
     - type: nauc_map_at_10_diff1
-      value: 44.21929145274994
+      value: 48.696272225102724
     - type: nauc_map_at_10_max
-      value: 36.65671027839632
+      value: 40.16855196737864
     - type: nauc_map_at_10_std
-      value: 6.982108869364163
+      value: 5.699631954994352
     - type: nauc_map_at_1_diff1
-      value: 49.74596478079841
+      value: 55.02702675976629
     - type: nauc_map_at_1_max
-      value: 32.56861544149044
+      value: 36.26449598791867
     - type: nauc_map_at_1_std
-      value: 1.097128889360163
+      value: 0.732425634333215
     - type: nauc_map_at_20_diff1
-      value: 44.104092078784234
+      value: 48.33225604820497
     - type: nauc_map_at_20_max
-      value: 36.99566957257224
+      value: 40.439321766092654
     - type: nauc_map_at_20_std
-      value: 7.477043291777348
+      value: 6.188882132784543
     - type: nauc_map_at_3_diff1
-      value: 44.467213345851086
+      value: 48.849531596809356
     - type: nauc_map_at_3_max
-      value: 35.03024865450431
+      value: 38.9860445253163
     - type: nauc_map_at_3_std
-      value: 5.06566672879735
+      value: 4.144400337604119
     - type: nauc_map_at_5_diff1
-      value: 44.554827534750636
+      value: 49.18884784858743
     - type: nauc_map_at_5_max
-      value: 36.31225914769019
+      value: 39.655783829375565
     - type: nauc_map_at_5_std
-      value: 6.0593177568412475
+      value: 4.817315072102742
     - type: nauc_mrr_at_1000_diff1
-      value: 41.8894252387263
+      value: 48.00305317802568
     - type: nauc_mrr_at_1000_max
-      value: 38.73824247221018
+      value: 44.23613484147676
     - type: nauc_mrr_at_1000_std
-      value: 10.312822889457024
+      value: 10.408238644010625
     - type: nauc_mrr_at_100_diff1
-      value: 41.88062595488504
+      value: 47.99496049306132
     - type: nauc_mrr_at_100_max
-      value: 38.74215906747668
+      value: 44.246498083388914
     - type: nauc_mrr_at_100_std
-      value: 10.353181155239255
+      value: 10.445977920073455
     - type: nauc_mrr_at_10_diff1
-      value: 41.94013647827115
+      value: 47.859228287955766
     - type: nauc_mrr_at_10_max
-      value: 38.78288768729759
+      value: 44.151674776960654
     - type: nauc_mrr_at_10_std
-      value: 10.090580330580437
+      value: 10.100723523960575
     - type: nauc_mrr_at_1_diff1
-      value: 47.56077396895218
+      value: 53.97500150046671
     - type: nauc_mrr_at_1_max
-      value: 36.98399403952428
+      value: 43.203684587322286
     - type: nauc_mrr_at_1_std
-      value: 6.5721798897773684
+      value: 7.710806763535423
     - type: nauc_mrr_at_20_diff1
-      value: 41.89386639716785
+      value: 47.78264352952027
     - type: nauc_mrr_at_20_max
-      value: 38.68491067215507
+      value: 44.15886914310631
     - type: nauc_mrr_at_20_std
-      value: 10.182838094619267
+      value: 10.310916847695328
     - type: nauc_mrr_at_3_diff1
-      value: 42.01969733662613
+      value: 48.29090871013734
     - type: nauc_mrr_at_3_max
-      value: 37.800805484199444
+      value: 44.13906017331203
     - type: nauc_mrr_at_3_std
-      value: 9.483998874247575
+      value: 9.559567097555584
     - type: nauc_mrr_at_5_diff1
-      value: 41.65309923696901
+      value: 47.97269828112085
     - type: nauc_mrr_at_5_max
-      value: 38.54063168917584
+      value: 43.91612661455393
     - type: nauc_mrr_at_5_std
-      value: 9.673479912636347
+      value: 9.57617449812722
     - type: nauc_ndcg_at_1000_diff1
-      value: 41.47176832694651
+      value: 46.82941305510076
     - type: nauc_ndcg_at_1000_max
-      value: 39.169786971026255
+      value: 42.94251110430697
     - type: nauc_ndcg_at_1000_std
-      value: 11.679974828658501
+      value: 10.837155455040696
     - type: nauc_ndcg_at_100_diff1
-      value: 41.222156890249764
+      value: 46.55370804024034
     - type: nauc_ndcg_at_100_max
-      value: 39.53250258278856
+      value: 43.15479803311034
     - type: nauc_ndcg_at_100_std
-      value: 12.933003811182312
+      value: 11.64220068240346
     - type: nauc_ndcg_at_10_diff1
-      value: 42.0337725964669
+      value: 46.35684130144189
     - type: nauc_ndcg_at_10_max
-      value: 38.273909940579124
+      value: 41.59070439480394
     - type: nauc_ndcg_at_10_std
-      value: 9.593414260430325
+      value: 8.178046869165756
     - type: nauc_ndcg_at_1_diff1
-      value: 47.56077396895218
+      value: 53.97500150046671
     - type: nauc_ndcg_at_1_max
-      value: 36.98399403952428
+      value: 43.203684587322286
     - type: nauc_ndcg_at_1_std
-      value: 6.5721798897773684
+      value: 7.710806763535423
     - type: nauc_ndcg_at_20_diff1
-      value: 41.85575848899653
+      value: 45.40626340072992
     - type: nauc_ndcg_at_20_max
-      value: 38.82160272309426
+      value: 42.09649444554957
     - type: nauc_ndcg_at_20_std
-      value: 10.794229083924927
+      value: 9.605463104740371
     - type: nauc_ndcg_at_3_diff1
-      value: 41.65599882159262
+      value: 46.39869019714142
     - type: nauc_ndcg_at_3_max
-      value: 36.15866038270778
+      value: 41.377156858610526
     - type: nauc_ndcg_at_3_std
-      value: 7.748508197949587
+      value: 7.0800717378487965
     - type: nauc_ndcg_at_5_diff1
-      value: 42.28410633684388
+      value: 47.128631288457996
     - type: nauc_ndcg_at_5_max
-      value: 37.74519017293837
+      value: 41.231380730849395
     - type: nauc_ndcg_at_5_std
-      value: 8.061749452741854
+      value: 6.870252693122028
     - type: nauc_precision_at_1000_diff1
-      value: -13.371472140934939
+      value: -12.683546963943378
     - type: nauc_precision_at_1000_max
-      value: -1.9535541625334698
+      value: 2.168906725125969
     - type: nauc_precision_at_1000_std
-      value: 8.618739674058643
+      value: 12.048485072481888
     - type: nauc_precision_at_100_diff1
-      value: -5.44331936385817
+      value: 0.16871272463759232
     - type: nauc_precision_at_100_max
-      value: 15.019947345639547
+      value: 20.552672729747563
     - type: nauc_precision_at_100_std
-      value: 23.080372230077405
+      value: 23.488859046633483
     - type: nauc_precision_at_10_diff1
-      value: 15.445549733621986
+      value: 18.31525727659663
     - type: nauc_precision_at_10_max
-      value: 30.89290049169744
+      value: 35.98290060366415
     - type: nauc_precision_at_10_std
-      value: 20.002890083398132
+      value: 19.45559264624959
     - type: nauc_precision_at_1_diff1
-      value: 47.56077396895218
+      value: 53.97500150046671
     - type: nauc_precision_at_1_max
-      value: 36.98399403952428
+      value: 43.203684587322286
     - type: nauc_precision_at_1_std
-      value: 6.5721798897773684
+      value: 7.710806763535423
     - type: nauc_precision_at_20_diff1
-      value: 8.623105688967403
+      value: 9.816958556392452
     - type: nauc_precision_at_20_max
-      value: 26.91178852977823
+      value: 32.44269638911288
     - type: nauc_precision_at_20_std
-      value: 22.17285887384737
+      value: 22.7695387792997
     - type: nauc_precision_at_3_diff1
-      value: 26.381468882549814
+      value: 30.831240534396088
     - type: nauc_precision_at_3_max
-      value: 35.90410043864788
+      value: 42.59739567911967
     - type: nauc_precision_at_3_std
-      value: 16.101145360947154
+      value: 15.434501692108938
     - type: nauc_precision_at_5_diff1
-      value: 22.842829661572875
+      value: 26.98589990414524
     - type: nauc_precision_at_5_max
-      value: 35.92997099694966
+      value: 39.18613048668369
     - type: nauc_precision_at_5_std
-      value: 18.18378930746855
+      value: 16.636453687202735
     - type: nauc_recall_at_1000_diff1
-      value: 13.266400124330257
+      value: 30.87302088559141
     - type: nauc_recall_at_1000_max
-      value: 58.21247340815739
+      value: 52.78156738930873
     - type: nauc_recall_at_1000_std
-      value: 57.31393380709915
+      value: 50.4397156770463
     - type: nauc_recall_at_100_diff1
-      value: 25.95593534295009
+      value: 34.931429900655544
     - type: nauc_recall_at_100_max
-      value: 45.03843584939201
+      value: 45.57822499214305
     - type: nauc_recall_at_100_std
-      value: 38.100799360138765
+      value: 33.67446897012978
     - type: nauc_recall_at_10_diff1
-      value: 34.789715559053604
+      value: 37.5976175865455
     - type: nauc_recall_at_10_max
-      value: 38.042187250662884
+      value: 38.5556407722093
     - type: nauc_recall_at_10_std
-      value: 13.229947908309544
+      value: 10.550126985646322
     - type: nauc_recall_at_1_diff1
-      value: 49.74596478079841
+      value: 55.02702675976629
     - type: nauc_recall_at_1_max
-      value: 32.56861544149044
+      value: 36.26449598791867
     - type: nauc_recall_at_1_std
-      value: 1.097128889360163
+      value: 0.732425634333215
     - type: nauc_recall_at_20_diff1
-      value: 33.384723599926446
+      value: 32.70441950285509
     - type: nauc_recall_at_20_max
-      value: 39.15835336776037
+      value: 39.69700118046791
     - type: nauc_recall_at_20_std
-      value: 17.52735115682057
+      value: 15.937760155492564
     - type: nauc_recall_at_3_diff1
-      value: 37.99962076163248
+      value: 40.94665128274178
     - type: nauc_recall_at_3_max
-      value: 33.51343167685077
+      value: 37.52094929329511
     - type: nauc_recall_at_3_std
-      value: 6.783531552157573
+      value: 5.2786717659493725
     - type: nauc_recall_at_5_diff1
-      value: 37.02597430521191
+      value: 41.33714477726403
     - type: nauc_recall_at_5_max
-      value: 36.8381283963646
+      value: 38.29879971662555
     - type: nauc_recall_at_5_std
-      value: 8.407347972075284
+      value: 6.268258432785931
     - type: ndcg_at_1
-      value: 34.817
+      value: 34.018
     - type: ndcg_at_10
-      value: 45.226
+      value: 43.702000000000005
     - type: ndcg_at_100
-      value: 50.913
+      value: 49.309
     - type: ndcg_at_1000
-      value: 52.943
+      value: 51.391
     - type: ndcg_at_20
-      value: 47.367
+      value: 45.897
     - type: ndcg_at_3
-      value: 40.332
+      value: 38.842999999999996
     - type: ndcg_at_5
-      value: 42.555
+      value: 40.72
     - type: precision_at_1
-      value: 34.817
+      value: 34.018
     - type: precision_at_10
-      value: 8.322000000000001
+      value: 8.082
     - type: precision_at_100
-      value: 1.288
+      value: 1.2590000000000001
     - type: precision_at_1000
-      value: 0.163
+      value: 0.16
     - type: precision_at_20
-      value: 4.869
+      value: 4.743
     - type: precision_at_3
-      value: 19.559
+      value: 18.798000000000002
     - type: precision_at_5
-      value: 13.79
+      value: 13.128
     - type: recall_at_1
-      value: 27.887
+      value: 27.122
     - type: recall_at_10
-      value: 57.523
+      value: 56.220000000000006
     - type: recall_at_100
-      value: 81.853
+      value: 80.328
     - type: recall_at_1000
-      value: 95.36200000000001
+      value: 94.28999999999999
     - type: recall_at_20
-      value: 65.069
+      value: 64.041
     - type: recall_at_3
-      value: 43.342000000000006
+      value: 42.257
     - type: recall_at_5
-      value: 49.596000000000004
+      value: 47.499
     task:
       type: Retrieval
   - dataset:
@@ -2338,9 +2338,9 @@ model-index:
       type: CQADupstackRetrieval_is_a_combined_dataset
     metrics:
     - type: main_score
-      value: 44.86833333333333
+      value: 43.05741666666666
     - type: ndcg_at_10
-      value: 44.86833333333333
+      value: 43.05741666666666
     task:
       type: Retrieval
   - dataset:
@@ -2351,287 +2351,287 @@ model-index:
       type: mteb/cqadupstack-stats
     metrics:
     - type: main_score
-      value: 39.654
+      value: 37.451
     - type: map_at_1
-      value: 28.488999999999997
+      value: 26.613999999999997
     - type: map_at_10
-      value: 35.621
+      value: 33.693
     - type: map_at_100
-      value: 36.662
+      value: 34.676
     - type: map_at_1000
-      value: 36.754
+      value: 34.78
     - type: map_at_20
-      value: 36.215
+      value: 34.271
     - type: map_at_3
-      value: 33.689
+      value: 31.95
     - type: map_at_5
-      value: 34.733999999999995
+      value: 33.001000000000005
     - type: mrr_at_1
-      value: 31.901840490797547
+      value: 29.601226993865033
     - type: mrr_at_10
-      value: 38.76101616515727
+      value: 36.36959538416591
     - type: mrr_at_100
-      value: 39.6328900317746
+      value: 37.210798693231375
     - type: mrr_at_1000
-      value: 39.69875777929701
+      value: 37.27823979110381
     - type: mrr_at_20
-      value: 39.27824740202471
+      value: 36.85899834554723
     - type: mrr_at_3
-      value: 37.11656441717794
+      value: 34.637014314928436
     - type: mrr_at_5
-      value: 38.090490797546025
+      value: 35.66462167689161
     - type: nauc_map_at_1000_diff1
-      value: 44.60417734115683
+      value: 49.37410791347397
     - type: nauc_map_at_1000_max
-      value: 40.97869080753014
+      value: 44.71830636526569
     - type: nauc_map_at_1000_std
-      value: 5.748743395996931
+      value: 6.33933824946907
     - type: nauc_map_at_100_diff1
-      value: 44.57736501620202
+      value: 49.340714029723124
     - type: nauc_map_at_100_max
-      value: 40.97420581082456
+      value: 44.67514800282011
     - type: nauc_map_at_100_std
-      value: 5.762383589620662
+      value: 6.316791709089924
     - type: nauc_map_at_10_diff1
-      value: 44.92204225912857
+      value: 49.58237553466596
     - type: nauc_map_at_10_max
-      value: 40.675386978230904
+      value: 44.405433944466694
     - type: nauc_map_at_10_std
-      value: 5.245272300708162
+      value: 5.420633435918038
     - type: nauc_map_at_1_diff1
-      value: 51.03525578589323
+      value: 56.857540982769386
     - type: nauc_map_at_1_max
-      value: 39.02148856903404
+      value: 45.23834250721237
     - type: nauc_map_at_1_std
-      value: 0.4146617412031749
+      value: 1.802945533830376
     - type: nauc_map_at_20_diff1
-      value: 44.58262404664568
+      value: 49.32562290762172
     - type: nauc_map_at_20_max
-      value: 40.77381417315517
+      value: 44.545352441428896
     - type: nauc_map_at_20_std
-      value: 5.530849792503221
+      value: 6.021456769240318
     - type: nauc_map_at_3_diff1
-      value: 45.930245969820646
+      value: 51.09322731096909
     - type: nauc_map_at_3_max
-      value: 40.436169462774416
+      value: 44.79300881629309
     - type: nauc_map_at_3_std
-      value: 3.3879829560660895
+      value: 4.011630043646612
     - type: nauc_map_at_5_diff1
-      value: 45.17424281922756
+      value: 49.97975659382682
     - type: nauc_map_at_5_max
-      value: 40.47857337528189
+      value: 44.22306761891805
     - type: nauc_map_at_5_std
-      value: 4.414695304860574
+      value: 5.003553888563371
     - type: nauc_mrr_at_1000_diff1
-      value: 44.08694838852825
+      value: 49.32837991155049
     - type: nauc_mrr_at_1000_max
-      value: 42.42348869902589
+      value: 45.93427489688434
     - type: nauc_mrr_at_1000_std
-      value: 7.942150916764917
+      value: 8.332345145460296
     - type: nauc_mrr_at_100_diff1
-      value: 44.04467099375857
+      value: 49.286286999726336
     - type: nauc_mrr_at_100_max
-      value: 42.43605871354086
+      value: 45.91561099870164
     - type: nauc_mrr_at_100_std
-      value: 7.956534359718217
+      value: 8.32831666531875
     - type: nauc_mrr_at_10_diff1
-      value: 44.266216857247684
+      value: 49.46015725591609
     - type: nauc_mrr_at_10_max
-      value: 42.30356366796194
+      value: 45.81782601823628
     - type: nauc_mrr_at_10_std
-      value: 7.644077273142069
+      value: 7.789698556495055
     - type: nauc_mrr_at_1_diff1
-      value: 50.221648566432464
+      value: 56.0872059675405
     - type: nauc_mrr_at_1_max
-      value: 41.235095557704646
+      value: 47.386480338399714
     - type: nauc_mrr_at_1_std
-      value: 3.7408348785402556
+      value: 5.586277541713057
     - type: nauc_mrr_at_20_diff1
-      value: 44.05821823838852
+      value: 49.28417059076057
     - type: nauc_mrr_at_20_max
-      value: 42.42933700317326
+      value: 45.99725997530277
     - type: nauc_mrr_at_20_std
-      value: 7.8665259168401445
+      value: 8.23052817007787
     - type: nauc_mrr_at_3_diff1
-      value: 45.03683838233249
+      value: 50.86538908994447
     - type: nauc_mrr_at_3_max
-      value: 42.24769488191134
+      value: 46.30931682738229
     - type: nauc_mrr_at_3_std
-      value: 6.601038869035635
+      value: 6.711465064236412
     - type: nauc_mrr_at_5_diff1
-      value: 44.201862019181455
+      value: 49.79097166622943
     - type: nauc_mrr_at_5_max
-      value: 42.07946832877691
+      value: 45.64379284105549
     - type: nauc_mrr_at_5_std
-      value: 7.189671715715843
+      value: 7.549376197213498
     - type: nauc_ndcg_at_1000_diff1
-      value: 42.42699854748652
+      value: 46.655241847522234
     - type: nauc_ndcg_at_1000_max
-      value: 42.43824947781245
+      value: 45.54057445564807
     - type: nauc_ndcg_at_1000_std
-      value: 9.67675385214925
+      value: 10.592785454436834
     - type: nauc_ndcg_at_100_diff1
-      value: 41.51922844841962
+      value: 45.97315906249984
     - type: nauc_ndcg_at_100_max
-      value: 42.61282487350817
+      value: 45.103821828576706
     - type: nauc_ndcg_at_100_std
-      value: 10.25445083001239
+      value: 10.823822034321271
     - type: nauc_ndcg_at_10_diff1
-      value: 42.574630501270825
+      value: 46.67685938503584
     - type: nauc_ndcg_at_10_max
-      value: 41.14145061750566
+      value: 43.95449931036324
     - type: nauc_ndcg_at_10_std
-      value: 7.647757048969349
+      value: 7.184463169195402
     - type: nauc_ndcg_at_1_diff1
-      value: 50.221648566432464
+      value: 56.0872059675405
     - type: nauc_ndcg_at_1_max
-      value: 41.235095557704646
+      value: 47.386480338399714
     - type: nauc_ndcg_at_1_std
-      value: 3.7408348785402556
+      value: 5.586277541713057
     - type: nauc_ndcg_at_20_diff1
-      value: 41.600087618079066
+      value: 45.82228282738618
     - type: nauc_ndcg_at_20_max
-      value: 41.491254134292376
+      value: 44.43719295005832
     - type: nauc_ndcg_at_20_std
-      value: 8.596229791444
+      value: 8.95789892457707
     - type: nauc_ndcg_at_3_diff1
-      value: 43.82522265410307
+      value: 49.37120917171752
     - type: nauc_ndcg_at_3_max
-      value: 41.10083488299727
+      value: 45.0413771949304
     - type: nauc_ndcg_at_3_std
-      value: 5.098425173217254
+      value: 5.179406852505315
     - type: nauc_ndcg_at_5_diff1
-      value: 42.72862798064444
+      value: 47.583182746063
     - type: nauc_ndcg_at_5_max
-      value: 40.85829769060509
+      value: 43.72295298313421
     - type: nauc_ndcg_at_5_std
-      value: 6.31424002071968
+      value: 6.5138412650415285
     - type: nauc_precision_at_1000_diff1
-      value: -2.0820534872545116
+      value: 2.4617272692758774
     - type: nauc_precision_at_1000_max
-      value: 16.298683462791594
+      value: 22.936450605128723
     - type: nauc_precision_at_1000_std
-      value: 16.97189734146589
+      value: 19.21953983352782
     - type: nauc_precision_at_100_diff1
-      value: 6.4514456279287105
+      value: 14.091495244420054
     - type: nauc_precision_at_100_max
-      value: 30.968130476508765
+      value: 36.22553109048817
     - type: nauc_precision_at_100_std
-      value: 24.590810752136445
+      value: 27.712752655919605
     - type: nauc_precision_at_10_diff1
-      value: 23.83061356229352
+      value: 25.69073847737471
     - type: nauc_precision_at_10_max
-      value: 37.44657709667713
+      value: 38.58233566502399
     - type: nauc_precision_at_10_std
-      value: 18.3818856475441
+      value: 15.934219646184086
     - type: nauc_precision_at_1_diff1
-      value: 50.221648566432464
+      value: 56.0872059675405
     - type: nauc_precision_at_1_max
-      value: 41.235095557704646
+      value: 47.386480338399714
     - type: nauc_precision_at_1_std
-      value: 3.7408348785402556
+      value: 5.586277541713057
     - type: nauc_precision_at_20_diff1
-      value: 16.8100155001696
+      value: 20.21306431284034
     - type: nauc_precision_at_20_max
-      value: 35.019447938152055
+      value: 38.872513079451124
     - type: nauc_precision_at_20_std
-      value: 20.67504386650297
+      value: 22.150084369107148
     - type: nauc_precision_at_3_diff1
-      value: 35.33999854814717
+      value: 38.96362161150934
     - type: nauc_precision_at_3_max
-      value: 42.464592248955334
+      value: 43.842391385540274
     - type: nauc_precision_at_3_std
-      value: 11.735324415513306
+      value: 10.767834731788952
     - type: nauc_precision_at_5_diff1
-      value: 29.095637605444765
+      value: 32.690374841846115
     - type: nauc_precision_at_5_max
-      value: 40.80816684911544
+      value: 40.248174393941426
     - type: nauc_precision_at_5_std
-      value: 15.54403823719892
+      value: 15.139497820050835
     - type: nauc_recall_at_1000_diff1
-      value: 30.88859886501841
+      value: 29.9064034258407
     - type: nauc_recall_at_1000_max
-      value: 47.675952718888595
+      value: 45.385182668917615
     - type: nauc_recall_at_1000_std
-      value: 37.808899612070284
+      value: 35.31089190812142
     - type: nauc_recall_at_100_diff1
-      value: 27.102674231258376
+      value: 30.93677471473096
     - type: nauc_recall_at_100_max
-      value: 46.24207104250558
+      value: 42.49191296305999
     - type: nauc_recall_at_100_std
-      value: 29.033516460715735
+      value: 28.396218854730165
     - type: nauc_recall_at_10_diff1
-      value: 35.626332465234064
+      value: 37.65584211536675
     - type: nauc_recall_at_10_max
-      value: 39.7007789760367
+      value: 39.88064430621519
     - type: nauc_recall_at_10_std
-      value: 12.129960491073899
+      value: 9.578129253821126
     - type: nauc_recall_at_1_diff1
-      value: 51.03525578589323
+      value: 56.857540982769386
     - type: nauc_recall_at_1_max
-      value: 39.02148856903404
+      value: 45.23834250721237
     - type: nauc_recall_at_1_std
-      value: 0.4146617412031749
+      value: 1.802945533830376
     - type: nauc_recall_at_20_diff1
-      value: 31.088505920845705
+      value: 33.296862029858254
     - type: nauc_recall_at_20_max
-      value: 40.09779003608529
+      value: 40.626394722604864
     - type: nauc_recall_at_20_std
-      value: 15.383713495321466
+      value: 15.646897719879163
     - type: nauc_recall_at_3_diff1
-      value: 39.376987315291004
+      value: 44.976755997237994
     - type: nauc_recall_at_3_max
-      value: 39.579665630711865
+      value: 42.3703322359472
     - type: nauc_recall_at_3_std
-      value: 5.903646172290545
+      value: 4.515124030573786
     - type: nauc_recall_at_5_diff1
-      value: 36.374552126907986
+      value: 40.24017796620052
     - type: nauc_recall_at_5_max
-      value: 39.01714515551238
+      value: 39.25075943429505
     - type: nauc_recall_at_5_std
-      value: 8.765416107748178
+      value: 7.8771910498658375
     - type: ndcg_at_1
-      value: 31.902
+      value: 29.601
     - type: ndcg_at_10
-      value: 39.654
+      value: 37.451
     - type: ndcg_at_100
-      value: 44.667
+      value: 42.099
     - type: ndcg_at_1000
-      value: 47.038999999999994
+      value: 44.493
     - type: ndcg_at_20
-      value: 41.619
+      value: 39.353
     - type: ndcg_at_3
-      value: 36.317
+      value: 34.266999999999996
     - type: ndcg_at_5
-      value: 37.887
+      value: 35.903
     - type: precision_at_1
-      value: 31.902
+      value: 29.601
     - type: precision_at_10
-      value: 5.997
+      value: 5.644
     - type: precision_at_100
-      value: 0.9259999999999999
+      value: 0.857
     - type: precision_at_1000
-      value: 0.121
+      value: 0.11399999999999999
     - type: precision_at_20
-      value: 3.489
+      value: 3.29
     - type: precision_at_3
-      value: 15.286
+      value: 14.571000000000002
     - type: precision_at_5
-      value: 10.306999999999999
+      value: 9.908
     - type: recall_at_1
-      value: 28.488999999999997
+      value: 26.613999999999997
     - type: recall_at_10
-      value: 48.684
+      value: 46.047
     - type: recall_at_100
-      value: 71.572
+      value: 66.99199999999999
     - type: recall_at_1000
-      value: 89.059
+      value: 84.248
     - type: recall_at_20
-      value: 56.089999999999996
+      value: 53.236000000000004
     - type: recall_at_3
-      value: 39.42
+      value: 37.322
     - type: recall_at_5
-      value: 43.461
+      value: 41.589
     task:
       type: Retrieval
   - dataset:
@@ -2642,287 +2642,287 @@ model-index:
       type: mteb/cqadupstack-tex
     metrics:
     - type: main_score
-      value: 32.957
+      value: 31.654
     - type: map_at_1
-      value: 19.61
+      value: 18.969
     - type: map_at_10
-      value: 27.816999999999997
+      value: 26.809
     - type: map_at_100
-      value: 29.037000000000003
+      value: 27.912
     - type: map_at_1000
-      value: 29.164
+      value: 28.035
     - type: map_at_20
-      value: 28.48
+      value: 27.371000000000002
     - type: map_at_3
-      value: 25.212
+      value: 24.486
     - type: map_at_5
-      value: 26.552999999999997
+      value: 25.654
     - type: mrr_at_1
-      value: 23.675154852030282
+      value: 22.883688919476946
     - type: mrr_at_10
-      value: 31.855588874687356
+      value: 30.661876358710526
     - type: mrr_at_100
-      value: 32.82754708152588
+      value: 31.573962917203158
     - type: mrr_at_1000
-      value: 32.899811984634525
+      value: 31.647366121679493
     - type: mrr_at_20
-      value: 32.41521823340382
+      value: 31.165428342513707
     - type: mrr_at_3
-      value: 29.553796742372164
+      value: 28.561596696490067
     - type: mrr_at_5
-      value: 30.799495297086587
+      value: 29.619752236751623
     - type: nauc_map_at_1000_diff1
-      value: 37.067009963494954
+      value: 42.37078386806742
     - type: nauc_map_at_1000_max
-      value: 29.319194409596722
+      value: 34.37145780392427
     - type: nauc_map_at_1000_std
-      value: 0.9381129561343189
+      value: 2.068593126222689
     - type: nauc_map_at_100_diff1
-      value: 37.02118730103881
+      value: 42.345728925007506
     - type: nauc_map_at_100_max
-      value: 29.308885900656872
+      value: 34.34243452283795
     - type: nauc_map_at_100_std
-      value: 0.9305359416352115
+      value: 2.065635415209545
     - type: nauc_map_at_10_diff1
-      value: 37.055079813792894
+      value: 42.794154300371254
     - type: nauc_map_at_10_max
-      value: 29.115677528784456
+      value: 34.21031260645627
     - type: nauc_map_at_10_std
-      value: 0.47079061336618017
+      value: 1.529499265583685
     - type: nauc_map_at_1_diff1
-      value: 43.59374607558271
+      value: 50.618976883020984
     - type: nauc_map_at_1_max
-      value: 27.502697897665936
+      value: 33.44366905061848
     - type: nauc_map_at_1_std
-      value: -0.7674781552217746
+      value: -0.2561553942461052
     - type: nauc_map_at_20_diff1
-      value: 37.08280714662923
+      value: 42.41518581158486
     - type: nauc_map_at_20_max
-      value: 29.214420781305805
+      value: 34.289849695696326
     - type: nauc_map_at_20_std
-      value: 0.7207141923408105
+      value: 1.8427804797569582
     - type: nauc_map_at_3_diff1
-      value: 38.12508979586986
+      value: 44.10575895830247
     - type: nauc_map_at_3_max
-      value: 28.64334196655506
+      value: 34.496483048848724
     - type: nauc_map_at_3_std
-      value: -0.3639494958439447
+      value: 0.8619761795903047
     - type: nauc_map_at_5_diff1
-      value: 37.391645974882024
+      value: 43.05223688723017
     - type: nauc_map_at_5_max
-      value: 28.973156260444533
+      value: 34.275490257564755
     - type: nauc_map_at_5_std
-      value: -0.026789953157566142
+      value: 1.3357491095068115
     - type: nauc_mrr_at_1000_diff1
-      value: 37.08768410345192
+      value: 42.272024628061544
     - type: nauc_mrr_at_1000_max
-      value: 30.226139008765173
+      value: 35.702218886367085
     - type: nauc_mrr_at_1000_std
-      value: 0.9258173149071044
+      value: 1.7919072868566186
     - type: nauc_mrr_at_100_diff1
-      value: 37.06958335624731
+      value: 42.2596894211699
     - type: nauc_mrr_at_100_max
-      value: 30.229943564905703
+      value: 35.69994903774682
     - type: nauc_mrr_at_100_std
-      value: 0.932361149242787
+      value: 1.7975713541531313
     - type: nauc_mrr_at_10_diff1
-      value: 37.0206077048578
+      value: 42.448163550272184
     - type: nauc_mrr_at_10_max
-      value: 30.158443599717195
+      value: 35.70237351804026
     - type: nauc_mrr_at_10_std
-      value: 0.5492249230345497
+      value: 1.4122330103505247
     - type: nauc_mrr_at_1_diff1
-      value: 42.978918552672035
+      value: 49.485098062394485
     - type: nauc_mrr_at_1_max
-      value: 29.114319394090987
+      value: 35.74934353822275
     - type: nauc_mrr_at_1_std
-      value: -0.7624439199673105
+      value: -0.6837069933233858
     - type: nauc_mrr_at_20_diff1
-      value: 37.057384418223485
+      value: 42.24078922524194
     - type: nauc_mrr_at_20_max
-      value: 30.171076020906597
+      value: 35.67506965997057
     - type: nauc_mrr_at_20_std
-      value: 0.7891456760838766
+      value: 1.6826209417239275
     - type: nauc_mrr_at_3_diff1
-      value: 37.78963260621373
+      value: 43.40494299428709
     - type: nauc_mrr_at_3_max
-      value: 30.057936692440613
+      value: 36.20963468809214
     - type: nauc_mrr_at_3_std
-      value: -0.2723394617050784
+      value: 0.7755723577443603
     - type: nauc_mrr_at_5_diff1
-      value: 37.428672595130074
+      value: 42.710330788610676
     - type: nauc_mrr_at_5_max
-      value: 30.21732196933017
+      value: 35.864570505319406
     - type: nauc_mrr_at_5_std
-      value: 0.046615676950734625
+      value: 1.203946392444734
     - type: nauc_ndcg_at_1000_diff1
-      value: 34.910684324371516
+      value: 39.25825010007144
     - type: nauc_ndcg_at_1000_max
-      value: 30.43187052799894
+      value: 34.89017754877883
     - type: nauc_ndcg_at_1000_std
-      value: 3.7886613934368976
+      value: 5.055264214158204
     - type: nauc_ndcg_at_100_diff1
-      value: 34.435496295156035
+      value: 38.853039089202404
     - type: nauc_ndcg_at_100_max
-      value: 30.3229405609203
+      value: 34.60799256623427
     - type: nauc_ndcg_at_100_std
-      value: 3.837221374981068
+      value: 5.09207024590202
     - type: nauc_ndcg_at_10_diff1
-      value: 34.84989431829001
+      value: 40.10143662798981
     - type: nauc_ndcg_at_10_max
-      value: 29.56612074818309
+      value: 34.19377736655788
     - type: nauc_ndcg_at_10_std
-      value: 1.3497668647221701
+      value: 2.43022975944463
     - type: nauc_ndcg_at_1_diff1
-      value: 42.978918552672035
+      value: 49.485098062394485
     - type: nauc_ndcg_at_1_max
-      value: 29.114319394090987
+      value: 35.74934353822275
     - type: nauc_ndcg_at_1_std
-      value: -0.7624439199673105
+      value: -0.6837069933233858
     - type: nauc_ndcg_at_20_diff1
-      value: 34.85666256341009
+      value: 39.080326954381775
     - type: nauc_ndcg_at_20_max
-      value: 29.749817141122936
+      value: 34.3351142863056
     - type: nauc_ndcg_at_20_std
-      value: 2.2719371477731314
+      value: 3.521683030178308
     - type: nauc_ndcg_at_3_diff1
-      value: 36.47550623795379
+      value: 42.11543283456072
     - type: nauc_ndcg_at_3_max
-      value: 29.18024982921919
+      value: 35.192239360740004
     - type: nauc_ndcg_at_3_std
-      value: -0.5158571946638861
+      value: 1.0692497979314295
     - type: nauc_ndcg_at_5_diff1
-      value: 35.66325406382566
+      value: 40.71206429908097
     - type: nauc_ndcg_at_5_max
-      value: 29.52486267505514
+      value: 34.5730228994852
     - type: nauc_ndcg_at_5_std
-      value: 0.1446834436782509
+      value: 1.9772979663263806
     - type: nauc_precision_at_1000_diff1
-      value: 5.179309010526755
+      value: 3.5354535617208387
     - type: nauc_precision_at_1000_max
-      value: 9.078351835753596
+      value: 16.581113567699536
     - type: nauc_precision_at_1000_std
-      value: 1.0888951899790398
+      value: 3.482270045420498
     - type: nauc_precision_at_100_diff1
-      value: 11.746442333432986
+      value: 9.572723289429502
     - type: nauc_precision_at_100_max
-      value: 18.328100169309472
+      value: 23.17116722759213
     - type: nauc_precision_at_100_std
-      value: 6.488315017239334
+      value: 8.860449930114486
     - type: nauc_precision_at_10_diff1
-      value: 21.225993531448843
+      value: 23.648840455312765
     - type: nauc_precision_at_10_max
-      value: 26.786229561182516
+      value: 30.278265843942837
     - type: nauc_precision_at_10_std
-      value: 3.1118485436954697
+      value: 4.259105398374112
     - type: nauc_precision_at_1_diff1
-      value: 42.978918552672035
+      value: 49.485098062394485
     - type: nauc_precision_at_1_max
-      value: 29.114319394090987
+      value: 35.74934353822275
     - type: nauc_precision_at_1_std
-      value: -0.7624439199673105
+      value: -0.6837069933233858
     - type: nauc_precision_at_20_diff1
-      value: 18.36569388308726
+      value: 17.48088981374241
     - type: nauc_precision_at_20_max
-      value: 24.567477667257474
+      value: 28.748893195730002
     - type: nauc_precision_at_20_std
-      value: 4.650751092711225
+      value: 6.561803745450412
     - type: nauc_precision_at_3_diff1
-      value: 29.268806480620423
+      value: 33.862032336074236
     - type: nauc_precision_at_3_max
-      value: 29.83598747609324
+      value: 35.79041119640643
     - type: nauc_precision_at_3_std
-      value: -0.4949630951452181
+      value: 1.5937410892962152
     - type: nauc_precision_at_5_diff1
-      value: 25.82678700262483
+      value: 28.495710316153282
     - type: nauc_precision_at_5_max
-      value: 29.633692602172523
+      value: 33.427051980650184
     - type: nauc_precision_at_5_std
-      value: 0.3502444708980338
+      value: 3.072561335447542
     - type: nauc_recall_at_1000_diff1
-      value: 14.762867599197998
+      value: 17.955316782859114
     - type: nauc_recall_at_1000_max
-      value: 33.77703013085514
+      value: 32.70702390514625
     - type: nauc_recall_at_1000_std
-      value: 32.6887608409825
+      value: 30.962165982690966
     - type: nauc_recall_at_100_diff1
-      value: 21.717683611413836
+      value: 24.194564580798453
     - type: nauc_recall_at_100_max
-      value: 30.34761714689701
+      value: 30.848715334135292
     - type: nauc_recall_at_100_std
-      value: 17.14217507105933
+      value: 17.751928934112463
     - type: nauc_recall_at_10_diff1
-      value: 27.011051446233097
+      value: 31.380996533162627
     - type: nauc_recall_at_10_max
-      value: 28.011038995610356
+      value: 30.43006883317946
     - type: nauc_recall_at_10_std
-      value: 3.886680866597647
+      value: 4.737791026720057
     - type: nauc_recall_at_1_diff1
-      value: 43.59374607558271
+      value: 50.618976883020984
     - type: nauc_recall_at_1_max
-      value: 27.502697897665936
+      value: 33.44366905061848
     - type: nauc_recall_at_1_std
-      value: -0.7674781552217746
+      value: -0.2561553942461052
     - type: nauc_recall_at_20_diff1
-      value: 26.40508046848651
+      value: 27.543465285281833
     - type: nauc_recall_at_20_max
-      value: 27.948123862879175
+      value: 30.33419844248669
     - type: nauc_recall_at_20_std
-      value: 7.068531738030853
+      value: 8.32732288800037
     - type: nauc_recall_at_3_diff1
-      value: 31.750498628363722
+      value: 36.87479044768415
     - type: nauc_recall_at_3_max
-      value: 28.059646483159213
+      value: 33.27030983464594
     - type: nauc_recall_at_3_std
-      value: 0.14742455169624066
+      value: 2.5793253070723625
     - type: nauc_recall_at_5_diff1
-      value: 29.76053437646529
+      value: 33.81298144138381
     - type: nauc_recall_at_5_max
-      value: 28.594754498676544
+      value: 32.02226031454496
     - type: nauc_recall_at_5_std
-      value: 1.2832203560417643
+      value: 4.15867733492116
     - type: ndcg_at_1
-      value: 23.674999999999997
+      value: 22.884
     - type: ndcg_at_10
-      value: 32.957
+      value: 31.654
     - type: ndcg_at_100
-      value: 38.584
+      value: 36.909
     - type: ndcg_at_1000
-      value: 41.359
+      value: 39.748
     - type: ndcg_at_20
-      value: 35.093999999999994
+      value: 33.501
     - type: ndcg_at_3
-      value: 28.354000000000003
+      value: 27.511999999999997
     - type: ndcg_at_5
-      value: 30.305
+      value: 29.15
     - type: precision_at_1
-      value: 23.674999999999997
+      value: 22.884
     - type: precision_at_10
-      value: 6.077
+      value: 5.75
     - type: precision_at_100
-      value: 1.043
+      value: 0.991
     - type: precision_at_1000
-      value: 0.146
+      value: 0.14100000000000001
     - type: precision_at_20
-      value: 3.665
+      value: 3.438
     - type: precision_at_3
-      value: 13.443
+      value: 13.019
     - type: precision_at_5
-      value: 9.600999999999999
+      value: 9.195
     - type: recall_at_1
-      value: 19.61
+      value: 18.969
     - type: recall_at_10
-      value: 44.263000000000005
+      value: 42.327999999999996
     - type: recall_at_100
-      value: 69.41199999999999
+      value: 65.948
     - type: recall_at_1000
-      value: 88.994
+      value: 86.188
     - type: recall_at_20
-      value: 52.198
+      value: 49.152
     - type: recall_at_3
-      value: 31.293
+      value: 30.531000000000002
     - type: recall_at_5
-      value: 36.415
+      value: 34.775
     task:
       type: Retrieval
   - dataset:
@@ -2933,287 +2933,287 @@ model-index:
       type: mteb/cqadupstack-unix
     metrics:
     - type: main_score
-      value: 45.958
+      value: 43.3
     - type: map_at_1
-      value: 30.048000000000002
+      value: 28.841
     - type: map_at_10
-      value: 40.239000000000004
+      value: 38.034
     - type: map_at_100
-      value: 41.493
+      value: 39.238
     - type: map_at_1000
-      value: 41.582
+      value: 39.339
     - type: map_at_20
-      value: 40.955000000000005
+      value: 38.747
     - type: map_at_3
-      value: 37.097
+      value: 35.154
     - type: map_at_5
-      value: 38.824
+      value: 36.868
     - type: mrr_at_1
-      value: 35.07462686567165
+      value: 33.48880597014926
     - type: mrr_at_10
-      value: 44.19283789386398
+      value: 41.8903621772092
     - type: mrr_at_100
-      value: 45.08036630404521
+      value: 42.786281409284065
     - type: mrr_at_1000
-      value: 45.12183896199538
+      value: 42.836128521501664
     - type: mrr_at_20
-      value: 44.72186969518418
+      value: 42.44864446695604
     - type: mrr_at_3
-      value: 41.588930348258664
+      value: 39.36567164179104
     - type: mrr_at_5
-      value: 42.91355721393029
+      value: 40.88152985074623
     - type: nauc_map_at_1000_diff1
-      value: 48.76811649208976
+      value: 49.56159269351109
     - type: nauc_map_at_1000_max
-      value: 36.982550067325484
+      value: 43.419336352406
     - type: nauc_map_at_1000_std
-      value: -0.5290701509883527
+      value: 1.2942357797191233
     - type: nauc_map_at_100_diff1
-      value: 48.78866361951362
+      value: 49.558107692839585
     - type: nauc_map_at_100_max
-      value: 36.99605340092298
+      value: 43.4108332375891
     - type: nauc_map_at_100_std
-      value: -0.5018270195287452
+      value: 1.3081266310873843
     - type: nauc_map_at_10_diff1
-      value: 48.928085770942
+      value: 49.80343449350858
     - type: nauc_map_at_10_max
-      value: 36.73594814898575
+      value: 43.15977018476029
     - type: nauc_map_at_10_std
-      value: -0.834228741972828
+      value: 0.8559971247760423
     - type: nauc_map_at_1_diff1
-      value: 54.15059861768532
+      value: 55.931076742985006
     - type: nauc_map_at_1_max
-      value: 36.44764098320589
+      value: 42.992320097398476
     - type: nauc_map_at_1_std
-      value: -5.784565726873563
+      value: -3.8362554822192627
     - type: nauc_map_at_20_diff1
-      value: 48.78043391669103
+      value: 49.632288848046365
     - type: nauc_map_at_20_max
-      value: 36.89270974821098
+      value: 43.3329280720487
     - type: nauc_map_at_20_std
-      value: -0.5945049292688708
+      value: 1.1202828446838298
     - type: nauc_map_at_3_diff1
-      value: 49.79196039319051
+      value: 51.4868308340231
     - type: nauc_map_at_3_max
-      value: 36.09927970784603
+      value: 42.78769120741557
     - type: nauc_map_at_3_std
-      value: -2.0296894202771667
+      value: -0.14398700922347876
     - type: nauc_map_at_5_diff1
-      value: 49.529286793014634
+      value: 50.29013429695699
     - type: nauc_map_at_5_max
-      value: 36.62049971049548
+      value: 42.856929797702506
     - type: nauc_map_at_5_std
-      value: -1.0187508539964767
+      value: 0.4044555857303451
     - type: nauc_mrr_at_1000_diff1
-      value: 47.26105007482722
+      value: 48.59839196969955
     - type: nauc_mrr_at_1000_max
-      value: 37.69068231080959
+      value: 45.13238631682302
     - type: nauc_mrr_at_1000_std
-      value: -0.6510844517264812
+      value: 1.7892755871367219
     - type: nauc_mrr_at_100_diff1
-      value: 47.25846776943622
+      value: 48.57126728231675
     - type: nauc_mrr_at_100_max
-      value: 37.67838976933151
+      value: 45.11947312378173
     - type: nauc_mrr_at_100_std
-      value: -0.6433335236107469
+      value: 1.8039540672282843
     - type: nauc_mrr_at_10_diff1
-      value: 47.18519224298452
+      value: 48.47209224236492
     - type: nauc_mrr_at_10_max
-      value: 37.62431544151827
+      value: 44.99787083543906
     - type: nauc_mrr_at_10_std
-      value: -0.8474316078853749
+      value: 1.4846086161409817
     - type: nauc_mrr_at_1_diff1
-      value: 51.77981410020824
+      value: 53.56968475977211
     - type: nauc_mrr_at_1_max
-      value: 38.02059405009231
+      value: 45.803534193599546
     - type: nauc_mrr_at_1_std
-      value: -5.783426776910806
+      value: -2.2181858062254145
     - type: nauc_mrr_at_20_diff1
-      value: 47.14864249544432
+      value: 48.57206460549483
     - type: nauc_mrr_at_20_max
-      value: 37.601607893461406
+      value: 45.07493477039947
     - type: nauc_mrr_at_20_std
-      value: -0.6859574897303896
+      value: 1.693563490147581
     - type: nauc_mrr_at_3_diff1
-      value: 47.58252175947335
+      value: 49.740096383562076
     - type: nauc_mrr_at_3_max
-      value: 37.6324837651506
+      value: 45.42335868582593
     - type: nauc_mrr_at_3_std
-      value: -1.2482167973735598
+      value: 0.9005835368626827
     - type: nauc_mrr_at_5_diff1
-      value: 47.448011129354974
+      value: 48.77683841696394
     - type: nauc_mrr_at_5_max
-      value: 37.7148441309698
+      value: 45.041633084239955
     - type: nauc_mrr_at_5_std
-      value: -0.7119792397225159
+      value: 1.2903653442881702
     - type: nauc_ndcg_at_1000_diff1
-      value: 46.6329460576133
+      value: 46.73746959577089
     - type: nauc_ndcg_at_1000_max
-      value: 37.51805344108184
+      value: 44.258247648662795
     - type: nauc_ndcg_at_1000_std
-      value: 1.8100059353579894
+      value: 4.154272793605619
     - type: nauc_ndcg_at_100_diff1
-      value: 46.66586884984403
+      value: 46.649174419902515
     - type: nauc_ndcg_at_100_max
-      value: 37.64300440363974
+      value: 44.251685454090754
     - type: nauc_ndcg_at_100_std
-      value: 2.500233245881423
+      value: 4.857119852669744
     - type: nauc_ndcg_at_10_diff1
-      value: 46.615015396347644
+      value: 47.15858525124804
     - type: nauc_ndcg_at_10_max
-      value: 36.78201798029491
+      value: 43.3858676772148
     - type: nauc_ndcg_at_10_std
-      value: 1.0809742189657263
+      value: 2.700265540191218
     - type: nauc_ndcg_at_1_diff1
-      value: 51.77981410020824
+      value: 53.56968475977211
     - type: nauc_ndcg_at_1_max
-      value: 38.02059405009231
+      value: 45.803534193599546
     - type: nauc_ndcg_at_1_std
-      value: -5.783426776910806
+      value: -2.2181858062254145
     - type: nauc_ndcg_at_20_diff1
-      value: 46.282072099888325
+      value: 46.864934030796114
     - type: nauc_ndcg_at_20_max
-      value: 37.003478966138836
+      value: 43.682943174485914
     - type: nauc_ndcg_at_20_std
-      value: 1.9291637916464186
+      value: 3.641120998700425
     - type: nauc_ndcg_at_3_diff1
-      value: 47.539278944889126
+      value: 49.597275186605124
     - type: nauc_ndcg_at_3_max
-      value: 36.43508238199665
+      value: 43.64798244009618
     - type: nauc_ndcg_at_3_std
-      value: -0.6027788390857911
+      value: 1.256767705733725
     - type: nauc_ndcg_at_5_diff1
-      value: 47.55837749401022
+      value: 48.06101229681208
     - type: nauc_ndcg_at_5_max
-      value: 36.78249382035288
+      value: 43.0336705102281
     - type: nauc_ndcg_at_5_std
-      value: 0.8497645104808546
+      value: 1.891806190702824
     - type: nauc_precision_at_1000_diff1
-      value: -20.71803333315221
+      value: -22.271945917482924
     - type: nauc_precision_at_1000_max
-      value: -4.38547466190951
+      value: -1.3615705776103613
     - type: nauc_precision_at_1000_std
-      value: -0.0853978825586052
+      value: 2.6492562797064156
     - type: nauc_precision_at_100_diff1
-      value: -8.67085404598523
+      value: -7.230420637284722
     - type: nauc_precision_at_100_max
-      value: 9.733682801445893
+      value: 15.631818700346638
     - type: nauc_precision_at_100_std
-      value: 7.507170439875122
+      value: 12.05797323666178
     - type: nauc_precision_at_10_diff1
-      value: 14.495060576585853
+      value: 18.03973109968359
     - type: nauc_precision_at_10_max
-      value: 24.4514279841787
+      value: 33.64979451444693
     - type: nauc_precision_at_10_std
-      value: 5.59489027531012
+      value: 8.22230274561303
     - type: nauc_precision_at_1_diff1
-      value: 51.77981410020824
+      value: 53.56968475977211
     - type: nauc_precision_at_1_max
-      value: 38.02059405009231
+      value: 45.803534193599546
     - type: nauc_precision_at_1_std
-      value: -5.783426776910806
+      value: -2.2181858062254145
     - type: nauc_precision_at_20_diff1
-      value: 6.509848499042286
+      value: 8.575420211614727
     - type: nauc_precision_at_20_max
-      value: 20.348715961396525
+      value: 27.241489377360057
     - type: nauc_precision_at_20_std
-      value: 8.193012313602315
+      value: 11.040868656896368
     - type: nauc_precision_at_3_diff1
-      value: 32.384501021918794
+      value: 35.872211735265445
     - type: nauc_precision_at_3_max
-      value: 31.935466435393828
+      value: 40.39546303556062
     - type: nauc_precision_at_3_std
-      value: 3.0560771209934994
+      value: 5.340493961821114
     - type: nauc_precision_at_5_diff1
-      value: 25.702459594777277
+      value: 27.482651262158498
     - type: nauc_precision_at_5_max
-      value: 30.014370132120067
+      value: 37.179977084686065
     - type: nauc_precision_at_5_std
-      value: 6.4512965213006925
+      value: 6.445383767427032
     - type: nauc_recall_at_1000_diff1
-      value: 36.20840483033314
+      value: 22.90674388340293
     - type: nauc_recall_at_1000_max
-      value: 45.47785143996727
+      value: 48.618421794734665
     - type: nauc_recall_at_1000_std
-      value: 37.14510941691126
+      value: 37.066202126053085
     - type: nauc_recall_at_100_diff1
-      value: 39.11101186057974
+      value: 33.80092096185138
     - type: nauc_recall_at_100_max
-      value: 38.066390280827925
+      value: 43.86182876134091
     - type: nauc_recall_at_100_std
-      value: 21.470218305879797
+      value: 24.419734546074615
     - type: nauc_recall_at_10_diff1
-      value: 39.70476039879197
+      value: 38.91156254301526
     - type: nauc_recall_at_10_max
-      value: 33.75721430862531
+      value: 39.96637702386504
     - type: nauc_recall_at_10_std
-      value: 6.8486633835335295
+      value: 7.619397668800581
     - type: nauc_recall_at_1_diff1
-      value: 54.15059861768532
+      value: 55.931076742985006
     - type: nauc_recall_at_1_max
-      value: 36.44764098320589
+      value: 42.992320097398476
     - type: nauc_recall_at_1_std
-      value: -5.784565726873563
+      value: -3.8362554822192627
     - type: nauc_recall_at_20_diff1
-      value: 37.86978682409901
+      value: 37.23708873841602
     - type: nauc_recall_at_20_max
-      value: 33.96219184798075
+      value: 40.39366037786138
     - type: nauc_recall_at_20_std
-      value: 11.029348617729221
+      value: 11.486382734050729
     - type: nauc_recall_at_3_diff1
-      value: 43.72514359112328
+      value: 46.55627480537957
     - type: nauc_recall_at_3_max
-      value: 33.77645792572399
+      value: 41.00557157142305
     - type: nauc_recall_at_3_std
-      value: 2.428536024679842
+      value: 3.5249163267069754
     - type: nauc_recall_at_5_diff1
-      value: 43.06859065126547
+      value: 42.18876270817466
     - type: nauc_recall_at_5_max
-      value: 34.665515195886755
+      value: 39.83406182096331
     - type: nauc_recall_at_5_std
-      value: 5.905094189769508
+      value: 5.414038646991049
     - type: ndcg_at_1
-      value: 35.075
+      value: 33.489000000000004
     - type: ndcg_at_10
-      value: 45.958
+      value: 43.3
     - type: ndcg_at_100
-      value: 51.353
+      value: 48.585
     - type: ndcg_at_1000
-      value: 53.173
+      value: 50.698
     - type: ndcg_at_20
-      value: 48.191
+      value: 45.562000000000005
     - type: ndcg_at_3
-      value: 40.473
+      value: 38.175
     - type: ndcg_at_5
-      value: 42.902
+      value: 40.760999999999996
     - type: precision_at_1
-      value: 35.075
+      value: 33.489000000000004
     - type: precision_at_10
-      value: 7.836
+      value: 7.1739999999999995
     - type: precision_at_100
-      value: 1.176
+      value: 1.105
     - type: precision_at_1000
-      value: 0.14300000000000002
+      value: 0.13899999999999998
     - type: precision_at_20
-      value: 4.529
+      value: 4.234999999999999
     - type: precision_at_3
-      value: 18.315
+      value: 17.04
     - type: precision_at_5
-      value: 12.854
+      value: 12.052
     - type: recall_at_1
-      value: 30.048000000000002
+      value: 28.841
     - type: recall_at_10
-      value: 59.248
+      value: 55.347
     - type: recall_at_100
-      value: 82.111
+      value: 77.838
     - type: recall_at_1000
-      value: 94.592
+      value: 92.414
     - type: recall_at_20
-      value: 67.227
+      value: 63.343
     - type: recall_at_3
-      value: 44.471
+      value: 41.660000000000004
     - type: recall_at_5
-      value: 50.512
+      value: 48.041
     task:
       type: Retrieval
   - dataset:
@@ -3224,287 +3224,287 @@ model-index:
       type: mteb/cqadupstack-webmasters
     metrics:
     - type: main_score
-      value: 43.951
+      value: 42.387
     - type: map_at_1
-      value: 27.964
+      value: 27.453
     - type: map_at_10
-      value: 37.692
+      value: 36.381
     - type: map_at_100
-      value: 39.365
+      value: 37.973
     - type: map_at_1000
-      value: 39.594
+      value: 38.195
     - type: map_at_20
-      value: 38.576
+      value: 37.212
     - type: map_at_3
-      value: 34.388999999999996
+      value: 33.021
     - type: map_at_5
-      value: 36.081
+      value: 34.921
     - type: mrr_at_1
-      value: 33.00395256916996
+      value: 32.608695652173914
     - type: mrr_at_10
-      value: 42.18434343434343
+      value: 40.989867620302384
     - type: mrr_at_100
-      value: 43.16939140168712
+      value: 41.94072291491216
     - type: mrr_at_1000
-      value: 43.21751142486867
+      value: 41.98613401421269
     - type: mrr_at_20
-      value: 42.75017657291823
+      value: 41.55934364742902
     - type: mrr_at_3
-      value: 39.42687747035574
+      value: 38.274044795783944
     - type: mrr_at_5
-      value: 41.037549407114625
+      value: 39.736495388669304
     - type: nauc_map_at_1000_diff1
-      value: 45.415876956978444
+      value: 52.068635517217146
     - type: nauc_map_at_1000_max
-      value: 32.59464568060356
+      value: 34.70466717596325
     - type: nauc_map_at_1000_std
-      value: 4.262293486763028
+      value: 8.564252372637736
     - type: nauc_map_at_100_diff1
-      value: 45.313981831518504
+      value: 51.82585568111554
     - type: nauc_map_at_100_max
-      value: 32.68688502742583
+      value: 34.82883414051153
     - type: nauc_map_at_100_std
-      value: 4.039368086319619
+      value: 8.489340935245284
     - type: nauc_map_at_10_diff1
-      value: 45.92372812130138
+      value: 52.20523670068483
     - type: nauc_map_at_10_max
-      value: 32.37880184303658
+      value: 34.47013712034222
     - type: nauc_map_at_10_std
-      value: 2.7481583678385197
+      value: 7.317056278370855
     - type: nauc_map_at_1_diff1
-      value: 52.388363332106294
+      value: 57.26002072948526
     - type: nauc_map_at_1_max
-      value: 32.184315523196425
+      value: 33.992920262304196
     - type: nauc_map_at_1_std
-      value: -2.5295830272351103
+      value: 2.85708312047863
     - type: nauc_map_at_20_diff1
-      value: 45.32570996908948
+      value: 51.91495706831645
     - type: nauc_map_at_20_max
-      value: 32.48108405862084
+      value: 34.70789481651518
     - type: nauc_map_at_20_std
-      value: 3.3087482176392657
+      value: 7.700842499936993
     - type: nauc_map_at_3_diff1
-      value: 46.85896834397904
+      value: 52.87950808047478
     - type: nauc_map_at_3_max
-      value: 32.007995254903484
+      value: 34.24108231259805
     - type: nauc_map_at_3_std
-      value: 0.5938674689810656
+      value: 6.1217951739715915
     - type: nauc_map_at_5_diff1
-      value: 46.04911706905517
+      value: 52.064983140167996
     - type: nauc_map_at_5_max
-      value: 31.503815774957864
+      value: 34.5142202774603
     - type: nauc_map_at_5_std
-      value: 1.696567086029842
+      value: 7.698580879272761
     - type: nauc_mrr_at_1000_diff1
-      value: 44.33835674531675
+      value: 51.37901015568489
     - type: nauc_mrr_at_1000_max
-      value: 31.313824311436395
+      value: 34.93888305124791
     - type: nauc_mrr_at_1000_std
-      value: 5.585471654306175
+      value: 9.396573371198718
     - type: nauc_mrr_at_100_diff1
-      value: 44.315294514270484
+      value: 51.36342086076231
     - type: nauc_mrr_at_100_max
-      value: 31.311504710219847
+      value: 34.92869241502653
     - type: nauc_mrr_at_100_std
-      value: 5.61460359116941
+      value: 9.411034792254869
     - type: nauc_mrr_at_10_diff1
-      value: 44.34727343874123
+      value: 51.50874768578031
     - type: nauc_mrr_at_10_max
-      value: 31.214381968197323
+      value: 34.87929769160853
     - type: nauc_mrr_at_10_std
-      value: 5.358694756592366
+      value: 8.962923737022022
     - type: nauc_mrr_at_1_diff1
-      value: 50.076532500963985
+      value: 56.18053114178021
     - type: nauc_mrr_at_1_max
-      value: 31.893100393844602
+      value: 36.10096515340783
     - type: nauc_mrr_at_1_std
-      value: 1.6345537979715576
+      value: 5.764327995710113
     - type: nauc_mrr_at_20_diff1
-      value: 44.1861019252696
+      value: 51.323303376004425
     - type: nauc_mrr_at_20_max
-      value: 31.18274283874542
+      value: 34.90401963870763
     - type: nauc_mrr_at_20_std
-      value: 5.4141357527576845
+      value: 9.123385008963087
     - type: nauc_mrr_at_3_diff1
-      value: 44.84108608280401
+      value: 51.41750772667899
     - type: nauc_mrr_at_3_max
-      value: 31.260937651084618
+      value: 34.194724327364156
     - type: nauc_mrr_at_3_std
-      value: 4.32099205393322
+      value: 8.47755021610427
     - type: nauc_mrr_at_5_diff1
-      value: 43.957386353594615
+      value: 51.17838125129989
     - type: nauc_mrr_at_5_max
-      value: 30.521363697945542
+      value: 34.83854353084797
     - type: nauc_mrr_at_5_std
-      value: 5.111409983030411
+      value: 9.90813617252476
     - type: nauc_ndcg_at_1000_diff1
-      value: 43.302642169855055
+      value: 50.12742074119453
     - type: nauc_ndcg_at_1000_max
-      value: 33.60452429135082
+      value: 35.55751986886828
     - type: nauc_ndcg_at_1000_std
-      value: 8.11547083584825
+      value: 11.771760137767643
     - type: nauc_ndcg_at_100_diff1
-      value: 42.2303708262867
+      value: 48.788141047586194
     - type: nauc_ndcg_at_100_max
-      value: 33.14409254803362
+      value: 34.86794041942259
     - type: nauc_ndcg_at_100_std
-      value: 8.506478151524918
+      value: 11.961059836221457
     - type: nauc_ndcg_at_10_diff1
-      value: 43.767161847177874
+      value: 50.61505051581248
     - type: nauc_ndcg_at_10_max
-      value: 32.07274047816015
+      value: 34.00830131568619
     - type: nauc_ndcg_at_10_std
-      value: 6.481707365740993
+      value: 9.106607296489782
     - type: nauc_ndcg_at_1_diff1
-      value: 50.076532500963985
+      value: 56.18053114178021
     - type: nauc_ndcg_at_1_max
-      value: 31.893100393844602
+      value: 36.10096515340783
     - type: nauc_ndcg_at_1_std
-      value: 1.6345537979715576
+      value: 5.764327995710113
     - type: nauc_ndcg_at_20_diff1
-      value: 42.48660354871869
+      value: 49.84654455929144
     - type: nauc_ndcg_at_20_max
-      value: 32.14769800363052
+      value: 34.4467716270897
     - type: nauc_ndcg_at_20_std
-      value: 6.916826847813196
+      value: 9.538489315626752
     - type: nauc_ndcg_at_3_diff1
-      value: 44.243795943637885
+      value: 50.63005106573348
     - type: nauc_ndcg_at_3_max
-      value: 31.48406187592552
+      value: 33.85867832031728
     - type: nauc_ndcg_at_3_std
-      value: 3.701214987805142
+      value: 8.17428250068972
     - type: nauc_ndcg_at_5_diff1
-      value: 43.10518503245774
+      value: 49.96013415746643
     - type: nauc_ndcg_at_5_max
-      value: 30.40120224782154
+      value: 34.502255185100054
     - type: nauc_ndcg_at_5_std
-      value: 5.546435005776079
+      value: 10.8726719718032
     - type: nauc_precision_at_1000_diff1
-      value: -3.993607814341118
+      value: 11.538506412200755
     - type: nauc_precision_at_1000_max
-      value: -10.729918180758647
+      value: -10.27094203158407
     - type: nauc_precision_at_1000_std
-      value: 23.024270860729565
+      value: 8.253706747664506
     - type: nauc_precision_at_100_diff1
-      value: -1.6566704673461674
+      value: 10.274499589292818
     - type: nauc_precision_at_100_max
-      value: 1.458081777116833
+      value: 4.4464873223864
     - type: nauc_precision_at_100_std
-      value: 28.18670349958774
+      value: 18.15979211460786
     - type: nauc_precision_at_10_diff1
-      value: 12.792685733612547
+      value: 21.080068548327347
     - type: nauc_precision_at_10_max
-      value: 20.206988909219923
+      value: 20.678194765395684
     - type: nauc_precision_at_10_std
-      value: 22.53427005574754
+      value: 14.969268386190768
     - type: nauc_precision_at_1_diff1
-      value: 50.076532500963985
+      value: 56.18053114178021
     - type: nauc_precision_at_1_max
-      value: 31.893100393844602
+      value: 36.10096515340783
     - type: nauc_precision_at_1_std
-      value: 1.6345537979715576
+      value: 5.764327995710113
     - type: nauc_precision_at_20_diff1
-      value: 3.9538716249460384
+      value: 13.16668502783464
     - type: nauc_precision_at_20_max
-      value: 16.21789405497108
+      value: 16.210494253246534
     - type: nauc_precision_at_20_std
-      value: 24.348575609653487
+      value: 16.170849126443827
     - type: nauc_precision_at_3_diff1
-      value: 27.339649813425037
+      value: 34.634736242337006
     - type: nauc_precision_at_3_max
-      value: 26.223578620825194
+      value: 27.79912762487075
     - type: nauc_precision_at_3_std
-      value: 10.996293038771013
+      value: 11.56645534528478
     - type: nauc_precision_at_5_diff1
-      value: 18.869561918004056
+      value: 26.5364287176931
     - type: nauc_precision_at_5_max
-      value: 20.709270779442967
+      value: 25.792037842955466
     - type: nauc_precision_at_5_std
-      value: 17.384126283115698
+      value: 16.880419851911416
     - type: nauc_recall_at_1000_diff1
-      value: 16.194455177769477
+      value: 28.098675584638883
     - type: nauc_recall_at_1000_max
-      value: 58.66023925715464
+      value: 55.58850042879164
     - type: nauc_recall_at_1000_std
-      value: 58.25233058362688
+      value: 59.45492072811959
     - type: nauc_recall_at_100_diff1
-      value: 21.15194880649059
+      value: 26.37132408196824
     - type: nauc_recall_at_100_max
-      value: 32.44572125606809
+      value: 28.6914597857662
     - type: nauc_recall_at_100_std
-      value: 31.94013583626886
+      value: 30.16956640881801
     - type: nauc_recall_at_10_diff1
-      value: 37.66956774103016
+      value: 43.77304791334009
     - type: nauc_recall_at_10_max
-      value: 30.925800174559832
+      value: 30.424605236232026
     - type: nauc_recall_at_10_std
-      value: 9.299447104776808
+      value: 9.051646627698911
     - type: nauc_recall_at_1_diff1
-      value: 52.388363332106294
+      value: 57.26002072948526
     - type: nauc_recall_at_1_max
-      value: 32.184315523196425
+      value: 33.992920262304196
     - type: nauc_recall_at_1_std
-      value: -2.5295830272351103
+      value: 2.85708312047863
     - type: nauc_recall_at_20_diff1
-      value: 31.552065521976175
+      value: 39.75031838508006
     - type: nauc_recall_at_20_max
-      value: 29.74690417386352
+      value: 31.14158866813173
     - type: nauc_recall_at_20_std
-      value: 14.180880251108768
+      value: 12.041755220788037
     - type: nauc_recall_at_3_diff1
-      value: 40.454215107630645
+      value: 46.232619145437745
     - type: nauc_recall_at_3_max
-      value: 30.042646762149484
+      value: 31.58015164282607
     - type: nauc_recall_at_3_std
-      value: 2.8753957129080447
+      value: 8.728672179092152
     - type: nauc_recall_at_5_diff1
-      value: 36.586530595627345
+      value: 43.337420889005806
     - type: nauc_recall_at_5_max
-      value: 27.14535453599763
+      value: 32.28988058513371
     - type: nauc_recall_at_5_std
-      value: 5.997416531615016
+      value: 13.670606574574675
     - type: ndcg_at_1
-      value: 33.004
+      value: 32.609
     - type: ndcg_at_10
-      value: 43.951
+      value: 42.387
     - type: ndcg_at_100
-      value: 49.741
+      value: 48.192
     - type: ndcg_at_1000
-      value: 51.946000000000005
+      value: 50.480000000000004
     - type: ndcg_at_20
-      value: 46.168
+      value: 44.588
     - type: ndcg_at_3
-      value: 38.550000000000004
+      value: 37.080999999999996
     - type: ndcg_at_5
-      value: 41.014
+      value: 39.641
     - type: precision_at_1
-      value: 33.004
+      value: 32.609
     - type: precision_at_10
-      value: 8.577
+      value: 8.202
     - type: precision_at_100
-      value: 1.617
+      value: 1.5709999999999997
     - type: precision_at_1000
-      value: 0.247
+      value: 0.242
     - type: precision_at_20
-      value: 5.346
+      value: 5.148
     - type: precision_at_3
-      value: 18.05
+      value: 17.26
     - type: precision_at_5
-      value: 13.281
+      value: 12.806000000000001
     - type: recall_at_1
-      value: 27.964
+      value: 27.453
     - type: recall_at_10
-      value: 55.702
+      value: 53.642
     - type: recall_at_100
-      value: 81.69999999999999
+      value: 80.142
     - type: recall_at_1000
-      value: 94.926
+      value: 94.045
     - type: recall_at_20
-      value: 64.142
+      value: 62.138000000000005
     - type: recall_at_3
-      value: 40.793
+      value: 38.896
     - type: recall_at_5
-      value: 47.046
+      value: 45.498
     task:
       type: Retrieval
   - dataset:
@@ -3515,287 +3515,287 @@ model-index:
       type: mteb/cqadupstack-wordpress
     metrics:
     - type: main_score
-      value: 36.787
+      value: 35.278999999999996
     - type: map_at_1
-      value: 23.915
+      value: 22.927
     - type: map_at_10
-      value: 31.735000000000003
+      value: 30.563000000000002
     - type: map_at_100
-      value: 32.806000000000004
+      value: 31.552999999999997
     - type: map_at_1000
-      value: 32.9
+      value: 31.651
     - type: map_at_20
-      value: 32.301
+      value: 31.04
     - type: map_at_3
-      value: 28.436
+      value: 27.962999999999997
     - type: map_at_5
-      value: 30.575999999999997
+      value: 29.389
     - type: mrr_at_1
-      value: 25.87800369685767
+      value: 24.58410351201479
     - type: mrr_at_10
-      value: 33.96487985212568
+      value: 32.5369685767098
     - type: mrr_at_100
-      value: 34.89689439154211
+      value: 33.397775856693876
     - type: mrr_at_1000
-      value: 34.95770776172314
+      value: 33.46464817817391
     - type: mrr_at_20
-      value: 34.46162046071626
+      value: 32.95268685553276
     - type: mrr_at_3
-      value: 31.022797288971038
+      value: 30.16019716574246
     - type: mrr_at_5
-      value: 32.991373998767706
+      value: 31.472581638940238
     - type: nauc_map_at_1000_diff1
-      value: 41.411411226747745
+      value: 47.29695789090712
     - type: nauc_map_at_1000_max
-      value: 25.65879736535548
+      value: 32.28518369534312
     - type: nauc_map_at_1000_std
-      value: -1.0008275040804908
+      value: -2.5126907903497275
     - type: nauc_map_at_100_diff1
-      value: 41.41167985449119
+      value: 47.23959114706962
     - type: nauc_map_at_100_max
-      value: 25.6584285870538
+      value: 32.27344155453334
     - type: nauc_map_at_100_std
-      value: -1.0142856959019102
+      value: -2.5533625745048263
     - type: nauc_map_at_10_diff1
-      value: 41.56309522812082
+      value: 47.37396108245503
     - type: nauc_map_at_10_max
-      value: 25.66930315132308
+      value: 32.126004121683216
     - type: nauc_map_at_10_std
-      value: -1.5502752272271925
+      value: -3.453898841871271
     - type: nauc_map_at_1_diff1
-      value: 49.425905570437116
+      value: 55.682159271913456
     - type: nauc_map_at_1_max
-      value: 23.541197544220545
+      value: 30.66889816568006
     - type: nauc_map_at_1_std
-      value: -4.360019071552991
+      value: -7.004520095092218
     - type: nauc_map_at_20_diff1
-      value: 41.38734082223361
+      value: 47.389725912182136
     - type: nauc_map_at_20_max
-      value: 25.620079428409127
+      value: 32.259511388238174
     - type: nauc_map_at_20_std
-      value: -1.4042978268225208
+      value: -2.8457788997344213
     - type: nauc_map_at_3_diff1
-      value: 43.620208615142644
+      value: 48.98298294521397
     - type: nauc_map_at_3_max
-      value: 25.71853688922115
+      value: 32.53058789285204
     - type: nauc_map_at_3_std
-      value: -1.8769387740803976
+      value: -3.1342896986184097
     - type: nauc_map_at_5_diff1
-      value: 41.97672177355559
+      value: 48.298584104750674
     - type: nauc_map_at_5_max
-      value: 26.035163926212334
+      value: 32.407236632127095
     - type: nauc_map_at_5_std
-      value: -2.11363374949669
+      value: -3.2089294997536495
     - type: nauc_mrr_at_1000_diff1
-      value: 40.49508214793536
+      value: 47.30210193406738
     - type: nauc_mrr_at_1000_max
-      value: 26.620330593078616
+      value: 33.401728880120324
     - type: nauc_mrr_at_1000_std
-      value: -0.3634968622281096
+      value: -1.154137716273939
     - type: nauc_mrr_at_100_diff1
-      value: 40.465539927932895
+      value: 47.23675453288927
     - type: nauc_mrr_at_100_max
-      value: 26.61340099486517
+      value: 33.395265508702124
     - type: nauc_mrr_at_100_std
-      value: -0.35206443295384626
+      value: -1.1709832550651733
     - type: nauc_mrr_at_10_diff1
-      value: 40.573109996611144
+      value: 47.27878223121543
     - type: nauc_mrr_at_10_max
-      value: 26.71149031482008
+      value: 33.340206772572856
     - type: nauc_mrr_at_10_std
-      value: -0.9166267231737095
+      value: -1.763755096880497
     - type: nauc_mrr_at_1_diff1
-      value: 48.29138921797353
+      value: 56.71642453837117
     - type: nauc_mrr_at_1_max
-      value: 24.927185077919813
+      value: 32.57395754414265
     - type: nauc_mrr_at_1_std
-      value: -4.332258870474254
+      value: -6.410603991729164
     - type: nauc_mrr_at_20_diff1
-      value: 40.40723703282917
+      value: 47.29854351132387
     - type: nauc_mrr_at_20_max
-      value: 26.59812216818852
+      value: 33.41217871789473
     - type: nauc_mrr_at_20_std
-      value: -0.6209755736362238
+      value: -1.3457234524473638
     - type: nauc_mrr_at_3_diff1
-      value: 42.1104901364276
+      value: 49.37951376805829
     - type: nauc_mrr_at_3_max
-      value: 27.158847936548643
+      value: 34.2485630104482
     - type: nauc_mrr_at_3_std
-      value: -0.4768337585685568
+      value: -1.3000132041170331
     - type: nauc_mrr_at_5_diff1
-      value: 40.822869162681044
+      value: 48.294954276400354
     - type: nauc_mrr_at_5_max
-      value: 27.137910001879362
+      value: 33.325321505802705
     - type: nauc_mrr_at_5_std
-      value: -0.9466391394053442
+      value: -1.4542576597515255
     - type: nauc_ndcg_at_1000_diff1
-      value: 38.696314753739436
+      value: 43.553592194630035
     - type: nauc_ndcg_at_1000_max
-      value: 26.428473010143723
+      value: 32.57827057061685
     - type: nauc_ndcg_at_1000_std
-      value: 2.3402588363330272
+      value: 1.8408475554303905
     - type: nauc_ndcg_at_100_diff1
-      value: 37.898005515159134
+      value: 42.17840889367743
     - type: nauc_ndcg_at_100_max
-      value: 25.68578401772755
+      value: 31.816803664903016
     - type: nauc_ndcg_at_100_std
-      value: 2.6295479217711453
+      value: 1.2078284672957822
     - type: nauc_ndcg_at_10_diff1
-      value: 38.28392376933128
+      value: 43.31249469655541
     - type: nauc_ndcg_at_10_max
-      value: 25.850126852320628
+      value: 31.680660418442848
     - type: nauc_ndcg_at_10_std
-      value: -0.5560800621942364
+      value: -2.571767770985386
     - type: nauc_ndcg_at_1_diff1
-      value: 48.29138921797353
+      value: 56.71642453837117
     - type: nauc_ndcg_at_1_max
-      value: 24.927185077919813
+      value: 32.57395754414265
     - type: nauc_ndcg_at_1_std
-      value: -4.332258870474254
+      value: -6.410603991729164
     - type: nauc_ndcg_at_20_diff1
-      value: 37.673206490621396
+      value: 43.217307154367866
     - type: nauc_ndcg_at_20_max
-      value: 25.583716405723937
+      value: 31.87062240427328
     - type: nauc_ndcg_at_20_std
-      value: 0.1953323128781521
+      value: -0.5571171459253301
     - type: nauc_ndcg_at_3_diff1
-      value: 41.41453304326318
+      value: 47.08070710904174
     - type: nauc_ndcg_at_3_max
-      value: 26.61748802333722
+      value: 33.28022740280366
     - type: nauc_ndcg_at_3_std
-      value: -0.5476999435389482
+      value: -1.494480342132224
     - type: nauc_ndcg_at_5_diff1
-      value: 38.98483145760039
+      value: 45.58676699653949
     - type: nauc_ndcg_at_5_max
-      value: 26.777342255255647
+      value: 32.332950617032516
     - type: nauc_ndcg_at_5_std
-      value: -1.3051979393226087
+      value: -1.8728327940722693
     - type: nauc_precision_at_1000_diff1
-      value: -14.856110292516775
+      value: -7.538068423020358
     - type: nauc_precision_at_1000_max
-      value: -5.848771877910694
+      value: -1.7482377513247687
     - type: nauc_precision_at_1000_std
-      value: 15.34411836334217
+      value: 15.392390427048127
     - type: nauc_precision_at_100_diff1
-      value: 3.4939759054218333
+      value: 4.578967237145689
     - type: nauc_precision_at_100_max
-      value: 16.356980505161676
+      value: 20.413498463420208
     - type: nauc_precision_at_100_std
-      value: 24.608528146713404
+      value: 21.948374431632555
     - type: nauc_precision_at_10_diff1
-      value: 18.407011878399366
+      value: 25.369687526079133
     - type: nauc_precision_at_10_max
-      value: 24.800531781431303
+      value: 29.026062761609634
     - type: nauc_precision_at_10_std
-      value: 8.698077886826768
+      value: 2.98198964045951
     - type: nauc_precision_at_1_diff1
-      value: 48.29138921797353
+      value: 56.71642453837117
     - type: nauc_precision_at_1_max
-      value: 24.927185077919813
+      value: 32.57395754414265
     - type: nauc_precision_at_1_std
-      value: -4.332258870474254
+      value: -6.410603991729164
     - type: nauc_precision_at_20_diff1
-      value: 14.541755251519852
+      value: 22.283416541821058
     - type: nauc_precision_at_20_max
-      value: 21.97457692156994
+      value: 27.425436939803216
     - type: nauc_precision_at_20_std
-      value: 11.578274506336108
+      value: 12.5008954948979
     - type: nauc_precision_at_3_diff1
-      value: 33.23900172092169
+      value: 39.582854814224284
     - type: nauc_precision_at_3_max
-      value: 28.967167315040072
+      value: 34.65501605346027
     - type: nauc_precision_at_3_std
-      value: 3.6476384007647136
+      value: 3.1189467500344685
     - type: nauc_precision_at_5_diff1
-      value: 24.289869074161572
+      value: 34.87308543367999
     - type: nauc_precision_at_5_max
-      value: 30.194681915534748
+      value: 32.3395405130254
     - type: nauc_precision_at_5_std
-      value: 4.054952118325518
+      value: 2.2174849755453696
     - type: nauc_recall_at_1000_diff1
-      value: 29.11829826259677
+      value: 18.961781191263412
     - type: nauc_recall_at_1000_max
-      value: 39.25426036108557
+      value: 38.56189893918596
     - type: nauc_recall_at_1000_std
-      value: 36.3591900236558
+      value: 48.070723669295404
     - type: nauc_recall_at_100_diff1
-      value: 22.900753883773152
+      value: 18.499768281597692
     - type: nauc_recall_at_100_max
-      value: 20.40038512546472
+      value: 24.556122444473104
     - type: nauc_recall_at_100_std
-      value: 20.736883688677032
+      value: 16.90279820495104
     - type: nauc_recall_at_10_diff1
-      value: 29.183788265901534
+      value: 30.85581046640506
     - type: nauc_recall_at_10_max
-      value: 24.025061243297948
+      value: 27.861667996688798
     - type: nauc_recall_at_10_std
-      value: 0.8086675135479778
+      value: -2.508305700409507
     - type: nauc_recall_at_1_diff1
-      value: 49.425905570437116
+      value: 55.682159271913456
     - type: nauc_recall_at_1_max
-      value: 23.541197544220545
+      value: 30.66889816568006
     - type: nauc_recall_at_1_std
-      value: -4.360019071552991
+      value: -7.004520095092218
     - type: nauc_recall_at_20_diff1
-      value: 26.21751562892008
+      value: 29.576541753550256
     - type: nauc_recall_at_20_max
-      value: 22.78118083757151
+      value: 27.753263778078967
     - type: nauc_recall_at_20_std
-      value: 3.6627753391462825
+      value: 4.512246059861677
     - type: nauc_recall_at_3_diff1
-      value: 37.20946031817167
+      value: 41.31393053559837
     - type: nauc_recall_at_3_max
-      value: 27.059274716311005
+      value: 32.61483699324787
     - type: nauc_recall_at_3_std
-      value: 0.8325033099157856
+      value: 0.4749359651904873
     - type: nauc_recall_at_5_diff1
-      value: 31.269097954181547
+      value: 37.709930638516084
     - type: nauc_recall_at_5_max
-      value: 26.853918763485463
+      value: 30.562381066906735
     - type: nauc_recall_at_5_std
-      value: -0.9226280392689135
+      value: 0.12942001695231264
     - type: ndcg_at_1
-      value: 25.878
+      value: 24.584
     - type: ndcg_at_10
-      value: 36.787
+      value: 35.278999999999996
     - type: ndcg_at_100
-      value: 42.085
+      value: 40.346
     - type: ndcg_at_1000
-      value: 44.303
+      value: 42.763
     - type: ndcg_at_20
-      value: 38.690000000000005
+      value: 36.827
     - type: ndcg_at_3
-      value: 30.657
+      value: 30.175
     - type: ndcg_at_5
-      value: 34.242
+      value: 32.592999999999996
     - type: precision_at_1
-      value: 25.878
+      value: 24.584
     - type: precision_at_10
-      value: 5.86
+      value: 5.545
     - type: precision_at_100
-      value: 0.9209999999999999
+      value: 0.876
     - type: precision_at_1000
-      value: 0.123
+      value: 0.11900000000000001
     - type: precision_at_20
-      value: 3.392
+      value: 3.152
     - type: precision_at_3
-      value: 12.815999999999999
+      value: 12.692999999999998
     - type: precision_at_5
-      value: 9.76
+      value: 9.131
     - type: recall_at_1
-      value: 23.915
+      value: 22.927
     - type: recall_at_10
-      value: 50.196
+      value: 47.887
     - type: recall_at_100
-      value: 74.66199999999999
+      value: 71.622
     - type: recall_at_1000
-      value: 90.949
+      value: 89.562
     - type: recall_at_20
-      value: 57.404999999999994
+      value: 53.55799999999999
     - type: recall_at_3
-      value: 34.156
+      value: 34.122
     - type: recall_at_5
-      value: 42.671
+      value: 39.911
     task:
       type: Retrieval
   - dataset:
@@ -3806,287 +3806,287 @@ model-index:
       type: mteb/climate-fever
     metrics:
     - type: main_score
-      value: 37.835
+      value: 34.403
     - type: map_at_1
-      value: 16.408
+      value: 14.979999999999999
     - type: map_at_10
-      value: 28.102
+      value: 25.247000000000003
     - type: map_at_100
-      value: 30.245
+      value: 27.359
     - type: map_at_1000
-      value: 30.44
+      value: 27.541
     - type: map_at_20
-      value: 29.325000000000003
+      value: 26.451
     - type: map_at_3
-      value: 23.49
+      value: 21.351
     - type: map_at_5
-      value: 26.075
+      value: 23.418
     - type: mrr_at_1
-      value: 36.48208469055375
+      value: 33.48534201954397
     - type: mrr_at_10
-      value: 49.35310997363119
+      value: 45.994519414714894
     - type: mrr_at_100
-      value: 50.12144284733654
+      value: 46.83876242563609
     - type: mrr_at_1000
-      value: 50.14901403511052
+      value: 46.86734584208047
     - type: mrr_at_20
-      value: 49.86902911912245
+      value: 46.554675709164414
     - type: mrr_at_3
-      value: 46.3952225841477
+      value: 43.13789359391967
     - type: mrr_at_5
-      value: 48.16720955483177
+      value: 44.958740499457164
     - type: nauc_map_at_1000_diff1
-      value: 25.310850675849366
+      value: 24.542868591864057
     - type: nauc_map_at_1000_max
-      value: 37.09503121120242
+      value: 35.17062530519406
     - type: nauc_map_at_1000_std
-      value: 20.554977994819744
+      value: 17.59095330905714
     - type: nauc_map_at_100_diff1
-      value: 25.299966872724244
+      value: 24.54188790277331
     - type: nauc_map_at_100_max
-      value: 37.07757844963315
+      value: 35.14563117030601
     - type: nauc_map_at_100_std
-      value: 20.51941286942183
+      value: 17.53061487401564
     - type: nauc_map_at_10_diff1
-      value: 24.97097616375397
+      value: 24.307528834481303
     - type: nauc_map_at_10_max
-      value: 36.21802106435102
+      value: 34.19666824907002
     - type: nauc_map_at_10_std
-      value: 19.04179638942543
+      value: 15.809045770659601
     - type: nauc_map_at_1_diff1
-      value: 31.079857565386533
+      value: 31.137087129986767
     - type: nauc_map_at_1_max
-      value: 31.982413172438463
+      value: 30.743143219710895
     - type: nauc_map_at_1_std
-      value: 10.837120383351104
+      value: 9.269238234693052
     - type: nauc_map_at_20_diff1
-      value: 25.274561705603706
+      value: 24.37307987537168
     - type: nauc_map_at_20_max
-      value: 36.846696717838334
+      value: 34.816188656881444
     - type: nauc_map_at_20_std
-      value: 20.073241003865924
+      value: 16.96006173956885
     - type: nauc_map_at_3_diff1
-      value: 26.01764061167898
+      value: 24.40373599590744
     - type: nauc_map_at_3_max
-      value: 33.20138049456973
+      value: 31.428402086020434
     - type: nauc_map_at_3_std
-      value: 14.230139192374121
+      value: 11.510843615987866
     - type: nauc_map_at_5_diff1
-      value: 25.09123372044605
+      value: 24.445835117925792
     - type: nauc_map_at_5_max
-      value: 34.89124594920631
+      value: 33.2187974026072
     - type: nauc_map_at_5_std
-      value: 16.70319126587545
+      value: 14.407916582300887
     - type: nauc_mrr_at_1000_diff1
-      value: 26.375252226612467
+      value: 25.586480699800468
     - type: nauc_mrr_at_1000_max
-      value: 35.477327849397575
+      value: 32.91547098008033
     - type: nauc_mrr_at_1000_std
-      value: 21.16791565302958
+      value: 18.98828976122537
     - type: nauc_mrr_at_100_diff1
-      value: 26.377160750801053
+      value: 25.58686333508224
     - type: nauc_mrr_at_100_max
-      value: 35.49211341503135
+      value: 32.921529030276446
     - type: nauc_mrr_at_100_std
-      value: 21.19391590137402
+      value: 19.0030031564948
     - type: nauc_mrr_at_10_diff1
-      value: 26.311212981822052
+      value: 25.628991155936333
     - type: nauc_mrr_at_10_max
-      value: 35.588662356341594
+      value: 32.985081917104935
     - type: nauc_mrr_at_10_std
-      value: 21.24369092394658
+      value: 18.83885513960198
     - type: nauc_mrr_at_1_diff1
-      value: 27.198678190552865
+      value: 28.93673684578716
     - type: nauc_mrr_at_1_max
-      value: 31.017785831517703
+      value: 28.64745715409404
     - type: nauc_mrr_at_1_std
-      value: 16.42737819423067
+      value: 13.863643876558179
     - type: nauc_mrr_at_20_diff1
-      value: 26.32032615102818
+      value: 25.49368963472655
     - type: nauc_mrr_at_20_max
-      value: 35.57367760733253
+      value: 32.99074141657497
     - type: nauc_mrr_at_20_std
-      value: 21.29294301389274
+      value: 19.118893763525108
     - type: nauc_mrr_at_3_diff1
-      value: 26.092036806660612
+      value: 24.74979519660734
     - type: nauc_mrr_at_3_max
-      value: 34.31665231049064
+      value: 31.18346592120374
     - type: nauc_mrr_at_3_std
-      value: 19.6674385140531
+      value: 17.293916415010717
     - type: nauc_mrr_at_5_diff1
-      value: 26.151603897636
+      value: 25.28131818602093
     - type: nauc_mrr_at_5_max
-      value: 35.17650680885225
+      value: 32.8017964540695
     - type: nauc_mrr_at_5_std
-      value: 20.573080891241787
+      value: 18.555047862215567
     - type: nauc_ndcg_at_1000_diff1
-      value: 25.65498442794641
+      value: 24.01037436102054
     - type: nauc_ndcg_at_1000_max
-      value: 40.084443405536575
+      value: 38.29644657817331
     - type: nauc_ndcg_at_1000_std
-      value: 26.795793663747304
+      value: 24.638778854093943
     - type: nauc_ndcg_at_100_diff1
-      value: 25.237187946595334
+      value: 23.882486615814315
     - type: nauc_ndcg_at_100_max
-      value: 40.07873047722652
+      value: 37.92277276436577
     - type: nauc_ndcg_at_100_std
-      value: 26.7859861991128
+      value: 24.169078377315063
     - type: nauc_ndcg_at_10_diff1
-      value: 24.236337614114206
+      value: 23.3573409673849
     - type: nauc_ndcg_at_10_max
-      value: 38.22607740025273
+      value: 35.72106349972407
     - type: nauc_ndcg_at_10_std
-      value: 23.272039117089907
+      value: 19.650154262568567
     - type: nauc_ndcg_at_1_diff1
-      value: 27.198678190552865
+      value: 28.93673684578716
     - type: nauc_ndcg_at_1_max
-      value: 31.017785831517703
+      value: 28.64745715409404
     - type: nauc_ndcg_at_1_std
-      value: 16.42737819423067
+      value: 13.863643876558179
     - type: nauc_ndcg_at_20_diff1
-      value: 24.724738711624312
+      value: 23.266046860547384
     - type: nauc_ndcg_at_20_max
-      value: 39.24548121605356
+      value: 36.81425896021297
     - type: nauc_ndcg_at_20_std
-      value: 25.228893154519525
+      value: 22.081396808708813
     - type: nauc_ndcg_at_3_diff1
-      value: 24.658317235435362
+      value: 22.637164244020997
     - type: nauc_ndcg_at_3_max
-      value: 33.335101247559486
+      value: 31.02842640810694
     - type: nauc_ndcg_at_3_std
-      value: 17.01054703727399
+      value: 14.215242033737482
     - type: nauc_ndcg_at_5_diff1
-      value: 24.31704097148463
+      value: 23.382160877142226
     - type: nauc_ndcg_at_5_max
-      value: 36.14336690565576
+      value: 34.50791441078589
     - type: nauc_ndcg_at_5_std
-      value: 19.69214379372329
+      value: 17.668301876879035
     - type: nauc_precision_at_1000_diff1
-      value: -2.8924045105824114
+      value: -1.0805315448138373
     - type: nauc_precision_at_1000_max
-      value: 5.89979568196701
+      value: 11.905658299097883
     - type: nauc_precision_at_1000_std
-      value: 19.595702020634185
+      value: 24.219725240972696
     - type: nauc_precision_at_100_diff1
-      value: 3.8998389837458203
+      value: 5.443379527828862
     - type: nauc_precision_at_100_max
-      value: 19.95415054849711
+      value: 22.475166562881686
     - type: nauc_precision_at_100_std
-      value: 29.065971451387774
+      value: 30.513578022558836
     - type: nauc_precision_at_10_diff1
-      value: 9.462651146259638
+      value: 10.939925455527892
     - type: nauc_precision_at_10_max
-      value: 29.680510389273447
+      value: 28.262686645352296
     - type: nauc_precision_at_10_std
-      value: 29.345395013388686
+      value: 25.539072940208847
     - type: nauc_precision_at_1_diff1
-      value: 27.198678190552865
+      value: 28.93673684578716
     - type: nauc_precision_at_1_max
-      value: 31.017785831517703
+      value: 28.64745715409404
     - type: nauc_precision_at_1_std
-      value: 16.42737819423067
+      value: 13.863643876558179
     - type: nauc_precision_at_20_diff1
-      value: 8.261243519089712
+      value: 8.77330841908142
     - type: nauc_precision_at_20_max
-      value: 27.929320115110023
+      value: 27.23086563249434
     - type: nauc_precision_at_20_std
-      value: 31.459012229844742
+      value: 28.96826995725968
     - type: nauc_precision_at_3_diff1
-      value: 15.273777636613955
+      value: 14.330928530870892
     - type: nauc_precision_at_3_max
-      value: 28.204944302903996
+      value: 28.36721121797032
     - type: nauc_precision_at_3_std
-      value: 19.80674678483048
+      value: 18.29234384665724
     - type: nauc_precision_at_5_diff1
-      value: 11.487918382134389
+      value: 13.483807784533445
     - type: nauc_precision_at_5_max
-      value: 28.62173130088314
+      value: 30.607108190727843
     - type: nauc_precision_at_5_std
-      value: 23.626716801834526
+      value: 24.649762580353933
     - type: nauc_recall_at_1000_diff1
-      value: 22.332855309918482
+      value: 15.147591049801376
     - type: nauc_recall_at_1000_max
-      value: 46.19202209060043
+      value: 44.69788852785355
     - type: nauc_recall_at_1000_std
-      value: 48.263282583608465
+      value: 45.03338261203177
     - type: nauc_recall_at_100_diff1
-      value: 18.606992875038713
+      value: 16.198695661693638
     - type: nauc_recall_at_100_max
-      value: 39.8050305915271
+      value: 37.94910180965323
     - type: nauc_recall_at_100_std
-      value: 36.24645472497941
+      value: 33.68808458543408
     - type: nauc_recall_at_10_diff1
-      value: 18.232071663795725
+      value: 17.25892260883711
     - type: nauc_recall_at_10_max
-      value: 37.67075857623269
+      value: 34.82455542076449
     - type: nauc_recall_at_10_std
-      value: 26.788012514411548
+      value: 21.559999882903846
     - type: nauc_recall_at_1_diff1
-      value: 31.079857565386533
+      value: 31.137087129986767
     - type: nauc_recall_at_1_max
-      value: 31.982413172438463
+      value: 30.743143219710895
     - type: nauc_recall_at_1_std
-      value: 10.837120383351104
+      value: 9.269238234693052
     - type: nauc_recall_at_20_diff1
-      value: 18.306236535885443
+      value: 15.853627315180349
     - type: nauc_recall_at_20_max
-      value: 38.24540146525127
+      value: 35.4402828692619
     - type: nauc_recall_at_20_std
-      value: 30.329987162287033
+      value: 26.303726125092197
     - type: nauc_recall_at_3_diff1
-      value: 22.00237059430624
+      value: 18.612092821372865
     - type: nauc_recall_at_3_max
-      value: 32.60315366638792
+      value: 30.195467018936846
     - type: nauc_recall_at_3_std
-      value: 15.991207369096077
+      value: 12.653864970927122
     - type: nauc_recall_at_5_diff1
-      value: 19.305335536530087
+      value: 17.968083464057948
     - type: nauc_recall_at_5_max
-      value: 35.001491825528966
+      value: 33.66376192344074
     - type: nauc_recall_at_5_std
-      value: 20.46796749831726
+      value: 18.31679422658197
     - type: ndcg_at_1
-      value: 36.482
+      value: 33.485
     - type: ndcg_at_10
-      value: 37.835
+      value: 34.403
     - type: ndcg_at_100
-      value: 45.332
+      value: 42.016
     - type: ndcg_at_1000
-      value: 48.503
+      value: 45.18
     - type: ndcg_at_20
-      value: 40.991
+      value: 37.611
     - type: ndcg_at_3
-      value: 31.735999999999997
+      value: 29.154999999999998
     - type: ndcg_at_5
-      value: 34.015
+      value: 30.989
     - type: precision_at_1
-      value: 36.482
+      value: 33.485
     - type: precision_at_10
-      value: 11.726
+      value: 10.593
     - type: precision_at_100
-      value: 1.978
+      value: 1.863
     - type: precision_at_1000
-      value: 0.258
+      value: 0.246
     - type: precision_at_20
-      value: 7.234999999999999
+      value: 6.658
     - type: precision_at_3
-      value: 23.822
+      value: 21.823999999999998
     - type: precision_at_5
-      value: 18.319
+      value: 16.482
     - type: recall_at_1
-      value: 16.408
+      value: 14.979999999999999
     - type: recall_at_10
-      value: 43.915
+      value: 39.641
     - type: recall_at_100
-      value: 69.173
+      value: 65.556
     - type: recall_at_1000
-      value: 86.58
+      value: 83.202
     - type: recall_at_20
-      value: 52.744
+      value: 48.701
     - type: recall_at_3
-      value: 28.682999999999996
+      value: 26.448
     - type: recall_at_5
-      value: 35.481
+      value: 32.309
     task:
       type: Retrieval
   - dataset:
@@ -4097,2324 +4097,2324 @@ model-index:
       type: mteb/dbpedia
     metrics:
     - type: main_score
-      value: 55.144000000000005
+      value: 50.646
     - type: map_at_1
-      value: 11.826
+      value: 11.03
     - type: map_at_10
-      value: 27.172
+      value: 23.942
     - type: map_at_100
-      value: 38.257000000000005
+      value: 33.595000000000006
     - type: map_at_1000
-      value: 40.097
+      value: 35.406
     - type: map_at_20
-      value: 32.123000000000005
+      value: 27.947
     - type: map_at_3
-      value: 19.369
+      value: 16.21
     - type: map_at_5
-      value: 22.351
+      value: 19.158
     - type: mrr_at_1
-      value: 80.59701492537313
+      value: 77.61194029850746
     - type: mrr_at_10
-      value: 86.33499170812604
+      value: 83.80597014925374
     - type: mrr_at_100
-      value: 86.45227090143814
+      value: 83.94018280689576
     - type: mrr_at_1000
-      value: 86.45227090143814
+      value: 83.95212310540323
     - type: mrr_at_20
-      value: 86.40961857379767
+      value: 83.90547263681594
     - type: mrr_at_3
-      value: 85.57213930348257
+      value: 82.83582089552239
     - type: mrr_at_5
-      value: 86.16915422885573
+      value: 83.50746268656717
     - type: nauc_map_at_1000_diff1
-      value: 31.072194916682385
+      value: 46.749813822095994
     - type: nauc_map_at_1000_max
-      value: 21.804811518161618
+      value: 13.82268550007058
     - type: nauc_map_at_1000_std
-      value: -2.951237857245905
+      value: -0.41938982386833096
     - type: nauc_map_at_100_diff1
-      value: 32.56060360145279
+      value: 47.693546390121114
     - type: nauc_map_at_100_max
-      value: 21.242298925848857
+      value: 12.65050079951075
     - type: nauc_map_at_100_std
-      value: -6.601591083112349
+      value: -4.780014876773591
     - type: nauc_map_at_10_diff1
-      value: 45.43742246641206
+      value: 61.4710131705618
     - type: nauc_map_at_10_max
-      value: 17.21692770004215
+      value: 3.6540180261579187
     - type: nauc_map_at_10_std
-      value: -26.109238645663996
+      value: -28.94512699926511
     - type: nauc_map_at_1_diff1
-      value: 59.342871771182246
+      value: 78.97150551563644
     - type: nauc_map_at_1_max
-      value: 7.61369981711965
+      value: -6.130504498165464
     - type: nauc_map_at_1_std
-      value: -43.77056595417028
+      value: -40.805677041559186
     - type: nauc_map_at_20_diff1
-      value: 41.28476777471806
+      value: 55.21575059361192
     - type: nauc_map_at_20_max
-      value: 19.146619219149965
+      value: 6.2670759673565595
     - type: nauc_map_at_20_std
-      value: -18.138173228934672
+      value: -20.716907815975507
     - type: nauc_map_at_3_diff1
-      value: 50.01554010863971
+      value: 69.45845841968335
     - type: nauc_map_at_3_max
-      value: 8.780067252066651
+      value: -0.4053208701402535
     - type: nauc_map_at_3_std
-      value: -38.97142391357302
+      value: -38.392413410451695
     - type: nauc_map_at_5_diff1
-      value: 49.10129058095009
+      value: 65.25982068137156
     - type: nauc_map_at_5_max
-      value: 11.656196663534313
+      value: -0.23378047675269126
     - type: nauc_map_at_5_std
-      value: -34.72355570603387
+      value: -36.77011968366825
     - type: nauc_mrr_at_1000_diff1
-      value: 58.78754980587956
+      value: 44.16607496878154
     - type: nauc_mrr_at_1000_max
-      value: 49.8860031204746
+      value: 53.26474383081633
     - type: nauc_mrr_at_1000_std
-      value: 8.296926794472618
+      value: 44.64310496263336
     - type: nauc_mrr_at_100_diff1
-      value: 58.78754980587956
+      value: 44.11702190018642
     - type: nauc_mrr_at_100_max
-      value: 49.8860031204746
+      value: 53.27990989378437
     - type: nauc_mrr_at_100_std
-      value: 8.296926794472618
+      value: 44.66515255627964
     - type: nauc_mrr_at_10_diff1
-      value: 58.91162028285357
+      value: 44.400885532001745
     - type: nauc_mrr_at_10_max
-      value: 50.335451094273985
+      value: 53.6953402346631
     - type: nauc_mrr_at_10_std
-      value: 9.007586894775534
+      value: 44.97435307981567
     - type: nauc_mrr_at_1_diff1
-      value: 57.59201084653059
+      value: 46.27833298543312
     - type: nauc_mrr_at_1_max
-      value: 37.00330988333697
+      value: 42.95527694566197
     - type: nauc_mrr_at_1_std
-      value: -1.747744103132987
+      value: 38.34819072902029
     - type: nauc_mrr_at_20_diff1
-      value: 58.75119254917311
+      value: 44.21597352730565
     - type: nauc_mrr_at_20_max
-      value: 50.05039741296804
+      value: 53.38806174125155
     - type: nauc_mrr_at_20_std
-      value: 8.560730939300612
+      value: 44.79324661531812
     - type: nauc_mrr_at_3_diff1
-      value: 59.25818070675737
+      value: 43.66224705824827
     - type: nauc_mrr_at_3_max
-      value: 50.21290391831141
+      value: 53.23180791903105
     - type: nauc_mrr_at_3_std
-      value: 5.888545263632479
+      value: 44.43349044702786
     - type: nauc_mrr_at_5_diff1
-      value: 58.86883176773856
+      value: 43.528095394202474
     - type: nauc_mrr_at_5_max
-      value: 50.957401246316245
+      value: 54.03440152679073
     - type: nauc_mrr_at_5_std
-      value: 9.799770718943135
+      value: 44.79621802809768
     - type: nauc_ndcg_at_1000_diff1
-      value: 31.017440394196054
+      value: 43.48246353308846
     - type: nauc_ndcg_at_1000_max
-      value: 34.76839774920455
+      value: 31.816579886863018
     - type: nauc_ndcg_at_1000_std
-      value: 18.394503679584197
+      value: 24.158694249746574
     - type: nauc_ndcg_at_100_diff1
-      value: 33.46897937355806
+      value: 44.625167084995056
     - type: nauc_ndcg_at_100_max
-      value: 30.1308096551965
+      value: 26.395105829067983
     - type: nauc_ndcg_at_100_std
-      value: 4.811329419196584
+      value: 10.363304253958725
     - type: nauc_ndcg_at_10_diff1
-      value: 34.738421563806796
+      value: 45.86908731084752
     - type: nauc_ndcg_at_10_max
-      value: 31.63787832072571
+      value: 22.48203483834841
     - type: nauc_ndcg_at_10_std
-      value: 6.047471445378135
+      value: 6.2909997839301
     - type: nauc_ndcg_at_1_diff1
-      value: 41.838767871859105
+      value: 43.19904519276495
     - type: nauc_ndcg_at_1_max
-      value: 29.76412378121819
+      value: 39.28539458094619
     - type: nauc_ndcg_at_1_std
-      value: -6.662981751747337
+      value: 18.055622171581145
     - type: nauc_ndcg_at_20_diff1
-      value: 37.2936047770493
+      value: 46.49447236881872
     - type: nauc_ndcg_at_20_max
-      value: 27.509688843351928
+      value: 19.266991376566384
     - type: nauc_ndcg_at_20_std
-      value: -4.226207480988211
+      value: -2.421816962951546
     - type: nauc_ndcg_at_3_diff1
-      value: 26.741771232683075
+      value: 34.7260679671906
     - type: nauc_ndcg_at_3_max
-      value: 27.39386896838887
+      value: 31.13081490912525
     - type: nauc_ndcg_at_3_std
-      value: 1.6639808702221104
+      value: 14.246240436306778
     - type: nauc_ndcg_at_5_diff1
-      value: 32.70843930376316
+      value: 38.26289083847805
     - type: nauc_ndcg_at_5_max
-      value: 27.924846120043256
+      value: 29.211908812453085
     - type: nauc_ndcg_at_5_std
-      value: 6.138807313274158
+      value: 11.889600649177105
     - type: nauc_precision_at_1000_diff1
-      value: -32.41203303482423
+      value: -30.748469800880645
     - type: nauc_precision_at_1000_max
-      value: 8.093545818882905
+      value: 19.417480125029428
     - type: nauc_precision_at_1000_std
-      value: 47.02494471043404
+      value: 56.70019782766074
     - type: nauc_precision_at_100_diff1
-      value: -31.578281780421502
+      value: -29.865813267831903
     - type: nauc_precision_at_100_max
-      value: 11.08125301543009
+      value: 23.12384878368056
     - type: nauc_precision_at_100_std
-      value: 50.533022672180394
+      value: 61.055054568941316
     - type: nauc_precision_at_10_diff1
-      value: -22.738530687885405
+      value: -21.009692231038027
     - type: nauc_precision_at_10_max
-      value: 23.330840950192325
+      value: 17.17005256478476
     - type: nauc_precision_at_10_std
-      value: 50.76435402136226
+      value: 46.84418408982082
     - type: nauc_precision_at_1_diff1
-      value: 57.59201084653059
+      value: 46.27833298543312
     - type: nauc_precision_at_1_max
-      value: 37.00330988333697
+      value: 42.95527694566197
     - type: nauc_precision_at_1_std
-      value: -1.747744103132987
+      value: 38.34819072902029
     - type: nauc_precision_at_20_diff1
-      value: -25.002019953837003
+      value: -28.241621476008145
     - type: nauc_precision_at_20_max
-      value: 16.971378988976706
+      value: 18.10002854156234
     - type: nauc_precision_at_20_std
-      value: 48.07345104684135
+      value: 49.6982351381192
     - type: nauc_precision_at_3_diff1
-      value: -8.197173818536056
+      value: -5.554611273606884
     - type: nauc_precision_at_3_max
-      value: 25.695195187226403
+      value: 36.00283130191982
     - type: nauc_precision_at_3_std
-      value: 31.111863515602995
+      value: 38.519667863269774
     - type: nauc_precision_at_5_diff1
-      value: -12.956574437433844
+      value: -19.733878565053846
     - type: nauc_precision_at_5_max
-      value: 21.41273346493039
+      value: 27.345271376901664
     - type: nauc_precision_at_5_std
-      value: 42.55631329398401
+      value: 42.2458596894888
     - type: nauc_recall_at_1000_diff1
-      value: 9.76915442349142
+      value: 30.821754146835833
     - type: nauc_recall_at_1000_max
-      value: 23.74302893109814
+      value: 20.332467117173373
     - type: nauc_recall_at_1000_std
-      value: 33.123159475147816
+      value: 34.14411348957753
     - type: nauc_recall_at_100_diff1
-      value: 13.96782611551897
+      value: 32.521295266192126
     - type: nauc_recall_at_100_max
-      value: 21.02306088177266
+      value: 18.108998962525813
     - type: nauc_recall_at_100_std
-      value: 3.0239346149170645
+      value: 8.298216408897026
     - type: nauc_recall_at_10_diff1
-      value: 36.502833630310036
+      value: 54.54697313615533
     - type: nauc_recall_at_10_max
-      value: 15.575967406133087
+      value: -0.5557227949531418
     - type: nauc_recall_at_10_std
-      value: -25.645224052787295
+      value: -32.19440068210786
     - type: nauc_recall_at_1_diff1
-      value: 59.342871771182246
+      value: 78.97150551563644
     - type: nauc_recall_at_1_max
-      value: 7.61369981711965
+      value: -6.130504498165464
     - type: nauc_recall_at_1_std
-      value: -43.77056595417028
+      value: -40.805677041559186
     - type: nauc_recall_at_20_diff1
-      value: 26.27422331579885
+      value: 43.554781653824655
     - type: nauc_recall_at_20_max
-      value: 13.135043270702166
+      value: 1.4844544566658058
     - type: nauc_recall_at_20_std
-      value: -19.92673944513883
+      value: -25.71843978958663
     - type: nauc_recall_at_3_diff1
-      value: 48.18220967640245
+      value: 64.05074398888104
     - type: nauc_recall_at_3_max
-      value: 9.54094958941248
+      value: -0.9952472862393249
     - type: nauc_recall_at_3_std
-      value: -37.97033782144305
+      value: -40.44878148344615
     - type: nauc_recall_at_5_diff1
-      value: 46.575464923304686
+      value: 56.494223475808646
     - type: nauc_recall_at_5_max
-      value: 12.024807120200766
+      value: -2.1994046915880654
     - type: nauc_recall_at_5_std
-      value: -33.73533843493903
+      value: -39.86929189958492
     - type: ndcg_at_1
-      value: 71.642
+      value: 66.418
     - type: ndcg_at_10
-      value: 55.144000000000005
+      value: 50.646
     - type: ndcg_at_100
-      value: 59.753
+      value: 55.263
     - type: ndcg_at_1000
-      value: 66.89500000000001
+      value: 62.814
     - type: ndcg_at_20
-      value: 54.114
+      value: 49.552
     - type: ndcg_at_3
-      value: 62.373
+      value: 55.86
     - type: ndcg_at_5
-      value: 57.926
+      value: 52.897000000000006
     - type: precision_at_1
-      value: 80.597
+      value: 77.61200000000001
     - type: precision_at_10
-      value: 41.343
+      value: 37.761
     - type: precision_at_100
-      value: 12.030000000000001
+      value: 11.299
     - type: precision_at_1000
+      value: 1.763
+    - type: precision_at_20
+      value: 28.731
+    - type: precision_at_3
+      value: 55.224
+    - type: precision_at_5
+      value: 47.760999999999996
+    - type: recall_at_1
+      value: 11.03
+    - type: recall_at_10
+      value: 31.252000000000002
+    - type: recall_at_100
+      value: 61.281
+    - type: recall_at_1000
+      value: 85.97
+    - type: recall_at_20
+      value: 41.092
+    - type: recall_at_3
+      value: 17.519000000000002
+    - type: recall_at_5
+      value: 22.18
+    task:
+      type: Retrieval
+  - dataset:
+      config: default
+      name: MTEB DBPedia (default)
+      revision: c0f706b76e590d620bd6618b3ca8efdd34e2d659
+      split: test
+      type: mteb/dbpedia
+    metrics:
+    - type: main_score
+      value: 44.463
+    - type: map_at_1
+      value: 9.788
+    - type: map_at_10
+      value: 21.609
+    - type: map_at_100
+      value: 30.814000000000004
+    - type: map_at_1000
+      value: 32.608
+    - type: map_at_20
+      value: 25.108999999999998
+    - type: map_at_3
+      value: 15.428
+    - type: map_at_5
+      value: 18.218
+    - type: mrr_at_1
+      value: 71.5
+    - type: mrr_at_10
+      value: 79.72668650793649
+    - type: mrr_at_100
+      value: 79.8883838490951
+    - type: mrr_at_1000
+      value: 79.89775721404739
+    - type: mrr_at_20
+      value: 79.82832120365015
+    - type: mrr_at_3
+      value: 78.79166666666666
+    - type: mrr_at_5
+      value: 79.40416666666665
+    - type: nauc_map_at_1000_diff1
+      value: 17.375031680280276
+    - type: nauc_map_at_1000_max
+      value: 24.851054504402914
+    - type: nauc_map_at_1000_std
+      value: 33.46293695471569
+    - type: nauc_map_at_100_diff1
+      value: 18.464324442263845
+    - type: nauc_map_at_100_max
+      value: 23.281690335566214
+    - type: nauc_map_at_100_std
+      value: 30.907383732999882
+    - type: nauc_map_at_10_diff1
+      value: 23.45077945244867
+    - type: nauc_map_at_10_max
+      value: 11.261334133386738
+    - type: nauc_map_at_10_std
+      value: 3.353783320134396
+    - type: nauc_map_at_1_diff1
+      value: 36.954746976863724
+    - type: nauc_map_at_1_max
+      value: -1.5297540745901643
+    - type: nauc_map_at_1_std
+      value: -16.679994927326756
+    - type: nauc_map_at_20_diff1
+      value: 21.776451852488343
+    - type: nauc_map_at_20_max
+      value: 16.074917961719752
+    - type: nauc_map_at_20_std
+      value: 13.058740140886712
+    - type: nauc_map_at_3_diff1
+      value: 25.689622022919046
+    - type: nauc_map_at_3_max
+      value: 0.5671357606826857
+    - type: nauc_map_at_3_std
+      value: -12.620721627341041
+    - type: nauc_map_at_5_diff1
+      value: 24.757257406644026
+    - type: nauc_map_at_5_max
+      value: 4.916904740159734
+    - type: nauc_map_at_5_std
+      value: -6.822930006128332
+    - type: nauc_mrr_at_1000_diff1
+      value: 46.559865560836386
+    - type: nauc_mrr_at_1000_max
+      value: 61.468428945905195
+    - type: nauc_mrr_at_1000_std
+      value: 44.03756629629259
+    - type: nauc_mrr_at_100_diff1
+      value: 46.56406362108066
+    - type: nauc_mrr_at_100_max
+      value: 61.46588836286131
+    - type: nauc_mrr_at_100_std
+      value: 44.02567173370796
+    - type: nauc_mrr_at_10_diff1
+      value: 46.78241494765344
+    - type: nauc_mrr_at_10_max
+      value: 61.62762334662772
+    - type: nauc_mrr_at_10_std
+      value: 43.99095446343537
+    - type: nauc_mrr_at_1_diff1
+      value: 45.576194549676195
+    - type: nauc_mrr_at_1_max
+      value: 57.72896906344298
+    - type: nauc_mrr_at_1_std
+      value: 40.748173981706906
+    - type: nauc_mrr_at_20_diff1
+      value: 46.56366719674904
+    - type: nauc_mrr_at_20_max
+      value: 61.53689285695657
+    - type: nauc_mrr_at_20_std
+      value: 44.05763327168646
+    - type: nauc_mrr_at_3_diff1
+      value: 46.75914809101897
+    - type: nauc_mrr_at_3_max
+      value: 61.85477011236961
+    - type: nauc_mrr_at_3_std
+      value: 45.048472367494604
+    - type: nauc_mrr_at_5_diff1
+      value: 46.6606478337335
+    - type: nauc_mrr_at_5_max
+      value: 61.664619760561266
+    - type: nauc_mrr_at_5_std
+      value: 44.28977107829588
+    - type: nauc_ndcg_at_1000_diff1
+      value: 19.86113026731972
+    - type: nauc_ndcg_at_1000_max
+      value: 40.89908227748882
+    - type: nauc_ndcg_at_1000_std
+      value: 47.99980597239699
+    - type: nauc_ndcg_at_100_diff1
+      value: 21.75146816571304
+    - type: nauc_ndcg_at_100_max
+      value: 35.05332254979754
+    - type: nauc_ndcg_at_100_std
+      value: 41.068841850422466
+    - type: nauc_ndcg_at_10_diff1
+      value: 21.570966857693907
+    - type: nauc_ndcg_at_10_max
+      value: 36.41902652959281
+    - type: nauc_ndcg_at_10_std
+      value: 36.08975047168605
+    - type: nauc_ndcg_at_1_diff1
+      value: 38.33163583796035
+    - type: nauc_ndcg_at_1_max
+      value: 44.26114500733438
+    - type: nauc_ndcg_at_1_std
+      value: 30.498097323497504
+    - type: nauc_ndcg_at_20_diff1
+      value: 21.960547673928733
+    - type: nauc_ndcg_at_20_max
+      value: 32.43831433494772
+    - type: nauc_ndcg_at_20_std
+      value: 32.79775752841865
+    - type: nauc_ndcg_at_3_diff1
+      value: 21.647250785375835
+    - type: nauc_ndcg_at_3_max
+      value: 36.362322526847706
+    - type: nauc_ndcg_at_3_std
+      value: 31.05235987942825
+    - type: nauc_ndcg_at_5_diff1
+      value: 21.271795742482368
+    - type: nauc_ndcg_at_5_max
+      value: 36.801753871534984
+    - type: nauc_ndcg_at_5_std
+      value: 34.51605931502119
+    - type: nauc_precision_at_1000_diff1
+      value: -20.270386845002413
+    - type: nauc_precision_at_1000_max
+      value: 2.871816895421538
+    - type: nauc_precision_at_1000_std
+      value: 15.01493673822994
+    - type: nauc_precision_at_100_diff1
+      value: -11.51914278765532
+    - type: nauc_precision_at_100_max
+      value: 28.241727791913412
+    - type: nauc_precision_at_100_std
+      value: 51.127572793111185
+    - type: nauc_precision_at_10_diff1
+      value: -5.380490059126128
+    - type: nauc_precision_at_10_max
+      value: 41.41789863727103
+    - type: nauc_precision_at_10_std
+      value: 56.13359935176473
+    - type: nauc_precision_at_1_diff1
+      value: 45.576194549676195
+    - type: nauc_precision_at_1_max
+      value: 57.72896906344298
+    - type: nauc_precision_at_1_std
+      value: 40.748173981706906
+    - type: nauc_precision_at_20_diff1
+      value: -7.909933493324983
+    - type: nauc_precision_at_20_max
+      value: 36.25734653049458
+    - type: nauc_precision_at_20_std
+      value: 55.801562166432994
+    - type: nauc_precision_at_3_diff1
+      value: 2.53267910566852
+    - type: nauc_precision_at_3_max
+      value: 38.532604738141046
+    - type: nauc_precision_at_3_std
+      value: 41.805860471025284
+    - type: nauc_precision_at_5_diff1
+      value: -2.0148529473816996
+    - type: nauc_precision_at_5_max
+      value: 40.644695403335
+    - type: nauc_precision_at_5_std
+      value: 49.375213376859065
+    - type: nauc_recall_at_1000_diff1
+      value: 8.339460249746237
+    - type: nauc_recall_at_1000_max
+      value: 34.634401102850354
+    - type: nauc_recall_at_1000_std
+      value: 53.21629431602282
+    - type: nauc_recall_at_100_diff1
+      value: 15.440680329005167
+    - type: nauc_recall_at_100_max
+      value: 26.287973712231683
+    - type: nauc_recall_at_100_std
+      value: 38.310999052091496
+    - type: nauc_recall_at_10_diff1
+      value: 21.420724634571435
+    - type: nauc_recall_at_10_max
+      value: 8.13694929974024
+    - type: nauc_recall_at_10_std
+      value: 0.5716587790246369
+    - type: nauc_recall_at_1_diff1
+      value: 36.954746976863724
+    - type: nauc_recall_at_1_max
+      value: -1.5297540745901643
+    - type: nauc_recall_at_1_std
+      value: -16.679994927326756
+    - type: nauc_recall_at_20_diff1
+      value: 18.4645978129915
+    - type: nauc_recall_at_20_max
+      value: 12.450382815835878
+    - type: nauc_recall_at_20_std
+      value: 9.632484163697542
+    - type: nauc_recall_at_3_diff1
+      value: 22.416124328204436
+    - type: nauc_recall_at_3_max
+      value: -3.218774980928332
+    - type: nauc_recall_at_3_std
+      value: -15.129273257126528
+    - type: nauc_recall_at_5_diff1
+      value: 22.557287106783814
+    - type: nauc_recall_at_5_max
+      value: 1.9967140457545238
+    - type: nauc_recall_at_5_std
+      value: -9.291925484883594
+    - type: ndcg_at_1
+      value: 58.62500000000001
+    - type: ndcg_at_10
+      value: 44.463
+    - type: ndcg_at_100
+      value: 49.278
+    - type: ndcg_at_1000
+      value: 56.843999999999994
+    - type: ndcg_at_20
+      value: 43.842
+    - type: ndcg_at_3
+      value: 48.689
+    - type: ndcg_at_5
+      value: 46.589000000000006
+    - type: precision_at_1
+      value: 71.5
+    - type: precision_at_10
+      value: 35.375
+    - type: precision_at_100
+      value: 11.403
+    - type: precision_at_1000
+      value: 2.242
+    - type: precision_at_20
+      value: 26.8
+    - type: precision_at_3
+      value: 51.917
+    - type: precision_at_5
+      value: 45.35
+    - type: recall_at_1
+      value: 9.788
+    - type: recall_at_10
+      value: 27.123
+    - type: recall_at_100
+      value: 55.48800000000001
+    - type: recall_at_1000
+      value: 79.113
+    - type: recall_at_20
+      value: 34.858
+    - type: recall_at_3
+      value: 16.958000000000002
+    - type: recall_at_5
+      value: 21.065
+    task:
+      type: Retrieval
+  - dataset:
+      config: default
+      name: MTEB FEVER (default)
+      revision: bea83ef9e8fb933d90a2f1d5515737465d613e12
+      split: dev
+      type: mteb/fever
+    metrics:
+    - type: main_score
+      value: 88.64999999999999
+    - type: map_at_1
+      value: 77.255
+    - type: map_at_10
+      value: 85.169
+    - type: map_at_100
+      value: 85.351
+    - type: map_at_1000
+      value: 85.36399999999999
+    - type: map_at_20
+      value: 85.26
+    - type: map_at_3
+      value: 84.381
+    - type: map_at_5
+      value: 84.878
+    - type: mrr_at_1
+      value: 83.78337833783378
+    - type: mrr_at_10
+      value: 90.34676681953897
+    - type: mrr_at_100
+      value: 90.38006152933879
+    - type: mrr_at_1000
+      value: 90.38105582794016
+    - type: mrr_at_20
+      value: 90.37167986475033
+    - type: mrr_at_3
+      value: 89.90899089908976
+    - type: mrr_at_5
+      value: 90.18801880188
+    - type: nauc_map_at_1000_diff1
+      value: 48.12511552508137
+    - type: nauc_map_at_1000_max
+      value: 13.568949269597658
+    - type: nauc_map_at_1000_std
+      value: -10.600969004079342
+    - type: nauc_map_at_100_diff1
+      value: 48.08934266008355
+    - type: nauc_map_at_100_max
+      value: 13.55396415695952
+    - type: nauc_map_at_100_std
+      value: -10.60212004059611
+    - type: nauc_map_at_10_diff1
+      value: 47.76536099671083
+    - type: nauc_map_at_10_max
+      value: 13.182370215559983
+    - type: nauc_map_at_10_std
+      value: -11.021531318070458
+    - type: nauc_map_at_1_diff1
+      value: 54.11679553553126
+    - type: nauc_map_at_1_max
+      value: 10.265575560156355
+    - type: nauc_map_at_1_std
+      value: -12.111083723276545
+    - type: nauc_map_at_20_diff1
+      value: 47.928752432985995
+    - type: nauc_map_at_20_max
+      value: 13.34623561791217
+    - type: nauc_map_at_20_std
+      value: -10.786785714400214
+    - type: nauc_map_at_3_diff1
+      value: 47.75273975443192
+    - type: nauc_map_at_3_max
+      value: 12.84892003333417
+    - type: nauc_map_at_3_std
+      value: -11.890757494905994
+    - type: nauc_map_at_5_diff1
+      value: 47.85999138041634
+    - type: nauc_map_at_5_max
+      value: 13.172930696542377
+    - type: nauc_map_at_5_std
+      value: -11.345868689049436
+    - type: nauc_mrr_at_1000_diff1
+      value: 71.43372441669159
+    - type: nauc_mrr_at_1000_max
+      value: 19.136227402838323
+    - type: nauc_mrr_at_1000_std
+      value: -20.710966351452793
+    - type: nauc_mrr_at_100_diff1
+      value: 71.43230899468782
+    - type: nauc_mrr_at_100_max
+      value: 19.14383336738965
+    - type: nauc_mrr_at_100_std
+      value: -20.71267993067476
+    - type: nauc_mrr_at_10_diff1
+      value: 71.4046256049301
+    - type: nauc_mrr_at_10_max
+      value: 19.215343144932866
+    - type: nauc_mrr_at_10_std
+      value: -20.838256012075515
+    - type: nauc_mrr_at_1_diff1
+      value: 71.81923147611779
+    - type: nauc_mrr_at_1_max
+      value: 15.506002297290431
+    - type: nauc_mrr_at_1_std
+      value: -18.15154459388298
+    - type: nauc_mrr_at_20_diff1
+      value: 71.42390021857346
+    - type: nauc_mrr_at_20_max
+      value: 19.16305870191451
+    - type: nauc_mrr_at_20_std
+      value: -20.742501642157677
+    - type: nauc_mrr_at_3_diff1
+      value: 71.35337406127367
+    - type: nauc_mrr_at_3_max
+      value: 20.152809849939516
+    - type: nauc_mrr_at_3_std
+      value: -21.210653055555845
+    - type: nauc_mrr_at_5_diff1
+      value: 71.50522468550169
+    - type: nauc_mrr_at_5_max
+      value: 19.723141393606312
+    - type: nauc_mrr_at_5_std
+      value: -20.86309506863733
+    - type: nauc_ndcg_at_1000_diff1
+      value: 50.39361652769403
+    - type: nauc_ndcg_at_1000_max
+      value: 16.175262322285946
+    - type: nauc_ndcg_at_1000_std
+      value: -10.122220891108254
+    - type: nauc_ndcg_at_100_diff1
+      value: 49.42758790272144
+    - type: nauc_ndcg_at_100_max
+      value: 16.000371562715237
+    - type: nauc_ndcg_at_100_std
+      value: -9.787189605632676
+    - type: nauc_ndcg_at_10_diff1
+      value: 48.055595169234834
+    - type: nauc_ndcg_at_10_max
+      value: 14.858325412282063
+    - type: nauc_ndcg_at_10_std
+      value: -11.106819781239894
+    - type: nauc_ndcg_at_1_diff1
+      value: 71.81923147611779
+    - type: nauc_ndcg_at_1_max
+      value: 15.506002297290431
+    - type: nauc_ndcg_at_1_std
+      value: -18.15154459388298
+    - type: nauc_ndcg_at_20_diff1
+      value: 48.465948689948355
+    - type: nauc_ndcg_at_20_max
+      value: 15.144792819318653
+    - type: nauc_ndcg_at_20_std
+      value: -10.493628648624705
+    - type: nauc_ndcg_at_3_diff1
+      value: 49.201048638097625
+    - type: nauc_ndcg_at_3_max
+      value: 15.548158608009535
+    - type: nauc_ndcg_at_3_std
+      value: -12.788537369942476
+    - type: nauc_ndcg_at_5_diff1
+      value: 48.656302018553994
+    - type: nauc_ndcg_at_5_max
+      value: 15.3777052187059
+    - type: nauc_ndcg_at_5_std
+      value: -11.761890570339622
+    - type: nauc_precision_at_1000_diff1
+      value: -7.587207859844254
+    - type: nauc_precision_at_1000_max
+      value: 10.034775019298706
+    - type: nauc_precision_at_1000_std
+      value: 10.771826580061331
+    - type: nauc_precision_at_100_diff1
+      value: -9.095610720732157
+    - type: nauc_precision_at_100_max
+      value: 13.304886901425087
+    - type: nauc_precision_at_100_std
+      value: 14.430000759554892
+    - type: nauc_precision_at_10_diff1
+      value: -7.766474069124403
+    - type: nauc_precision_at_10_max
+      value: 13.577880904242502
+    - type: nauc_precision_at_10_std
+      value: 5.601324437475049
+    - type: nauc_precision_at_1_diff1
+      value: 71.81923147611779
+    - type: nauc_precision_at_1_max
+      value: 15.506002297290431
+    - type: nauc_precision_at_1_std
+      value: -18.15154459388298
+    - type: nauc_precision_at_20_diff1
+      value: -8.711478204989803
+    - type: nauc_precision_at_20_max
+      value: 13.48344061715417
+    - type: nauc_precision_at_20_std
+      value: 10.629078920538515
+    - type: nauc_precision_at_3_diff1
+      value: 13.344156270804328
+    - type: nauc_precision_at_3_max
+      value: 18.283772246612788
+    - type: nauc_precision_at_3_std
+      value: -9.559293717760333
+    - type: nauc_precision_at_5_diff1
+      value: 2.335535732969584
+    - type: nauc_precision_at_5_max
+      value: 17.10399710293788
+    - type: nauc_precision_at_5_std
+      value: -1.111952947962031
+    - type: nauc_recall_at_1000_diff1
+      value: 5.8550778002058514
+    - type: nauc_recall_at_1000_max
+      value: 32.08063901915127
+    - type: nauc_recall_at_1000_std
+      value: 37.064521060746756
+    - type: nauc_recall_at_100_diff1
+      value: 4.3827059811871525
+    - type: nauc_recall_at_100_max
+      value: 23.036293742557053
+    - type: nauc_recall_at_100_std
+      value: 25.602427153026575
+    - type: nauc_recall_at_10_diff1
+      value: 11.166053941654045
+    - type: nauc_recall_at_10_max
+      value: 13.65241332067668
+    - type: nauc_recall_at_10_std
+      value: 3.484618971368651
+    - type: nauc_recall_at_1_diff1
+      value: 54.11679553553126
+    - type: nauc_recall_at_1_max
+      value: 10.265575560156355
+    - type: nauc_recall_at_1_std
+      value: -12.111083723276545
+    - type: nauc_recall_at_20_diff1
+      value: 8.71815473825628
+    - type: nauc_recall_at_20_max
+      value: 14.86256574978527
+    - type: nauc_recall_at_20_std
+      value: 9.660589150398796
+    - type: nauc_recall_at_3_diff1
+      value: 26.78083231166246
+    - type: nauc_recall_at_3_max
+      value: 16.004083622989636
+    - type: nauc_recall_at_3_std
+      value: -7.759307330933892
+    - type: nauc_recall_at_5_diff1
+      value: 21.33813171345775
+    - type: nauc_recall_at_5_max
+      value: 16.40061446525957
+    - type: nauc_recall_at_5_std
+      value: -2.7389917651976914
+    - type: ndcg_at_1
+      value: 83.783
+    - type: ndcg_at_10
+      value: 88.64999999999999
+    - type: ndcg_at_100
+      value: 89.25699999999999
+    - type: ndcg_at_1000
+      value: 89.49000000000001
+    - type: ndcg_at_20
+      value: 88.874
+    - type: ndcg_at_3
+      value: 87.57000000000001
+    - type: ndcg_at_5
+      value: 88.13600000000001
+    - type: precision_at_1
+      value: 83.783
+    - type: precision_at_10
+      value: 10.514999999999999
+    - type: precision_at_100
+      value: 1.111
+    - type: precision_at_1000
+      value: 0.11499999999999999
+    - type: precision_at_20
+      value: 5.341
+    - type: precision_at_3
+      value: 33.393
+    - type: precision_at_5
+      value: 20.519000000000002
+    - type: recall_at_1
+      value: 77.255
+    - type: recall_at_10
+      value: 94.28
+    - type: recall_at_100
+      value: 96.598
+    - type: recall_at_1000
+      value: 98.012
+    - type: recall_at_20
+      value: 95.018
+    - type: recall_at_3
+      value: 91.08000000000001
+    - type: recall_at_5
+      value: 92.708
+    task:
+      type: Retrieval
+  - dataset:
+      config: default
+      name: MTEB FEVER (default)
+      revision: bea83ef9e8fb933d90a2f1d5515737465d613e12
+      split: test
+      type: mteb/fever
+    metrics:
+    - type: main_score
+      value: 87.435
+    - type: map_at_1
+      value: 74.981
+    - type: map_at_10
+      value: 83.653
+    - type: map_at_100
+      value: 83.86099999999999
+    - type: map_at_1000
+      value: 83.87400000000001
+    - type: map_at_20
+      value: 83.771
+    - type: map_at_3
+      value: 82.674
+    - type: map_at_5
+      value: 83.287
+    - type: mrr_at_1
+      value: 81.05310531053105
+    - type: mrr_at_10
+      value: 88.52425718762343
+    - type: mrr_at_100
+      value: 88.57207103103651
+    - type: mrr_at_1000
+      value: 88.57296718224823
+    - type: mrr_at_20
+      value: 88.55991399827933
+    - type: mrr_at_3
+      value: 87.92629262926283
+    - type: mrr_at_5
+      value: 88.3530853085307
+    - type: nauc_map_at_1000_diff1
+      value: 46.14240498162393
+    - type: nauc_map_at_1000_max
+      value: 6.1846219189540195
+    - type: nauc_map_at_1000_std
+      value: -14.48212291262028
+    - type: nauc_map_at_100_diff1
+      value: 46.108096799513106
+    - type: nauc_map_at_100_max
+      value: 6.173512887966413
+    - type: nauc_map_at_100_std
+      value: -14.464833239817674
+    - type: nauc_map_at_10_diff1
+      value: 45.83687033921735
+    - type: nauc_map_at_10_max
+      value: 5.9061650252110525
+    - type: nauc_map_at_10_std
+      value: -14.678508784636241
+    - type: nauc_map_at_1_diff1
+      value: 50.61046862885979
+    - type: nauc_map_at_1_max
+      value: 2.425955740916627
+    - type: nauc_map_at_1_std
+      value: -16.328891990762585
+    - type: nauc_map_at_20_diff1
+      value: 45.97546559851971
+    - type: nauc_map_at_20_max
+      value: 6.0662775855496776
+    - type: nauc_map_at_20_std
+      value: -14.49963601234895
+    - type: nauc_map_at_3_diff1
+      value: 46.1202533097099
+    - type: nauc_map_at_3_max
+      value: 5.616814189395492
+    - type: nauc_map_at_3_std
+      value: -15.978283808772531
+    - type: nauc_map_at_5_diff1
+      value: 45.599136626253866
+    - type: nauc_map_at_5_max
+      value: 5.7843333783824775
+    - type: nauc_map_at_5_std
+      value: -15.309824576718336
+    - type: nauc_mrr_at_1000_diff1
+      value: 62.30030029453455
+    - type: nauc_mrr_at_1000_max
+      value: 6.356344776268262
+    - type: nauc_mrr_at_1000_std
+      value: -24.730184755892026
+    - type: nauc_mrr_at_100_diff1
+      value: 62.29832882893961
+    - type: nauc_mrr_at_100_max
+      value: 6.36350427889769
+    - type: nauc_mrr_at_100_std
+      value: -24.72049425785792
+    - type: nauc_mrr_at_10_diff1
+      value: 62.256874535633436
+    - type: nauc_mrr_at_10_max
+      value: 6.365853830220074
+    - type: nauc_mrr_at_10_std
+      value: -24.877671128830876
+    - type: nauc_mrr_at_1_diff1
+      value: 63.473487705718426
+    - type: nauc_mrr_at_1_max
+      value: 3.8567763282224803
+    - type: nauc_mrr_at_1_std
+      value: -23.25636348392456
+    - type: nauc_mrr_at_20_diff1
+      value: 62.303829622689
+    - type: nauc_mrr_at_20_max
+      value: 6.425728128294657
+    - type: nauc_mrr_at_20_std
+      value: -24.700586855661893
+    - type: nauc_mrr_at_3_diff1
+      value: 62.13552742024581
+    - type: nauc_mrr_at_3_max
+      value: 6.430964417533111
+    - type: nauc_mrr_at_3_std
+      value: -25.852406375576
+    - type: nauc_mrr_at_5_diff1
+      value: 62.060923711273965
+    - type: nauc_mrr_at_5_max
+      value: 6.322071082109083
+    - type: nauc_mrr_at_5_std
+      value: -25.6218764204596
+    - type: nauc_ndcg_at_1000_diff1
+      value: 47.81098089339254
+    - type: nauc_ndcg_at_1000_max
+      value: 7.970335565370969
+    - type: nauc_ndcg_at_1000_std
+      value: -13.954592108035785
+    - type: nauc_ndcg_at_100_diff1
+      value: 47.02098088114501
+    - type: nauc_ndcg_at_100_max
+      value: 8.050188640792946
+    - type: nauc_ndcg_at_100_std
+      value: -13.26180999246677
+    - type: nauc_ndcg_at_10_diff1
+      value: 45.717367513521225
+    - type: nauc_ndcg_at_10_max
+      value: 7.12252438038365
+    - type: nauc_ndcg_at_10_std
+      value: -14.125413198369552
+    - type: nauc_ndcg_at_1_diff1
+      value: 63.473487705718426
+    - type: nauc_ndcg_at_1_max
+      value: 3.8567763282224803
+    - type: nauc_ndcg_at_1_std
+      value: -23.25636348392456
+    - type: nauc_ndcg_at_20_diff1
+      value: 46.13337017312619
+    - type: nauc_ndcg_at_20_max
+      value: 7.620589557775606
+    - type: nauc_ndcg_at_20_std
+      value: -13.336897266394992
+    - type: nauc_ndcg_at_3_diff1
+      value: 47.36662761546531
+    - type: nauc_ndcg_at_3_max
+      value: 7.168741804362151
+    - type: nauc_ndcg_at_3_std
+      value: -17.634918228466123
+    - type: nauc_ndcg_at_5_diff1
+      value: 45.62932198258297
+    - type: nauc_ndcg_at_5_max
+      value: 6.996099116999571
+    - type: nauc_ndcg_at_5_std
+      value: -16.1735603835562
+    - type: nauc_precision_at_1000_diff1
+      value: -4.608190037353962
+    - type: nauc_precision_at_1000_max
+      value: 10.010479306018528
+    - type: nauc_precision_at_1000_std
+      value: 4.313257227180172
+    - type: nauc_precision_at_100_diff1
+      value: -6.6893029843110146
+    - type: nauc_precision_at_100_max
+      value: 12.413145442192345
+    - type: nauc_precision_at_100_std
+      value: 9.10695142014202
+    - type: nauc_precision_at_10_diff1
+      value: -5.092747483622398
+    - type: nauc_precision_at_10_max
+      value: 13.276263457275084
+    - type: nauc_precision_at_10_std
+      value: 5.687441173372954
+    - type: nauc_precision_at_1_diff1
+      value: 63.473487705718426
+    - type: nauc_precision_at_1_max
+      value: 3.8567763282224803
+    - type: nauc_precision_at_1_std
+      value: -23.25636348392456
+    - type: nauc_precision_at_20_diff1
+      value: -7.572611499118658
+    - type: nauc_precision_at_20_max
+      value: 13.865424005937452
+    - type: nauc_precision_at_20_std
+      value: 9.656961531290484
+    - type: nauc_precision_at_3_diff1
+      value: 20.95424640418592
+    - type: nauc_precision_at_3_max
+      value: 15.165327791145916
+    - type: nauc_precision_at_3_std
+      value: -13.928428150348598
+    - type: nauc_precision_at_5_diff1
+      value: 4.551646626065323
+    - type: nauc_precision_at_5_max
+      value: 15.356949460723632
+    - type: nauc_precision_at_5_std
+      value: -4.920978124087124
+    - type: nauc_recall_at_1000_diff1
+      value: 0.7642613575735239
+    - type: nauc_recall_at_1000_max
+      value: 36.15279773872626
+    - type: nauc_recall_at_1000_std
+      value: 50.6159041911611
+    - type: nauc_recall_at_100_diff1
+      value: 4.3525325750852915
+    - type: nauc_recall_at_100_max
+      value: 28.586607700542714
+    - type: nauc_recall_at_100_std
+      value: 39.43604834805734
+    - type: nauc_recall_at_10_diff1
+      value: 12.926832543562524
+    - type: nauc_recall_at_10_max
+      value: 13.171467441816146
+    - type: nauc_recall_at_10_std
+      value: 8.93368714277416
+    - type: nauc_recall_at_1_diff1
+      value: 50.61046862885979
+    - type: nauc_recall_at_1_max
+      value: 2.425955740916627
+    - type: nauc_recall_at_1_std
+      value: -16.328891990762585
+    - type: nauc_recall_at_20_diff1
+      value: 9.529885126882741
+    - type: nauc_recall_at_20_max
+      value: 18.260862028666438
+    - type: nauc_recall_at_20_std
+      value: 20.87997909359809
+    - type: nauc_recall_at_3_diff1
+      value: 29.327875346479388
+    - type: nauc_recall_at_3_max
+      value: 9.683655931257292
+    - type: nauc_recall_at_3_std
+      value: -12.017770715000532
+    - type: nauc_recall_at_5_diff1
+      value: 19.8873084969436
+    - type: nauc_recall_at_5_max
+      value: 10.63514554861997
+    - type: nauc_recall_at_5_std
+      value: -6.100038797712149
+    - type: ndcg_at_1
+      value: 81.053
+    - type: ndcg_at_10
+      value: 87.435
+    - type: ndcg_at_100
+      value: 88.142
+    - type: ndcg_at_1000
+      value: 88.36699999999999
+    - type: ndcg_at_20
+      value: 87.739
+    - type: ndcg_at_3
+      value: 85.978
+    - type: ndcg_at_5
+      value: 86.788
+    - type: precision_at_1
+      value: 81.053
+    - type: precision_at_10
+      value: 10.437000000000001
+    - type: precision_at_100
+      value: 1.103
+    - type: precision_at_1000
+      value: 0.11399999999999999
+    - type: precision_at_20
+      value: 5.314
+    - type: precision_at_3
+      value: 32.873000000000005
+    - type: precision_at_5
+      value: 20.279
+    - type: recall_at_1
+      value: 74.981
+    - type: recall_at_10
+      value: 94.242
+    - type: recall_at_100
+      value: 96.968
+    - type: recall_at_1000
+      value: 98.33800000000001
+    - type: recall_at_20
+      value: 95.275
+    - type: recall_at_3
+      value: 90.21000000000001
+    - type: recall_at_5
+      value: 92.364
+    task:
+      type: Retrieval
+  - dataset:
+      config: default
+      name: MTEB FEVER (default)
+      revision: bea83ef9e8fb933d90a2f1d5515737465d613e12
+      split: train
+      type: mteb/fever
+    metrics:
+    - type: main_score
+      value: 86.56099999999999
+    - type: map_at_1
+      value: 72.21300000000001
+    - type: map_at_10
+      value: 82.22699999999999
+    - type: map_at_100
+      value: 82.492
+    - type: map_at_1000
+      value: 82.509
+    - type: map_at_20
+      value: 82.384
+    - type: map_at_3
+      value: 81.012
+    - type: map_at_5
+      value: 81.827
+    - type: mrr_at_1
+      value: 80.48174118932701
+    - type: mrr_at_10
+      value: 88.44588090828918
+    - type: mrr_at_100
+      value: 88.4788741387046
+    - type: mrr_at_1000
+      value: 88.4790755480462
+    - type: mrr_at_20
+      value: 88.47304662364945
+    - type: mrr_at_3
+      value: 87.82108490422577
+    - type: mrr_at_5
+      value: 88.29622378046524
+    - type: nauc_map_at_1000_diff1
+      value: 37.32923541003442
+    - type: nauc_map_at_1000_max
+      value: -5.359095440076856
+    - type: nauc_map_at_1000_std
+      value: -22.442879064254956
+    - type: nauc_map_at_100_diff1
+      value: 37.29004026756419
+    - type: nauc_map_at_100_max
+      value: -5.361870410697577
+    - type: nauc_map_at_100_std
+      value: -22.41628823533935
+    - type: nauc_map_at_10_diff1
+      value: 36.861769872580815
+    - type: nauc_map_at_10_max
+      value: -5.567242961864721
+    - type: nauc_map_at_10_std
+      value: -22.412744554284842
+    - type: nauc_map_at_1_diff1
+      value: 42.9747708308183
+    - type: nauc_map_at_1_max
+      value: -7.249290294686461
+    - type: nauc_map_at_1_std
+      value: -23.10192038507521
+    - type: nauc_map_at_20_diff1
+      value: 37.07248863698633
+    - type: nauc_map_at_20_max
+      value: -5.441593629521792
+    - type: nauc_map_at_20_std
+      value: -22.36943344269823
+    - type: nauc_map_at_3_diff1
+      value: 36.74111398203012
+    - type: nauc_map_at_3_max
+      value: -6.452157513325058
+    - type: nauc_map_at_3_std
+      value: -23.93890877957013
+    - type: nauc_map_at_5_diff1
+      value: 36.625141407824735
+    - type: nauc_map_at_5_max
+      value: -5.864765833683385
+    - type: nauc_map_at_5_std
+      value: -22.773631881202967
+    - type: nauc_mrr_at_1000_diff1
+      value: 57.72385177985896
+    - type: nauc_mrr_at_1000_max
+      value: -8.132359498658397
+    - type: nauc_mrr_at_1000_std
+      value: -39.40225550515249
+    - type: nauc_mrr_at_100_diff1
+      value: 57.72408745167823
+    - type: nauc_mrr_at_100_max
+      value: -8.131150898290278
+    - type: nauc_mrr_at_100_std
+      value: -39.4020380770972
+    - type: nauc_mrr_at_10_diff1
+      value: 57.71763338551041
+    - type: nauc_mrr_at_10_max
+      value: -8.131006257564982
+    - type: nauc_mrr_at_10_std
+      value: -39.508932554524996
+    - type: nauc_mrr_at_1_diff1
+      value: 58.84813890985453
+    - type: nauc_mrr_at_1_max
+      value: -7.148657120271318
+    - type: nauc_mrr_at_1_std
+      value: -35.10095845964509
+    - type: nauc_mrr_at_20_diff1
+      value: 57.72281173423275
+    - type: nauc_mrr_at_20_max
+      value: -8.121468354197358
+    - type: nauc_mrr_at_20_std
+      value: -39.41212536881133
+    - type: nauc_mrr_at_3_diff1
+      value: 57.30929380153681
+    - type: nauc_mrr_at_3_max
+      value: -8.656817243234048
+    - type: nauc_mrr_at_3_std
+      value: -40.982621907605306
+    - type: nauc_mrr_at_5_diff1
+      value: 57.64357740137117
+    - type: nauc_mrr_at_5_max
+      value: -8.217447601430397
+    - type: nauc_mrr_at_5_std
+      value: -40.004654935245156
+    - type: nauc_ndcg_at_1000_diff1
+      value: 39.456836969012684
+    - type: nauc_ndcg_at_1000_max
+      value: -4.554039345654236
+    - type: nauc_ndcg_at_1000_std
+      value: -23.554219088125553
+    - type: nauc_ndcg_at_100_diff1
+      value: 38.57601564904512
+    - type: nauc_ndcg_at_100_max
+      value: -4.4180771506140175
+    - type: nauc_ndcg_at_100_std
+      value: -22.77318548595954
+    - type: nauc_ndcg_at_10_diff1
+      value: 36.95399053988775
+    - type: nauc_ndcg_at_10_max
+      value: -4.962155509183936
+    - type: nauc_ndcg_at_10_std
+      value: -22.67027102247201
+    - type: nauc_ndcg_at_1_diff1
+      value: 58.84813890985453
+    - type: nauc_ndcg_at_1_max
+      value: -7.148657120271318
+    - type: nauc_ndcg_at_1_std
+      value: -35.10095845964509
+    - type: nauc_ndcg_at_20_diff1
+      value: 37.47120121711935
+    - type: nauc_ndcg_at_20_max
+      value: -4.634556758700681
+    - type: nauc_ndcg_at_20_std
+      value: -22.414472983942492
+    - type: nauc_ndcg_at_3_diff1
+      value: 38.413347606529335
+    - type: nauc_ndcg_at_3_max
+      value: -6.14356883481873
+    - type: nauc_ndcg_at_3_std
+      value: -26.88170783033852
+    - type: nauc_ndcg_at_5_diff1
+      value: 37.005727276106775
+    - type: nauc_ndcg_at_5_max
+      value: -5.4137285022218435
+    - type: nauc_ndcg_at_5_std
+      value: -23.999236816373756
+    - type: nauc_precision_at_1000_diff1
+      value: -1.1635551306722967
+    - type: nauc_precision_at_1000_max
+      value: 10.896413712860566
+    - type: nauc_precision_at_1000_std
+      value: 2.3246874191515157
+    - type: nauc_precision_at_100_diff1
+      value: -2.727489712611685
+    - type: nauc_precision_at_100_max
+      value: 12.249725894620063
+    - type: nauc_precision_at_100_std
+      value: 4.609079555342843
+    - type: nauc_precision_at_10_diff1
+      value: -4.581131252588009
+    - type: nauc_precision_at_10_max
+      value: 10.143024794307918
+    - type: nauc_precision_at_10_std
+      value: 0.2701051149847926
+    - type: nauc_precision_at_1_diff1
+      value: 58.84813890985453
+    - type: nauc_precision_at_1_max
+      value: -7.148657120271318
+    - type: nauc_precision_at_1_std
+      value: -35.10095845964509
+    - type: nauc_precision_at_20_diff1
+      value: -4.403750400342156
+    - type: nauc_precision_at_20_max
+      value: 11.452041496155529
+    - type: nauc_precision_at_20_std
+      value: 3.216020187205585
+    - type: nauc_precision_at_3_diff1
+      value: 9.787754895986547
+    - type: nauc_precision_at_3_max
+      value: 1.8743526876348817
+    - type: nauc_precision_at_3_std
+      value: -22.800504315751173
+    - type: nauc_precision_at_5_diff1
+      value: -0.9174754849135418
+    - type: nauc_precision_at_5_max
+      value: 7.147940717069395
+    - type: nauc_precision_at_5_std
+      value: -8.059722729524335
+    - type: nauc_recall_at_1000_diff1
+      value: -12.945950337667655
+    - type: nauc_recall_at_1000_max
+      value: 24.06090741784359
+    - type: nauc_recall_at_1000_std
+      value: 40.15437535710061
+    - type: nauc_recall_at_100_diff1
+      value: -7.462722039743709
+    - type: nauc_recall_at_100_max
+      value: 16.082546490413804
+    - type: nauc_recall_at_100_std
+      value: 28.634606163725863
+    - type: nauc_recall_at_10_diff1
+      value: 1.7339686372342604
+    - type: nauc_recall_at_10_max
+      value: 5.097055736811297
+    - type: nauc_recall_at_10_std
+      value: 7.011828597941062
+    - type: nauc_recall_at_1_diff1
+      value: 42.9747708308183
+    - type: nauc_recall_at_1_max
+      value: -7.249290294686461
+    - type: nauc_recall_at_1_std
+      value: -23.10192038507521
+    - type: nauc_recall_at_20_diff1
+      value: -2.3238818761975795
+    - type: nauc_recall_at_20_max
+      value: 9.07708790464009
+    - type: nauc_recall_at_20_std
+      value: 15.568994701873468
+    - type: nauc_recall_at_3_diff1
+      value: 17.145249528698066
+    - type: nauc_recall_at_3_max
+      value: -4.5872505802077335
+    - type: nauc_recall_at_3_std
+      value: -17.921913670095183
+    - type: nauc_recall_at_5_diff1
+      value: 8.88215070605085
+    - type: nauc_recall_at_5_max
+      value: 0.3400651614243859
+    - type: nauc_recall_at_5_std
+      value: -5.632858563012691
+    - type: ndcg_at_1
+      value: 80.482
+    - type: ndcg_at_10
+      value: 86.56099999999999
+    - type: ndcg_at_100
+      value: 87.368
+    - type: ndcg_at_1000
+      value: 87.63499999999999
+    - type: ndcg_at_20
+      value: 86.92800000000001
+    - type: ndcg_at_3
+      value: 84.955
+    - type: ndcg_at_5
+      value: 85.919
+    - type: precision_at_1
+      value: 80.482
+    - type: precision_at_10
+      value: 10.84
+    - type: precision_at_100
+      value: 1.166
+    - type: precision_at_1000
+      value: 0.122
+    - type: precision_at_20
+      value: 5.563
+    - type: precision_at_3
+      value: 33.641
+    - type: precision_at_5
+      value: 20.964
+    - type: recall_at_1
+      value: 72.21300000000001
+    - type: recall_at_10
+      value: 93.795
+    - type: recall_at_100
+      value: 96.674
+    - type: recall_at_1000
+      value: 98.205
+    - type: recall_at_20
+      value: 94.948
+    - type: recall_at_3
+      value: 89.188
+    - type: recall_at_5
+      value: 91.89699999999999
+    task:
+      type: Retrieval
+  - dataset:
+      config: default
+      name: MTEB FiQA2018 (default)
+      revision: 27a168819829fe9bcd655c2df245fb19452e8e06
+      split: dev
+      type: mteb/fiqa
+    metrics:
+    - type: main_score
+      value: 44.874
+    - type: map_at_1
+      value: 25.554
+    - type: map_at_10
+      value: 37.157000000000004
+    - type: map_at_100
+      value: 38.943
+    - type: map_at_1000
+      value: 39.102
+    - type: map_at_20
+      value: 38.173
+    - type: map_at_3
+      value: 32.729
+    - type: map_at_5
+      value: 35.061
+    - type: mrr_at_1
+      value: 45.800000000000004
+    - type: mrr_at_10
+      value: 53.25738095238094
+    - type: mrr_at_100
+      value: 53.98819286210455
+    - type: mrr_at_1000
+      value: 54.030027403873724
+    - type: mrr_at_20
+      value: 53.74143904599013
+    - type: mrr_at_3
+      value: 51.000000000000014
+    - type: mrr_at_5
+      value: 52.30999999999999
+    - type: nauc_map_at_1000_diff1
+      value: 46.763509151363166
+    - type: nauc_map_at_1000_max
+      value: 28.768062016261155
+    - type: nauc_map_at_1000_std
+      value: 3.0129566502781753
+    - type: nauc_map_at_100_diff1
+      value: 46.75356281280302
+    - type: nauc_map_at_100_max
+      value: 28.697109688680534
+    - type: nauc_map_at_100_std
+      value: 2.98086242745498
+    - type: nauc_map_at_10_diff1
+      value: 46.90381011086511
+    - type: nauc_map_at_10_max
+      value: 27.4527629039281
+    - type: nauc_map_at_10_std
+      value: 1.1291745476435884
+    - type: nauc_map_at_1_diff1
+      value: 48.33032759955959
+    - type: nauc_map_at_1_max
+      value: 22.391437508015226
+    - type: nauc_map_at_1_std
+      value: -2.7345411216863766
+    - type: nauc_map_at_20_diff1
+      value: 46.62357425324139
+    - type: nauc_map_at_20_max
+      value: 28.137639704531686
+    - type: nauc_map_at_20_std
+      value: 2.175364829675028
+    - type: nauc_map_at_3_diff1
+      value: 47.09395643913574
+    - type: nauc_map_at_3_max
+      value: 25.522334862376482
+    - type: nauc_map_at_3_std
+      value: -1.7499764295586555
+    - type: nauc_map_at_5_diff1
+      value: 47.088687390770126
+    - type: nauc_map_at_5_max
+      value: 26.621894937003532
+    - type: nauc_map_at_5_std
+      value: -0.11347437212377846
+    - type: nauc_mrr_at_1000_diff1
+      value: 54.169580650511676
+    - type: nauc_mrr_at_1000_max
+      value: 42.589982827419334
+    - type: nauc_mrr_at_1000_std
+      value: 9.270447132748673
+    - type: nauc_mrr_at_100_diff1
+      value: 54.159671790628195
+    - type: nauc_mrr_at_100_max
+      value: 42.579289414249835
+    - type: nauc_mrr_at_100_std
+      value: 9.27315009020055
+    - type: nauc_mrr_at_10_diff1
+      value: 54.16721338694943
+    - type: nauc_mrr_at_10_max
+      value: 42.45505658459557
+    - type: nauc_mrr_at_10_std
+      value: 8.798155032599674
+    - type: nauc_mrr_at_1_diff1
+      value: 56.20829207953295
+    - type: nauc_mrr_at_1_max
+      value: 42.91690849928963
+    - type: nauc_mrr_at_1_std
+      value: 8.890861484401473
+    - type: nauc_mrr_at_20_diff1
+      value: 54.097509580707104
+    - type: nauc_mrr_at_20_max
+      value: 42.49047013868743
+    - type: nauc_mrr_at_20_std
+      value: 9.243287912038888
+    - type: nauc_mrr_at_3_diff1
+      value: 54.688451695195326
+    - type: nauc_mrr_at_3_max
+      value: 42.55241180331927
+    - type: nauc_mrr_at_3_std
+      value: 8.445158230066568
+    - type: nauc_mrr_at_5_diff1
+      value: 54.17733930320079
+    - type: nauc_mrr_at_5_max
+      value: 42.25518269900131
+    - type: nauc_mrr_at_5_std
+      value: 8.826463219453128
+    - type: nauc_ndcg_at_1000_diff1
+      value: 48.366830534050976
+    - type: nauc_ndcg_at_1000_max
+      value: 35.109898990740696
+    - type: nauc_ndcg_at_1000_std
+      value: 9.221531654043496
+    - type: nauc_ndcg_at_100_diff1
+      value: 48.07081030067787
+    - type: nauc_ndcg_at_100_max
+      value: 34.35730435839074
+    - type: nauc_ndcg_at_100_std
+      value: 9.592149120459222
+    - type: nauc_ndcg_at_10_diff1
+      value: 48.03168151591368
+    - type: nauc_ndcg_at_10_max
+      value: 31.31245092846216
+    - type: nauc_ndcg_at_10_std
+      value: 4.774236737326802
+    - type: nauc_ndcg_at_1_diff1
+      value: 56.20829207953295
+    - type: nauc_ndcg_at_1_max
+      value: 42.91690849928963
+    - type: nauc_ndcg_at_1_std
+      value: 8.890861484401473
+    - type: nauc_ndcg_at_20_diff1
+      value: 47.38090326186517
+    - type: nauc_ndcg_at_20_max
+      value: 32.19386385519328
+    - type: nauc_ndcg_at_20_std
+      value: 6.810139964510753
+    - type: nauc_ndcg_at_3_diff1
+      value: 47.6059376703799
+    - type: nauc_ndcg_at_3_max
+      value: 32.67819124349061
+    - type: nauc_ndcg_at_3_std
+      value: 3.6427274540943086
+    - type: nauc_ndcg_at_5_diff1
+      value: 47.729951651884925
+    - type: nauc_ndcg_at_5_max
+      value: 30.867372762701855
+    - type: nauc_ndcg_at_5_std
+      value: 3.8274061216487394
+    - type: nauc_precision_at_1000_diff1
+      value: -2.353765753893674
+    - type: nauc_precision_at_1000_max
+      value: 25.59608017932468
+    - type: nauc_precision_at_1000_std
+      value: 22.80181908619341
+    - type: nauc_precision_at_100_diff1
+      value: 4.615247028604855
+    - type: nauc_precision_at_100_max
+      value: 30.25611102396034
+    - type: nauc_precision_at_100_std
+      value: 28.233201922921896
+    - type: nauc_precision_at_10_diff1
+      value: 18.422388904203025
+    - type: nauc_precision_at_10_max
+      value: 30.89324316202028
+    - type: nauc_precision_at_10_std
+      value: 18.343630631993715
+    - type: nauc_precision_at_1_diff1
+      value: 56.20829207953295
+    - type: nauc_precision_at_1_max
+      value: 42.91690849928963
+    - type: nauc_precision_at_1_std
+      value: 8.890861484401473
+    - type: nauc_precision_at_20_diff1
+      value: 11.116959256700724
+    - type: nauc_precision_at_20_max
+      value: 30.484646790281882
+    - type: nauc_precision_at_20_std
+      value: 24.468092883172346
+    - type: nauc_precision_at_3_diff1
+      value: 34.10536344989137
+    - type: nauc_precision_at_3_max
+      value: 37.24921411319198
+    - type: nauc_precision_at_3_std
+      value: 10.598700100739142
+    - type: nauc_precision_at_5_diff1
+      value: 25.972678366343626
+    - type: nauc_precision_at_5_max
+      value: 33.782187544075285
+    - type: nauc_precision_at_5_std
+      value: 14.72781628417725
+    - type: nauc_recall_at_1000_diff1
+      value: 36.55627458374837
+    - type: nauc_recall_at_1000_max
+      value: 38.95489760216261
+    - type: nauc_recall_at_1000_std
+      value: 38.40584391418862
+    - type: nauc_recall_at_100_diff1
+      value: 36.04232284300105
+    - type: nauc_recall_at_100_max
+      value: 30.101566035272025
+    - type: nauc_recall_at_100_std
+      value: 25.726155244628004
+    - type: nauc_recall_at_10_diff1
+      value: 41.01172833164805
+    - type: nauc_recall_at_10_max
+      value: 23.976999088516028
+    - type: nauc_recall_at_10_std
+      value: 5.1785916214973815
+    - type: nauc_recall_at_1_diff1
+      value: 48.33032759955959
+    - type: nauc_recall_at_1_max
+      value: 22.391437508015226
+    - type: nauc_recall_at_1_std
+      value: -2.7345411216863766
+    - type: nauc_recall_at_20_diff1
+      value: 36.12608470753002
+    - type: nauc_recall_at_20_max
+      value: 24.27805595843604
+    - type: nauc_recall_at_20_std
+      value: 10.90998386167403
+    - type: nauc_recall_at_3_diff1
+      value: 44.4111049052806
+    - type: nauc_recall_at_3_max
+      value: 22.890760809978094
+    - type: nauc_recall_at_3_std
+      value: -2.2637204931966606
+    - type: nauc_recall_at_5_diff1
+      value: 41.877649098288735
+    - type: nauc_recall_at_5_max
+      value: 22.343121393202157
+    - type: nauc_recall_at_5_std
+      value: 1.2989742291659185
+    - type: ndcg_at_1
+      value: 45.800000000000004
+    - type: ndcg_at_10
+      value: 44.874
+    - type: ndcg_at_100
+      value: 51.064
+    - type: ndcg_at_1000
+      value: 53.734
+    - type: ndcg_at_20
+      value: 47.439
+    - type: ndcg_at_3
+      value: 40.952
+    - type: ndcg_at_5
+      value: 42.092
+    - type: precision_at_1
+      value: 45.800000000000004
+    - type: precision_at_10
+      value: 11.48
+    - type: precision_at_100
+      value: 1.804
+    - type: precision_at_1000
+      value: 0.22499999999999998
+    - type: precision_at_20
+      value: 6.84
+    - type: precision_at_3
+      value: 25.067
+    - type: precision_at_5
+      value: 18.32
+    - type: recall_at_1
+      value: 25.554
+    - type: recall_at_10
+      value: 51.474
+    - type: recall_at_100
+      value: 74.735
+    - type: recall_at_1000
+      value: 90.914
+    - type: recall_at_20
+      value: 59.736999999999995
+    - type: recall_at_3
+      value: 36.582
+    - type: recall_at_5
+      value: 42.917
+    task:
+      type: Retrieval
+  - dataset:
+      config: default
+      name: MTEB FiQA2018 (default)
+      revision: 27a168819829fe9bcd655c2df245fb19452e8e06
+      split: test
+      type: mteb/fiqa
+    metrics:
+    - type: main_score
+      value: 42.672
+    - type: map_at_1
+      value: 20.810000000000002
+    - type: map_at_10
+      value: 34.816
+    - type: map_at_100
+      value: 36.559000000000005
+    - type: map_at_1000
+      value: 36.739
+    - type: map_at_20
+      value: 35.793
+    - type: map_at_3
+      value: 30.709999999999997
+    - type: map_at_5
+      value: 32.903
+    - type: mrr_at_1
+      value: 40.74074074074074
+    - type: mrr_at_10
+      value: 50.31225504605135
+    - type: mrr_at_100
+      value: 51.10974962073793
+    - type: mrr_at_1000
+      value: 51.145458083558594
+    - type: mrr_at_20
+      value: 50.835867941005674
+    - type: mrr_at_3
+      value: 48.17386831275719
+    - type: mrr_at_5
+      value: 49.36213991769546
+    - type: nauc_map_at_1000_diff1
+      value: 42.6898312513211
+    - type: nauc_map_at_1000_max
+      value: 26.281671731871985
+    - type: nauc_map_at_1000_std
+      value: 0.7620867046583552
+    - type: nauc_map_at_100_diff1
+      value: 42.57169669036131
+    - type: nauc_map_at_100_max
+      value: 26.145640161493173
+    - type: nauc_map_at_100_std
+      value: 0.7367651475823449
+    - type: nauc_map_at_10_diff1
+      value: 42.31258901668185
+    - type: nauc_map_at_10_max
+      value: 24.77533473513109
+    - type: nauc_map_at_10_std
+      value: -0.7497212250554994
+    - type: nauc_map_at_1_diff1
+      value: 48.41859846141981
+    - type: nauc_map_at_1_max
+      value: 18.10254250440143
+    - type: nauc_map_at_1_std
+      value: -5.915838853200118
+    - type: nauc_map_at_20_diff1
+      value: 42.34856289190343
+    - type: nauc_map_at_20_max
+      value: 25.69107238299756
+    - type: nauc_map_at_20_std
+      value: 0.27588502783188223
+    - type: nauc_map_at_3_diff1
+      value: 44.04496251583725
+    - type: nauc_map_at_3_max
+      value: 22.64325180927134
+    - type: nauc_map_at_3_std
+      value: -2.204734451292917
+    - type: nauc_map_at_5_diff1
+      value: 43.40971038290712
+    - type: nauc_map_at_5_max
+      value: 23.97382467102329
+    - type: nauc_map_at_5_std
+      value: -1.1419214343255244
+    - type: nauc_mrr_at_1000_diff1
+      value: 53.07479963154328
+    - type: nauc_mrr_at_1000_max
+      value: 35.08039964920313
+    - type: nauc_mrr_at_1000_std
+      value: 2.395230067270119
+    - type: nauc_mrr_at_100_diff1
+      value: 53.05361788036026
+    - type: nauc_mrr_at_100_max
+      value: 35.09788748290212
+    - type: nauc_mrr_at_100_std
+      value: 2.418854060474198
+    - type: nauc_mrr_at_10_diff1
+      value: 52.72364127433612
+    - type: nauc_mrr_at_10_max
+      value: 34.776193049704396
+    - type: nauc_mrr_at_10_std
+      value: 2.003219818180847
+    - type: nauc_mrr_at_1_diff1
+      value: 56.825212094166545
+    - type: nauc_mrr_at_1_max
+      value: 32.907554590039815
+    - type: nauc_mrr_at_1_std
+      value: -1.364505805796406
+    - type: nauc_mrr_at_20_diff1
+      value: 52.99965015232407
+    - type: nauc_mrr_at_20_max
+      value: 34.968116095845254
+    - type: nauc_mrr_at_20_std
+      value: 2.3485485371198633
+    - type: nauc_mrr_at_3_diff1
+      value: 53.8968569125276
+    - type: nauc_mrr_at_3_max
+      value: 35.711600898114334
+    - type: nauc_mrr_at_3_std
+      value: 1.9859332685100484
+    - type: nauc_mrr_at_5_diff1
+      value: 53.582871272036016
+    - type: nauc_mrr_at_5_max
+      value: 34.93684472388838
+    - type: nauc_mrr_at_5_std
+      value: 2.3347159901923065
+    - type: nauc_ndcg_at_1000_diff1
+      value: 45.36787254964793
+    - type: nauc_ndcg_at_1000_max
+      value: 32.2681824363134
+    - type: nauc_ndcg_at_1000_std
+      value: 5.815945066818261
+    - type: nauc_ndcg_at_100_diff1
+      value: 44.08061590784506
+    - type: nauc_ndcg_at_100_max
+      value: 31.279868971364078
+    - type: nauc_ndcg_at_100_std
+      value: 6.33649305085534
+    - type: nauc_ndcg_at_10_diff1
+      value: 42.631906063381905
+    - type: nauc_ndcg_at_10_max
+      value: 27.516462342453263
+    - type: nauc_ndcg_at_10_std
+      value: 1.3896722992639912
+    - type: nauc_ndcg_at_1_diff1
+      value: 56.825212094166545
+    - type: nauc_ndcg_at_1_max
+      value: 32.907554590039815
+    - type: nauc_ndcg_at_1_std
+      value: -1.364505805796406
+    - type: nauc_ndcg_at_20_diff1
+      value: 43.316329717168955
+    - type: nauc_ndcg_at_20_max
+      value: 29.206746664257416
+    - type: nauc_ndcg_at_20_std
+      value: 3.7239674271850105
+    - type: nauc_ndcg_at_3_diff1
+      value: 44.80183033874905
+    - type: nauc_ndcg_at_3_max
+      value: 29.742746669981457
+    - type: nauc_ndcg_at_3_std
+      value: 1.227113841715857
+    - type: nauc_ndcg_at_5_diff1
+      value: 44.3701381872213
+    - type: nauc_ndcg_at_5_max
+      value: 28.065056973490492
+    - type: nauc_ndcg_at_5_std
+      value: 1.6689171525025643
+    - type: nauc_precision_at_1000_diff1
+      value: 2.3046803465908003
+    - type: nauc_precision_at_1000_max
+      value: 27.380473322815103
+    - type: nauc_precision_at_1000_std
+      value: 15.356878362150866
+    - type: nauc_precision_at_100_diff1
+      value: 7.03975347205041
+    - type: nauc_precision_at_100_max
+      value: 30.721605506174026
+    - type: nauc_precision_at_100_std
+      value: 19.547035843159
+    - type: nauc_precision_at_10_diff1
+      value: 16.402742978688057
+    - type: nauc_precision_at_10_max
+      value: 30.777182999989606
+    - type: nauc_precision_at_10_std
+      value: 9.164809596132375
+    - type: nauc_precision_at_1_diff1
+      value: 56.825212094166545
+    - type: nauc_precision_at_1_max
+      value: 32.907554590039815
+    - type: nauc_precision_at_1_std
+      value: -1.364505805796406
+    - type: nauc_precision_at_20_diff1
+      value: 13.139000469807192
+    - type: nauc_precision_at_20_max
+      value: 31.990538682090136
+    - type: nauc_precision_at_20_std
+      value: 14.393413944725811
+    - type: nauc_precision_at_3_diff1
+      value: 31.552710282041623
+    - type: nauc_precision_at_3_max
+      value: 33.51647517755997
+    - type: nauc_precision_at_3_std
+      value: 6.043833018841229
+    - type: nauc_precision_at_5_diff1
+      value: 25.367103130969593
+    - type: nauc_precision_at_5_max
+      value: 32.34107578507879
+    - type: nauc_precision_at_5_std
+      value: 8.706580223485966
+    - type: nauc_recall_at_1000_diff1
+      value: 36.63865503751282
+    - type: nauc_recall_at_1000_max
+      value: 43.61857713478981
+    - type: nauc_recall_at_1000_std
+      value: 41.20611452183899
+    - type: nauc_recall_at_100_diff1
+      value: 28.359239562981813
+    - type: nauc_recall_at_100_max
+      value: 31.2488585833301
+    - type: nauc_recall_at_100_std
+      value: 26.418183922479415
+    - type: nauc_recall_at_10_diff1
+      value: 29.03981058334878
+    - type: nauc_recall_at_10_max
+      value: 19.851141320829726
+    - type: nauc_recall_at_10_std
+      value: 2.9077823815816113
+    - type: nauc_recall_at_1_diff1
+      value: 48.41859846141981
+    - type: nauc_recall_at_1_max
+      value: 18.10254250440143
+    - type: nauc_recall_at_1_std
+      value: -5.915838853200118
+    - type: nauc_recall_at_20_diff1
+      value: 30.619719883102785
+    - type: nauc_recall_at_20_max
+      value: 24.55326818191543
+    - type: nauc_recall_at_20_std
+      value: 10.31945754397688
+    - type: nauc_recall_at_3_diff1
+      value: 37.03852287877488
+    - type: nauc_recall_at_3_max
+      value: 21.07728820212504
+    - type: nauc_recall_at_3_std
+      value: 0.5323752155647694
+    - type: nauc_recall_at_5_diff1
+      value: 35.71309469862529
+    - type: nauc_recall_at_5_max
+      value: 20.859225353060467
+    - type: nauc_recall_at_5_std
+      value: 2.9376290211854745
+    - type: ndcg_at_1
+      value: 40.741
+    - type: ndcg_at_10
+      value: 42.672
+    - type: ndcg_at_100
+      value: 49.056
+    - type: ndcg_at_1000
+      value: 51.989
+    - type: ndcg_at_20
+      value: 45.131
+    - type: ndcg_at_3
+      value: 39.472
+    - type: ndcg_at_5
+      value: 40.209
+    - type: precision_at_1
+      value: 40.741
+    - type: precision_at_10
+      value: 11.821
+    - type: precision_at_100
+      value: 1.847
+    - type: precision_at_1000
+      value: 0.23800000000000002
+    - type: precision_at_20
+      value: 6.9750000000000005
+    - type: precision_at_3
+      value: 26.749000000000002
+    - type: precision_at_5
+      value: 19.29
+    - type: recall_at_1
+      value: 20.810000000000002
+    - type: recall_at_10
+      value: 49.657000000000004
+    - type: recall_at_100
+      value: 73.547
+    - type: recall_at_1000
+      value: 90.971
+    - type: recall_at_20
+      value: 57.174
+    - type: recall_at_3
+      value: 36.401
+    - type: recall_at_5
+      value: 41.811
+    task:
+      type: Retrieval
+  - dataset:
+      config: default
+      name: MTEB FiQA2018 (default)
+      revision: 27a168819829fe9bcd655c2df245fb19452e8e06
+      split: train
+      type: mteb/fiqa
+    metrics:
+    - type: main_score
+      value: 43.324
+    - type: map_at_1
+      value: 22.042
+    - type: map_at_10
+      value: 35.506
+    - type: map_at_100
+      value: 37.330000000000005
+    - type: map_at_1000
+      value: 37.497
+    - type: map_at_20
+      value: 36.569
+    - type: map_at_3
+      value: 31.136000000000003
+    - type: map_at_5
+      value: 33.458
+    - type: mrr_at_1
+      value: 41.21818181818182
+    - type: mrr_at_10
+      value: 50.212178932178986
+    - type: mrr_at_100
+      value: 51.01730710363213
+    - type: mrr_at_1000
+      value: 51.0568603275777
+    - type: mrr_at_20
+      value: 50.727859227741014
+    - type: mrr_at_3
+      value: 47.77272727272733
+    - type: mrr_at_5
+      value: 49.16454545454549
+    - type: nauc_map_at_1000_diff1
+      value: 44.04272057810526
+    - type: nauc_map_at_1000_max
+      value: 25.591745036031522
+    - type: nauc_map_at_1000_std
+      value: -0.30445228328536716
+    - type: nauc_map_at_100_diff1
+      value: 44.01251041718803
+    - type: nauc_map_at_100_max
+      value: 25.50774810569885
+    - type: nauc_map_at_100_std
+      value: -0.3536644300946971
+    - type: nauc_map_at_10_diff1
+      value: 43.94792483556109
+    - type: nauc_map_at_10_max
+      value: 24.38124776391208
+    - type: nauc_map_at_10_std
+      value: -1.9008227013643013
+    - type: nauc_map_at_1_diff1
+      value: 47.5823442411594
+    - type: nauc_map_at_1_max
+      value: 16.098120209560246
+    - type: nauc_map_at_1_std
+      value: -6.474949554469241
+    - type: nauc_map_at_20_diff1
+      value: 43.904430971837215
+    - type: nauc_map_at_20_max
+      value: 25.02666309647016
+    - type: nauc_map_at_20_std
+      value: -0.9839666098211898
+    - type: nauc_map_at_3_diff1
+      value: 44.09023141566954
+    - type: nauc_map_at_3_max
+      value: 20.806911976005
+    - type: nauc_map_at_3_std
+      value: -4.717530470050773
+    - type: nauc_map_at_5_diff1
+      value: 44.136425375442464
+    - type: nauc_map_at_5_max
+      value: 22.8086611395014
+    - type: nauc_map_at_5_std
+      value: -3.4400450523751203
+    - type: nauc_mrr_at_1000_diff1
+      value: 50.07537524680542
+    - type: nauc_mrr_at_1000_max
+      value: 34.0564490817672
+    - type: nauc_mrr_at_1000_std
+      value: 1.7381240132846465
+    - type: nauc_mrr_at_100_diff1
+      value: 50.05816984827742
+    - type: nauc_mrr_at_100_max
+      value: 34.06001922775578
+    - type: nauc_mrr_at_100_std
+      value: 1.7565289963657589
+    - type: nauc_mrr_at_10_diff1
+      value: 50.03282241193434
+    - type: nauc_mrr_at_10_max
+      value: 34.06608751975744
+    - type: nauc_mrr_at_10_std
+      value: 1.63053669388884
+    - type: nauc_mrr_at_1_diff1
+      value: 53.903269711540794
+    - type: nauc_mrr_at_1_max
+      value: 33.07894487586781
+    - type: nauc_mrr_at_1_std
+      value: -1.5109127877147128
+    - type: nauc_mrr_at_20_diff1
+      value: 50.02068203379615
+    - type: nauc_mrr_at_20_max
+      value: 34.0442009191646
+    - type: nauc_mrr_at_20_std
+      value: 1.7370035901665568
+    - type: nauc_mrr_at_3_diff1
+      value: 50.512929925179925
+    - type: nauc_mrr_at_3_max
+      value: 33.68124055866945
+    - type: nauc_mrr_at_3_std
+      value: 0.6233671460050563
+    - type: nauc_mrr_at_5_diff1
+      value: 50.23877045325512
+    - type: nauc_mrr_at_5_max
+      value: 33.88189018188559
+    - type: nauc_mrr_at_5_std
+      value: 1.2285475999913853
+    - type: nauc_ndcg_at_1000_diff1
+      value: 44.5394614509097
+    - type: nauc_ndcg_at_1000_max
+      value: 30.757622799766203
+    - type: nauc_ndcg_at_1000_std
+      value: 4.7849677289040065
+    - type: nauc_ndcg_at_100_diff1
+      value: 43.972129444027566
+    - type: nauc_ndcg_at_100_max
+      value: 30.068116358576237
+    - type: nauc_ndcg_at_100_std
+      value: 4.98164700822003
+    - type: nauc_ndcg_at_10_diff1
+      value: 43.90316145848242
+    - type: nauc_ndcg_at_10_max
+      value: 27.942560497889126
+    - type: nauc_ndcg_at_10_std
+      value: 1.1639226955676085
+    - type: nauc_ndcg_at_1_diff1
+      value: 53.903269711540794
+    - type: nauc_ndcg_at_1_max
+      value: 33.07894487586781
+    - type: nauc_ndcg_at_1_std
+      value: -1.5109127877147128
+    - type: nauc_ndcg_at_20_diff1
+      value: 43.58418727337814
+    - type: nauc_ndcg_at_20_max
+      value: 28.49134809683963
+    - type: nauc_ndcg_at_20_std
+      value: 2.620919689677387
+    - type: nauc_ndcg_at_3_diff1
+      value: 44.619591071294174
+    - type: nauc_ndcg_at_3_max
+      value: 27.946260272394362
+    - type: nauc_ndcg_at_3_std
+      value: -0.5889494356050139
+    - type: nauc_ndcg_at_5_diff1
+      value: 44.373428421412875
+    - type: nauc_ndcg_at_5_max
+      value: 27.293622020469773
+    - type: nauc_ndcg_at_5_std
+      value: -0.2590215673685209
+    - type: nauc_precision_at_1000_diff1
+      value: 1.3555023302594147
+    - type: nauc_precision_at_1000_max
+      value: 26.715905651256104
+    - type: nauc_precision_at_1000_std
+      value: 20.552543709293232
+    - type: nauc_precision_at_100_diff1
+      value: 9.26195632526192
+    - type: nauc_precision_at_100_max
+      value: 32.764862859177754
+    - type: nauc_precision_at_100_std
+      value: 24.31720182442109
+    - type: nauc_precision_at_10_diff1
+      value: 21.491871495983993
+    - type: nauc_precision_at_10_max
+      value: 35.68968329387387
+    - type: nauc_precision_at_10_std
+      value: 14.395349431573997
+    - type: nauc_precision_at_1_diff1
+      value: 53.903269711540794
+    - type: nauc_precision_at_1_max
+      value: 33.07894487586781
+    - type: nauc_precision_at_1_std
+      value: -1.5109127877147128
+    - type: nauc_precision_at_20_diff1
+      value: 17.01838154349841
+    - type: nauc_precision_at_20_max
+      value: 35.026739540738795
+    - type: nauc_precision_at_20_std
+      value: 18.99756134043926
+    - type: nauc_precision_at_3_diff1
+      value: 32.5276923569714
+    - type: nauc_precision_at_3_max
+      value: 34.17028514167449
+    - type: nauc_precision_at_3_std
+      value: 4.701014289049224
+    - type: nauc_precision_at_5_diff1
+      value: 27.420289540859933
+    - type: nauc_precision_at_5_max
+      value: 35.090178846683756
+    - type: nauc_precision_at_5_std
+      value: 8.77127816260347
+    - type: nauc_recall_at_1000_diff1
+      value: 22.201742466449073
+    - type: nauc_recall_at_1000_max
+      value: 32.12548787064195
+    - type: nauc_recall_at_1000_std
+      value: 38.35298316557644
+    - type: nauc_recall_at_100_diff1
+      value: 27.007968582225523
+    - type: nauc_recall_at_100_max
+      value: 25.840258216813677
+    - type: nauc_recall_at_100_std
+      value: 21.309907791035144
+    - type: nauc_recall_at_10_diff1
+      value: 33.234435091698934
+    - type: nauc_recall_at_10_max
+      value: 22.561655534725276
+    - type: nauc_recall_at_10_std
+      value: 3.939638319426343
+    - type: nauc_recall_at_1_diff1
+      value: 47.5823442411594
+    - type: nauc_recall_at_1_max
+      value: 16.098120209560246
+    - type: nauc_recall_at_1_std
+      value: -6.474949554469241
+    - type: nauc_recall_at_20_diff1
+      value: 30.204301573132426
+    - type: nauc_recall_at_20_max
+      value: 22.50029208267097
+    - type: nauc_recall_at_20_std
+      value: 8.404433974064252
+    - type: nauc_recall_at_3_diff1
+      value: 37.77539231241753
+    - type: nauc_recall_at_3_max
+      value: 18.589687477983226
+    - type: nauc_recall_at_3_std
+      value: -3.145538286527593
+    - type: nauc_recall_at_5_diff1
+      value: 36.355054318958864
+    - type: nauc_recall_at_5_max
+      value: 20.47231279946122
+    - type: nauc_recall_at_5_std
+      value: -0.5883469550726023
+    - type: ndcg_at_1
+      value: 41.217999999999996
+    - type: ndcg_at_10
+      value: 43.324
+    - type: ndcg_at_100
+      value: 49.723
+    - type: ndcg_at_1000
+      value: 52.516
+    - type: ndcg_at_20
+      value: 45.967999999999996
+    - type: ndcg_at_3
+      value: 39.145
+    - type: ndcg_at_5
+      value: 40.483999999999995
+    - type: precision_at_1
+      value: 41.217999999999996
+    - type: precision_at_10
+      value: 11.664
+    - type: precision_at_100
       value: 1.8270000000000002
-    - type: precision_at_20
-      value: 31.791000000000004
-    - type: precision_at_3
-      value: 63.682
-    - type: precision_at_5
-      value: 52.239000000000004
-    - type: recall_at_1
-      value: 11.826
-    - type: recall_at_10
-      value: 33.28
-    - type: recall_at_100
-      value: 65.91
-    - type: recall_at_1000
-      value: 88.39200000000001
-    - type: recall_at_20
-      value: 44.482
-    - type: recall_at_3
-      value: 20.377000000000002
-    - type: recall_at_5
-      value: 24.102999999999998
-    task:
-      type: Retrieval
-  - dataset:
-      config: default
-      name: MTEB DBPedia (default)
-      revision: c0f706b76e590d620bd6618b3ca8efdd34e2d659
-      split: test
-      type: mteb/dbpedia
-    metrics:
-    - type: main_score
-      value: 46.062999999999995
-    - type: map_at_1
-      value: 9.913
-    - type: map_at_10
-      value: 22.713
-    - type: map_at_100
-      value: 32.995999999999995
-    - type: map_at_1000
-      value: 34.845
-    - type: map_at_20
-      value: 26.650000000000002
-    - type: map_at_3
-      value: 16.052
-    - type: map_at_5
-      value: 18.892999999999997
-    - type: mrr_at_1
-      value: 72.75
-    - type: mrr_at_10
-      value: 79.93075396825398
-    - type: mrr_at_100
-      value: 80.15202418448516
-    - type: mrr_at_1000
-      value: 80.16338022685652
-    - type: mrr_at_20
-      value: 80.10524750447352
-    - type: mrr_at_3
-      value: 78.375
-    - type: mrr_at_5
-      value: 79.5
-    - type: nauc_map_at_1000_diff1
-      value: 15.703992161125676
-    - type: nauc_map_at_1000_max
-      value: 23.35271482732561
-    - type: nauc_map_at_1000_std
-      value: 31.149527138283002
-    - type: nauc_map_at_100_diff1
-      value: 16.785306132760873
-    - type: nauc_map_at_100_max
-      value: 21.540254096945795
-    - type: nauc_map_at_100_std
-      value: 28.232069035246422
-    - type: nauc_map_at_10_diff1
-      value: 20.402743546183082
-    - type: nauc_map_at_10_max
-      value: 7.042045670852542
-    - type: nauc_map_at_10_std
-      value: 0.16763671800997607
-    - type: nauc_map_at_1_diff1
-      value: 35.775061062200926
-    - type: nauc_map_at_1_max
-      value: -3.2698850217174287
-    - type: nauc_map_at_1_std
-      value: -19.56795709087053
-    - type: nauc_map_at_20_diff1
-      value: 18.699651665323326
-    - type: nauc_map_at_20_max
-      value: 13.328266382559917
-    - type: nauc_map_at_20_std
-      value: 11.47185661443564
-    - type: nauc_map_at_3_diff1
-      value: 25.81987347945424
-    - type: nauc_map_at_3_max
-      value: -0.15648299152936088
-    - type: nauc_map_at_3_std
-      value: -13.835424548479757
-    - type: nauc_map_at_5_diff1
-      value: 23.439523519895587
-    - type: nauc_map_at_5_max
-      value: 1.5356852327250021
-    - type: nauc_map_at_5_std
-      value: -9.703910926625412
-    - type: nauc_mrr_at_1000_diff1
-      value: 52.46673675514906
-    - type: nauc_mrr_at_1000_max
-      value: 63.470733964613935
-    - type: nauc_mrr_at_1000_std
-      value: 45.63124329941225
-    - type: nauc_mrr_at_100_diff1
-      value: 52.453615789844285
-    - type: nauc_mrr_at_100_max
-      value: 63.46889395676577
-    - type: nauc_mrr_at_100_std
-      value: 45.60690760740741
-    - type: nauc_mrr_at_10_diff1
-      value: 52.418811815325775
-    - type: nauc_mrr_at_10_max
-      value: 63.458017896693896
-    - type: nauc_mrr_at_10_std
-      value: 45.69048100462888
-    - type: nauc_mrr_at_1_diff1
-      value: 51.64249864649329
-    - type: nauc_mrr_at_1_max
-      value: 61.7930671192988
-    - type: nauc_mrr_at_1_std
-      value: 45.65780424635283
-    - type: nauc_mrr_at_20_diff1
-      value: 52.51320760078821
-    - type: nauc_mrr_at_20_max
-      value: 63.45648957193841
-    - type: nauc_mrr_at_20_std
-      value: 45.643345257424215
-    - type: nauc_mrr_at_3_diff1
-      value: 52.684081166956375
-    - type: nauc_mrr_at_3_max
-      value: 63.47934202170013
-    - type: nauc_mrr_at_3_std
-      value: 45.258022228781805
-    - type: nauc_mrr_at_5_diff1
-      value: 52.404417203072725
-    - type: nauc_mrr_at_5_max
-      value: 63.622003998330335
-    - type: nauc_mrr_at_5_std
-      value: 45.56023178180955
-    - type: nauc_ndcg_at_1000_diff1
-      value: 21.457460034962793
-    - type: nauc_ndcg_at_1000_max
-      value: 38.48004433256833
-    - type: nauc_ndcg_at_1000_std
-      value: 44.50501821602239
-    - type: nauc_ndcg_at_100_diff1
-      value: 22.96499973613431
-    - type: nauc_ndcg_at_100_max
-      value: 32.279961000176996
-    - type: nauc_ndcg_at_100_std
-      value: 36.24772810425709
-    - type: nauc_ndcg_at_10_diff1
-      value: 22.80486448431605
-    - type: nauc_ndcg_at_10_max
-      value: 31.855350572992712
-    - type: nauc_ndcg_at_10_std
-      value: 32.02098815228779
-    - type: nauc_ndcg_at_1_diff1
-      value: 42.52237678010534
-    - type: nauc_ndcg_at_1_max
-      value: 43.07107038550254
-    - type: nauc_ndcg_at_1_std
-      value: 32.29636539687786
-    - type: nauc_ndcg_at_20_diff1
-      value: 23.33376144999378
-    - type: nauc_ndcg_at_20_max
-      value: 29.47723113288734
-    - type: nauc_ndcg_at_20_std
-      value: 29.39360988758012
-    - type: nauc_ndcg_at_3_diff1
-      value: 26.354022177902426
-    - type: nauc_ndcg_at_3_max
-      value: 34.34518581558593
-    - type: nauc_ndcg_at_3_std
-      value: 30.620971800188308
-    - type: nauc_ndcg_at_5_diff1
-      value: 23.743192738244137
-    - type: nauc_ndcg_at_5_max
-      value: 31.84064266620126
-    - type: nauc_ndcg_at_5_std
-      value: 31.185813277650304
-    - type: nauc_precision_at_1000_diff1
-      value: -23.397310460810505
-    - type: nauc_precision_at_1000_max
-      value: 4.094434610744116
-    - type: nauc_precision_at_1000_std
-      value: 16.721869991290177
-    - type: nauc_precision_at_100_diff1
-      value: -9.979052269943192
-    - type: nauc_precision_at_100_max
-      value: 30.59858046499311
-    - type: nauc_precision_at_100_std
-      value: 48.98467116206844
-    - type: nauc_precision_at_10_diff1
-      value: -5.612358654181445
-    - type: nauc_precision_at_10_max
-      value: 38.881592521775225
-    - type: nauc_precision_at_10_std
-      value: 55.44555278772913
-    - type: nauc_precision_at_1_diff1
-      value: 51.64249864649329
-    - type: nauc_precision_at_1_max
-      value: 61.7930671192988
-    - type: nauc_precision_at_1_std
-      value: 45.65780424635283
-    - type: nauc_precision_at_20_diff1
-      value: -5.663214776548806
-    - type: nauc_precision_at_20_max
-      value: 37.95746951813096
-    - type: nauc_precision_at_20_std
-      value: 55.85134464939927
-    - type: nauc_precision_at_3_diff1
-      value: 5.956898719194746
-    - type: nauc_precision_at_3_max
-      value: 37.315381572930626
-    - type: nauc_precision_at_3_std
-      value: 43.463129246499506
-    - type: nauc_precision_at_5_diff1
-      value: -0.67640128719057
-    - type: nauc_precision_at_5_max
-      value: 36.05694594117169
-    - type: nauc_precision_at_5_std
-      value: 48.36937473304257
-    - type: nauc_recall_at_1000_diff1
-      value: 11.230184686028919
-    - type: nauc_recall_at_1000_max
-      value: 33.60147376937396
-    - type: nauc_recall_at_1000_std
-      value: 53.068732741076055
-    - type: nauc_recall_at_100_diff1
-      value: 15.566530633394684
-    - type: nauc_recall_at_100_max
-      value: 23.57721391991314
-    - type: nauc_recall_at_100_std
-      value: 31.386352775767566
-    - type: nauc_recall_at_10_diff1
-      value: 17.096462310522874
-    - type: nauc_recall_at_10_max
-      value: 2.2836136689655127
-    - type: nauc_recall_at_10_std
-      value: -4.65565377513818
-    - type: nauc_recall_at_1_diff1
-      value: 35.775061062200926
-    - type: nauc_recall_at_1_max
-      value: -3.2698850217174287
-    - type: nauc_recall_at_1_std
-      value: -19.56795709087053
-    - type: nauc_recall_at_20_diff1
-      value: 14.19787786895807
-    - type: nauc_recall_at_20_max
-      value: 7.524383196640643
-    - type: nauc_recall_at_20_std
-      value: 5.656566482975458
-    - type: nauc_recall_at_3_diff1
-      value: 23.847261122849588
-    - type: nauc_recall_at_3_max
-      value: -2.611801666377753
-    - type: nauc_recall_at_3_std
-      value: -16.43695458424158
-    - type: nauc_recall_at_5_diff1
-      value: 20.607771671835604
-    - type: nauc_recall_at_5_max
-      value: -2.949503014688604
-    - type: nauc_recall_at_5_std
-      value: -14.602394621100709
-    - type: ndcg_at_1
-      value: 60.0
-    - type: ndcg_at_10
-      value: 46.062999999999995
-    - type: ndcg_at_100
-      value: 51.717999999999996
-    - type: ndcg_at_1000
-      value: 59.181
-    - type: ndcg_at_20
-      value: 45.837
-    - type: ndcg_at_3
-      value: 50.568999999999996
-    - type: ndcg_at_5
-      value: 47.981
-    - type: precision_at_1
-      value: 72.75
-    - type: precision_at_10
-      value: 37.1
-    - type: precision_at_100
-      value: 11.98
     - type: precision_at_1000
-      value: 2.284
+      value: 0.232
     - type: precision_at_20
-      value: 28.499999999999996
+      value: 6.938
     - type: precision_at_3
-      value: 54.833
+      value: 25.496999999999996
     - type: precision_at_5
-      value: 46.550000000000004
+      value: 18.695
     - type: recall_at_1
-      value: 9.913
+      value: 22.042
     - type: recall_at_10
-      value: 28.154
+      value: 50.902
     - type: recall_at_100
-      value: 58.841
+      value: 74.74499999999999
     - type: recall_at_1000
-      value: 82.329
+      value: 91.57499999999999
     - type: recall_at_20
-      value: 36.971
+      value: 59.274
     - type: recall_at_3
-      value: 17.336
+      value: 36.215
     - type: recall_at_5
-      value: 21.612000000000002
-    task:
-      type: Retrieval
-  - dataset:
-      config: default
-      name: MTEB FEVER (default)
-      revision: bea83ef9e8fb933d90a2f1d5515737465d613e12
-      split: dev
-      type: mteb/fever
-    metrics:
-    - type: main_score
-      value: 90.881
-    - type: map_at_1
-      value: 80.818
-    - type: map_at_10
-      value: 87.866
-    - type: map_at_100
-      value: 88.083
-    - type: map_at_1000
-      value: 88.095
-    - type: map_at_20
-      value: 87.991
-    - type: map_at_3
-      value: 87.069
-    - type: map_at_5
-      value: 87.569
-    - type: mrr_at_1
-      value: 87.56375637563757
-    - type: mrr_at_10
-      value: 92.82259178298779
-    - type: mrr_at_100
-      value: 92.84322154467066
-    - type: mrr_at_1000
-      value: 92.84344246383182
-    - type: mrr_at_20
-      value: 92.83903406133638
-    - type: mrr_at_3
-      value: 92.52175217521747
-    - type: mrr_at_5
-      value: 92.73627362736265
-    - type: nauc_map_at_1000_diff1
-      value: 46.87623575032174
-    - type: nauc_map_at_1000_max
-      value: 12.297201771693372
-    - type: nauc_map_at_1000_std
-      value: -9.479310845495277
-    - type: nauc_map_at_100_diff1
-      value: 46.84134556922246
-    - type: nauc_map_at_100_max
-      value: 12.292309938105879
-    - type: nauc_map_at_100_std
-      value: -9.466678629428921
-    - type: nauc_map_at_10_diff1
-      value: 46.181390015451946
-    - type: nauc_map_at_10_max
-      value: 11.927988984700725
-    - type: nauc_map_at_10_std
-      value: -9.666045508151084
-    - type: nauc_map_at_1_diff1
-      value: 53.10928810328134
-    - type: nauc_map_at_1_max
-      value: 7.540404621177918
-    - type: nauc_map_at_1_std
-      value: -13.906212384769297
-    - type: nauc_map_at_20_diff1
-      value: 46.49635746130797
-    - type: nauc_map_at_20_max
-      value: 12.13593751368467
-    - type: nauc_map_at_20_std
-      value: -9.607633449073036
-    - type: nauc_map_at_3_diff1
-      value: 45.940411564236655
-    - type: nauc_map_at_3_max
-      value: 11.433507590443073
-    - type: nauc_map_at_3_std
-      value: -10.96299821239248
-    - type: nauc_map_at_5_diff1
-      value: 45.87354953980392
-    - type: nauc_map_at_5_max
-      value: 11.548053546333442
-    - type: nauc_map_at_5_std
-      value: -10.299403473081103
-    - type: nauc_mrr_at_1000_diff1
-      value: 74.96436552895679
-    - type: nauc_mrr_at_1000_max
-      value: 15.081704623272563
-    - type: nauc_mrr_at_1000_std
-      value: -21.505452950257524
-    - type: nauc_mrr_at_100_diff1
-      value: 74.96337776424838
-    - type: nauc_mrr_at_100_max
-      value: 15.084165693265266
-    - type: nauc_mrr_at_100_std
-      value: -21.502705745641805
-    - type: nauc_mrr_at_10_diff1
-      value: 74.95512856225042
-    - type: nauc_mrr_at_10_max
-      value: 15.179216919044547
-    - type: nauc_mrr_at_10_std
-      value: -21.54772408489513
-    - type: nauc_mrr_at_1_diff1
-      value: 75.1059297404218
-    - type: nauc_mrr_at_1_max
-      value: 11.81006208731222
-    - type: nauc_mrr_at_1_std
-      value: -20.585909179161106
-    - type: nauc_mrr_at_20_diff1
-      value: 74.96842612971291
-    - type: nauc_mrr_at_20_max
-      value: 15.114351703094453
-    - type: nauc_mrr_at_20_std
-      value: -21.513817851207094
-    - type: nauc_mrr_at_3_diff1
-      value: 75.02285494504581
-    - type: nauc_mrr_at_3_max
-      value: 16.0556430520842
-    - type: nauc_mrr_at_3_std
-      value: -21.96831001623427
-    - type: nauc_mrr_at_5_diff1
-      value: 74.90651790965175
-    - type: nauc_mrr_at_5_max
-      value: 15.372261833733539
-    - type: nauc_mrr_at_5_std
-      value: -21.675988243802003
-    - type: nauc_ndcg_at_1000_diff1
-      value: 50.2435944626682
-    - type: nauc_ndcg_at_1000_max
-      value: 14.561661200135982
-    - type: nauc_ndcg_at_1000_std
-      value: -8.914496686293512
-    - type: nauc_ndcg_at_100_diff1
-      value: 49.45862609681797
-    - type: nauc_ndcg_at_100_max
-      value: 14.574933247820116
-    - type: nauc_ndcg_at_100_std
-      value: -8.401737989352354
-    - type: nauc_ndcg_at_10_diff1
-      value: 46.70923651777826
-    - type: nauc_ndcg_at_10_max
-      value: 13.472299853545234
-    - type: nauc_ndcg_at_10_std
-      value: -8.83553728476895
-    - type: nauc_ndcg_at_1_diff1
-      value: 75.1059297404218
-    - type: nauc_ndcg_at_1_max
-      value: 11.81006208731222
-    - type: nauc_ndcg_at_1_std
-      value: -20.585909179161106
-    - type: nauc_ndcg_at_20_diff1
-      value: 47.55000104826263
-    - type: nauc_ndcg_at_20_max
-      value: 14.006480095713588
-    - type: nauc_ndcg_at_20_std
-      value: -8.658752805425454
-    - type: nauc_ndcg_at_3_diff1
-      value: 47.637455273739995
-    - type: nauc_ndcg_at_3_max
-      value: 13.770838942196637
-    - type: nauc_ndcg_at_3_std
-      value: -11.280620068648076
-    - type: nauc_ndcg_at_5_diff1
-      value: 46.43880641265911
-    - type: nauc_ndcg_at_5_max
-      value: 13.08583931363886
-    - type: nauc_ndcg_at_5_std
-      value: -10.06515821709641
-    - type: nauc_precision_at_1000_diff1
-      value: -7.74658978838917
-    - type: nauc_precision_at_1000_max
-      value: 4.751261690843568
-    - type: nauc_precision_at_1000_std
-      value: 9.364113114197997
-    - type: nauc_precision_at_100_diff1
-      value: -6.8148922522222115
-    - type: nauc_precision_at_100_max
-      value: 6.972247112602814
-    - type: nauc_precision_at_100_std
-      value: 11.878899724333886
-    - type: nauc_precision_at_10_diff1
-      value: -9.26742080488489
-    - type: nauc_precision_at_10_max
-      value: 10.151685398959382
-    - type: nauc_precision_at_10_std
-      value: 12.57287300284158
-    - type: nauc_precision_at_1_diff1
-      value: 75.1059297404218
-    - type: nauc_precision_at_1_max
-      value: 11.81006208731222
-    - type: nauc_precision_at_1_std
-      value: -20.585909179161106
-    - type: nauc_precision_at_20_diff1
-      value: -9.46809712351495
-    - type: nauc_precision_at_20_max
-      value: 9.070842702517606
-    - type: nauc_precision_at_20_std
-      value: 12.63029281322448
-    - type: nauc_precision_at_3_diff1
-      value: 4.482731450261291
-    - type: nauc_precision_at_3_max
-      value: 15.23040684493045
-    - type: nauc_precision_at_3_std
-      value: 1.6067730909628326
-    - type: nauc_precision_at_5_diff1
-      value: -5.71269063574531
-    - type: nauc_precision_at_5_max
-      value: 11.572460670136449
-    - type: nauc_precision_at_5_std
-      value: 7.83824414993744
-    - type: nauc_recall_at_1000_diff1
-      value: 2.7016711342522663
-    - type: nauc_recall_at_1000_max
-      value: 38.550518524354906
-    - type: nauc_recall_at_1000_std
-      value: 46.777091414426614
-    - type: nauc_recall_at_100_diff1
-      value: 8.833739498081504
-    - type: nauc_recall_at_100_max
-      value: 28.457805489841665
-    - type: nauc_recall_at_100_std
-      value: 32.44508615804357
-    - type: nauc_recall_at_10_diff1
-      value: 9.414374970261905
-    - type: nauc_recall_at_10_max
-      value: 16.400771079732788
-    - type: nauc_recall_at_10_std
-      value: 11.211729067346221
-    - type: nauc_recall_at_1_diff1
-      value: 53.10928810328134
-    - type: nauc_recall_at_1_max
-      value: 7.540404621177918
-    - type: nauc_recall_at_1_std
-      value: -13.906212384769297
-    - type: nauc_recall_at_20_diff1
-      value: 7.2361585201604255
-    - type: nauc_recall_at_20_max
-      value: 19.916481947882193
-    - type: nauc_recall_at_20_std
-      value: 16.717994401180736
-    - type: nauc_recall_at_3_diff1
-      value: 23.19365013128098
-    - type: nauc_recall_at_3_max
-      value: 15.22562423195164
-    - type: nauc_recall_at_3_std
-      value: -3.6529481843146376
-    - type: nauc_recall_at_5_diff1
-      value: 15.503999284173625
-    - type: nauc_recall_at_5_max
-      value: 14.508056870663811
-    - type: nauc_recall_at_5_std
-      value: 1.978806929057799
-    - type: ndcg_at_1
-      value: 87.564
-    - type: ndcg_at_10
-      value: 90.881
-    - type: ndcg_at_100
-      value: 91.513
-    - type: ndcg_at_1000
-      value: 91.71000000000001
-    - type: ndcg_at_20
-      value: 91.148
-    - type: ndcg_at_3
-      value: 89.917
-    - type: ndcg_at_5
-      value: 90.434
-    - type: precision_at_1
-      value: 87.564
-    - type: precision_at_10
-      value: 10.711
-    - type: precision_at_100
-      value: 1.135
-    - type: precision_at_1000
-      value: 0.117
-    - type: precision_at_20
-      value: 5.463
-    - type: precision_at_3
-      value: 33.993
-    - type: precision_at_5
-      value: 20.888
-    - type: recall_at_1
-      value: 80.818
-    - type: recall_at_10
-      value: 95.22800000000001
-    - type: recall_at_100
-      value: 97.52499999999999
-    - type: recall_at_1000
-      value: 98.691
-    - type: recall_at_20
-      value: 96.081
-    - type: recall_at_3
-      value: 92.43299999999999
-    - type: recall_at_5
-      value: 93.92200000000001
-    task:
-      type: Retrieval
-  - dataset:
-      config: default
-      name: MTEB FEVER (default)
-      revision: bea83ef9e8fb933d90a2f1d5515737465d613e12
-      split: test
-      type: mteb/fever
-    metrics:
-    - type: main_score
-      value: 89.917
-    - type: map_at_1
-      value: 78.50200000000001
-    - type: map_at_10
-      value: 86.568
-    - type: map_at_100
-      value: 86.785
-    - type: map_at_1000
-      value: 86.797
-    - type: map_at_20
-      value: 86.701
-    - type: map_at_3
-      value: 85.59400000000001
-    - type: map_at_5
-      value: 86.223
-    - type: mrr_at_1
-      value: 84.77347734773477
-    - type: mrr_at_10
-      value: 91.097966939551
-    - type: mrr_at_100
-      value: 91.12558512468273
-    - type: mrr_at_1000
-      value: 91.1260701737618
-    - type: mrr_at_20
-      value: 91.11946032681844
-    - type: mrr_at_3
-      value: 90.68406840684058
-    - type: mrr_at_5
-      value: 90.98784878487835
-    - type: nauc_map_at_1000_diff1
-      value: 50.87906171648577
-    - type: nauc_map_at_1000_max
-      value: 7.146488902357113
-    - type: nauc_map_at_1000_std
-      value: -12.846432203603294
-    - type: nauc_map_at_100_diff1
-      value: 50.81856235257227
-    - type: nauc_map_at_100_max
-      value: 7.142093753041584
-    - type: nauc_map_at_100_std
-      value: -12.819609867775798
-    - type: nauc_map_at_10_diff1
-      value: 50.334680606872986
-    - type: nauc_map_at_10_max
-      value: 7.0836766324370695
-    - type: nauc_map_at_10_std
-      value: -12.768283326531977
-    - type: nauc_map_at_1_diff1
-      value: 56.03047128824491
-    - type: nauc_map_at_1_max
-      value: 1.9657828096288057
-    - type: nauc_map_at_1_std
-      value: -16.09258344775108
-    - type: nauc_map_at_20_diff1
-      value: 50.59898980840294
-    - type: nauc_map_at_20_max
-      value: 7.171824094888314
-    - type: nauc_map_at_20_std
-      value: -12.755654528759749
-    - type: nauc_map_at_3_diff1
-      value: 50.10970484630358
-    - type: nauc_map_at_3_max
-      value: 6.495427590658401
-    - type: nauc_map_at_3_std
-      value: -14.334341284587198
-    - type: nauc_map_at_5_diff1
-      value: 50.085796858441846
-    - type: nauc_map_at_5_max
-      value: 6.9713526722279235
-    - type: nauc_map_at_5_std
-      value: -13.24882433153497
-    - type: nauc_mrr_at_1000_diff1
-      value: 71.7413632225038
-    - type: nauc_mrr_at_1000_max
-      value: 3.865641782196838
-    - type: nauc_mrr_at_1000_std
-      value: -24.555236632082018
-    - type: nauc_mrr_at_100_diff1
-      value: 71.73848550292642
-    - type: nauc_mrr_at_100_max
-      value: 3.868547078561582
-    - type: nauc_mrr_at_100_std
-      value: -24.549516364510097
-    - type: nauc_mrr_at_10_diff1
-      value: 71.71567149170303
-    - type: nauc_mrr_at_10_max
-      value: 3.996112870850431
-    - type: nauc_mrr_at_10_std
-      value: -24.507926982679656
-    - type: nauc_mrr_at_1_diff1
-      value: 72.45922013700734
-    - type: nauc_mrr_at_1_max
-      value: 1.8703455839128875
-    - type: nauc_mrr_at_1_std
-      value: -23.12219651563944
-    - type: nauc_mrr_at_20_diff1
-      value: 71.74174120635641
-    - type: nauc_mrr_at_20_max
-      value: 3.929695014596715
-    - type: nauc_mrr_at_20_std
-      value: -24.492801146396122
-    - type: nauc_mrr_at_3_diff1
-      value: 71.6212411128049
-    - type: nauc_mrr_at_3_max
-      value: 4.227925028200142
-    - type: nauc_mrr_at_3_std
-      value: -25.64285955172264
-    - type: nauc_mrr_at_5_diff1
-      value: 71.80132592467288
-    - type: nauc_mrr_at_5_max
-      value: 4.1553514465112995
-    - type: nauc_mrr_at_5_std
-      value: -24.93394619376225
-    - type: nauc_ndcg_at_1000_diff1
-      value: 53.6216140857924
-    - type: nauc_ndcg_at_1000_max
-      value: 8.199696972556648
-    - type: nauc_ndcg_at_1000_std
-      value: -12.848833254863706
-    - type: nauc_ndcg_at_100_diff1
-      value: 52.4771074390175
-    - type: nauc_ndcg_at_100_max
-      value: 8.266327098153694
-    - type: nauc_ndcg_at_100_std
-      value: -12.141877748527016
-    - type: nauc_ndcg_at_10_diff1
-      value: 50.39079678583025
-    - type: nauc_ndcg_at_10_max
-      value: 8.460346209587346
-    - type: nauc_ndcg_at_10_std
-      value: -11.739805102684473
-    - type: nauc_ndcg_at_1_diff1
-      value: 72.45922013700734
-    - type: nauc_ndcg_at_1_max
-      value: 1.8703455839128875
-    - type: nauc_ndcg_at_1_std
-      value: -23.12219651563944
-    - type: nauc_ndcg_at_20_diff1
-      value: 51.17449748619954
-    - type: nauc_ndcg_at_20_max
-      value: 8.560656277843842
-    - type: nauc_ndcg_at_20_std
-      value: -11.721957002532669
-    - type: nauc_ndcg_at_3_diff1
-      value: 51.697701767290724
-    - type: nauc_ndcg_at_3_max
-      value: 7.949689650260239
-    - type: nauc_ndcg_at_3_std
-      value: -15.497849863574933
-    - type: nauc_ndcg_at_5_diff1
-      value: 50.49788213345009
-    - type: nauc_ndcg_at_5_max
-      value: 8.380898947808362
-    - type: nauc_ndcg_at_5_std
-      value: -13.119756502356564
-    - type: nauc_precision_at_1000_diff1
-      value: -4.321234329511238
-    - type: nauc_precision_at_1000_max
-      value: 4.842614825492312
-    - type: nauc_precision_at_1000_std
-      value: 3.517128181017838
-    - type: nauc_precision_at_100_diff1
-      value: -7.201118735439735
-    - type: nauc_precision_at_100_max
-      value: 6.529523563838742
-    - type: nauc_precision_at_100_std
-      value: 7.106363711097527
-    - type: nauc_precision_at_10_diff1
-      value: -9.482064191334755
-    - type: nauc_precision_at_10_max
-      value: 10.994306197736153
-    - type: nauc_precision_at_10_std
-      value: 9.958273491520254
-    - type: nauc_precision_at_1_diff1
-      value: 72.45922013700734
-    - type: nauc_precision_at_1_max
-      value: 1.8703455839128875
-    - type: nauc_precision_at_1_std
-      value: -23.12219651563944
-    - type: nauc_precision_at_20_diff1
-      value: -9.380072735429245
-    - type: nauc_precision_at_20_max
-      value: 9.856465558009173
-    - type: nauc_precision_at_20_std
-      value: 9.131673380453492
-    - type: nauc_precision_at_3_diff1
-      value: 9.586710337314623
-    - type: nauc_precision_at_3_max
-      value: 14.740209113800102
-    - type: nauc_precision_at_3_std
-      value: -3.891333715748583
-    - type: nauc_precision_at_5_diff1
-      value: -3.998520236788054
-    - type: nauc_precision_at_5_max
-      value: 13.422868860819156
-    - type: nauc_precision_at_5_std
-      value: 6.108452997840511
-    - type: nauc_recall_at_1000_diff1
-      value: 3.385758105150115
-    - type: nauc_recall_at_1000_max
-      value: 47.3665730767981
-    - type: nauc_recall_at_1000_std
-      value: 56.87746303806031
-    - type: nauc_recall_at_100_diff1
-      value: -2.028014907991153
-    - type: nauc_recall_at_100_max
-      value: 32.48324188848066
-    - type: nauc_recall_at_100_std
-      value: 44.261168385513336
-    - type: nauc_recall_at_10_diff1
-      value: 10.768002004459115
-    - type: nauc_recall_at_10_max
-      value: 22.566005820537097
-    - type: nauc_recall_at_10_std
-      value: 17.40223735419854
-    - type: nauc_recall_at_1_diff1
-      value: 56.03047128824491
-    - type: nauc_recall_at_1_max
-      value: 1.9657828096288057
-    - type: nauc_recall_at_1_std
-      value: -16.09258344775108
-    - type: nauc_recall_at_20_diff1
-      value: 6.801138990752192
-    - type: nauc_recall_at_20_max
-      value: 26.58420813169432
-    - type: nauc_recall_at_20_std
-      value: 25.593452124921424
-    - type: nauc_recall_at_3_diff1
-      value: 28.43603012844233
-    - type: nauc_recall_at_3_max
-      value: 13.635019609839791
-    - type: nauc_recall_at_3_std
-      value: -7.307728685928379
-    - type: nauc_recall_at_5_diff1
-      value: 19.599627188133983
-    - type: nauc_recall_at_5_max
-      value: 17.90056850206721
-    - type: nauc_recall_at_5_std
-      value: 3.353861530030554
-    - type: ndcg_at_1
-      value: 84.773
-    - type: ndcg_at_10
-      value: 89.917
-    - type: ndcg_at_100
-      value: 90.577
-    - type: ndcg_at_1000
-      value: 90.739
-    - type: ndcg_at_20
-      value: 90.22200000000001
-    - type: ndcg_at_3
-      value: 88.601
-    - type: ndcg_at_5
-      value: 89.35499999999999
-    - type: precision_at_1
-      value: 84.773
-    - type: precision_at_10
-      value: 10.696
-    - type: precision_at_100
-      value: 1.13
-    - type: precision_at_1000
-      value: 0.116
-    - type: precision_at_20
-      value: 5.455
-    - type: precision_at_3
-      value: 33.663
-    - type: precision_at_5
-      value: 20.801
-    - type: recall_at_1
-      value: 78.50200000000001
-    - type: recall_at_10
-      value: 95.64099999999999
-    - type: recall_at_100
-      value: 98.05
-    - type: recall_at_1000
-      value: 98.964
-    - type: recall_at_20
-      value: 96.619
-    - type: recall_at_3
-      value: 92.11500000000001
-    - type: recall_at_5
-      value: 94.06
-    task:
-      type: Retrieval
-  - dataset:
-      config: default
-      name: MTEB FEVER (default)
-      revision: bea83ef9e8fb933d90a2f1d5515737465d613e12
-      split: train
-      type: mteb/fever
-    metrics:
-    - type: main_score
-      value: 90.021
-    - type: map_at_1
-      value: 77.215
-    - type: map_at_10
-      value: 86.476
-    - type: map_at_100
-      value: 86.761
-    - type: map_at_1000
-      value: 86.777
-    - type: map_at_20
-      value: 86.644
-    - type: map_at_3
-      value: 85.468
-    - type: map_at_5
-      value: 86.114
-    - type: mrr_at_1
-      value: 85.91202986977507
-    - type: mrr_at_10
-      value: 92.10172296159176
-    - type: mrr_at_100
-      value: 92.11177503330649
-    - type: mrr_at_1000
-      value: 92.11183644281331
-    - type: mrr_at_20
-      value: 92.10977698448572
-    - type: mrr_at_3
-      value: 91.81556021005755
-    - type: mrr_at_5
-      value: 92.04623136933206
-    - type: nauc_map_at_1000_diff1
-      value: 37.58072321236068
-    - type: nauc_map_at_1000_max
-      value: -6.510278319693357
-    - type: nauc_map_at_1000_std
-      value: -18.5792270431547
-    - type: nauc_map_at_100_diff1
-      value: 37.52385817661018
-    - type: nauc_map_at_100_max
-      value: -6.489982072051949
-    - type: nauc_map_at_100_std
-      value: -18.540942037635315
-    - type: nauc_map_at_10_diff1
-      value: 36.72584282122918
-    - type: nauc_map_at_10_max
-      value: -6.378333016857416
-    - type: nauc_map_at_10_std
-      value: -18.334301752515383
-    - type: nauc_map_at_1_diff1
-      value: 43.69122799154449
-    - type: nauc_map_at_1_max
-      value: -11.63127334717789
-    - type: nauc_map_at_1_std
-      value: -20.7658737657603
-    - type: nauc_map_at_20_diff1
-      value: 37.15506375729163
-    - type: nauc_map_at_20_max
-      value: -6.429970912214997
-    - type: nauc_map_at_20_std
-      value: -18.42568919268748
-    - type: nauc_map_at_3_diff1
-      value: 36.215420008113746
-    - type: nauc_map_at_3_max
-      value: -6.550185095475879
-    - type: nauc_map_at_3_std
-      value: -19.166433923188197
-    - type: nauc_map_at_5_diff1
-      value: 36.27440671840188
-    - type: nauc_map_at_5_max
-      value: -6.295231222513407
-    - type: nauc_map_at_5_std
-      value: -18.381810402883904
-    - type: nauc_mrr_at_1000_diff1
-      value: 63.48752265792847
-    - type: nauc_mrr_at_1000_max
-      value: -19.18676872869155
-    - type: nauc_mrr_at_1000_std
-      value: -39.57174458519824
-    - type: nauc_mrr_at_100_diff1
-      value: 63.48736991454802
-    - type: nauc_mrr_at_100_max
-      value: -19.185964488505324
-    - type: nauc_mrr_at_100_std
-      value: -39.571005370486844
-    - type: nauc_mrr_at_10_diff1
-      value: 63.496892773682575
-    - type: nauc_mrr_at_10_max
-      value: -19.137184489398113
-    - type: nauc_mrr_at_10_std
-      value: -39.61121405465908
-    - type: nauc_mrr_at_1_diff1
-      value: 63.8931650178703
-    - type: nauc_mrr_at_1_max
-      value: -19.13870592744866
-    - type: nauc_mrr_at_1_std
-      value: -36.21650937803273
-    - type: nauc_mrr_at_20_diff1
-      value: 63.48977631792124
-    - type: nauc_mrr_at_20_max
-      value: -19.167118938060913
-    - type: nauc_mrr_at_20_std
-      value: -39.57706812851535
-    - type: nauc_mrr_at_3_diff1
-      value: 63.32934405332199
-    - type: nauc_mrr_at_3_max
-      value: -19.24641986865118
-    - type: nauc_mrr_at_3_std
-      value: -40.940129761950985
-    - type: nauc_mrr_at_5_diff1
-      value: 63.517348684708644
-    - type: nauc_mrr_at_5_max
-      value: -19.11256790994168
-    - type: nauc_mrr_at_5_std
-      value: -39.9749657068304
-    - type: nauc_ndcg_at_1000_diff1
-      value: 41.076101906247835
-    - type: nauc_ndcg_at_1000_max
-      value: -7.226733640213606
-    - type: nauc_ndcg_at_1000_std
-      value: -20.509409301747596
-    - type: nauc_ndcg_at_100_diff1
-      value: 39.912775071923846
-    - type: nauc_ndcg_at_100_max
-      value: -6.6031024308101305
-    - type: nauc_ndcg_at_100_std
-      value: -19.488976518418685
-    - type: nauc_ndcg_at_10_diff1
-      value: 36.991054890053746
-    - type: nauc_ndcg_at_10_max
-      value: -5.703804107983826
-    - type: nauc_ndcg_at_10_std
-      value: -18.30890245336646
-    - type: nauc_ndcg_at_1_diff1
-      value: 63.8931650178703
-    - type: nauc_ndcg_at_1_max
-      value: -19.13870592744866
-    - type: nauc_ndcg_at_1_std
-      value: -36.21650937803273
-    - type: nauc_ndcg_at_20_diff1
-      value: 38.06195629005128
-    - type: nauc_ndcg_at_20_max
-      value: -5.956938984887445
-    - type: nauc_ndcg_at_20_std
-      value: -18.55811206090083
-    - type: nauc_ndcg_at_3_diff1
-      value: 38.3253264990881
-    - type: nauc_ndcg_at_3_max
-      value: -6.160356060424505
-    - type: nauc_ndcg_at_3_std
-      value: -21.17644073772092
-    - type: nauc_ndcg_at_5_diff1
-      value: 36.81395160037575
-    - type: nauc_ndcg_at_5_max
-      value: -5.5184833028226015
-    - type: nauc_ndcg_at_5_std
-      value: -18.855728016827573
-    - type: nauc_precision_at_1000_diff1
-      value: -1.798023567581113
-    - type: nauc_precision_at_1000_max
-      value: 2.075676216126402
-    - type: nauc_precision_at_1000_std
-      value: 0.6661076521215061
-    - type: nauc_precision_at_100_diff1
-      value: -3.4104407178365914
-    - type: nauc_precision_at_100_max
-      value: 4.0047525056348565
-    - type: nauc_precision_at_100_std
-      value: 2.9538134117977
-    - type: nauc_precision_at_10_diff1
-      value: -7.971971190220629
-    - type: nauc_precision_at_10_max
-      value: 5.79095981673231
-    - type: nauc_precision_at_10_std
-      value: 2.679701881943801
-    - type: nauc_precision_at_1_diff1
-      value: 63.8931650178703
-    - type: nauc_precision_at_1_max
-      value: -19.13870592744866
-    - type: nauc_precision_at_1_std
-      value: -36.21650937803273
-    - type: nauc_precision_at_20_diff1
-      value: -5.97650346358847
-    - type: nauc_precision_at_20_max
-      value: 5.356231824212161
-    - type: nauc_precision_at_20_std
-      value: 3.3717231487953927
-    - type: nauc_precision_at_3_diff1
-      value: -4.338422835263307
-    - type: nauc_precision_at_3_max
-      value: 5.225732964596468
-    - type: nauc_precision_at_3_std
-      value: -7.216509536122836
-    - type: nauc_precision_at_5_diff1
-      value: -8.546583059668556
-    - type: nauc_precision_at_5_max
-      value: 6.3921561938488995
-    - type: nauc_precision_at_5_std
-      value: 0.14590803478964773
-    - type: nauc_recall_at_1000_diff1
-      value: -14.550446134779385
-    - type: nauc_recall_at_1000_max
-      value: 40.7272814014902
-    - type: nauc_recall_at_1000_std
-      value: 51.09977581242159
-    - type: nauc_recall_at_100_diff1
-      value: -9.382110771276123
-    - type: nauc_recall_at_100_max
-      value: 29.248829469706678
-    - type: nauc_recall_at_100_std
-      value: 35.13007427579197
-    - type: nauc_recall_at_10_diff1
-      value: -1.9178724742563424
-    - type: nauc_recall_at_10_max
-      value: 17.388506357276793
-    - type: nauc_recall_at_10_std
-      value: 14.607463593218906
-    - type: nauc_recall_at_1_diff1
-      value: 43.69122799154449
-    - type: nauc_recall_at_1_max
-      value: -11.63127334717789
-    - type: nauc_recall_at_1_std
-      value: -20.7658737657603
-    - type: nauc_recall_at_20_diff1
-      value: -4.360500447701097
-    - type: nauc_recall_at_20_max
-      value: 21.02263450303614
-    - type: nauc_recall_at_20_std
-      value: 20.999393483063248
-    - type: nauc_recall_at_3_diff1
-      value: 11.835627611412372
-    - type: nauc_recall_at_3_max
-      value: 6.73026263313079
-    - type: nauc_recall_at_3_std
-      value: -6.139330166444412
-    - type: nauc_recall_at_5_diff1
-      value: 3.847666226700295
-    - type: nauc_recall_at_5_max
-      value: 12.82319379524697
-    - type: nauc_recall_at_5_std
-      value: 5.2049518693364165
-    - type: ndcg_at_1
-      value: 85.912
-    - type: ndcg_at_10
-      value: 90.021
-    - type: ndcg_at_100
-      value: 90.807
-    - type: ndcg_at_1000
-      value: 91.022
-    - type: ndcg_at_20
-      value: 90.36800000000001
-    - type: ndcg_at_3
-      value: 88.95100000000001
-    - type: ndcg_at_5
-      value: 89.54299999999999
-    - type: precision_at_1
-      value: 85.912
-    - type: precision_at_10
-      value: 11.17
-    - type: precision_at_100
-      value: 1.205
-    - type: precision_at_1000
-      value: 0.125
-    - type: precision_at_20
-      value: 5.742
-    - type: precision_at_3
-      value: 34.993
-    - type: precision_at_5
-      value: 21.653
-    - type: recall_at_1
-      value: 77.215
-    - type: recall_at_10
-      value: 95.27
-    - type: recall_at_100
-      value: 97.946
-    - type: recall_at_1000
-      value: 99.151
-    - type: recall_at_20
-      value: 96.282
-    - type: recall_at_3
-      value: 92.061
-    - type: recall_at_5
-      value: 93.881
-    task:
-      type: Retrieval
-  - dataset:
-      config: default
-      name: MTEB FiQA2018 (default)
-      revision: 27a168819829fe9bcd655c2df245fb19452e8e06
-      split: dev
-      type: mteb/fiqa
-    metrics:
-    - type: main_score
-      value: 46.132
-    - type: map_at_1
-      value: 26.173999999999996
-    - type: map_at_10
-      value: 38.342999999999996
-    - type: map_at_100
-      value: 40.264
-    - type: map_at_1000
-      value: 40.43
-    - type: map_at_20
-      value: 39.446
-    - type: map_at_3
-      value: 33.975
-    - type: map_at_5
-      value: 36.434
-    - type: mrr_at_1
-      value: 46.800000000000004
-    - type: mrr_at_10
-      value: 54.254126984126984
-    - type: mrr_at_100
-      value: 54.923209054678026
-    - type: mrr_at_1000
-      value: 54.96385524659587
-    - type: mrr_at_20
-      value: 54.642069278330894
-    - type: mrr_at_3
-      value: 51.96666666666668
-    - type: mrr_at_5
-      value: 53.36666666666666
-    - type: nauc_map_at_1000_diff1
-      value: 49.841885106876695
-    - type: nauc_map_at_1000_max
-      value: 30.36895689778847
-    - type: nauc_map_at_1000_std
-      value: 1.7567744666421903
-    - type: nauc_map_at_100_diff1
-      value: 49.81372794693455
-    - type: nauc_map_at_100_max
-      value: 30.31791638948266
-    - type: nauc_map_at_100_std
-      value: 1.7727102636629064
-    - type: nauc_map_at_10_diff1
-      value: 49.799159621528446
-    - type: nauc_map_at_10_max
-      value: 28.95097185909244
-    - type: nauc_map_at_10_std
-      value: -0.2143787100918625
-    - type: nauc_map_at_1_diff1
-      value: 52.58007399240151
-    - type: nauc_map_at_1_max
-      value: 23.415428952222296
-    - type: nauc_map_at_1_std
-      value: -3.4523781889766534
-    - type: nauc_map_at_20_diff1
-      value: 49.77759278250616
-    - type: nauc_map_at_20_max
-      value: 29.637020999394448
-    - type: nauc_map_at_20_std
-      value: 0.9417068184996975
-    - type: nauc_map_at_3_diff1
-      value: 50.15320410883135
-    - type: nauc_map_at_3_max
-      value: 25.672823727430483
-    - type: nauc_map_at_3_std
-      value: -3.6368832994092495
-    - type: nauc_map_at_5_diff1
-      value: 49.73253471375265
-    - type: nauc_map_at_5_max
-      value: 27.452729712955946
-    - type: nauc_map_at_5_std
-      value: -2.597504538318964
-    - type: nauc_mrr_at_1000_diff1
-      value: 59.23823771450779
-    - type: nauc_mrr_at_1000_max
-      value: 43.689096630807406
-    - type: nauc_mrr_at_1000_std
-      value: 6.006395209759317
-    - type: nauc_mrr_at_100_diff1
-      value: 59.24508199769832
-    - type: nauc_mrr_at_100_max
-      value: 43.707191670788845
-    - type: nauc_mrr_at_100_std
-      value: 6.038811740941315
-    - type: nauc_mrr_at_10_diff1
-      value: 59.18050290269257
-    - type: nauc_mrr_at_10_max
-      value: 43.68703710709348
-    - type: nauc_mrr_at_10_std
-      value: 5.920147856790965
-    - type: nauc_mrr_at_1_diff1
-      value: 61.23049191214833
-    - type: nauc_mrr_at_1_max
-      value: 42.82186697869064
-    - type: nauc_mrr_at_1_std
-      value: 5.226665401704537
-    - type: nauc_mrr_at_20_diff1
-      value: 59.20345490177547
-    - type: nauc_mrr_at_20_max
-      value: 43.71801475513994
-    - type: nauc_mrr_at_20_std
-      value: 6.06326305891993
-    - type: nauc_mrr_at_3_diff1
-      value: 59.51435687918044
-    - type: nauc_mrr_at_3_max
-      value: 42.75973795344299
-    - type: nauc_mrr_at_3_std
-      value: 3.7021523288826534
-    - type: nauc_mrr_at_5_diff1
-      value: 59.33809476755813
-    - type: nauc_mrr_at_5_max
-      value: 43.35457262061369
-    - type: nauc_mrr_at_5_std
-      value: 5.133928801400819
-    - type: nauc_ndcg_at_1000_diff1
-      value: 52.201491960514424
-    - type: nauc_ndcg_at_1000_max
-      value: 36.67184214497183
-    - type: nauc_ndcg_at_1000_std
-      value: 7.063547365940826
-    - type: nauc_ndcg_at_100_diff1
-      value: 51.6839609303026
-    - type: nauc_ndcg_at_100_max
-      value: 36.54239095504816
-    - type: nauc_ndcg_at_100_std
-      value: 8.305198443785065
-    - type: nauc_ndcg_at_10_diff1
-      value: 51.015102739483666
-    - type: nauc_ndcg_at_10_max
-      value: 33.38470092473942
-    - type: nauc_ndcg_at_10_std
-      value: 3.4372330157713913
-    - type: nauc_ndcg_at_1_diff1
-      value: 61.23049191214833
-    - type: nauc_ndcg_at_1_max
-      value: 42.82186697869064
-    - type: nauc_ndcg_at_1_std
-      value: 5.226665401704537
-    - type: nauc_ndcg_at_20_diff1
-      value: 51.148241453136286
-    - type: nauc_ndcg_at_20_max
-      value: 34.415266899737986
-    - type: nauc_ndcg_at_20_std
-      value: 5.722948452578717
-    - type: nauc_ndcg_at_3_diff1
-      value: 50.183107867516384
-    - type: nauc_ndcg_at_3_max
-      value: 31.825660975728017
-    - type: nauc_ndcg_at_3_std
-      value: 0.05987477146294962
-    - type: nauc_ndcg_at_5_diff1
-      value: 50.27752187238947
-    - type: nauc_ndcg_at_5_max
-      value: 31.58055768641312
-    - type: nauc_ndcg_at_5_std
-      value: 0.095638813464201
-    - type: nauc_precision_at_1000_diff1
-      value: -1.081891577216482
-    - type: nauc_precision_at_1000_max
-      value: 22.772384668021623
-    - type: nauc_precision_at_1000_std
-      value: 20.37369910022167
-    - type: nauc_precision_at_100_diff1
-      value: 4.865265359179138
-    - type: nauc_precision_at_100_max
-      value: 28.950539208916727
-    - type: nauc_precision_at_100_std
-      value: 27.88929247051143
-    - type: nauc_precision_at_10_diff1
-      value: 18.581939701749484
-    - type: nauc_precision_at_10_max
-      value: 32.5407981760264
-    - type: nauc_precision_at_10_std
-      value: 18.06686305505164
-    - type: nauc_precision_at_1_diff1
-      value: 61.23049191214833
-    - type: nauc_precision_at_1_max
-      value: 42.82186697869064
-    - type: nauc_precision_at_1_std
-      value: 5.226665401704537
-    - type: nauc_precision_at_20_diff1
-      value: 12.547121372367496
-    - type: nauc_precision_at_20_max
-      value: 30.247027897607875
-    - type: nauc_precision_at_20_std
-      value: 23.213776336403853
-    - type: nauc_precision_at_3_diff1
-      value: 33.47981633285446
-    - type: nauc_precision_at_3_max
-      value: 32.05249666039517
-    - type: nauc_precision_at_3_std
-      value: 3.7643758682601813
-    - type: nauc_precision_at_5_diff1
-      value: 24.156736607137386
-    - type: nauc_precision_at_5_max
-      value: 31.58120543424835
-    - type: nauc_precision_at_5_std
-      value: 8.826547060575736
-    - type: nauc_recall_at_1000_diff1
-      value: 44.70168791342202
-    - type: nauc_recall_at_1000_max
-      value: 40.019041375679365
-    - type: nauc_recall_at_1000_std
-      value: 26.28492676001751
-    - type: nauc_recall_at_100_diff1
-      value: 38.85858202136479
-    - type: nauc_recall_at_100_max
-      value: 35.63673405628285
-    - type: nauc_recall_at_100_std
-      value: 26.480426298783005
-    - type: nauc_recall_at_10_diff1
-      value: 41.87765017247146
-    - type: nauc_recall_at_10_max
-      value: 26.94832721731921
-    - type: nauc_recall_at_10_std
-      value: 5.096767252321309
-    - type: nauc_recall_at_1_diff1
-      value: 52.58007399240151
-    - type: nauc_recall_at_1_max
-      value: 23.415428952222296
-    - type: nauc_recall_at_1_std
-      value: -3.4523781889766534
-    - type: nauc_recall_at_20_diff1
-      value: 40.31961054933225
-    - type: nauc_recall_at_20_max
-      value: 29.149084076136273
-    - type: nauc_recall_at_20_std
-      value: 12.080660943653156
-    - type: nauc_recall_at_3_diff1
-      value: 44.845037051363235
-    - type: nauc_recall_at_3_max
-      value: 22.163030784764484
-    - type: nauc_recall_at_3_std
-      value: -5.426325332659164
-    - type: nauc_recall_at_5_diff1
-      value: 43.36113793278537
-    - type: nauc_recall_at_5_max
-      value: 23.182744951367788
-    - type: nauc_recall_at_5_std
-      value: -3.634417407112399
-    - type: ndcg_at_1
-      value: 46.800000000000004
-    - type: ndcg_at_10
-      value: 46.132
-    - type: ndcg_at_100
-      value: 52.410000000000004
-    - type: ndcg_at_1000
-      value: 55.057
-    - type: ndcg_at_20
-      value: 48.679
-    - type: ndcg_at_3
-      value: 42.487
-    - type: ndcg_at_5
-      value: 43.586999999999996
-    - type: precision_at_1
-      value: 46.800000000000004
-    - type: precision_at_10
-      value: 11.74
-    - type: precision_at_100
-      value: 1.8419999999999999
-    - type: precision_at_1000
-      value: 0.22799999999999998
-    - type: precision_at_20
-      value: 7.07
-    - type: precision_at_3
-      value: 26.200000000000003
-    - type: precision_at_5
-      value: 19.16
-    - type: recall_at_1
-      value: 26.173999999999996
-    - type: recall_at_10
-      value: 52.979
-    - type: recall_at_100
-      value: 76.048
-    - type: recall_at_1000
-      value: 92.054
-    - type: recall_at_20
-      value: 60.624
-    - type: recall_at_3
-      value: 38.657000000000004
-    - type: recall_at_5
-      value: 44.862
-    task:
-      type: Retrieval
-  - dataset:
-      config: default
-      name: MTEB FiQA2018 (default)
-      revision: 27a168819829fe9bcd655c2df245fb19452e8e06
-      split: test
-      type: mteb/fiqa
-    metrics:
-    - type: main_score
-      value: 43.887
-    - type: map_at_1
-      value: 21.397
-    - type: map_at_10
-      value: 35.811
-    - type: map_at_100
-      value: 37.661
-    - type: map_at_1000
-      value: 37.839
-    - type: map_at_20
-      value: 36.727
-    - type: map_at_3
-      value: 31.493
-    - type: map_at_5
-      value: 33.992
-    - type: mrr_at_1
-      value: 42.74691358024691
-    - type: mrr_at_10
-      value: 52.44727366255143
-    - type: mrr_at_100
-      value: 53.157106113787755
-    - type: mrr_at_1000
-      value: 53.19590692557363
-    - type: mrr_at_20
-      value: 52.788702294851234
-    - type: mrr_at_3
-      value: 50.231481481481474
-    - type: mrr_at_5
-      value: 51.604938271604915
-    - type: nauc_map_at_1000_diff1
-      value: 44.99013932786583
-    - type: nauc_map_at_1000_max
-      value: 36.2931656288237
-    - type: nauc_map_at_1000_std
-      value: 2.744952096504704
-    - type: nauc_map_at_100_diff1
-      value: 44.86944269697463
-    - type: nauc_map_at_100_max
-      value: 36.18298281198049
-    - type: nauc_map_at_100_std
-      value: 2.7487976881234784
-    - type: nauc_map_at_10_diff1
-      value: 44.701036690482844
-    - type: nauc_map_at_10_max
-      value: 34.91880124794292
-    - type: nauc_map_at_10_std
-      value: 1.5099484081332097
-    - type: nauc_map_at_1_diff1
-      value: 50.85379952260034
-    - type: nauc_map_at_1_max
-      value: 27.394421957915572
-    - type: nauc_map_at_1_std
-      value: -3.6437293825619923
-    - type: nauc_map_at_20_diff1
-      value: 44.643893347140214
-    - type: nauc_map_at_20_max
-      value: 35.78032300474766
-    - type: nauc_map_at_20_std
-      value: 2.0540696985077713
-    - type: nauc_map_at_3_diff1
-      value: 46.924921206244605
-    - type: nauc_map_at_3_max
-      value: 31.95948324092745
-    - type: nauc_map_at_3_std
-      value: -0.24644658949620132
-    - type: nauc_map_at_5_diff1
-      value: 45.299548947339346
-    - type: nauc_map_at_5_max
-      value: 33.560927993044636
-    - type: nauc_map_at_5_std
-      value: -0.09229167862135255
-    - type: nauc_mrr_at_1000_diff1
-      value: 53.97584579514102
-    - type: nauc_mrr_at_1000_max
-      value: 41.39325946543948
-    - type: nauc_mrr_at_1000_std
-      value: 2.7797248987216774
-    - type: nauc_mrr_at_100_diff1
-      value: 53.95469720996498
-    - type: nauc_mrr_at_100_max
-      value: 41.41453164205358
-    - type: nauc_mrr_at_100_std
-      value: 2.8260988232101902
-    - type: nauc_mrr_at_10_diff1
-      value: 53.72315979312175
-    - type: nauc_mrr_at_10_max
-      value: 41.177743822376904
-    - type: nauc_mrr_at_10_std
-      value: 2.563267516014612
-    - type: nauc_mrr_at_1_diff1
-      value: 57.590727821071155
-    - type: nauc_mrr_at_1_max
-      value: 41.635385860154074
-    - type: nauc_mrr_at_1_std
-      value: -0.44532344504198534
-    - type: nauc_mrr_at_20_diff1
-      value: 53.83801635440246
-    - type: nauc_mrr_at_20_max
-      value: 41.28524524541232
-    - type: nauc_mrr_at_20_std
-      value: 2.5331225115409577
-    - type: nauc_mrr_at_3_diff1
-      value: 54.39722667585212
-    - type: nauc_mrr_at_3_max
-      value: 40.54145465851505
-    - type: nauc_mrr_at_3_std
-      value: 1.6925912897229027
-    - type: nauc_mrr_at_5_diff1
-      value: 53.691867160376816
-    - type: nauc_mrr_at_5_max
-      value: 40.94797527156675
-    - type: nauc_mrr_at_5_std
-      value: 2.227219454930413
-    - type: nauc_ndcg_at_1000_diff1
-      value: 47.28950242475927
-    - type: nauc_ndcg_at_1000_max
-      value: 40.558784896965015
-    - type: nauc_ndcg_at_1000_std
-      value: 6.916048078136412
-    - type: nauc_ndcg_at_100_diff1
-      value: 45.803609057238724
-    - type: nauc_ndcg_at_100_max
-      value: 39.9247602434488
-    - type: nauc_ndcg_at_100_std
-      value: 8.070013922609293
-    - type: nauc_ndcg_at_10_diff1
-      value: 44.601721852568154
-    - type: nauc_ndcg_at_10_max
-      value: 36.7523945635637
-    - type: nauc_ndcg_at_10_std
-      value: 3.7741680838463916
-    - type: nauc_ndcg_at_1_diff1
-      value: 57.590727821071155
-    - type: nauc_ndcg_at_1_max
-      value: 41.635385860154074
-    - type: nauc_ndcg_at_1_std
-      value: -0.44532344504198534
-    - type: nauc_ndcg_at_20_diff1
-      value: 44.84087184273544
-    - type: nauc_ndcg_at_20_max
-      value: 38.32125780917691
-    - type: nauc_ndcg_at_20_std
-      value: 4.548886454834896
-    - type: nauc_ndcg_at_3_diff1
-      value: 46.45102235679583
-    - type: nauc_ndcg_at_3_max
-      value: 36.9633250683586
-    - type: nauc_ndcg_at_3_std
-      value: 2.369907620024769
-    - type: nauc_ndcg_at_5_diff1
-      value: 44.32017759567463
-    - type: nauc_ndcg_at_5_max
-      value: 35.90479608408539
-    - type: nauc_ndcg_at_5_std
-      value: 1.450222645028762
-    - type: nauc_precision_at_1000_diff1
-      value: 1.3454169253303294
-    - type: nauc_precision_at_1000_max
-      value: 23.88451750412882
-    - type: nauc_precision_at_1000_std
-      value: 12.591204064713308
-    - type: nauc_precision_at_100_diff1
-      value: 6.012218731725929
-    - type: nauc_precision_at_100_max
-      value: 30.969198659050733
-    - type: nauc_precision_at_100_std
-      value: 18.35239521849261
-    - type: nauc_precision_at_10_diff1
-      value: 16.908790779236835
-    - type: nauc_precision_at_10_max
-      value: 37.080559157562455
-    - type: nauc_precision_at_10_std
-      value: 12.110645329690259
-    - type: nauc_precision_at_1_diff1
-      value: 57.590727821071155
-    - type: nauc_precision_at_1_max
-      value: 41.635385860154074
-    - type: nauc_precision_at_1_std
-      value: -0.44532344504198534
-    - type: nauc_precision_at_20_diff1
-      value: 12.877352199360345
-    - type: nauc_precision_at_20_max
-      value: 37.364422905122815
-    - type: nauc_precision_at_20_std
-      value: 13.813344186459652
-    - type: nauc_precision_at_3_diff1
-      value: 32.81390693003651
-    - type: nauc_precision_at_3_max
-      value: 38.89224188329493
-    - type: nauc_precision_at_3_std
-      value: 6.490943672811113
-    - type: nauc_precision_at_5_diff1
-      value: 23.31033104699241
-    - type: nauc_precision_at_5_max
-      value: 37.026347485355956
-    - type: nauc_precision_at_5_std
-      value: 6.082794133847137
-    - type: nauc_recall_at_1000_diff1
-      value: 40.21199090930344
-    - type: nauc_recall_at_1000_max
-      value: 45.44325141564459
-    - type: nauc_recall_at_1000_std
-      value: 39.95206397839652
-    - type: nauc_recall_at_100_diff1
-      value: 28.694180171434674
-    - type: nauc_recall_at_100_max
-      value: 36.16137724563645
-    - type: nauc_recall_at_100_std
-      value: 29.362576415720426
-    - type: nauc_recall_at_10_diff1
-      value: 30.82350118152907
-    - type: nauc_recall_at_10_max
-      value: 28.84721188763083
-    - type: nauc_recall_at_10_std
-      value: 6.871358974808361
-    - type: nauc_recall_at_1_diff1
-      value: 50.85379952260034
-    - type: nauc_recall_at_1_max
-      value: 27.394421957915572
-    - type: nauc_recall_at_1_std
-      value: -3.6437293825619923
-    - type: nauc_recall_at_20_diff1
-      value: 30.494672593660365
-    - type: nauc_recall_at_20_max
-      value: 32.451452059083
-    - type: nauc_recall_at_20_std
-      value: 8.857752757738012
-    - type: nauc_recall_at_3_diff1
-      value: 37.98407967492573
-    - type: nauc_recall_at_3_max
-      value: 26.531560809821137
-    - type: nauc_recall_at_3_std
-      value: 1.2955663995782718
-    - type: nauc_recall_at_5_diff1
-      value: 32.84916383815314
-    - type: nauc_recall_at_5_max
-      value: 26.621206298631378
-    - type: nauc_recall_at_5_std
-      value: 1.6024978706362352
-    - type: ndcg_at_1
-      value: 42.747
-    - type: ndcg_at_10
-      value: 43.887
-    - type: ndcg_at_100
-      value: 50.485
-    - type: ndcg_at_1000
-      value: 53.400999999999996
-    - type: ndcg_at_20
-      value: 46.098
-    - type: ndcg_at_3
-      value: 40.602
-    - type: ndcg_at_5
-      value: 41.725
-    - type: precision_at_1
-      value: 42.747
-    - type: precision_at_10
-      value: 11.991
-    - type: precision_at_100
-      value: 1.889
-    - type: precision_at_1000
-      value: 0.241
-    - type: precision_at_20
-      value: 6.959999999999999
-    - type: precision_at_3
-      value: 27.058
-    - type: precision_at_5
-      value: 19.814999999999998
-    - type: recall_at_1
-      value: 21.397
-    - type: recall_at_10
-      value: 50.678
-    - type: recall_at_100
-      value: 75.108
-    - type: recall_at_1000
-      value: 92.465
-    - type: recall_at_20
-      value: 57.474000000000004
-    - type: recall_at_3
-      value: 37.391000000000005
-    - type: recall_at_5
-      value: 43.566
-    task:
-      type: Retrieval
-  - dataset:
-      config: default
-      name: MTEB FiQA2018 (default)
-      revision: 27a168819829fe9bcd655c2df245fb19452e8e06
-      split: train
-      type: mteb/fiqa
-    metrics:
-    - type: main_score
-      value: 45.074
-    - type: map_at_1
-      value: 22.921
-    - type: map_at_10
-      value: 37.062
-    - type: map_at_100
-      value: 38.869
-    - type: map_at_1000
-      value: 39.031
-    - type: map_at_20
-      value: 38.073
-    - type: map_at_3
-      value: 32.482
-    - type: map_at_5
-      value: 34.975
-    - type: mrr_at_1
-      value: 42.81818181818181
-    - type: mrr_at_10
-      value: 52.01925685425696
-    - type: mrr_at_100
-      value: 52.76535915811975
-    - type: mrr_at_1000
-      value: 52.80323713270641
-    - type: mrr_at_20
-      value: 52.46928188075179
-    - type: mrr_at_3
-      value: 49.563636363636505
-    - type: mrr_at_5
-      value: 51.04090909090917
-    - type: nauc_map_at_1000_diff1
-      value: 45.10345424051492
-    - type: nauc_map_at_1000_max
-      value: 29.68487371437469
-    - type: nauc_map_at_1000_std
-      value: 1.238229479331942
-    - type: nauc_map_at_100_diff1
-      value: 45.07560751433321
-    - type: nauc_map_at_100_max
-      value: 29.621328097853137
-    - type: nauc_map_at_100_std
-      value: 1.1967771682187873
-    - type: nauc_map_at_10_diff1
-      value: 44.843509175193056
-    - type: nauc_map_at_10_max
-      value: 28.618388907804658
-    - type: nauc_map_at_10_std
-      value: -0.17386075400517237
-    - type: nauc_map_at_1_diff1
-      value: 49.47111917296565
-    - type: nauc_map_at_1_max
-      value: 20.0742470618401
-    - type: nauc_map_at_1_std
-      value: -4.129360092632688
-    - type: nauc_map_at_20_diff1
-      value: 44.95018685490344
-    - type: nauc_map_at_20_max
-      value: 29.150108596298434
-    - type: nauc_map_at_20_std
-      value: 0.6249683074740969
-    - type: nauc_map_at_3_diff1
-      value: 45.01551197502368
-    - type: nauc_map_at_3_max
-      value: 25.1628789711796
-    - type: nauc_map_at_3_std
-      value: -3.321515508442981
-    - type: nauc_map_at_5_diff1
-      value: 44.91318371210472
-    - type: nauc_map_at_5_max
-      value: 27.12198758255798
-    - type: nauc_map_at_5_std
-      value: -1.8418885545143031
-    - type: nauc_mrr_at_1000_diff1
-      value: 51.02890753099619
-    - type: nauc_mrr_at_1000_max
-      value: 37.20699525567458
-    - type: nauc_mrr_at_1000_std
-      value: 3.189109744356073
-    - type: nauc_mrr_at_100_diff1
-      value: 51.015583067584146
-    - type: nauc_mrr_at_100_max
-      value: 37.20945921198165
-    - type: nauc_mrr_at_100_std
-      value: 3.2119457438429047
-    - type: nauc_mrr_at_10_diff1
-      value: 50.938326208533056
-    - type: nauc_mrr_at_10_max
-      value: 37.2328138702086
-    - type: nauc_mrr_at_10_std
-      value: 3.1417844227142577
-    - type: nauc_mrr_at_1_diff1
-      value: 54.83336818983676
-    - type: nauc_mrr_at_1_max
-      value: 35.941190580000395
-    - type: nauc_mrr_at_1_std
-      value: 0.11480196188945171
-    - type: nauc_mrr_at_20_diff1
-      value: 50.97564795196412
-    - type: nauc_mrr_at_20_max
-      value: 37.22205264818766
-    - type: nauc_mrr_at_20_std
-      value: 3.2001064750905672
-    - type: nauc_mrr_at_3_diff1
-      value: 51.12200690387213
-    - type: nauc_mrr_at_3_max
-      value: 36.605143686242045
-    - type: nauc_mrr_at_3_std
-      value: 1.9427581254272008
-    - type: nauc_mrr_at_5_diff1
-      value: 51.08466836245801
-    - type: nauc_mrr_at_5_max
-      value: 37.23852403243883
-    - type: nauc_mrr_at_5_std
-      value: 2.7992259556688466
-    - type: nauc_ndcg_at_1000_diff1
-      value: 45.6295653089338
-    - type: nauc_ndcg_at_1000_max
-      value: 34.25244958857478
-    - type: nauc_ndcg_at_1000_std
-      value: 5.968157773281027
-    - type: nauc_ndcg_at_100_diff1
-      value: 45.15925091294929
-    - type: nauc_ndcg_at_100_max
-      value: 33.77292060148967
-    - type: nauc_ndcg_at_100_std
-      value: 6.252767106085369
-    - type: nauc_ndcg_at_10_diff1
-      value: 44.63262132249889
-    - type: nauc_ndcg_at_10_max
-      value: 31.804054311383613
-    - type: nauc_ndcg_at_10_std
-      value: 2.868169824330679
-    - type: nauc_ndcg_at_1_diff1
-      value: 54.83336818983676
-    - type: nauc_ndcg_at_1_max
-      value: 35.941190580000395
-    - type: nauc_ndcg_at_1_std
-      value: 0.11480196188945171
-    - type: nauc_ndcg_at_20_diff1
-      value: 44.73531667035927
-    - type: nauc_ndcg_at_20_max
-      value: 32.36405405932841
-    - type: nauc_ndcg_at_20_std
-      value: 4.234168192043894
-    - type: nauc_ndcg_at_3_diff1
-      value: 45.180068719892965
-    - type: nauc_ndcg_at_3_max
-      value: 31.144658941814473
-    - type: nauc_ndcg_at_3_std
-      value: 0.15981365840386932
-    - type: nauc_ndcg_at_5_diff1
-      value: 44.91186731928022
-    - type: nauc_ndcg_at_5_max
-      value: 31.097528102462903
-    - type: nauc_ndcg_at_5_std
-      value: 1.0978416567636418
-    - type: nauc_precision_at_1000_diff1
-      value: 0.10884757461177323
-    - type: nauc_precision_at_1000_max
-      value: 22.44073868984244
-    - type: nauc_precision_at_1000_std
-      value: 18.425802177787244
-    - type: nauc_precision_at_100_diff1
-      value: 8.326770033288243
-    - type: nauc_precision_at_100_max
-      value: 29.87121252902087
-    - type: nauc_precision_at_100_std
-      value: 22.471637271023955
-    - type: nauc_precision_at_10_diff1
-      value: 20.3859018808304
-    - type: nauc_precision_at_10_max
-      value: 35.387490020659186
-    - type: nauc_precision_at_10_std
-      value: 14.452716344612679
-    - type: nauc_precision_at_1_diff1
-      value: 54.83336818983676
-    - type: nauc_precision_at_1_max
-      value: 35.941190580000395
-    - type: nauc_precision_at_1_std
-      value: 0.11480196188945171
-    - type: nauc_precision_at_20_diff1
-      value: 16.24605754303343
-    - type: nauc_precision_at_20_max
-      value: 33.818393780875525
-    - type: nauc_precision_at_20_std
-      value: 18.42940330763103
-    - type: nauc_precision_at_3_diff1
-      value: 31.181315158851408
-    - type: nauc_precision_at_3_max
-      value: 35.71839391755647
-    - type: nauc_precision_at_3_std
-      value: 4.86245107443907
-    - type: nauc_precision_at_5_diff1
-      value: 26.18450860125776
-    - type: nauc_precision_at_5_max
-      value: 36.32130007403958
-    - type: nauc_precision_at_5_std
-      value: 9.106489600607265
-    - type: nauc_recall_at_1000_diff1
-      value: 21.411131898774677
-    - type: nauc_recall_at_1000_max
-      value: 34.541893106658605
-    - type: nauc_recall_at_1000_std
-      value: 40.6467864769445
-    - type: nauc_recall_at_100_diff1
-      value: 28.25747320103834
-    - type: nauc_recall_at_100_max
-      value: 29.192936775640888
-    - type: nauc_recall_at_100_std
-      value: 22.38141045002714
-    - type: nauc_recall_at_10_diff1
-      value: 33.183148689667306
-    - type: nauc_recall_at_10_max
-      value: 26.115736478754542
-    - type: nauc_recall_at_10_std
-      value: 5.779562369828712
-    - type: nauc_recall_at_1_diff1
-      value: 49.47111917296565
-    - type: nauc_recall_at_1_max
-      value: 20.0742470618401
-    - type: nauc_recall_at_1_std
-      value: -4.129360092632688
-    - type: nauc_recall_at_20_diff1
-      value: 31.3273565134318
-    - type: nauc_recall_at_20_max
-      value: 26.118667671265268
-    - type: nauc_recall_at_20_std
-      value: 10.337063376342904
-    - type: nauc_recall_at_3_diff1
-      value: 37.71800914450827
-    - type: nauc_recall_at_3_max
-      value: 21.998612117129866
-    - type: nauc_recall_at_3_std
-      value: -2.8573409678442667
-    - type: nauc_recall_at_5_diff1
-      value: 36.035788981718326
-    - type: nauc_recall_at_5_max
-      value: 24.462942381019985
-    - type: nauc_recall_at_5_std
-      value: 0.5720741719496573
-    - type: ndcg_at_1
-      value: 42.818
-    - type: ndcg_at_10
-      value: 45.074
-    - type: ndcg_at_100
-      value: 51.405
-    - type: ndcg_at_1000
-      value: 54.092
-    - type: ndcg_at_20
-      value: 47.555
-    - type: ndcg_at_3
-      value: 40.735
-    - type: ndcg_at_5
-      value: 42.229
-    - type: precision_at_1
-      value: 42.818
-    - type: precision_at_10
-      value: 12.110999999999999
-    - type: precision_at_100
-      value: 1.876
-    - type: precision_at_1000
-      value: 0.23500000000000001
-    - type: precision_at_20
-      value: 7.117999999999999
-    - type: precision_at_3
-      value: 26.473000000000003
-    - type: precision_at_5
-      value: 19.465
-    - type: recall_at_1
-      value: 22.921
-    - type: recall_at_10
-      value: 52.942
-    - type: recall_at_100
-      value: 76.61200000000001
-    - type: recall_at_1000
-      value: 92.793
-    - type: recall_at_20
-      value: 60.809999999999995
-    - type: recall_at_3
-      value: 37.830999999999996
-    - type: recall_at_5
-      value: 44.279
+      value: 42.329
     task:
       type: Retrieval
   - dataset:
@@ -6425,287 +6425,287 @@ model-index:
       type: mteb/hotpotqa
     metrics:
     - type: main_score
-      value: 77.35600000000001
+      value: 74.606
     - type: map_at_1
-      value: 42.299
+      value: 41.876000000000005
     - type: map_at_10
-      value: 70.006
+      value: 66.672
     - type: map_at_100
-      value: 70.775
+      value: 67.465
     - type: map_at_1000
-      value: 70.82300000000001
+      value: 67.52
     - type: map_at_20
-      value: 70.47099999999999
+      value: 67.162
     - type: map_at_3
-      value: 66.81200000000001
+      value: 63.44800000000001
     - type: map_at_5
-      value: 68.85
+      value: 65.491
     - type: mrr_at_1
-      value: 84.59702588580869
+      value: 83.75252432531668
     - type: mrr_at_10
-      value: 89.3224608857067
+      value: 88.5608723019224
     - type: mrr_at_100
-      value: 89.42205720574383
+      value: 88.68140252907958
     - type: mrr_at_1000
-      value: 89.425588995421
+      value: 88.68453994013916
     - type: mrr_at_20
-      value: 89.38641899747822
+      value: 88.64372295908223
     - type: mrr_at_3
-      value: 88.68184321644944
+      value: 87.94443424515023
     - type: mrr_at_5
-      value: 89.0995043143014
+      value: 88.34924423229907
     - type: nauc_map_at_1000_diff1
-      value: 11.875767523175762
+      value: 9.822804401470737
     - type: nauc_map_at_1000_max
-      value: 23.23376674530728
+      value: 21.284133910316573
     - type: nauc_map_at_1000_std
-      value: 18.523605995632938
+      value: 16.162782727741114
     - type: nauc_map_at_100_diff1
-      value: 11.85910449749788
+      value: 9.788823095018454
     - type: nauc_map_at_100_max
-      value: 23.239547476164876
+      value: 21.279974906891518
     - type: nauc_map_at_100_std
-      value: 18.565229607460537
+      value: 16.19517987356137
     - type: nauc_map_at_10_diff1
-      value: 11.607663265355745
+      value: 9.669105278943347
     - type: nauc_map_at_10_max
-      value: 22.923495646620154
+      value: 20.976589835480443
     - type: nauc_map_at_10_std
-      value: 18.030180953748534
+      value: 15.740306189226885
     - type: nauc_map_at_1_diff1
-      value: 69.04595571010425
+      value: 70.1396495728672
     - type: nauc_map_at_1_max
-      value: 42.68450581268141
+      value: 46.290715660397034
     - type: nauc_map_at_1_std
-      value: 3.9078744944302226
+      value: 2.383104054024225
     - type: nauc_map_at_20_diff1
-      value: 11.723969128072866
+      value: 9.67707467752077
     - type: nauc_map_at_20_max
-      value: 23.11544870270342
+      value: 21.13694646197173
     - type: nauc_map_at_20_std
-      value: 18.41858338547983
+      value: 16.077958081472104
     - type: nauc_map_at_3_diff1
-      value: 11.195009895256332
+      value: 9.93668046738331
     - type: nauc_map_at_3_max
-      value: 21.124864974433763
+      value: 20.138161755692852
     - type: nauc_map_at_3_std
-      value: 14.668115105817323
+      value: 12.195091775371187
     - type: nauc_map_at_5_diff1
-      value: 11.399725827702468
+      value: 9.673559969563692
     - type: nauc_map_at_5_max
-      value: 22.68356071435758
+      value: 20.52996974574843
     - type: nauc_map_at_5_std
-      value: 17.006805900547196
+      value: 14.344355689102406
     - type: nauc_mrr_at_1000_diff1
-      value: 67.99516710058342
+      value: 68.85537454860305
     - type: nauc_mrr_at_1000_max
-      value: 45.15957182658708
+      value: 48.66840943741123
     - type: nauc_mrr_at_1000_std
-      value: 5.625688035185145
+      value: 4.051382056479967
     - type: nauc_mrr_at_100_diff1
-      value: 68.00038022639141
+      value: 68.8544247452304
     - type: nauc_mrr_at_100_max
-      value: 45.1718894878634
+      value: 48.67420027786352
     - type: nauc_mrr_at_100_std
-      value: 5.642257978446126
+      value: 4.058034407401366
     - type: nauc_mrr_at_10_diff1
-      value: 67.97643955659808
+      value: 68.80039953887602
     - type: nauc_mrr_at_10_max
-      value: 45.24875815550117
+      value: 48.745351213021436
     - type: nauc_mrr_at_10_std
-      value: 5.6282245777631825
+      value: 4.0948899045476965
     - type: nauc_mrr_at_1_diff1
-      value: 69.04595571010425
+      value: 70.1396495728672
     - type: nauc_mrr_at_1_max
-      value: 42.68450581268141
+      value: 46.290715660397034
     - type: nauc_mrr_at_1_std
-      value: 3.9078744944302226
+      value: 2.383104054024225
     - type: nauc_mrr_at_20_diff1
-      value: 67.98186373375957
+      value: 68.83885181909754
     - type: nauc_mrr_at_20_max
-      value: 45.16955056454227
+      value: 48.693992176558055
     - type: nauc_mrr_at_20_std
-      value: 5.643021098296383
+      value: 4.081312314533584
     - type: nauc_mrr_at_3_diff1
-      value: 67.74068066479995
+      value: 68.60282007975034
     - type: nauc_mrr_at_3_max
-      value: 45.233627819514496
+      value: 48.78697037829542
     - type: nauc_mrr_at_3_std
-      value: 5.073903037944697
+      value: 3.401395836458664
     - type: nauc_mrr_at_5_diff1
-      value: 67.90073680819802
+      value: 68.66717032389758
     - type: nauc_mrr_at_5_max
-      value: 45.28874529948139
+      value: 48.74267981962927
     - type: nauc_mrr_at_5_std
-      value: 5.533506436522208
+      value: 3.9699315633740433
     - type: nauc_ndcg_at_1000_diff1
-      value: 18.45245983930683
+      value: 16.258648845029352
     - type: nauc_ndcg_at_1000_max
-      value: 27.416507398330854
+      value: 25.71076816350421
     - type: nauc_ndcg_at_1000_std
-      value: 20.799288194838745
+      value: 18.649106972833795
     - type: nauc_ndcg_at_100_diff1
-      value: 17.774579523633484
+      value: 15.14846889041812
     - type: nauc_ndcg_at_100_max
-      value: 27.484015450724563
+      value: 25.447364086163617
     - type: nauc_ndcg_at_100_std
-      value: 21.824361827289604
+      value: 19.434767405756897
     - type: nauc_ndcg_at_10_diff1
-      value: 16.454456871906594
+      value: 14.507220566488918
     - type: nauc_ndcg_at_10_max
-      value: 26.248157142106788
+      value: 24.376958992402177
     - type: nauc_ndcg_at_10_std
-      value: 19.85534143153061
+      value: 17.71975721219274
     - type: nauc_ndcg_at_1_diff1
-      value: 69.04595571010425
+      value: 70.1396495728672
     - type: nauc_ndcg_at_1_max
-      value: 42.68450581268141
+      value: 46.290715660397034
     - type: nauc_ndcg_at_1_std
-      value: 3.9078744944302226
+      value: 2.383104054024225
     - type: nauc_ndcg_at_20_diff1
-      value: 16.783596764102448
+      value: 14.452470025035346
     - type: nauc_ndcg_at_20_max
-      value: 26.674447936981803
+      value: 24.730767716543014
     - type: nauc_ndcg_at_20_std
-      value: 20.955085734378283
+      value: 18.734318742569204
     - type: nauc_ndcg_at_3_diff1
-      value: 16.323138577650877
+      value: 15.432645820135981
     - type: nauc_ndcg_at_3_max
-      value: 23.919505607419378
+      value: 23.368066154380312
     - type: nauc_ndcg_at_3_std
-      value: 14.438155012059939
+      value: 11.874693788587596
     - type: nauc_ndcg_at_5_diff1
-      value: 16.252513953720612
+      value: 14.735306913463978
     - type: nauc_ndcg_at_5_max
-      value: 25.834906380090715
+      value: 23.705955789940493
     - type: nauc_ndcg_at_5_std
-      value: 17.797879786189498
+      value: 14.968624064682515
     - type: nauc_precision_at_1000_diff1
-      value: -5.612996021391802
+      value: -7.010818534432094
     - type: nauc_precision_at_1000_max
-      value: 29.621124808949475
+      value: 22.274170870851535
     - type: nauc_precision_at_1000_std
-      value: 60.2180272898463
+      value: 49.61485384634157
     - type: nauc_precision_at_100_diff1
-      value: -0.4655256365736023
+      value: -6.7537040300001445
     - type: nauc_precision_at_100_max
-      value: 27.863131801262153
+      value: 20.72198971693192
     - type: nauc_precision_at_100_std
-      value: 48.24283178268865
+      value: 41.64088208023007
     - type: nauc_precision_at_10_diff1
-      value: 1.467484417678075
+      value: -1.7564554764573033
     - type: nauc_precision_at_10_max
-      value: 23.063996835379925
+      value: 18.513593922519217
     - type: nauc_precision_at_10_std
-      value: 30.225428590871395
+      value: 27.6910022428843
     - type: nauc_precision_at_1_diff1
-      value: 69.04595571010425
+      value: 70.1396495728672
     - type: nauc_precision_at_1_max
-      value: 42.68450581268141
+      value: 46.290715660397034
     - type: nauc_precision_at_1_std
-      value: 3.9078744944302226
+      value: 2.383104054024225
     - type: nauc_precision_at_20_diff1
-      value: 0.16098170706775244
+      value: -4.13241926820056
     - type: nauc_precision_at_20_max
-      value: 23.545698533798383
+      value: 18.894821060251417
     - type: nauc_precision_at_20_std
-      value: 35.3738609349459
+      value: 32.55210012738072
     - type: nauc_precision_at_3_diff1
-      value: 4.822099897775316
+      value: 3.2656032494325755
     - type: nauc_precision_at_3_max
-      value: 19.882902254898795
+      value: 18.24280155368556
     - type: nauc_precision_at_3_std
-      value: 17.397463603075302
+      value: 14.536719930577574
     - type: nauc_precision_at_5_diff1
-      value: 3.1779150794512656
+      value: 0.8189990381009662
     - type: nauc_precision_at_5_max
-      value: 22.753201773071552
+      value: 17.993957619568864
     - type: nauc_precision_at_5_std
-      value: 24.028684632710412
+      value: 20.23613307485089
     - type: nauc_recall_at_1000_diff1
-      value: -5.6129960213919
+      value: -7.010818534432101
     - type: nauc_recall_at_1000_max
-      value: 29.62112480894871
+      value: 22.27417087085169
     - type: nauc_recall_at_1000_std
-      value: 60.2180272898464
+      value: 49.61485384634159
     - type: nauc_recall_at_100_diff1
-      value: -0.4655256365738292
+      value: -6.753704030000011
     - type: nauc_recall_at_100_max
-      value: 27.863131801261865
+      value: 20.72198971693201
     - type: nauc_recall_at_100_std
-      value: 48.24283178268853
+      value: 41.64088208023008
     - type: nauc_recall_at_10_diff1
-      value: 1.4674844176780142
+      value: -1.7564554764575586
     - type: nauc_recall_at_10_max
-      value: 23.063996835379864
+      value: 18.513593922519007
     - type: nauc_recall_at_10_std
-      value: 30.225428590871335
+      value: 27.69100224288406
     - type: nauc_recall_at_1_diff1
-      value: 69.04595571010425
+      value: 70.1396495728672
     - type: nauc_recall_at_1_max
-      value: 42.68450581268141
+      value: 46.290715660397034
     - type: nauc_recall_at_1_std
-      value: 3.9078744944302226
+      value: 2.383104054024225
     - type: nauc_recall_at_20_diff1
-      value: 0.16098170706756573
+      value: -4.132419268200746
     - type: nauc_recall_at_20_max
-      value: 23.545698533798166
+      value: 18.89482106025146
     - type: nauc_recall_at_20_std
-      value: 35.37386093494575
+      value: 32.55210012738058
     - type: nauc_recall_at_3_diff1
-      value: 4.822099897775345
+      value: 3.2656032494325924
     - type: nauc_recall_at_3_max
-      value: 19.882902254898895
+      value: 18.242801553685524
     - type: nauc_recall_at_3_std
-      value: 17.397463603075416
+      value: 14.53671993057761
     - type: nauc_recall_at_5_diff1
-      value: 3.177915079451333
+      value: 0.8189990381009014
     - type: nauc_recall_at_5_max
-      value: 22.75320177307157
+      value: 17.99395761956878
     - type: nauc_recall_at_5_std
-      value: 24.028684632710416
+      value: 20.236133074850805
     - type: ndcg_at_1
-      value: 84.597
+      value: 83.753
     - type: ndcg_at_10
-      value: 77.35600000000001
+      value: 74.606
     - type: ndcg_at_100
-      value: 79.84700000000001
+      value: 77.226
     - type: ndcg_at_1000
-      value: 80.739
+      value: 78.25
     - type: ndcg_at_20
-      value: 78.457
+      value: 75.78399999999999
     - type: ndcg_at_3
-      value: 73.02499999999999
+      value: 70.23700000000001
     - type: ndcg_at_5
-      value: 75.493
+      value: 72.72
     - type: precision_at_1
-      value: 84.597
+      value: 83.753
     - type: precision_at_10
-      value: 16.091
+      value: 15.427
     - type: precision_at_100
-      value: 1.8010000000000002
+      value: 1.746
     - type: precision_at_1000
-      value: 0.192
+      value: 0.188
     - type: precision_at_20
-      value: 8.399
+      value: 8.092
     - type: precision_at_3
-      value: 47.292
+      value: 45.003
     - type: precision_at_5
-      value: 30.318
+      value: 28.970000000000002
     - type: recall_at_1
-      value: 42.299
+      value: 41.876000000000005
     - type: recall_at_10
-      value: 80.457
+      value: 77.134
     - type: recall_at_100
-      value: 90.03999999999999
+      value: 87.287
     - type: recall_at_1000
-      value: 95.91499999999999
+      value: 94.06099999999999
     - type: recall_at_20
-      value: 83.991
+      value: 80.916
     - type: recall_at_3
-      value: 70.938
+      value: 67.50500000000001
     - type: recall_at_5
-      value: 75.794
+      value: 72.425
     task:
       type: Retrieval
   - dataset:
@@ -6716,287 +6716,287 @@ model-index:
       type: mteb/hotpotqa
     metrics:
     - type: main_score
-      value: 75.62
+      value: 72.743
     - type: map_at_1
-      value: 41.715
+      value: 40.817
     - type: map_at_10
-      value: 67.84400000000001
+      value: 64.547
     - type: map_at_100
-      value: 68.676
+      value: 65.387
     - type: map_at_1000
-      value: 68.72399999999999
+      value: 65.44200000000001
     - type: map_at_20
-      value: 68.351
+      value: 65.03
     - type: map_at_3
-      value: 64.332
+      value: 61.23800000000001
     - type: map_at_5
-      value: 66.618
+      value: 63.305
     - type: mrr_at_1
-      value: 83.43011478730588
+      value: 81.63403106009454
     - type: mrr_at_10
-      value: 88.32890689474063
+      value: 86.90412955639134
     - type: mrr_at_100
-      value: 88.45342904155198
+      value: 87.04035069527386
     - type: mrr_at_1000
-      value: 88.45692717602427
+      value: 87.04487544894396
     - type: mrr_at_20
-      value: 88.41265148599933
+      value: 86.99122288282743
     - type: mrr_at_3
-      value: 87.6097231600268
+      value: 86.09498086878217
     - type: mrr_at_5
-      value: 88.08102633355813
+      value: 86.62570335358967
     - type: nauc_map_at_1000_diff1
-      value: 9.465654364107301
+      value: 10.381785418973225
     - type: nauc_map_at_1000_max
-      value: 15.417980238546377
+      value: 12.453266004493218
     - type: nauc_map_at_1000_std
-      value: 12.078075854093665
+      value: 9.351715274159906
     - type: nauc_map_at_100_diff1
-      value: 9.442359625098023
+      value: 10.347079650282726
     - type: nauc_map_at_100_max
-      value: 15.412594933146517
+      value: 12.438896318714795
     - type: nauc_map_at_100_std
-      value: 12.110494024932517
+      value: 9.379180828331103
     - type: nauc_map_at_10_diff1
-      value: 9.459426708991023
+      value: 10.141861202002811
     - type: nauc_map_at_10_max
-      value: 15.311848156939039
+      value: 12.097344032839436
     - type: nauc_map_at_10_std
-      value: 11.55461807074889
+      value: 8.831170396649975
     - type: nauc_map_at_1_diff1
-      value: 65.05713874046143
+      value: 66.502696606421
     - type: nauc_map_at_1_max
-      value: 39.626722996510665
+      value: 41.53031869889469
     - type: nauc_map_at_1_std
-      value: -0.3991780785384316
+      value: -2.191672414299107
     - type: nauc_map_at_20_diff1
-      value: 9.328534555998699
+      value: 10.200694027304676
     - type: nauc_map_at_20_max
-      value: 15.307575956530108
+      value: 12.325683532818287
     - type: nauc_map_at_20_std
-      value: 11.96904723212192
+      value: 9.256220681393376
     - type: nauc_map_at_3_diff1
-      value: 8.915324889938061
+      value: 11.152534532572977
     - type: nauc_map_at_3_max
-      value: 13.514273119710563
+      value: 11.642745995749776
     - type: nauc_map_at_3_std
-      value: 8.332620819223683
+      value: 5.783821765761948
     - type: nauc_map_at_5_diff1
-      value: 8.63645860950366
+      value: 10.553374392069955
     - type: nauc_map_at_5_max
-      value: 14.350213952951254
+      value: 11.91290472912577
     - type: nauc_map_at_5_std
-      value: 10.554511015067682
+      value: 7.8322669846556225
     - type: nauc_mrr_at_1000_diff1
-      value: 64.29376507350443
+      value: 65.40812639602618
     - type: nauc_mrr_at_1000_max
-      value: 42.432971323016226
+      value: 43.8239039668551
     - type: nauc_mrr_at_1000_std
-      value: 1.103214916935443
+      value: -0.6428313796838251
     - type: nauc_mrr_at_100_diff1
-      value: 64.29483641804482
+      value: 65.40710609125459
     - type: nauc_mrr_at_100_max
-      value: 42.438961831187314
+      value: 43.83101205316724
     - type: nauc_mrr_at_100_std
-      value: 1.108904601847414
+      value: -0.6320502212235148
     - type: nauc_mrr_at_10_diff1
-      value: 64.31510468330697
+      value: 65.37243388394984
     - type: nauc_mrr_at_10_max
-      value: 42.52427399840782
+      value: 43.838670823575015
     - type: nauc_mrr_at_10_std
-      value: 1.131217952433522
+      value: -0.7784902122287074
     - type: nauc_mrr_at_1_diff1
-      value: 65.05713874046143
+      value: 66.502696606421
     - type: nauc_mrr_at_1_max
-      value: 39.626722996510665
+      value: 41.53031869889469
     - type: nauc_mrr_at_1_std
-      value: -0.3991780785384316
+      value: -2.191672414299107
     - type: nauc_mrr_at_20_diff1
-      value: 64.28943699159083
+      value: 65.41608063050629
     - type: nauc_mrr_at_20_max
-      value: 42.48416850113432
+      value: 43.86617917223792
     - type: nauc_mrr_at_20_std
-      value: 1.1557131772785048
+      value: -0.6009900804260204
     - type: nauc_mrr_at_3_diff1
-      value: 63.94398567446783
+      value: 65.14249488502335
     - type: nauc_mrr_at_3_max
-      value: 42.543599757686565
+      value: 43.95646843986658
     - type: nauc_mrr_at_3_std
-      value: 0.8656592208469659
+      value: -0.8639291753276465
     - type: nauc_mrr_at_5_diff1
-      value: 64.26440164249783
+      value: 65.23387534166781
     - type: nauc_mrr_at_5_max
-      value: 42.76831128910234
+      value: 43.87784137078954
     - type: nauc_mrr_at_5_std
-      value: 0.9815638280513239
+      value: -0.7793219824899724
     - type: nauc_ndcg_at_1000_diff1
-      value: 15.819261980172072
+      value: 16.35901408985652
     - type: nauc_ndcg_at_1000_max
-      value: 20.40080036519792
+      value: 17.521894806732156
     - type: nauc_ndcg_at_1000_std
-      value: 14.437662972269072
+      value: 12.017065592246968
     - type: nauc_ndcg_at_100_diff1
-      value: 14.934115203495086
+      value: 15.444833883381555
     - type: nauc_ndcg_at_100_max
-      value: 20.17258598061381
+      value: 17.12256451438098
     - type: nauc_ndcg_at_100_std
-      value: 15.368792248125951
+      value: 12.670587278800008
     - type: nauc_ndcg_at_10_diff1
-      value: 14.601053630285463
+      value: 14.486540021757053
     - type: nauc_ndcg_at_10_max
-      value: 19.4487220332248
+      value: 15.759466428223327
     - type: nauc_ndcg_at_10_std
-      value: 13.167535068795317
+      value: 10.36878152864418
     - type: nauc_ndcg_at_1_diff1
-      value: 65.05713874046143
+      value: 66.502696606421
     - type: nauc_ndcg_at_1_max
-      value: 39.626722996510665
+      value: 41.53031869889469
     - type: nauc_ndcg_at_1_std
-      value: -0.3991780785384316
+      value: -2.191672414299107
     - type: nauc_ndcg_at_20_diff1
-      value: 14.179531301272236
+      value: 14.555779596109888
     - type: nauc_ndcg_at_20_max
-      value: 19.472746452573293
+      value: 16.35789269994937
     - type: nauc_ndcg_at_20_std
-      value: 14.501827055912294
+      value: 11.767787325358539
     - type: nauc_ndcg_at_3_diff1
-      value: 14.108042690817394
+      value: 16.771175692043837
     - type: nauc_ndcg_at_3_max
-      value: 16.987464708832828
+      value: 15.645248784503222
     - type: nauc_ndcg_at_3_std
-      value: 8.179470755035126
+      value: 5.7135509689853485
     - type: nauc_ndcg_at_5_diff1
-      value: 13.385764378384962
+      value: 15.503391424947639
     - type: nauc_ndcg_at_5_max
-      value: 17.933522110142857
+      value: 15.640657048320755
     - type: nauc_ndcg_at_5_std
-      value: 11.19858703808597
+      value: 8.450953821666825
     - type: nauc_precision_at_1000_diff1
-      value: -11.509824758756242
+      value: -12.369633125411433
     - type: nauc_precision_at_1000_max
-      value: 22.55648484580021
+      value: 12.755704941719651
     - type: nauc_precision_at_1000_std
-      value: 52.19288714530133
+      value: 45.00521568435039
     - type: nauc_precision_at_100_diff1
-      value: -7.139163153266277
+      value: -8.115137486501764
     - type: nauc_precision_at_100_max
-      value: 18.186960433502737
+      value: 10.646650995276286
     - type: nauc_precision_at_100_std
-      value: 41.56352667223246
+      value: 35.56308384338935
     - type: nauc_precision_at_10_diff1
-      value: 0.19926178236397488
+      value: -3.7182289209127846
     - type: nauc_precision_at_10_max
-      value: 15.790669273945133
+      value: 7.7681979942398325
     - type: nauc_precision_at_10_std
-      value: 22.227701276074303
+      value: 18.92467245117897
     - type: nauc_precision_at_1_diff1
-      value: 65.05713874046143
+      value: 66.502696606421
     - type: nauc_precision_at_1_max
-      value: 39.626722996510665
+      value: 41.53031869889469
     - type: nauc_precision_at_1_std
-      value: -0.3991780785384316
+      value: -2.191672414299107
     - type: nauc_precision_at_20_diff1
-      value: -3.7308762969820637
+      value: -5.80639194394875
     - type: nauc_precision_at_20_max
-      value: 15.252245858128093
+      value: 8.609412843852052
     - type: nauc_precision_at_20_std
-      value: 28.673602701400558
+      value: 24.542537739429736
     - type: nauc_precision_at_3_diff1
-      value: 2.200279758618242
+      value: 4.488921802513501
     - type: nauc_precision_at_3_max
-      value: 12.01603816399143
+      value: 9.457927616694809
     - type: nauc_precision_at_3_std
-      value: 10.776563947053933
+      value: 8.375789445805138
     - type: nauc_precision_at_5_diff1
-      value: -0.656454595582822
+      value: 0.8178210962283003
     - type: nauc_precision_at_5_max
-      value: 12.954740919197965
+      value: 8.578978882201966
     - type: nauc_precision_at_5_std
-      value: 16.594853377568537
+      value: 13.561073970796885
     - type: nauc_recall_at_1000_diff1
-      value: -11.50982475875598
+      value: -12.36963312541116
     - type: nauc_recall_at_1000_max
-      value: 22.55648484580021
+      value: 12.755704941720039
     - type: nauc_recall_at_1000_std
-      value: 52.19288714530176
+      value: 45.005215684350574
     - type: nauc_recall_at_100_diff1
-      value: -7.139163153266106
+      value: -8.115137486501792
     - type: nauc_recall_at_100_max
-      value: 18.186960433502737
+      value: 10.646650995276245
     - type: nauc_recall_at_100_std
-      value: 41.56352667223245
+      value: 35.56308384338932
     - type: nauc_recall_at_10_diff1
-      value: 0.19926178236406988
+      value: -3.7182289209128556
     - type: nauc_recall_at_10_max
-      value: 15.790669273945342
+      value: 7.768197994239799
     - type: nauc_recall_at_10_std
-      value: 22.22770127607443
+      value: 18.924672451178868
     - type: nauc_recall_at_1_diff1
-      value: 65.05713874046143
+      value: 66.502696606421
     - type: nauc_recall_at_1_max
-      value: 39.626722996510665
+      value: 41.53031869889469
     - type: nauc_recall_at_1_std
-      value: -0.3991780785384316
+      value: -2.191672414299107
     - type: nauc_recall_at_20_diff1
-      value: -3.7308762969819664
+      value: -5.8063919439487
     - type: nauc_recall_at_20_max
-      value: 15.252245858128083
+      value: 8.609412843852034
     - type: nauc_recall_at_20_std
-      value: 28.673602701400608
+      value: 24.542537739429847
     - type: nauc_recall_at_3_diff1
-      value: 2.200279758618139
+      value: 4.488921802513477
     - type: nauc_recall_at_3_max
-      value: 12.016038163991432
+      value: 9.457927616694777
     - type: nauc_recall_at_3_std
-      value: 10.776563947053829
+      value: 8.375789445805076
     - type: nauc_recall_at_5_diff1
-      value: -0.6564545955828385
+      value: 0.817821096228331
     - type: nauc_recall_at_5_max
-      value: 12.954740919197997
+      value: 8.578978882202021
     - type: nauc_recall_at_5_std
-      value: 16.59485337756855
+      value: 13.56107397079683
     - type: ndcg_at_1
-      value: 83.43
+      value: 81.634
     - type: ndcg_at_10
-      value: 75.62
+      value: 72.743
     - type: ndcg_at_100
-      value: 78.365
+      value: 75.588
     - type: ndcg_at_1000
-      value: 79.278
+      value: 76.619
     - type: ndcg_at_20
-      value: 76.831
+      value: 73.906
     - type: ndcg_at_3
-      value: 70.86200000000001
+      value: 68.144
     - type: ndcg_at_5
-      value: 73.64
+      value: 70.711
     - type: precision_at_1
-      value: 83.43
+      value: 81.634
     - type: precision_at_10
-      value: 15.776000000000002
+      value: 15.110999999999999
     - type: precision_at_100
-      value: 1.79
+      value: 1.733
     - type: precision_at_1000
-      value: 0.191
+      value: 0.187
     - type: precision_at_20
-      value: 8.276
+      value: 7.928
     - type: precision_at_3
-      value: 45.631
+      value: 43.601
     - type: precision_at_5
-      value: 29.572
+      value: 28.186
     - type: recall_at_1
-      value: 41.715
+      value: 40.817
     - type: recall_at_10
-      value: 78.879
+      value: 75.557
     - type: recall_at_100
-      value: 89.507
+      value: 86.658
     - type: recall_at_1000
-      value: 95.537
+      value: 93.45
     - type: recall_at_20
-      value: 82.762
+      value: 79.28399999999999
     - type: recall_at_3
-      value: 68.447
+      value: 65.402
     - type: recall_at_5
-      value: 73.92999999999999
+      value: 70.466
     task:
       type: Retrieval
   - dataset:
@@ -7007,287 +7007,287 @@ model-index:
       type: mteb/hotpotqa
     metrics:
     - type: main_score
-      value: 77.837
+      value: 74.984
     - type: map_at_1
-      value: 42.368
+      value: 41.778999999999996
     - type: map_at_10
-      value: 70.482
+      value: 67.155
     - type: map_at_100
-      value: 71.25399999999999
+      value: 67.935
     - type: map_at_1000
-      value: 71.3
+      value: 67.987
     - type: map_at_20
-      value: 70.951
+      value: 67.625
     - type: map_at_3
-      value: 67.094
+      value: 63.846000000000004
     - type: map_at_5
-      value: 69.28699999999999
+      value: 65.962
     - type: mrr_at_1
-      value: 84.73647058823529
+      value: 83.55882352941177
     - type: mrr_at_10
-      value: 89.43228011204313
+      value: 88.33148552754291
     - type: mrr_at_100
-      value: 89.53538640990537
+      value: 88.45375789871105
     - type: mrr_at_1000
-      value: 89.53820110602267
+      value: 88.45763444191044
     - type: mrr_at_20
-      value: 89.5025639405047
+      value: 88.41352000428692
     - type: mrr_at_3
-      value: 88.76078431372584
+      value: 87.62666666666722
     - type: mrr_at_5
-      value: 89.21313725490114
+      value: 88.0801372549014
     - type: nauc_map_at_1000_diff1
-      value: 12.622422238298029
+      value: 10.87028656767292
     - type: nauc_map_at_1000_max
-      value: 24.134646613977147
+      value: 21.959290365120474
     - type: nauc_map_at_1000_std
-      value: 18.559113679096974
+      value: 15.44253415703075
     - type: nauc_map_at_100_diff1
-      value: 12.595518910984365
+      value: 10.838707271702939
     - type: nauc_map_at_100_max
-      value: 24.13615988100401
+      value: 21.95225291440458
     - type: nauc_map_at_100_std
-      value: 18.594772743956266
+      value: 15.469603007866311
     - type: nauc_map_at_10_diff1
-      value: 12.31736038153525
+      value: 10.610078190006284
     - type: nauc_map_at_10_max
-      value: 23.887804934291093
+      value: 21.686366674533605
     - type: nauc_map_at_10_std
-      value: 18.137521899470006
+      value: 14.921686758475653
     - type: nauc_map_at_1_diff1
-      value: 68.72516447237027
+      value: 69.80051370616638
     - type: nauc_map_at_1_max
-      value: 44.3569136727875
+      value: 46.884849189037844
     - type: nauc_map_at_1_std
-      value: 6.39841495768188
+      value: 3.4091886153700757
     - type: nauc_map_at_20_diff1
-      value: 12.468069986147025
+      value: 10.710717537313734
     - type: nauc_map_at_20_max
-      value: 24.078546039077274
+      value: 21.85879686180976
     - type: nauc_map_at_20_std
-      value: 18.522291511348463
+      value: 15.326344729518574
     - type: nauc_map_at_3_diff1
-      value: 11.842231338011665
+      value: 10.803492432001267
     - type: nauc_map_at_3_max
-      value: 22.112542722165667
+      value: 20.63654060659673
     - type: nauc_map_at_3_std
-      value: 14.832260061022543
+      value: 11.944023589119327
     - type: nauc_map_at_5_diff1
-      value: 12.034798052329245
+      value: 10.57350656967518
     - type: nauc_map_at_5_max
-      value: 23.31731384989271
+      value: 21.291050020056982
     - type: nauc_map_at_5_std
-      value: 17.01434920419027
+      value: 13.800853126281998
     - type: nauc_mrr_at_1000_diff1
-      value: 68.07028540743218
+      value: 68.91980008306939
     - type: nauc_mrr_at_1000_max
-      value: 47.244151670522704
+      value: 49.65818032977955
     - type: nauc_mrr_at_1000_std
-      value: 9.103356279698557
+      value: 6.255983503716273
     - type: nauc_mrr_at_100_diff1
-      value: 68.07124406272081
+      value: 68.920186133261
     - type: nauc_mrr_at_100_max
-      value: 47.251355072908616
+      value: 49.665349536327476
     - type: nauc_mrr_at_100_std
-      value: 9.114544406098922
+      value: 6.268878976883824
     - type: nauc_mrr_at_10_diff1
-      value: 68.05566531720568
+      value: 68.90388592892133
     - type: nauc_mrr_at_10_max
-      value: 47.34781296160981
+      value: 49.75965153367356
     - type: nauc_mrr_at_10_std
-      value: 9.162073165810337
+      value: 6.323690127864786
     - type: nauc_mrr_at_1_diff1
-      value: 68.72516447237027
+      value: 69.80051370616638
     - type: nauc_mrr_at_1_max
-      value: 44.3569136727875
+      value: 46.884849189037844
     - type: nauc_mrr_at_1_std
-      value: 6.39841495768188
+      value: 3.4091886153700757
     - type: nauc_mrr_at_20_diff1
-      value: 68.06579079523253
+      value: 68.90840597476175
     - type: nauc_mrr_at_20_max
-      value: 47.29519256825747
+      value: 49.70708679309621
     - type: nauc_mrr_at_20_std
-      value: 9.157454906021048
+      value: 6.315838513066106
     - type: nauc_mrr_at_3_diff1
-      value: 67.86665880252679
+      value: 68.64487191246296
     - type: nauc_mrr_at_3_max
-      value: 47.32534131711564
+      value: 49.66054010297392
     - type: nauc_mrr_at_3_std
-      value: 8.794606309056801
+      value: 5.717815934236954
     - type: nauc_mrr_at_5_diff1
-      value: 68.01593510697437
+      value: 68.83808477318325
     - type: nauc_mrr_at_5_max
-      value: 47.43102895637358
+      value: 49.75665999065203
     - type: nauc_mrr_at_5_std
-      value: 9.090489695071675
+      value: 6.089553843222202
     - type: nauc_ndcg_at_1000_diff1
-      value: 19.409351180430658
+      value: 17.564475589595123
     - type: nauc_ndcg_at_1000_max
-      value: 28.708136310658155
+      value: 26.660863179852495
     - type: nauc_ndcg_at_1000_std
-      value: 21.135251598909345
+      value: 18.220931823905893
     - type: nauc_ndcg_at_100_diff1
-      value: 18.544111410209364
+      value: 16.529629272288755
     - type: nauc_ndcg_at_100_max
-      value: 28.691312106667215
+      value: 26.362485651725976
     - type: nauc_ndcg_at_100_std
-      value: 22.159472487586196
+      value: 18.971583822121282
     - type: nauc_ndcg_at_10_diff1
-      value: 17.18622230783884
+      value: 15.554259291253217
     - type: nauc_ndcg_at_10_max
-      value: 27.61517105165476
+      value: 25.381172317904287
     - type: nauc_ndcg_at_10_std
-      value: 20.381795917366187
+      value: 16.911232099888434
     - type: nauc_ndcg_at_1_diff1
-      value: 68.72516447237027
+      value: 69.80051370616638
     - type: nauc_ndcg_at_1_max
-      value: 44.3569136727875
+      value: 46.884849189037844
     - type: nauc_ndcg_at_1_std
-      value: 6.39841495768188
+      value: 3.4091886153700757
     - type: nauc_ndcg_at_20_diff1
-      value: 17.621217561108292
+      value: 15.736796729809722
     - type: nauc_ndcg_at_20_max
-      value: 28.220217881192745
+      value: 25.816809250153007
     - type: nauc_ndcg_at_20_std
-      value: 21.634321155851048
+      value: 18.139020284042775
     - type: nauc_ndcg_at_3_diff1
-      value: 16.95281740780042
+      value: 16.39817980647894
     - type: nauc_ndcg_at_3_max
-      value: 25.139541410129908
+      value: 24.08287517626068
     - type: nauc_ndcg_at_3_std
-      value: 15.071626218489095
+      value: 12.06964501311477
     - type: nauc_ndcg_at_5_diff1
-      value: 16.85509256640343
+      value: 15.710994580525616
     - type: nauc_ndcg_at_5_max
-      value: 26.62380882436261
+      value: 24.75375703967725
     - type: nauc_ndcg_at_5_std
-      value: 18.144940484549487
+      value: 14.679841901035124
     - type: nauc_precision_at_1000_diff1
-      value: -2.498904728204529
+      value: -4.923050807549391
     - type: nauc_precision_at_1000_max
-      value: 33.673710106830924
+      value: 24.18328387479535
     - type: nauc_precision_at_1000_std
-      value: 60.30188328802003
+      value: 49.366523942899114
     - type: nauc_precision_at_100_diff1
-      value: -0.708165353412955
+      value: -4.651029899613218
     - type: nauc_precision_at_100_max
-      value: 29.52115017710721
+      value: 21.85221246397684
     - type: nauc_precision_at_100_std
-      value: 49.19453346494841
+      value: 41.45886054781206
     - type: nauc_precision_at_10_diff1
-      value: 2.2783774953634794
+      value: -0.8792415343727439
     - type: nauc_precision_at_10_max
-      value: 24.999953606470182
+      value: 19.674496356854974
     - type: nauc_precision_at_10_std
-      value: 30.42307537842161
+      value: 25.454503031141645
     - type: nauc_precision_at_1_diff1
-      value: 68.72516447237027
+      value: 69.80051370616638
     - type: nauc_precision_at_1_max
-      value: 44.3569136727875
+      value: 46.884849189037844
     - type: nauc_precision_at_1_std
-      value: 6.39841495768188
+      value: 3.4091886153700757
     - type: nauc_precision_at_20_diff1
-      value: 1.1464298366823311
+      value: -2.5121829554417165
     - type: nauc_precision_at_20_max
-      value: 26.511392023129375
+      value: 20.496150982288288
     - type: nauc_precision_at_20_std
-      value: 36.70867843499613
+      value: 31.12738775907587
     - type: nauc_precision_at_3_diff1
-      value: 5.688601758765791
+      value: 4.26503145939561
     - type: nauc_precision_at_3_max
-      value: 21.188583258128727
+      value: 18.9838377951004
     - type: nauc_precision_at_3_std
-      value: 17.592622457537157
+      value: 14.640822578265919
     - type: nauc_precision_at_5_diff1
-      value: 3.77247674190975
+      value: 1.6281319096948286
     - type: nauc_precision_at_5_max
-      value: 23.106552905037606
+      value: 19.300746238487978
     - type: nauc_precision_at_5_std
-      value: 23.561612818949644
+      value: 19.48177844713054
     - type: nauc_recall_at_1000_diff1
-      value: -2.498904728204562
+      value: -4.9230508075487895
     - type: nauc_recall_at_1000_max
-      value: 33.67371010683099
+      value: 24.183283874795666
     - type: nauc_recall_at_1000_std
-      value: 60.301883288019994
+      value: 49.366523942899825
     - type: nauc_recall_at_100_diff1
-      value: -0.7081653534129272
+      value: -4.651029899613319
     - type: nauc_recall_at_100_max
-      value: 29.52115017710731
+      value: 21.85221246397671
     - type: nauc_recall_at_100_std
-      value: 49.194533464948535
+      value: 41.45886054781193
     - type: nauc_recall_at_10_diff1
-      value: 2.2783774953635603
+      value: -0.879241534372706
     - type: nauc_recall_at_10_max
-      value: 24.999953606470118
+      value: 19.674496356854977
     - type: nauc_recall_at_10_std
-      value: 30.423075378421586
+      value: 25.454503031141655
     - type: nauc_recall_at_1_diff1
-      value: 68.72516447237027
+      value: 69.80051370616638
     - type: nauc_recall_at_1_max
-      value: 44.3569136727875
+      value: 46.884849189037844
     - type: nauc_recall_at_1_std
-      value: 6.39841495768188
+      value: 3.4091886153700757
     - type: nauc_recall_at_20_diff1
-      value: 1.146429836682064
+      value: -2.5121829554419732
     - type: nauc_recall_at_20_max
-      value: 26.5113920231293
+      value: 20.496150982288167
     - type: nauc_recall_at_20_std
-      value: 36.70867843499605
+      value: 31.1273877590757
     - type: nauc_recall_at_3_diff1
-      value: 5.688601758765744
+      value: 4.265031459395502
     - type: nauc_recall_at_3_max
-      value: 21.18858325812871
+      value: 18.98383779510037
     - type: nauc_recall_at_3_std
-      value: 17.592622457537157
+      value: 14.640822578265938
     - type: nauc_recall_at_5_diff1
-      value: 3.7724767419099234
+      value: 1.628131909694958
     - type: nauc_recall_at_5_max
-      value: 23.106552905037674
+      value: 19.300746238487964
     - type: nauc_recall_at_5_std
-      value: 23.561612818949783
+      value: 19.481778447130544
     - type: ndcg_at_1
-      value: 84.736
+      value: 83.55900000000001
     - type: ndcg_at_10
-      value: 77.837
+      value: 74.984
     - type: ndcg_at_100
-      value: 80.357
+      value: 77.582
     - type: ndcg_at_1000
-      value: 81.183
+      value: 78.55499999999999
     - type: ndcg_at_20
-      value: 78.949
+      value: 76.12100000000001
     - type: ndcg_at_3
-      value: 73.258
+      value: 70.46900000000001
     - type: ndcg_at_5
-      value: 75.919
+      value: 73.045
     - type: precision_at_1
-      value: 84.736
+      value: 83.55900000000001
     - type: precision_at_10
-      value: 16.250999999999998
+      value: 15.565000000000001
     - type: precision_at_100
-      value: 1.82
+      value: 1.7579999999999998
     - type: precision_at_1000
-      value: 0.193
+      value: 0.189
     - type: precision_at_20
-      value: 8.482000000000001
+      value: 8.148
     - type: precision_at_3
-      value: 47.475
+      value: 45.263999999999996
     - type: precision_at_5
-      value: 30.581999999999997
+      value: 29.188
     - type: recall_at_1
-      value: 42.368
+      value: 41.778999999999996
     - type: recall_at_10
-      value: 81.255
+      value: 77.824
     - type: recall_at_100
-      value: 90.994
+      value: 87.90400000000001
     - type: recall_at_1000
-      value: 96.398
+      value: 94.313
     - type: recall_at_20
-      value: 84.824
+      value: 81.482
     - type: recall_at_3
-      value: 71.21300000000001
+      value: 67.896
     - type: recall_at_5
-      value: 76.456
+      value: 72.971
     task:
       type: Retrieval
   - dataset:
@@ -7298,869 +7298,869 @@ model-index:
       type: mteb/msmarco
     metrics:
     - type: main_score
-      value: 43.462
+      value: 42.120999999999995
     - type: map_at_1
-      value: 23.25
+      value: 22.736
     - type: map_at_10
-      value: 36.224000000000004
+      value: 35.092
     - type: map_at_100
-      value: 37.349
+      value: 36.230000000000004
     - type: map_at_1000
-      value: 37.391999999999996
+      value: 36.277
     - type: map_at_20
-      value: 36.921
+      value: 35.799
     - type: map_at_3
-      value: 32.208
+      value: 31.094
     - type: map_at_5
-      value: 34.573
+      value: 33.371
     - type: mrr_at_1
-      value: 23.88252148997135
+      value: 23.3810888252149
     - type: mrr_at_10
-      value: 36.85216832673849
+      value: 35.708384499931746
     - type: mrr_at_100
-      value: 37.90739898332828
+      value: 36.785903073286526
     - type: mrr_at_1000
-      value: 37.94515095895543
+      value: 36.825722574106
     - type: mrr_at_20
-      value: 37.51240671241301
+      value: 36.37977615162803
     - type: mrr_at_3
-      value: 32.91786055396362
+      value: 31.793218720152684
     - type: mrr_at_5
-      value: 35.23304680038204
+      value: 34.03677172874878
     - type: nauc_map_at_1000_diff1
-      value: 36.39047949939039
+      value: 36.139486267407925
     - type: nauc_map_at_1000_max
-      value: 2.3578743172188035
+      value: 2.0214122031990587
     - type: nauc_map_at_1000_std
-      value: -18.727873389577592
+      value: -19.910962785146047
     - type: nauc_map_at_100_diff1
-      value: 36.384143241496226
+      value: 36.140766768299
     - type: nauc_map_at_100_max
-      value: 2.3497513932749614
+      value: 2.020596976774594
     - type: nauc_map_at_100_std
-      value: -18.70122938038941
+      value: -19.894404573188893
     - type: nauc_map_at_10_diff1
-      value: 36.33329278355692
+      value: 36.07598204318622
     - type: nauc_map_at_10_max
-      value: 2.138450676545341
+      value: 1.8099554829591833
     - type: nauc_map_at_10_std
-      value: -19.45579958491671
+      value: -20.56954015291869
     - type: nauc_map_at_1_diff1
-      value: 39.404102475568564
+      value: 39.13795843270682
     - type: nauc_map_at_1_max
-      value: 2.7206579628418126
+      value: 1.5488626830618197
     - type: nauc_map_at_1_std
-      value: -16.855247645496085
+      value: -18.834856297248827
     - type: nauc_map_at_20_diff1
-      value: 36.302767883282456
+      value: 36.08487910581468
     - type: nauc_map_at_20_max
-      value: 2.2735066233134695
+      value: 1.9456332591026433
     - type: nauc_map_at_20_std
-      value: -18.973295136131522
+      value: -20.143821809894074
     - type: nauc_map_at_3_diff1
-      value: 36.56553095724739
+      value: 36.233503613892815
     - type: nauc_map_at_3_max
-      value: 2.3275087952103526
+      value: 1.9619772807345706
     - type: nauc_map_at_3_std
-      value: -19.3527032157449
+      value: -20.60856230873636
     - type: nauc_map_at_5_diff1
-      value: 36.40211831532397
+      value: 35.97340075460678
     - type: nauc_map_at_5_max
-      value: 2.235741458377666
+      value: 1.8769480420927318
     - type: nauc_map_at_5_std
-      value: -19.701014659193824
+      value: -20.775503467555176
     - type: nauc_mrr_at_1000_diff1
-      value: 36.438574231588525
+      value: 36.00964169914943
     - type: nauc_mrr_at_1000_max
-      value: 2.485811765062565
+      value: 2.0640896425703765
     - type: nauc_mrr_at_1000_std
-      value: -18.5317957659061
+      value: -19.653911082078473
     - type: nauc_mrr_at_100_diff1
-      value: 36.432843922329596
+      value: 36.01143509691009
     - type: nauc_mrr_at_100_max
-      value: 2.4824945841823816
+      value: 2.0670151721816086
     - type: nauc_mrr_at_100_std
-      value: -18.50245936037501
+      value: -19.63134406389329
     - type: nauc_mrr_at_10_diff1
-      value: 36.37249341280693
+      value: 35.96623584053275
     - type: nauc_mrr_at_10_max
-      value: 2.3153304860037607
+      value: 1.9239076102356585
     - type: nauc_mrr_at_10_std
-      value: -19.22693970447962
+      value: -20.25471452533458
     - type: nauc_mrr_at_1_diff1
-      value: 39.38128062971168
+      value: 38.959117793598615
     - type: nauc_mrr_at_1_max
-      value: 2.7209494702622874
+      value: 1.3677167801150283
     - type: nauc_mrr_at_1_std
-      value: -16.953692595799737
+      value: -18.935612195829055
     - type: nauc_mrr_at_20_diff1
-      value: 36.3579490781177
+      value: 35.94910790613082
     - type: nauc_mrr_at_20_max
-      value: 2.4387677123377283
+      value: 2.0267159522212292
     - type: nauc_mrr_at_20_std
-      value: -18.732976355263567
+      value: -19.83950984848953
     - type: nauc_mrr_at_3_diff1
-      value: 36.533228792596574
+      value: 36.09825088970802
     - type: nauc_mrr_at_3_max
-      value: 2.361606755695883
+      value: 1.914144327342224
     - type: nauc_mrr_at_3_std
-      value: -19.245211696661034
+      value: -20.44286906662492
     - type: nauc_mrr_at_5_diff1
-      value: 36.3816321319283
+      value: 35.84551861223096
     - type: nauc_mrr_at_5_max
-      value: 2.3437756296821632
+      value: 1.86983732222198
     - type: nauc_mrr_at_5_std
-      value: -19.471789402286344
+      value: -20.54854344258923
     - type: nauc_ndcg_at_1000_diff1
-      value: 35.79039219929976
+      value: 35.472004851727284
     - type: nauc_ndcg_at_1000_max
-      value: 2.811728033687246
+      value: 2.737377792816256
     - type: nauc_ndcg_at_1000_std
-      value: -17.338286061955813
+      value: -18.19482800058104
     - type: nauc_ndcg_at_100_diff1
-      value: 35.59261399719066
+      value: 35.46517530680521
     - type: nauc_ndcg_at_100_max
-      value: 2.7108910063207783
+      value: 2.7836190775653207
     - type: nauc_ndcg_at_100_std
-      value: -16.30247877675029
+      value: -17.325512421140786
     - type: nauc_ndcg_at_10_diff1
-      value: 35.33021934007167
+      value: 35.17799161326067
     - type: nauc_ndcg_at_10_max
-      value: 1.8215726138615624
+      value: 1.8621934710032726
     - type: nauc_ndcg_at_10_std
-      value: -20.06278292037688
+      value: -20.704677893177163
     - type: nauc_ndcg_at_1_diff1
-      value: 39.38128062971168
+      value: 38.90244672327909
     - type: nauc_ndcg_at_1_max
-      value: 2.7209494702622874
+      value: 1.3507189870594651
     - type: nauc_ndcg_at_1_std
-      value: -16.953692595799737
+      value: -18.947293518063137
     - type: nauc_ndcg_at_20_diff1
-      value: 35.166139885264435
+      value: 35.15025708176802
     - type: nauc_ndcg_at_20_max
-      value: 2.2458844698840195
+      value: 2.3625925336500946
     - type: nauc_ndcg_at_20_std
-      value: -18.248706272894776
+      value: -19.09189142369086
     - type: nauc_ndcg_at_3_diff1
-      value: 35.815749048912664
+      value: 35.41158574971149
     - type: nauc_ndcg_at_3_max
-      value: 2.138161873272173
+      value: 2.016626470801078
     - type: nauc_ndcg_at_3_std
-      value: -20.118216970119295
+      value: -21.054883496816316
     - type: nauc_ndcg_at_5_diff1
-      value: 35.55268589882809
+      value: 34.942748530346776
     - type: nauc_ndcg_at_5_max
-      value: 2.0174915835937095
+      value: 1.9161622652633727
     - type: nauc_ndcg_at_5_std
-      value: -20.691081813335547
+      value: -21.276906113132515
     - type: nauc_precision_at_1000_diff1
-      value: -3.3391122943171885
+      value: -1.9253565142428295
     - type: nauc_precision_at_1000_max
-      value: 11.198425802216269
+      value: 14.045425699939074
     - type: nauc_precision_at_1000_std
-      value: 13.383104359443937
+      value: 16.20785969541304
     - type: nauc_precision_at_100_diff1
-      value: 12.850391114610302
+      value: 17.346097443496493
     - type: nauc_precision_at_100_max
-      value: 8.157136543556543
+      value: 11.140141370074783
     - type: nauc_precision_at_100_std
-      value: 16.476563311300353
+      value: 14.280164624961362
     - type: nauc_precision_at_10_diff1
-      value: 28.63945922218073
+      value: 29.644284522057085
     - type: nauc_precision_at_10_max
-      value: 0.455900949813612
+      value: 1.892731779122541
     - type: nauc_precision_at_10_std
-      value: -20.77018206831735
+      value: -19.605722817038444
     - type: nauc_precision_at_1_diff1
-      value: 39.38128062971168
+      value: 38.90244672327909
     - type: nauc_precision_at_1_max
-      value: 2.7209494702622874
+      value: 1.3507189870594651
     - type: nauc_precision_at_1_std
-      value: -16.953692595799737
+      value: -18.947293518063137
     - type: nauc_precision_at_20_diff1
-      value: 24.195296149610957
+      value: 26.77219179850976
     - type: nauc_precision_at_20_max
-      value: 2.5484785002551718
+      value: 4.891718072273102
     - type: nauc_precision_at_20_std
-      value: -10.930465943156257
+      value: -10.612631017224652
     - type: nauc_precision_at_3_diff1
-      value: 33.06268024815025
+      value: 32.631995676805204
     - type: nauc_precision_at_3_max
-      value: 1.6291541332500454
+      value: 2.130914787220238
     - type: nauc_precision_at_3_std
-      value: -22.18898625767765
+      value: -22.32778156160327
     - type: nauc_precision_at_5_diff1
-      value: 31.65289218498212
+      value: 30.93187721742059
     - type: nauc_precision_at_5_max
-      value: 1.2951472084768743
+      value: 1.9956621964923527
     - type: nauc_precision_at_5_std
-      value: -23.27704936042841
+      value: -22.38641924346273
     - type: nauc_recall_at_1000_diff1
-      value: 23.23177983481788
+      value: 17.105896760286765
     - type: nauc_recall_at_1000_max
-      value: 38.7253356088564
+      value: 36.57462589387958
     - type: nauc_recall_at_1000_std
-      value: 67.48000156648311
+      value: 62.00079240400393
     - type: nauc_recall_at_100_diff1
-      value: 28.544420505491562
+      value: 31.020954943068922
     - type: nauc_recall_at_100_max
-      value: 7.671908258293046
+      value: 10.88829730164695
     - type: nauc_recall_at_100_std
-      value: 21.858917656037523
+      value: 16.616210151681816
     - type: nauc_recall_at_10_diff1
-      value: 31.49652837714782
+      value: 32.06847692573393
     - type: nauc_recall_at_10_max
-      value: 0.4106392530350634
+      value: 1.7751731101901707
     - type: nauc_recall_at_10_std
-      value: -21.78064007132412
+      value: -20.93854511643462
     - type: nauc_recall_at_1_diff1
-      value: 39.404102475568564
+      value: 39.13795843270682
     - type: nauc_recall_at_1_max
-      value: 2.7206579628418126
+      value: 1.5488626830618197
     - type: nauc_recall_at_1_std
-      value: -16.855247645496085
+      value: -18.834856297248827
     - type: nauc_recall_at_20_diff1
-      value: 29.666357411097906
+      value: 31.252284015750043
     - type: nauc_recall_at_20_max
-      value: 1.9441414764681684
+      value: 4.142775647459482
     - type: nauc_recall_at_20_std
-      value: -12.932407352213746
+      value: -13.053410939827806
     - type: nauc_recall_at_3_diff1
-      value: 33.55593640265306
+      value: 33.081727757800536
     - type: nauc_recall_at_3_max
-      value: 1.5516845419621723
+      value: 2.1476221499499597
     - type: nauc_recall_at_3_std
-      value: -22.119363526106568
+      value: -22.210127534959344
     - type: nauc_recall_at_5_diff1
-      value: 32.857815579888154
+      value: 31.79414648884249
     - type: nauc_recall_at_5_max
-      value: 1.2405193929536131
+      value: 1.9631360425221316
     - type: nauc_recall_at_5_std
-      value: -23.542815544770555
+      value: -22.597007753409525
     - type: ndcg_at_1
-      value: 23.883
+      value: 23.395
     - type: ndcg_at_10
-      value: 43.462
+      value: 42.120999999999995
     - type: ndcg_at_100
-      value: 48.845
+      value: 47.625
     - type: ndcg_at_1000
-      value: 49.883
+      value: 48.769
     - type: ndcg_at_20
-      value: 45.921
+      value: 44.629000000000005
     - type: ndcg_at_3
-      value: 35.321999999999996
+      value: 34.015
     - type: ndcg_at_5
-      value: 39.512
+      value: 38.063
     - type: precision_at_1
-      value: 23.883
+      value: 23.395
     - type: precision_at_10
-      value: 6.862
+      value: 6.662
     - type: precision_at_100
-      value: 0.9560000000000001
-    - type: precision_at_1000
-      value: 0.105
-    - type: precision_at_20
-      value: 3.946
-    - type: precision_at_3
-      value: 15.076
-    - type: precision_at_5
-      value: 11.158
-    - type: recall_at_1
-      value: 23.25
-    - type: recall_at_10
-      value: 65.694
-    - type: recall_at_100
-      value: 90.554
-    - type: recall_at_1000
-      value: 98.378
-    - type: recall_at_20
-      value: 75.224
-    - type: recall_at_3
-      value: 43.628
-    - type: recall_at_5
-      value: 53.659
-    task:
-      type: Retrieval
-  - dataset:
-      config: default
-      name: MTEB MSMARCO (default)
-      revision: c5a29a104738b98a9e76336939199e264163d4a0
-      split: test
-      type: mteb/msmarco
-    metrics:
-    - type: main_score
-      value: 74.139
-    - type: map_at_1
-      value: 2.464
-    - type: map_at_10
-      value: 16.541
-    - type: map_at_100
-      value: 44.478
-    - type: map_at_1000
-      value: 53.15
-    - type: map_at_20
-      value: 25.904
-    - type: map_at_3
-      value: 6.765000000000001
-    - type: map_at_5
-      value: 9.983
-    - type: mrr_at_1
-      value: 95.34883720930233
-    - type: mrr_at_10
-      value: 97.28682170542636
-    - type: mrr_at_100
-      value: 97.28682170542636
-    - type: mrr_at_1000
-      value: 97.28682170542636
-    - type: mrr_at_20
-      value: 97.28682170542636
-    - type: mrr_at_3
-      value: 97.28682170542636
-    - type: mrr_at_5
-      value: 97.28682170542636
-    - type: nauc_map_at_1000_diff1
-      value: -24.31518623918347
-    - type: nauc_map_at_1000_max
-      value: 33.70070261129663
-    - type: nauc_map_at_1000_std
-      value: 52.73406144577475
-    - type: nauc_map_at_100_diff1
-      value: -6.716075858891885
-    - type: nauc_map_at_100_max
-      value: 14.830377435009204
-    - type: nauc_map_at_100_std
-      value: 22.182430558548326
-    - type: nauc_map_at_10_diff1
-      value: 22.52761274919368
-    - type: nauc_map_at_10_max
-      value: -10.100583311291869
-    - type: nauc_map_at_10_std
-      value: -24.033121680575295
-    - type: nauc_map_at_1_diff1
-      value: 34.97928775395744
-    - type: nauc_map_at_1_max
-      value: -29.165988209556343
-    - type: nauc_map_at_1_std
-      value: -40.87952221234793
-    - type: nauc_map_at_20_diff1
-      value: 15.889296464003886
-    - type: nauc_map_at_20_max
-      value: -4.223749887147732
-    - type: nauc_map_at_20_std
-      value: -11.765238600018108
-    - type: nauc_map_at_3_diff1
-      value: 35.02306731951517
-    - type: nauc_map_at_3_max
-      value: -25.811140250024874
-    - type: nauc_map_at_3_std
-      value: -37.502121900015425
-    - type: nauc_map_at_5_diff1
-      value: 31.60050502637396
-    - type: nauc_map_at_5_max
-      value: -19.753939742728406
-    - type: nauc_map_at_5_std
-      value: -32.326759394631495
-    - type: nauc_mrr_at_1000_diff1
-      value: -1.6109249129507694
-    - type: nauc_mrr_at_1000_max
-      value: -5.264078482070403
-    - type: nauc_mrr_at_1000_std
-      value: -16.896242659959608
-    - type: nauc_mrr_at_100_diff1
-      value: -1.6109249129507694
-    - type: nauc_mrr_at_100_max
-      value: -5.264078482070403
-    - type: nauc_mrr_at_100_std
-      value: -16.896242659959608
-    - type: nauc_mrr_at_10_diff1
-      value: -1.6109249129507694
-    - type: nauc_mrr_at_10_max
-      value: -5.264078482070403
-    - type: nauc_mrr_at_10_std
-      value: -16.896242659959608
-    - type: nauc_mrr_at_1_diff1
-      value: 7.609161311583414
-    - type: nauc_mrr_at_1_max
-      value: -3.1385223772769497
-    - type: nauc_mrr_at_1_std
-      value: -28.92678640083504
-    - type: nauc_mrr_at_20_diff1
-      value: -1.6109249129507694
-    - type: nauc_mrr_at_20_max
-      value: -5.264078482070403
-    - type: nauc_mrr_at_20_std
-      value: -16.896242659959608
-    - type: nauc_mrr_at_3_diff1
-      value: -1.6109249129507694
-    - type: nauc_mrr_at_3_max
-      value: -5.264078482070403
-    - type: nauc_mrr_at_3_std
-      value: -16.896242659959608
-    - type: nauc_mrr_at_5_diff1
-      value: -1.6109249129507694
-    - type: nauc_mrr_at_5_max
-      value: -5.264078482070403
-    - type: nauc_mrr_at_5_std
-      value: -16.896242659959608
-    - type: nauc_ndcg_at_1000_diff1
-      value: -30.3495925805214
-    - type: nauc_ndcg_at_1000_max
-      value: 48.80276747021238
-    - type: nauc_ndcg_at_1000_std
-      value: 54.598664753311596
-    - type: nauc_ndcg_at_100_diff1
-      value: -21.4043832806614
-    - type: nauc_ndcg_at_100_max
-      value: 30.876451567336744
-    - type: nauc_ndcg_at_100_std
-      value: 49.443818028199324
-    - type: nauc_ndcg_at_10_diff1
-      value: -0.45843729874817324
-    - type: nauc_ndcg_at_10_max
-      value: 19.369035024488383
-    - type: nauc_ndcg_at_10_std
-      value: 15.441351418216314
-    - type: nauc_ndcg_at_1_diff1
-      value: 27.57020304062517
-    - type: nauc_ndcg_at_1_max
-      value: 13.126334420445016
-    - type: nauc_ndcg_at_1_std
-      value: -29.628242116322607
-    - type: nauc_ndcg_at_20_diff1
-      value: -15.246366332733999
-    - type: nauc_ndcg_at_20_max
-      value: 14.478542591051463
-    - type: nauc_ndcg_at_20_std
-      value: 27.20707635200001
-    - type: nauc_ndcg_at_3_diff1
-      value: 14.58709456804409
-    - type: nauc_ndcg_at_3_max
-      value: 13.824849529705482
-    - type: nauc_ndcg_at_3_std
-      value: -8.313833570480671
-    - type: nauc_ndcg_at_5_diff1
-      value: 8.91665165479885
-    - type: nauc_ndcg_at_5_max
-      value: 13.930708098322576
-    - type: nauc_ndcg_at_5_std
-      value: 2.127642899981599
-    - type: nauc_precision_at_1000_diff1
-      value: -40.268595202063054
-    - type: nauc_precision_at_1000_max
-      value: 25.88884164935188
-    - type: nauc_precision_at_1000_std
-      value: 55.568406766964415
-    - type: nauc_precision_at_100_diff1
-      value: -42.911915287643346
-    - type: nauc_precision_at_100_max
-      value: 30.08901353124011
-    - type: nauc_precision_at_100_std
-      value: 62.17803024269468
-    - type: nauc_precision_at_10_diff1
-      value: -43.802137487466524
-    - type: nauc_precision_at_10_max
-      value: 41.558045207768075
-    - type: nauc_precision_at_10_std
-      value: 66.11133414044444
-    - type: nauc_precision_at_1_diff1
-      value: 7.609161311583414
-    - type: nauc_precision_at_1_max
-      value: -3.1385223772769497
-    - type: nauc_precision_at_1_std
-      value: -28.92678640083504
-    - type: nauc_precision_at_20_diff1
-      value: -45.342704264263865
-    - type: nauc_precision_at_20_max
-      value: 26.376743923651265
-    - type: nauc_precision_at_20_std
-      value: 64.3163432020867
-    - type: nauc_precision_at_3_diff1
-      value: -16.02113730834142
-    - type: nauc_precision_at_3_max
-      value: 24.617646770629815
-    - type: nauc_precision_at_3_std
-      value: 35.79299638781981
-    - type: nauc_precision_at_5_diff1
-      value: -18.344530395955896
-    - type: nauc_precision_at_5_max
-      value: 34.95602706071007
-    - type: nauc_precision_at_5_std
-      value: 55.121489979935255
-    - type: nauc_recall_at_1000_diff1
-      value: -43.604640987833875
-    - type: nauc_recall_at_1000_max
-      value: 58.59201591599778
-    - type: nauc_recall_at_1000_std
-      value: 58.04926306248595
-    - type: nauc_recall_at_100_diff1
-      value: -1.8581886293054308
-    - type: nauc_recall_at_100_max
-      value: 17.598407276190557
-    - type: nauc_recall_at_100_std
-      value: 16.1056507235371
-    - type: nauc_recall_at_10_diff1
-      value: 24.296861713164493
-    - type: nauc_recall_at_10_max
-      value: -12.840082189664468
-    - type: nauc_recall_at_10_std
-      value: -27.648232955581015
-    - type: nauc_recall_at_1_diff1
-      value: 34.97928775395744
-    - type: nauc_recall_at_1_max
-      value: -29.165988209556343
-    - type: nauc_recall_at_1_std
-      value: -40.87952221234793
-    - type: nauc_recall_at_20_diff1
-      value: 17.34425404446603
-    - type: nauc_recall_at_20_max
-      value: -6.759844869600909
-    - type: nauc_recall_at_20_std
-      value: -16.34420887019204
-    - type: nauc_recall_at_3_diff1
-      value: 35.7400036137557
-    - type: nauc_recall_at_3_max
-      value: -26.22669187910205
-    - type: nauc_recall_at_3_std
-      value: -38.248247791322314
-    - type: nauc_recall_at_5_diff1
-      value: 33.10320420212989
-    - type: nauc_recall_at_5_max
-      value: -20.833157601550315
-    - type: nauc_recall_at_5_std
-      value: -34.06908006216781
-    - type: ndcg_at_1
-      value: 76.744
-    - type: ndcg_at_10
-      value: 74.139
-    - type: ndcg_at_100
-      value: 68.147
-    - type: ndcg_at_1000
-      value: 75.65899999999999
-    - type: ndcg_at_20
-      value: 71.788
-    - type: ndcg_at_3
-      value: 75.696
-    - type: ndcg_at_5
-      value: 74.787
-    - type: precision_at_1
-      value: 95.34899999999999
-    - type: precision_at_10
-      value: 84.186
-    - type: precision_at_100
-      value: 40.163
-    - type: precision_at_1000
-      value: 7.457999999999999
-    - type: precision_at_20
-      value: 74.767
-    - type: precision_at_3
-      value: 89.922
-    - type: precision_at_5
-      value: 87.442
-    - type: recall_at_1
-      value: 2.464
-    - type: recall_at_10
-      value: 17.910999999999998
-    - type: recall_at_100
-      value: 55.969
-    - type: recall_at_1000
-      value: 82.416
-    - type: recall_at_20
-      value: 28.829
-    - type: recall_at_3
-      value: 6.866
-    - type: recall_at_5
-      value: 10.45
-    task:
-      type: Retrieval
-  - dataset:
-      config: default
-      name: MTEB MSMARCO (default)
-      revision: c5a29a104738b98a9e76336939199e264163d4a0
-      split: train
-      type: mteb/msmarco
-    metrics:
-    - type: main_score
-      value: 40.276
-    - type: map_at_1
-      value: 20.773
-    - type: map_at_10
-      value: 33.187
-    - type: map_at_100
-      value: 34.445
-    - type: map_at_1000
-      value: 34.491
-    - type: map_at_20
-      value: 33.969
-    - type: map_at_3
-      value: 29.156
-    - type: map_at_5
-      value: 31.446
-    - type: mrr_at_1
-      value: 21.359250326580362
-    - type: mrr_at_10
-      value: 33.705331647898106
-    - type: mrr_at_100
-      value: 34.90938915980538
-    - type: mrr_at_1000
-      value: 34.949373687506714
-    - type: mrr_at_20
-      value: 34.459868257867136
-    - type: mrr_at_3
-      value: 29.754569308269037
-    - type: mrr_at_5
-      value: 32.00982292750348
-    - type: nauc_map_at_1000_diff1
-      value: 34.01601087498396
-    - type: nauc_map_at_1000_max
-      value: -1.7691442171563223
-    - type: nauc_map_at_1000_std
-      value: -19.828285053003967
-    - type: nauc_map_at_100_diff1
-      value: 34.00675015775064
-    - type: nauc_map_at_100_max
-      value: -1.7686866050766759
-    - type: nauc_map_at_100_std
-      value: -19.794937232515526
-    - type: nauc_map_at_10_diff1
-      value: 33.925657930927954
-    - type: nauc_map_at_10_max
-      value: -1.9081926342048643
-    - type: nauc_map_at_10_std
-      value: -20.459142515845954
-    - type: nauc_map_at_1_diff1
-      value: 37.86779004020525
-    - type: nauc_map_at_1_max
-      value: -1.693381899018092
-    - type: nauc_map_at_1_std
-      value: -18.888409837359983
-    - type: nauc_map_at_20_diff1
-      value: 33.95897235069661
-    - type: nauc_map_at_20_max
-      value: -1.8385762082257249
-    - type: nauc_map_at_20_std
-      value: -20.049973139551135
-    - type: nauc_map_at_3_diff1
-      value: 34.1811433717322
-    - type: nauc_map_at_3_max
-      value: -1.9862134491651453
-    - type: nauc_map_at_3_std
-      value: -20.7157496103899
-    - type: nauc_map_at_5_diff1
-      value: 33.945489663762515
-    - type: nauc_map_at_5_max
-      value: -1.9633952142297522
-    - type: nauc_map_at_5_std
-      value: -20.83632680413325
-    - type: nauc_mrr_at_1000_diff1
-      value: 33.999206219812045
-    - type: nauc_mrr_at_1000_max
-      value: -1.7412465287451229
-    - type: nauc_mrr_at_1000_std
-      value: -19.800789638791937
-    - type: nauc_mrr_at_100_diff1
-      value: 33.99041315883828
-    - type: nauc_mrr_at_100_max
-      value: -1.7393575325316621
-    - type: nauc_mrr_at_100_std
-      value: -19.7676764349925
-    - type: nauc_mrr_at_10_diff1
-      value: 33.90510191763504
-    - type: nauc_mrr_at_10_max
-      value: -1.8632220774794626
-    - type: nauc_mrr_at_10_std
-      value: -20.39043116739617
-    - type: nauc_mrr_at_1_diff1
-      value: 37.92957327608907
-    - type: nauc_mrr_at_1_max
-      value: -1.6241365807332726
-    - type: nauc_mrr_at_1_std
-      value: -19.02476057424658
-    - type: nauc_mrr_at_20_diff1
-      value: 33.94188630069156
-    - type: nauc_mrr_at_20_max
-      value: -1.799932652089817
-    - type: nauc_mrr_at_20_std
-      value: -19.997042702823485
-    - type: nauc_mrr_at_3_diff1
-      value: 34.16520468314214
-    - type: nauc_mrr_at_3_max
-      value: -1.9279951943420828
-    - type: nauc_mrr_at_3_std
-      value: -20.706091936842984
-    - type: nauc_mrr_at_5_diff1
-      value: 33.92480963299017
-    - type: nauc_mrr_at_5_max
-      value: -1.9122782451155143
-    - type: nauc_mrr_at_5_std
-      value: -20.781713634553793
-    - type: nauc_ndcg_at_1000_diff1
-      value: 33.184126158160126
-    - type: nauc_ndcg_at_1000_max
-      value: -1.1875420124951162
-    - type: nauc_ndcg_at_1000_std
-      value: -18.23591819025179
-    - type: nauc_ndcg_at_100_diff1
-      value: 32.935688069598314
-    - type: nauc_ndcg_at_100_max
-      value: -1.0828464321478635
-    - type: nauc_ndcg_at_100_std
-      value: -16.99124635594882
-    - type: nauc_ndcg_at_10_diff1
-      value: 32.5885629805019
-    - type: nauc_ndcg_at_10_max
-      value: -1.8951992549933268
-    - type: nauc_ndcg_at_10_std
-      value: -20.400520136402704
-    - type: nauc_ndcg_at_1_diff1
-      value: 37.953966660906325
-    - type: nauc_ndcg_at_1_max
-      value: -1.637085728039103
-    - type: nauc_ndcg_at_1_std
-      value: -19.029991106168055
-    - type: nauc_ndcg_at_20_diff1
-      value: 32.659068964537944
-    - type: nauc_ndcg_at_20_max
-      value: -1.6414522913717806
-    - type: nauc_ndcg_at_20_std
-      value: -18.857438624779295
-    - type: nauc_ndcg_at_3_diff1
-      value: 33.13495243897897
-    - type: nauc_ndcg_at_3_max
-      value: -2.056752787606917
-    - type: nauc_ndcg_at_3_std
-      value: -21.17861388162733
-    - type: nauc_ndcg_at_5_diff1
-      value: 32.69463838392566
-    - type: nauc_ndcg_at_5_max
-      value: -2.025092695004754
-    - type: nauc_ndcg_at_5_std
-      value: -21.34771429039138
-    - type: nauc_precision_at_1000_diff1
-      value: -2.8558032644991016
-    - type: nauc_precision_at_1000_max
-      value: 9.86657019787611
-    - type: nauc_precision_at_1000_std
-      value: 10.988749489672406
-    - type: nauc_precision_at_100_diff1
-      value: 12.864328710169968
-    - type: nauc_precision_at_100_max
-      value: 7.464201984721404
-    - type: nauc_precision_at_100_std
-      value: 16.13392945907579
-    - type: nauc_precision_at_10_diff1
-      value: 26.399898010761824
-    - type: nauc_precision_at_10_max
-      value: -1.2999170215959819
-    - type: nauc_precision_at_10_std
-      value: -18.71491641617564
-    - type: nauc_precision_at_1_diff1
-      value: 37.953966660906325
-    - type: nauc_precision_at_1_max
-      value: -1.637085728039103
-    - type: nauc_precision_at_1_std
-      value: -19.029991106168055
-    - type: nauc_precision_at_20_diff1
-      value: 23.79119509543501
-    - type: nauc_precision_at_20_max
-      value: 0.17939408447227603
-    - type: nauc_precision_at_20_std
-      value: -10.441178169364324
-    - type: nauc_precision_at_3_diff1
-      value: 30.04047755424759
-    - type: nauc_precision_at_3_max
-      value: -2.136156697163606
-    - type: nauc_precision_at_3_std
-      value: -22.2944352990041
-    - type: nauc_precision_at_5_diff1
-      value: 28.422010621063933
-    - type: nauc_precision_at_5_max
-      value: -1.9424211602360555
-    - type: nauc_precision_at_5_std
-      value: -22.333141313684994
-    - type: nauc_recall_at_1000_diff1
-      value: 13.732116062991514
-    - type: nauc_recall_at_1000_max
-      value: 45.18551288931526
-    - type: nauc_recall_at_1000_std
-      value: 71.21674392317534
-    - type: nauc_recall_at_100_diff1
-      value: 24.303127023267894
-    - type: nauc_recall_at_100_max
-      value: 8.834243296556114
-    - type: nauc_recall_at_100_std
-      value: 23.97303108762705
-    - type: nauc_recall_at_10_diff1
-      value: 28.10048351507634
-    - type: nauc_recall_at_10_max
-      value: -1.8539512450800857
-    - type: nauc_recall_at_10_std
-      value: -19.61933014312325
-    - type: nauc_recall_at_1_diff1
-      value: 37.86779004020525
-    - type: nauc_recall_at_1_max
-      value: -1.693381899018092
-    - type: nauc_recall_at_1_std
-      value: -18.888409837359983
-    - type: nauc_recall_at_20_diff1
-      value: 27.298837251716414
-    - type: nauc_recall_at_20_max
-      value: -0.6338536811417125
-    - type: nauc_recall_at_20_std
-      value: -11.839172034010947
-    - type: nauc_recall_at_3_diff1
-      value: 30.29606466428335
-    - type: nauc_recall_at_3_max
-      value: -2.286134715776902
-    - type: nauc_recall_at_3_std
-      value: -22.284294332227482
-    - type: nauc_recall_at_5_diff1
-      value: 29.11776633049639
-    - type: nauc_recall_at_5_max
-      value: -2.227765233466803
-    - type: nauc_recall_at_5_std
-      value: -22.613701283140504
-    - type: ndcg_at_1
-      value: 21.353
-    - type: ndcg_at_10
-      value: 40.276
-    - type: ndcg_at_100
-      value: 46.323
-    - type: ndcg_at_1000
-      value: 47.418
-    - type: ndcg_at_20
-      value: 43.053999999999995
-    - type: ndcg_at_3
-      value: 32.055
-    - type: ndcg_at_5
-      value: 36.138
-    - type: precision_at_1
-      value: 21.353
-    - type: precision_at_10
-      value: 6.486
-    - type: precision_at_100
-      value: 0.9490000000000001
+      value: 0.943
     - type: precision_at_1000
       value: 0.104
     - type: precision_at_20
-      value: 3.818
+      value: 3.856
     - type: precision_at_3
-      value: 13.739
+      value: 14.427000000000001
     - type: precision_at_5
-      value: 10.309
+      value: 10.702
     - type: recall_at_1
-      value: 20.773
+      value: 22.736
     - type: recall_at_10
-      value: 62.275999999999996
+      value: 63.751999999999995
     - type: recall_at_100
-      value: 90.217
+      value: 89.265
     - type: recall_at_1000
-      value: 98.519
+      value: 97.988
     - type: recall_at_20
-      value: 73.072
+      value: 73.496
     - type: recall_at_3
-      value: 39.855000000000004
+      value: 41.791
     - type: recall_at_5
-      value: 49.675999999999995
+      value: 51.485
+    task:
+      type: Retrieval
+  - dataset:
+      config: default
+      name: MTEB MSMARCO (default)
+      revision: c5a29a104738b98a9e76336939199e264163d4a0
+      split: test
+      type: mteb/msmarco
+    metrics:
+    - type: main_score
+      value: 72.387
+    - type: map_at_1
+      value: 2.486
+    - type: map_at_10
+      value: 15.9
+    - type: map_at_100
+      value: 41.829
+    - type: map_at_1000
+      value: 49.701
+    - type: map_at_20
+      value: 23.980999999999998
+    - type: map_at_3
+      value: 6.704000000000001
+    - type: map_at_5
+      value: 9.913
+    - type: mrr_at_1
+      value: 95.34883720930233
+    - type: mrr_at_10
+      value: 97.09302325581395
+    - type: mrr_at_100
+      value: 97.09302325581395
+    - type: mrr_at_1000
+      value: 97.09302325581395
+    - type: mrr_at_20
+      value: 97.09302325581395
+    - type: mrr_at_3
+      value: 96.51162790697676
+    - type: mrr_at_5
+      value: 97.09302325581395
+    - type: nauc_map_at_1000_diff1
+      value: -24.043671904852435
+    - type: nauc_map_at_1000_max
+      value: 27.040649415529234
+    - type: nauc_map_at_1000_std
+      value: 44.03444305521892
+    - type: nauc_map_at_100_diff1
+      value: -15.852276195106995
+    - type: nauc_map_at_100_max
+      value: 6.322093300797476
+    - type: nauc_map_at_100_std
+      value: 17.51668982723671
+    - type: nauc_map_at_10_diff1
+      value: 7.477314872164316
+    - type: nauc_map_at_10_max
+      value: -15.799082583656809
+    - type: nauc_map_at_10_std
+      value: -21.21279591516943
+    - type: nauc_map_at_1_diff1
+      value: 23.83176861467615
+    - type: nauc_map_at_1_max
+      value: -36.61424702222069
+    - type: nauc_map_at_1_std
+      value: -37.927066893980395
+    - type: nauc_map_at_20_diff1
+      value: -2.169371886119532
+    - type: nauc_map_at_20_max
+      value: -10.0446633168474
+    - type: nauc_map_at_20_std
+      value: -11.708023341680358
+    - type: nauc_map_at_3_diff1
+      value: 17.16504844432592
+    - type: nauc_map_at_3_max
+      value: -33.146788731140774
+    - type: nauc_map_at_3_std
+      value: -36.514475090820206
+    - type: nauc_map_at_5_diff1
+      value: 19.26143280774508
+    - type: nauc_map_at_5_max
+      value: -27.74189717033227
+    - type: nauc_map_at_5_std
+      value: -33.08354526624487
+    - type: nauc_mrr_at_1000_diff1
+      value: -1.2745731776872742
+    - type: nauc_mrr_at_1000_max
+      value: 45.010228525800024
+    - type: nauc_mrr_at_1000_std
+      value: 82.11480791411624
+    - type: nauc_mrr_at_100_diff1
+      value: -1.2745731776872742
+    - type: nauc_mrr_at_100_max
+      value: 45.010228525800024
+    - type: nauc_mrr_at_100_std
+      value: 82.11480791411624
+    - type: nauc_mrr_at_10_diff1
+      value: -1.2745731776872742
+    - type: nauc_mrr_at_10_max
+      value: 45.010228525800024
+    - type: nauc_mrr_at_10_std
+      value: 82.11480791411624
+    - type: nauc_mrr_at_1_diff1
+      value: -10.5507180247667
+    - type: nauc_mrr_at_1_max
+      value: 34.505621253026
+    - type: nauc_mrr_at_1_std
+      value: 77.64350989264493
+    - type: nauc_mrr_at_20_diff1
+      value: -1.2745731776872742
+    - type: nauc_mrr_at_20_max
+      value: 45.010228525800024
+    - type: nauc_mrr_at_20_std
+      value: 82.11480791411624
+    - type: nauc_mrr_at_3_diff1
+      value: 4.909523387031578
+    - type: nauc_mrr_at_3_max
+      value: 52.01330004098173
+    - type: nauc_mrr_at_3_std
+      value: 85.09567326176314
+    - type: nauc_mrr_at_5_diff1
+      value: -1.2745731776872742
+    - type: nauc_mrr_at_5_max
+      value: 45.010228525800024
+    - type: nauc_mrr_at_5_std
+      value: 82.11480791411624
+    - type: nauc_ndcg_at_1000_diff1
+      value: -29.4861285551972
+    - type: nauc_ndcg_at_1000_max
+      value: 45.02597670219224
+    - type: nauc_ndcg_at_1000_std
+      value: 53.85407799332372
+    - type: nauc_ndcg_at_100_diff1
+      value: -24.732061539866205
+    - type: nauc_ndcg_at_100_max
+      value: 32.303183889625494
+    - type: nauc_ndcg_at_100_std
+      value: 44.659873635006456
+    - type: nauc_ndcg_at_10_diff1
+      value: -5.5662424008448905
+    - type: nauc_ndcg_at_10_max
+      value: 26.38578514340096
+    - type: nauc_ndcg_at_10_std
+      value: 24.86283081033308
+    - type: nauc_ndcg_at_1_diff1
+      value: 36.62882405696659
+    - type: nauc_ndcg_at_1_max
+      value: 28.211412260680973
+    - type: nauc_ndcg_at_1_std
+      value: 6.555794001290861
+    - type: nauc_ndcg_at_20_diff1
+      value: -18.935212746307727
+    - type: nauc_ndcg_at_20_max
+      value: 25.282877526762377
+    - type: nauc_ndcg_at_20_std
+      value: 34.501408712986326
+    - type: nauc_ndcg_at_3_diff1
+      value: 7.575900223069948
+    - type: nauc_ndcg_at_3_max
+      value: 28.619889721347835
+    - type: nauc_ndcg_at_3_std
+      value: 12.456877094803065
+    - type: nauc_ndcg_at_5_diff1
+      value: 5.943165611348846
+    - type: nauc_ndcg_at_5_max
+      value: 28.263879225638227
+    - type: nauc_ndcg_at_5_std
+      value: 13.144291627566371
+    - type: nauc_precision_at_1000_diff1
+      value: -24.648793150108457
+    - type: nauc_precision_at_1000_max
+      value: 36.80469185343303
+    - type: nauc_precision_at_1000_std
+      value: 53.550196879838985
+    - type: nauc_precision_at_100_diff1
+      value: -26.749422430833047
+    - type: nauc_precision_at_100_max
+      value: 37.35145079972374
+    - type: nauc_precision_at_100_std
+      value: 57.70428623550252
+    - type: nauc_precision_at_10_diff1
+      value: -38.005873268952115
+    - type: nauc_precision_at_10_max
+      value: 51.16779669716929
+    - type: nauc_precision_at_10_std
+      value: 65.75415144636456
+    - type: nauc_precision_at_1_diff1
+      value: -10.5507180247667
+    - type: nauc_precision_at_1_max
+      value: 34.505621253026
+    - type: nauc_precision_at_1_std
+      value: 77.64350989264493
+    - type: nauc_precision_at_20_diff1
+      value: -39.322164984171486
+    - type: nauc_precision_at_20_max
+      value: 35.76140518869625
+    - type: nauc_precision_at_20_std
+      value: 59.88144457525482
+    - type: nauc_precision_at_3_diff1
+      value: -51.50827801125146
+    - type: nauc_precision_at_3_max
+      value: 36.3553407965392
+    - type: nauc_precision_at_3_std
+      value: 43.020750110091285
+    - type: nauc_precision_at_5_diff1
+      value: -27.626241295491795
+    - type: nauc_precision_at_5_max
+      value: 47.437919946182774
+    - type: nauc_precision_at_5_std
+      value: 50.49277210796086
+    - type: nauc_recall_at_1000_diff1
+      value: -43.76386537507645
+    - type: nauc_recall_at_1000_max
+      value: 43.13591779729292
+    - type: nauc_recall_at_1000_std
+      value: 55.33804445603299
+    - type: nauc_recall_at_100_diff1
+      value: -15.909329910755282
+    - type: nauc_recall_at_100_max
+      value: 6.211365113730195
+    - type: nauc_recall_at_100_std
+      value: 11.701140658114936
+    - type: nauc_recall_at_10_diff1
+      value: 7.2700504626447335
+    - type: nauc_recall_at_10_max
+      value: -17.375284561172954
+    - type: nauc_recall_at_10_std
+      value: -23.20288495977079
+    - type: nauc_recall_at_1_diff1
+      value: 23.83176861467615
+    - type: nauc_recall_at_1_max
+      value: -36.61424702222069
+    - type: nauc_recall_at_1_std
+      value: -37.927066893980395
+    - type: nauc_recall_at_20_diff1
+      value: -3.603600554970076
+    - type: nauc_recall_at_20_max
+      value: -12.492774555512298
+    - type: nauc_recall_at_20_std
+      value: -14.555198740861197
+    - type: nauc_recall_at_3_diff1
+      value: 18.593343128896652
+    - type: nauc_recall_at_3_max
+      value: -33.422110365952626
+    - type: nauc_recall_at_3_std
+      value: -37.33498770157346
+    - type: nauc_recall_at_5_diff1
+      value: 21.12706599299733
+    - type: nauc_recall_at_5_max
+      value: -28.005654144757745
+    - type: nauc_recall_at_5_std
+      value: -34.049977102136005
+    - type: ndcg_at_1
+      value: 79.457
+    - type: ndcg_at_10
+      value: 72.387
+    - type: ndcg_at_100
+      value: 66.15100000000001
+    - type: ndcg_at_1000
+      value: 73.115
+    - type: ndcg_at_20
+      value: 69.355
+    - type: ndcg_at_3
+      value: 75.018
+    - type: ndcg_at_5
+      value: 74.29599999999999
+    - type: precision_at_1
+      value: 95.34899999999999
+    - type: precision_at_10
+      value: 80.233
+    - type: precision_at_100
+      value: 38.698
+    - type: precision_at_1000
+      value: 7.091
+    - type: precision_at_20
+      value: 70.93
+    - type: precision_at_3
+      value: 87.59700000000001
+    - type: precision_at_5
+      value: 85.58099999999999
+    - type: recall_at_1
+      value: 2.486
+    - type: recall_at_10
+      value: 17.108999999999998
+    - type: recall_at_100
+      value: 53.947
+    - type: recall_at_1000
+      value: 79.323
+    - type: recall_at_20
+      value: 26.744
+    - type: recall_at_3
+      value: 6.834999999999999
+    - type: recall_at_5
+      value: 10.280000000000001
+    task:
+      type: Retrieval
+  - dataset:
+      config: default
+      name: MTEB MSMARCO (default)
+      revision: c5a29a104738b98a9e76336939199e264163d4a0
+      split: train
+      type: mteb/msmarco
+    metrics:
+    - type: main_score
+      value: 39.033
+    - type: map_at_1
+      value: 20.124
+    - type: map_at_10
+      value: 32.139
+    - type: map_at_100
+      value: 33.394
+    - type: map_at_1000
+      value: 33.444
+    - type: map_at_20
+      value: 32.911
+    - type: map_at_3
+      value: 28.219
+    - type: map_at_5
+      value: 30.438
+    - type: mrr_at_1
+      value: 20.69256907895391
+    - type: mrr_at_10
+      value: 32.65586556823979
+    - type: mrr_at_100
+      value: 33.859903331429834
+    - type: mrr_at_1000
+      value: 33.90404799117744
+    - type: mrr_at_20
+      value: 33.402399052353765
+    - type: mrr_at_3
+      value: 28.80988880692012
+    - type: mrr_at_5
+      value: 30.996764352470247
+    - type: nauc_map_at_1000_diff1
+      value: 33.725693864912145
+    - type: nauc_map_at_1000_max
+      value: -0.9313190487791355
+    - type: nauc_map_at_1000_std
+      value: -19.072263227555077
+    - type: nauc_map_at_100_diff1
+      value: 33.71681815719501
+    - type: nauc_map_at_100_max
+      value: -0.9312809249177106
+    - type: nauc_map_at_100_std
+      value: -19.043814229345514
+    - type: nauc_map_at_10_diff1
+      value: 33.64027795602201
+    - type: nauc_map_at_10_max
+      value: -1.093662103807343
+    - type: nauc_map_at_10_std
+      value: -19.701316981081256
+    - type: nauc_map_at_1_diff1
+      value: 37.6475234742761
+    - type: nauc_map_at_1_max
+      value: -1.1172579533948037
+    - type: nauc_map_at_1_std
+      value: -18.42423307405879
+    - type: nauc_map_at_20_diff1
+      value: 33.67816993209406
+    - type: nauc_map_at_20_max
+      value: -1.008671531366758
+    - type: nauc_map_at_20_std
+      value: -19.30818828227061
+    - type: nauc_map_at_3_diff1
+      value: 33.948583604883346
+    - type: nauc_map_at_3_max
+      value: -1.2245037153342642
+    - type: nauc_map_at_3_std
+      value: -19.97712524394941
+    - type: nauc_map_at_5_diff1
+      value: 33.70839113129876
+    - type: nauc_map_at_5_max
+      value: -1.2040546464666357
+    - type: nauc_map_at_5_std
+      value: -20.086046366859758
+    - type: nauc_mrr_at_1000_diff1
+      value: 33.6765598428715
+    - type: nauc_mrr_at_1000_max
+      value: -0.8947712270401186
+    - type: nauc_mrr_at_1000_std
+      value: -19.054228424132294
+    - type: nauc_mrr_at_100_diff1
+      value: 33.66751649677623
+    - type: nauc_mrr_at_100_max
+      value: -0.8925074311306023
+    - type: nauc_mrr_at_100_std
+      value: -19.024986617194788
+    - type: nauc_mrr_at_10_diff1
+      value: 33.58165621319944
+    - type: nauc_mrr_at_10_max
+      value: -1.041201591295902
+    - type: nauc_mrr_at_10_std
+      value: -19.643130663802832
+    - type: nauc_mrr_at_1_diff1
+      value: 37.57249749572576
+    - type: nauc_mrr_at_1_max
+      value: -1.033405682282863
+    - type: nauc_mrr_at_1_std
+      value: -18.51556029196618
+    - type: nauc_mrr_at_20_diff1
+      value: 33.62546337983731
+    - type: nauc_mrr_at_20_max
+      value: -0.959286757562728
+    - type: nauc_mrr_at_20_std
+      value: -19.263604059725058
+    - type: nauc_mrr_at_3_diff1
+      value: 33.88354206923207
+    - type: nauc_mrr_at_3_max
+      value: -1.1588079971522036
+    - type: nauc_mrr_at_3_std
+      value: -19.969872949099017
+    - type: nauc_mrr_at_5_diff1
+      value: 33.636627542554095
+    - type: nauc_mrr_at_5_max
+      value: -1.1455854862157713
+    - type: nauc_mrr_at_5_std
+      value: -20.04209565359184
+    - type: nauc_ndcg_at_1000_diff1
+      value: 32.82308597978432
+    - type: nauc_ndcg_at_1000_max
+      value: -0.12203773198562064
+    - type: nauc_ndcg_at_1000_std
+      value: -17.229564399373693
+    - type: nauc_ndcg_at_100_diff1
+      value: 32.57166969826798
+    - type: nauc_ndcg_at_100_max
+      value: -0.01373890925713605
+    - type: nauc_ndcg_at_100_std
+      value: -16.093465438938033
+    - type: nauc_ndcg_at_10_diff1
+      value: 32.27379155337616
+    - type: nauc_ndcg_at_10_max
+      value: -0.9566233125679434
+    - type: nauc_ndcg_at_10_std
+      value: -19.561143936038498
+    - type: nauc_ndcg_at_1_diff1
+      value: 37.59387362908585
+    - type: nauc_ndcg_at_1_max
+      value: -1.0442957647404616
+    - type: nauc_ndcg_at_1_std
+      value: -18.520116150105327
+    - type: nauc_ndcg_at_20_diff1
+      value: 32.35076358048651
+    - type: nauc_ndcg_at_20_max
+      value: -0.63852068352795
+    - type: nauc_ndcg_at_20_std
+      value: -18.079761843587626
+    - type: nauc_ndcg_at_3_diff1
+      value: 32.91961454543036
+    - type: nauc_ndcg_at_3_max
+      value: -1.2446184461552787
+    - type: nauc_ndcg_at_3_std
+      value: -20.38277231661361
+    - type: nauc_ndcg_at_5_diff1
+      value: 32.477306276423406
+    - type: nauc_ndcg_at_5_max
+      value: -1.2160759325945443
+    - type: nauc_ndcg_at_5_std
+      value: -20.531368354029883
+    - type: nauc_precision_at_1000_diff1
+      value: -1.9489638449852666
+    - type: nauc_precision_at_1000_max
+      value: 12.861002515930938
+    - type: nauc_precision_at_1000_std
+      value: 13.760895468120305
+    - type: nauc_precision_at_100_diff1
+      value: 13.908852716138604
+    - type: nauc_precision_at_100_max
+      value: 9.50012447045651
+    - type: nauc_precision_at_100_std
+      value: 15.47834789121318
+    - type: nauc_precision_at_10_diff1
+      value: 26.271089856624236
+    - type: nauc_precision_at_10_max
+      value: -0.02541438089917979
+    - type: nauc_precision_at_10_std
+      value: -17.853993814393686
+    - type: nauc_precision_at_1_diff1
+      value: 37.59387362908585
+    - type: nauc_precision_at_1_max
+      value: -1.0442957647404616
+    - type: nauc_precision_at_1_std
+      value: -18.520116150105327
+    - type: nauc_precision_at_20_diff1
+      value: 23.982859950627958
+    - type: nauc_precision_at_20_max
+      value: 1.7200918681449948
+    - type: nauc_precision_at_20_std
+      value: -10.219762717296879
+    - type: nauc_precision_at_3_diff1
+      value: 29.8854159409524
+    - type: nauc_precision_at_3_max
+      value: -1.1725503295220696
+    - type: nauc_precision_at_3_std
+      value: -21.35040743421613
+    - type: nauc_precision_at_5_diff1
+      value: 28.341473659669685
+    - type: nauc_precision_at_5_max
+      value: -0.9988570074323966
+    - type: nauc_precision_at_5_std
+      value: -21.383884015668407
+    - type: nauc_recall_at_1000_diff1
+      value: 15.0972588752424
+    - type: nauc_recall_at_1000_max
+      value: 45.008064248035815
+    - type: nauc_recall_at_1000_std
+      value: 66.96866515218399
+    - type: nauc_recall_at_100_diff1
+      value: 24.231388307049734
+    - type: nauc_recall_at_100_max
+      value: 11.009794013017734
+    - type: nauc_recall_at_100_std
+      value: 21.737276638818738
+    - type: nauc_recall_at_10_diff1
+      value: 27.872938692874644
+    - type: nauc_recall_at_10_max
+      value: -0.5261627570052085
+    - type: nauc_recall_at_10_std
+      value: -18.55331296014022
+    - type: nauc_recall_at_1_diff1
+      value: 37.6475234742761
+    - type: nauc_recall_at_1_max
+      value: -1.1172579533948037
+    - type: nauc_recall_at_1_std
+      value: -18.42423307405879
+    - type: nauc_recall_at_20_diff1
+      value: 27.159324157537974
+    - type: nauc_recall_at_20_max
+      value: 1.0199280899477339
+    - type: nauc_recall_at_20_std
+      value: -11.345867427864647
+    - type: nauc_recall_at_3_diff1
+      value: 30.205972726563445
+    - type: nauc_recall_at_3_max
+      value: -1.3526411987484857
+    - type: nauc_recall_at_3_std
+      value: -21.355225675024265
+    - type: nauc_recall_at_5_diff1
+      value: 29.048273808862973
+    - type: nauc_recall_at_5_max
+      value: -1.2994416614246815
+    - type: nauc_recall_at_5_std
+      value: -21.601337732799692
+    - type: ndcg_at_1
+      value: 20.687
+    - type: ndcg_at_10
+      value: 39.033
+    - type: ndcg_at_100
+      value: 45.12
+    - type: ndcg_at_1000
+      value: 46.338
+    - type: ndcg_at_20
+      value: 41.778999999999996
+    - type: ndcg_at_3
+      value: 31.029
+    - type: ndcg_at_5
+      value: 34.989
+    - type: precision_at_1
+      value: 20.687
+    - type: precision_at_10
+      value: 6.293
+    - type: precision_at_100
+      value: 0.9329999999999999
+    - type: precision_at_1000
+      value: 0.104
+    - type: precision_at_20
+      value: 3.7150000000000003
+    - type: precision_at_3
+      value: 13.3
+    - type: precision_at_5
+      value: 9.983
+    - type: recall_at_1
+      value: 20.124
+    - type: recall_at_10
+      value: 60.425
+    - type: recall_at_100
+      value: 88.67399999999999
+    - type: recall_at_1000
+      value: 97.964
+    - type: recall_at_20
+      value: 71.101
+    - type: recall_at_3
+      value: 38.582
+    - type: recall_at_5
+      value: 48.112
     task:
       type: Retrieval
   - dataset:
@@ -8171,287 +8171,287 @@ model-index:
       type: mteb/nfcorpus
     metrics:
     - type: main_score
-      value: 37.283
+      value: 35.914
     - type: map_at_1
-      value: 5.574
+      value: 6.23
     - type: map_at_10
-      value: 14.005
+      value: 13.855
     - type: map_at_100
-      value: 17.796
+      value: 17.25
     - type: map_at_1000
-      value: 19.283
+      value: 18.675
     - type: map_at_20
-      value: 15.578
+      value: 15.338
     - type: map_at_3
-      value: 10.236
+      value: 10.434000000000001
     - type: map_at_5
-      value: 11.899
+      value: 11.963
     - type: mrr_at_1
-      value: 46.749226006191954
+      value: 47.05882352941176
     - type: mrr_at_10
-      value: 56.59811292938226
+      value: 55.55936409651577
     - type: mrr_at_100
-      value: 57.12051023998412
+      value: 56.10896734305185
     - type: mrr_at_1000
-      value: 57.15371186820038
+      value: 56.152100966241626
     - type: mrr_at_20
-      value: 56.916688370838195
+      value: 55.94058014063476
     - type: mrr_at_3
-      value: 54.12796697626418
+      value: 53.71517027863776
     - type: mrr_at_5
-      value: 55.768833849329205
+      value: 54.845201238390075
     - type: nauc_map_at_1000_diff1
-      value: 28.635277848807
+      value: 22.048916658189757
     - type: nauc_map_at_1000_max
-      value: 35.35613366796442
+      value: 30.15607235167445
     - type: nauc_map_at_1000_std
-      value: 17.10747783924917
+      value: 16.742606163211338
     - type: nauc_map_at_100_diff1
-      value: 29.755264219349424
+      value: 23.377920183289515
     - type: nauc_map_at_100_max
-      value: 34.327008938244944
+      value: 28.783691100858505
     - type: nauc_map_at_100_std
-      value: 13.445288572684394
+      value: 13.017478837252122
     - type: nauc_map_at_10_diff1
-      value: 32.48957394170802
+      value: 25.927128646993104
     - type: nauc_map_at_10_max
-      value: 27.80407105939758
+      value: 21.991506013370493
     - type: nauc_map_at_10_std
-      value: 1.9070818822162425
+      value: 1.2876695985618782
     - type: nauc_map_at_1_diff1
-      value: 50.027513759193376
+      value: 33.63819624372805
     - type: nauc_map_at_1_max
-      value: 19.429910518237936
+      value: 10.63972433513814
     - type: nauc_map_at_1_std
-      value: -8.97104145052985
+      value: -8.823599413443773
     - type: nauc_map_at_20_diff1
-      value: 31.56634560890853
+      value: 24.890712149522994
     - type: nauc_map_at_20_max
-      value: 31.051371548545692
+      value: 25.180597197272135
     - type: nauc_map_at_20_std
-      value: 6.504916213964518
+      value: 5.627323445078693
     - type: nauc_map_at_3_diff1
-      value: 38.42783943501391
+      value: 29.74224701878483
     - type: nauc_map_at_3_max
-      value: 22.268789244002495
+      value: 15.68065548301368
     - type: nauc_map_at_3_std
-      value: -3.875096100356707
+      value: -6.678385500066188
     - type: nauc_map_at_5_diff1
-      value: 35.358236844401475
+      value: 27.599131430348827
     - type: nauc_map_at_5_max
-      value: 23.849302939085845
+      value: 18.074085171779384
     - type: nauc_map_at_5_std
-      value: -2.3503635251536994
+      value: -3.7963346347735363
     - type: nauc_mrr_at_1000_diff1
-      value: 30.746859712785913
+      value: 25.481138216138305
     - type: nauc_mrr_at_1000_max
-      value: 53.6904747530386
+      value: 49.4025864603834
     - type: nauc_mrr_at_1000_std
-      value: 31.47487691466055
+      value: 34.43075929115974
     - type: nauc_mrr_at_100_diff1
-      value: 30.763063585195706
+      value: 25.48347783962907
     - type: nauc_mrr_at_100_max
-      value: 53.7250123160408
+      value: 49.44523125924117
     - type: nauc_mrr_at_100_std
-      value: 31.50978078188992
+      value: 34.470905475648
     - type: nauc_mrr_at_10_diff1
-      value: 30.82775738393116
+      value: 25.28075660798897
     - type: nauc_mrr_at_10_max
-      value: 53.4071427116327
+      value: 49.23726620276372
     - type: nauc_mrr_at_10_std
-      value: 31.263564750803962
+      value: 34.293562054296345
     - type: nauc_mrr_at_1_diff1
-      value: 32.106085379422524
+      value: 25.954637548939214
     - type: nauc_mrr_at_1_max
-      value: 47.77541655844478
+      value: 42.65790251316441
     - type: nauc_mrr_at_1_std
-      value: 24.786702037536276
+      value: 27.317146768790057
     - type: nauc_mrr_at_20_diff1
-      value: 30.719148309921696
+      value: 25.466827368526896
     - type: nauc_mrr_at_20_max
-      value: 53.70017178047271
+      value: 49.33319883504534
     - type: nauc_mrr_at_20_std
-      value: 31.467979505375443
+      value: 34.31574919492081
     - type: nauc_mrr_at_3_diff1
-      value: 30.981638809404405
+      value: 25.120590560812783
     - type: nauc_mrr_at_3_max
-      value: 53.3270677412482
+      value: 49.094872018177085
     - type: nauc_mrr_at_3_std
-      value: 30.26681784453818
+      value: 33.02343528683664
     - type: nauc_mrr_at_5_diff1
-      value: 30.969579053025992
+      value: 25.148546642057894
     - type: nauc_mrr_at_5_max
-      value: 53.700404196240385
+      value: 48.878846118647964
     - type: nauc_mrr_at_5_std
-      value: 30.24431182973286
+      value: 33.72884725641949
     - type: nauc_ndcg_at_1000_diff1
-      value: 26.077520236345453
+      value: 19.967381926216344
     - type: nauc_ndcg_at_1000_max
-      value: 50.44278008464641
+      value: 45.87058460060273
     - type: nauc_ndcg_at_1000_std
-      value: 36.462860570166185
+      value: 36.936736559315534
     - type: nauc_ndcg_at_100_diff1
-      value: 25.784205218824514
+      value: 20.78184115615848
     - type: nauc_ndcg_at_100_max
-      value: 44.6479793696097
+      value: 41.08856508861288
     - type: nauc_ndcg_at_100_std
-      value: 29.51865427077206
+      value: 30.990523544088127
     - type: nauc_ndcg_at_10_diff1
-      value: 23.20557245363688
+      value: 17.192295354962035
     - type: nauc_ndcg_at_10_max
-      value: 42.22895428413661
+      value: 40.28247408280954
     - type: nauc_ndcg_at_10_std
-      value: 25.969842351518235
+      value: 28.64688440994157
     - type: nauc_ndcg_at_1_diff1
-      value: 33.427281404508435
+      value: 27.183052982846096
     - type: nauc_ndcg_at_1_max
-      value: 46.94546610566201
+      value: 41.536795675945534
     - type: nauc_ndcg_at_1_std
-      value: 24.496790902482985
+      value: 27.457562076625493
     - type: nauc_ndcg_at_20_diff1
-      value: 23.43536419777015
+      value: 18.421321450770613
     - type: nauc_ndcg_at_20_max
-      value: 42.0469006433796
+      value: 39.553776018660415
     - type: nauc_ndcg_at_20_std
-      value: 27.24688044890543
+      value: 28.771965761754092
     - type: nauc_ndcg_at_3_diff1
-      value: 25.933255443748944
+      value: 19.90294061664522
     - type: nauc_ndcg_at_3_max
-      value: 45.01703507302794
+      value: 43.0248266231533
     - type: nauc_ndcg_at_3_std
-      value: 24.53456197157044
+      value: 26.948716619559164
     - type: nauc_ndcg_at_5_diff1
-      value: 24.329950172007088
+      value: 17.923910079839835
     - type: nauc_ndcg_at_5_max
-      value: 42.83693422152606
+      value: 41.45509816759182
     - type: nauc_ndcg_at_5_std
-      value: 24.11535369089384
+      value: 27.989207685876043
     - type: nauc_precision_at_1000_diff1
-      value: -12.669594168389192
+      value: -15.214665617300021
     - type: nauc_precision_at_1000_max
-      value: 8.798164077517391
+      value: 13.171793905978413
     - type: nauc_precision_at_1000_std
-      value: 33.81862573258825
+      value: 38.27602755705882
     - type: nauc_precision_at_100_diff1
-      value: -7.005181564872601
+      value: -8.983955562301023
     - type: nauc_precision_at_100_max
-      value: 22.648723626866374
+      value: 26.112480717392373
     - type: nauc_precision_at_100_std
-      value: 43.65426389346721
+      value: 49.109950492594926
     - type: nauc_precision_at_10_diff1
-      value: 4.8405576299864945
+      value: 1.371271849123094
     - type: nauc_precision_at_10_max
-      value: 39.91286717889381
+      value: 40.48355301137806
     - type: nauc_precision_at_10_std
-      value: 35.574065561205096
+      value: 40.068967133929654
     - type: nauc_precision_at_1_diff1
-      value: 32.106085379422524
+      value: 25.954637548939214
     - type: nauc_precision_at_1_max
-      value: 47.77541655844478
+      value: 42.65790251316441
     - type: nauc_precision_at_1_std
-      value: 24.786702037536276
+      value: 27.317146768790057
     - type: nauc_precision_at_20_diff1
-      value: 0.08875655110882817
+      value: -1.6000356148225012
     - type: nauc_precision_at_20_max
-      value: 34.77100967209973
+      value: 37.15543454435496
     - type: nauc_precision_at_20_std
-      value: 39.851412685464176
+      value: 43.35178597211817
     - type: nauc_precision_at_3_diff1
-      value: 16.574574215758624
+      value: 11.833482965709617
     - type: nauc_precision_at_3_max
-      value: 45.42842355154502
+      value: 44.957544267360014
     - type: nauc_precision_at_3_std
-      value: 28.31538323007723
+      value: 30.711555798910357
     - type: nauc_precision_at_5_diff1
-      value: 10.494687717697923
+      value: 5.4677770285267595
     - type: nauc_precision_at_5_max
-      value: 42.0168314602896
+      value: 41.437825214777845
     - type: nauc_precision_at_5_std
-      value: 30.72486385311608
+      value: 34.41100928387715
     - type: nauc_recall_at_1000_diff1
-      value: 9.418427515050707
+      value: 4.212258089142459
     - type: nauc_recall_at_1000_max
-      value: 27.143782318814182
+      value: 21.08308178695022
     - type: nauc_recall_at_1000_std
-      value: 27.349192687153284
+      value: 25.337416218601504
     - type: nauc_recall_at_100_diff1
-      value: 16.884742295138704
+      value: 16.779425065215055
     - type: nauc_recall_at_100_max
-      value: 27.5200727845606
+      value: 29.033119190767277
     - type: nauc_recall_at_100_std
-      value: 16.76172862155474
+      value: 22.797391132110352
     - type: nauc_recall_at_10_diff1
-      value: 23.894239139033917
+      value: 22.316078573103635
     - type: nauc_recall_at_10_max
-      value: 20.19653160625137
+      value: 18.639375064999562
     - type: nauc_recall_at_10_std
-      value: -1.1818405987921334
+      value: -1.0471307716314715
     - type: nauc_recall_at_1_diff1
-      value: 50.027513759193376
+      value: 33.63819624372805
     - type: nauc_recall_at_1_max
-      value: 19.429910518237936
+      value: 10.63972433513814
     - type: nauc_recall_at_1_std
-      value: -8.97104145052985
+      value: -8.823599413443773
     - type: nauc_recall_at_20_diff1
-      value: 23.687099370897887
+      value: 22.98174920594852
     - type: nauc_recall_at_20_max
-      value: 24.6629558566208
+      value: 22.822017926055672
     - type: nauc_recall_at_20_std
-      value: 5.407720319345621
+      value: 4.910618245400064
     - type: nauc_recall_at_3_diff1
-      value: 34.403660975814034
+      value: 27.054112895077182
     - type: nauc_recall_at_3_max
-      value: 20.066555724505257
+      value: 14.268892599954997
     - type: nauc_recall_at_3_std
-      value: -3.63779773997605
+      value: -8.290166135248048
     - type: nauc_recall_at_5_diff1
-      value: 27.409120048379066
+      value: 23.89913124441014
     - type: nauc_recall_at_5_max
-      value: 17.871400437143393
+      value: 16.035332185114015
     - type: nauc_recall_at_5_std
-      value: -4.490534640413254
+      value: -4.780578865959435
     - type: ndcg_at_1
-      value: 45.201
+      value: 45.356
     - type: ndcg_at_10
-      value: 37.283
+      value: 35.914
     - type: ndcg_at_100
-      value: 34.019
+      value: 32.531
     - type: ndcg_at_1000
-      value: 42.339
+      value: 41.146
     - type: ndcg_at_20
-      value: 34.827000000000005
+      value: 33.592
     - type: ndcg_at_3
-      value: 42.841
+      value: 41.837
     - type: ndcg_at_5
-      value: 40.778
+      value: 39.505
     - type: precision_at_1
-      value: 46.749
+      value: 47.059
     - type: precision_at_10
-      value: 27.771
+      value: 26.316
     - type: precision_at_100
-      value: 8.762
+      value: 8.207
     - type: precision_at_1000
-      value: 2.137
+      value: 2.085
     - type: precision_at_20
-      value: 20.759
+      value: 19.505
     - type: precision_at_3
-      value: 41.073
+      value: 39.422000000000004
     - type: precision_at_5
-      value: 35.975
+      value: 34.117999999999995
     - type: recall_at_1
-      value: 5.574
+      value: 6.23
     - type: recall_at_10
-      value: 18.631
+      value: 17.557000000000002
     - type: recall_at_100
-      value: 34.352
+      value: 31.631999999999998
     - type: recall_at_1000
-      value: 64.57000000000001
+      value: 63.404
     - type: recall_at_20
-      value: 22.359
+      value: 21.22
     - type: recall_at_3
-      value: 11.440999999999999
+      value: 11.546
     - type: recall_at_5
-      value: 14.493
+      value: 14.002999999999998
     task:
       type: Retrieval
   - dataset:
@@ -8462,287 +8462,287 @@ model-index:
       type: mteb/nq
     metrics:
     - type: main_score
-      value: 61.028999999999996
+      value: 57.056
     - type: map_at_1
-      value: 37.177
+      value: 32.830999999999996
     - type: map_at_10
-      value: 53.40899999999999
+      value: 49.151
     - type: map_at_100
-      value: 54.298
+      value: 50.044
     - type: map_at_1000
-      value: 54.315000000000005
+      value: 50.068
     - type: map_at_20
-      value: 54.025
+      value: 49.714999999999996
     - type: map_at_3
-      value: 49.05
+      value: 44.795
     - type: map_at_5
-      value: 51.82
+      value: 47.425
     - type: mrr_at_1
-      value: 41.59907300115875
+      value: 36.848203939745076
     - type: mrr_at_10
-      value: 55.78067235005224
+      value: 51.51708694292694
     - type: mrr_at_100
-      value: 56.41660993735389
+      value: 52.164267314569265
     - type: mrr_at_1000
-      value: 56.42754475461054
+      value: 52.180196526951036
     - type: mrr_at_20
-      value: 56.23518276066669
+      value: 51.9351113026156
     - type: mrr_at_3
-      value: 52.37543453070661
+      value: 48.01081498648112
     - type: mrr_at_5
-      value: 54.548088064889775
+      value: 50.14001544998062
     - type: nauc_map_at_1000_diff1
-      value: 37.27249375628604
+      value: 37.0626379154806
     - type: nauc_map_at_1000_max
-      value: 27.392138921419324
+      value: 27.815265359052066
     - type: nauc_map_at_1000_std
-      value: -3.5900106216193315
+      value: -0.0024703483347415824
     - type: nauc_map_at_100_diff1
-      value: 37.2697901014825
+      value: 37.057558292153516
     - type: nauc_map_at_100_max
-      value: 27.405921213076223
+      value: 27.8317293639744
     - type: nauc_map_at_100_std
-      value: -3.573566659351339
+      value: 0.021742851211832327
     - type: nauc_map_at_10_diff1
-      value: 37.16335435590572
+      value: 37.008318697912216
     - type: nauc_map_at_10_max
-      value: 27.413006448193094
+      value: 27.76402847756217
     - type: nauc_map_at_10_std
-      value: -3.9602938844810303
+      value: -0.3496637677317498
     - type: nauc_map_at_1_diff1
-      value: 40.79178035869281
+      value: 40.29366709249466
     - type: nauc_map_at_1_max
-      value: 21.840846704021168
+      value: 22.701930006989834
     - type: nauc_map_at_1_std
-      value: -6.154432706859515
+      value: -2.5108119794353128
     - type: nauc_map_at_20_diff1
-      value: 37.19465980632151
+      value: 37.01351948636887
     - type: nauc_map_at_20_max
-      value: 27.472653634570786
+      value: 27.90193629451335
     - type: nauc_map_at_20_std
-      value: -3.6471752193658094
+      value: -0.012064407820230756
     - type: nauc_map_at_3_diff1
-      value: 37.00050883840103
+      value: 37.07052207561161
     - type: nauc_map_at_3_max
-      value: 26.166201606832622
+      value: 26.870611049843884
     - type: nauc_map_at_3_std
-      value: -5.058745283770789
+      value: -1.6823761406051834
     - type: nauc_map_at_5_diff1
-      value: 37.312001024201614
+      value: 36.87828509263161
     - type: nauc_map_at_5_max
-      value: 27.20835796415595
+      value: 27.20814519969873
     - type: nauc_map_at_5_std
-      value: -4.534370816807776
+      value: -1.3031956888196534
     - type: nauc_mrr_at_1000_diff1
-      value: 37.0970736659852
+      value: 36.84284176537722
     - type: nauc_mrr_at_1000_max
-      value: 27.50593927169649
+      value: 27.621378413295055
     - type: nauc_mrr_at_1000_std
-      value: -1.4306799570196265
+      value: 1.0094506914584964
     - type: nauc_mrr_at_100_diff1
-      value: 37.097509694127424
+      value: 36.8396329466549
     - type: nauc_mrr_at_100_max
-      value: 27.51661298886077
+      value: 27.635468701117134
     - type: nauc_mrr_at_100_std
-      value: -1.4199131237737803
+      value: 1.0308421119518538
     - type: nauc_mrr_at_10_diff1
-      value: 36.932844699119116
+      value: 36.74896766301788
     - type: nauc_mrr_at_10_max
-      value: 27.621686914876264
+      value: 27.65282647248496
     - type: nauc_mrr_at_10_std
-      value: -1.5134823279039098
+      value: 0.9154106884376038
     - type: nauc_mrr_at_1_diff1
-      value: 40.02588975690894
+      value: 40.003629960440776
     - type: nauc_mrr_at_1_max
-      value: 23.299213673927742
+      value: 23.76711836119917
     - type: nauc_mrr_at_1_std
-      value: -3.2449821682928857
+      value: -1.2836461535558703
     - type: nauc_mrr_at_20_diff1
-      value: 37.03753600016832
+      value: 36.751636613584324
     - type: nauc_mrr_at_20_max
-      value: 27.595623068393866
+      value: 27.70649796383429
     - type: nauc_mrr_at_20_std
-      value: -1.420887979592882
+      value: 1.0423663510625336
     - type: nauc_mrr_at_3_diff1
-      value: 36.91182898204814
+      value: 36.65443225179595
     - type: nauc_mrr_at_3_max
-      value: 27.152051504473885
+      value: 27.175270325334207
     - type: nauc_mrr_at_3_std
-      value: -1.9927562689418785
+      value: 0.0035294075560518114
     - type: nauc_mrr_at_5_diff1
-      value: 36.99585850355028
+      value: 36.57153152515841
     - type: nauc_mrr_at_5_max
-      value: 27.595839086884865
+      value: 27.336322335217396
     - type: nauc_mrr_at_5_std
-      value: -1.647378331798377
+      value: 0.2580100531459355
     - type: nauc_ndcg_at_1000_diff1
-      value: 36.81876435190347
+      value: 36.1986232613817
     - type: nauc_ndcg_at_1000_max
-      value: 28.829624794175935
+      value: 29.298820739005727
     - type: nauc_ndcg_at_1000_std
-      value: -1.65861992216032
+      value: 2.223222439674335
     - type: nauc_ndcg_at_100_diff1
-      value: 36.78530077714473
+      value: 36.17635813364367
     - type: nauc_ndcg_at_100_max
-      value: 29.345829163429332
+      value: 29.82660135655654
     - type: nauc_ndcg_at_100_std
-      value: -0.9834660238902133
+      value: 3.0428734005265414
     - type: nauc_ndcg_at_10_diff1
-      value: 36.12614493982964
+      value: 35.74907741690408
     - type: nauc_ndcg_at_10_max
-      value: 29.68306077249619
+      value: 29.814329710491332
     - type: nauc_ndcg_at_10_std
-      value: -2.2988088369038424
+      value: 1.9069712029711603
     - type: nauc_ndcg_at_1_diff1
-      value: 40.02588975690894
+      value: 40.003629960440776
     - type: nauc_ndcg_at_1_max
-      value: 23.299213673927742
+      value: 23.76711836119917
     - type: nauc_ndcg_at_1_std
-      value: -3.2449821682928857
+      value: -1.2836461535558703
     - type: nauc_ndcg_at_20_diff1
-      value: 36.305901085440176
+      value: 35.73948116889183
     - type: nauc_ndcg_at_20_max
-      value: 29.900293267731914
+      value: 30.335483791890184
     - type: nauc_ndcg_at_20_std
-      value: -1.299150832053996
+      value: 3.0004822530123225
     - type: nauc_ndcg_at_3_diff1
-      value: 36.08231518905999
+      value: 35.88097918041399
     - type: nauc_ndcg_at_3_max
-      value: 27.551888883244995
+      value: 27.979283201946647
     - type: nauc_ndcg_at_3_std
-      value: -4.148899293368668
+      value: -0.9746291149925899
     - type: nauc_ndcg_at_5_diff1
-      value: 36.46875305559966
+      value: 35.5313972391396
     - type: nauc_ndcg_at_5_max
-      value: 29.164887327209787
+      value: 28.550369140364047
     - type: nauc_ndcg_at_5_std
-      value: -3.3697390325217076
+      value: -0.3673673143765844
     - type: nauc_precision_at_1000_diff1
-      value: -10.3219194845074
+      value: -9.738411913005308
     - type: nauc_precision_at_1000_max
-      value: 3.539745607347162
+      value: 5.3313906625669105
     - type: nauc_precision_at_1000_std
-      value: 14.732306584403634
+      value: 12.682972328170672
     - type: nauc_precision_at_100_diff1
-      value: -6.560356132891633
+      value: -4.156943433455653
     - type: nauc_precision_at_100_max
-      value: 10.337169381451696
+      value: 13.657850986924522
     - type: nauc_precision_at_100_std
-      value: 19.20600399831645
+      value: 18.65622972699929
     - type: nauc_precision_at_10_diff1
-      value: 8.363445709346582
+      value: 11.224515944438068
     - type: nauc_precision_at_10_max
-      value: 23.63627616639036
+      value: 25.251830466066664
     - type: nauc_precision_at_10_std
-      value: 10.673622244929492
+      value: 12.952562722393859
     - type: nauc_precision_at_1_diff1
-      value: 40.02588975690894
+      value: 40.003629960440776
     - type: nauc_precision_at_1_max
-      value: 23.299213673927742
+      value: 23.76711836119917
     - type: nauc_precision_at_1_std
-      value: -3.2449821682928857
+      value: -1.2836461535558703
     - type: nauc_precision_at_20_diff1
-      value: 1.4455832869975551
+      value: 4.851855622439396
     - type: nauc_precision_at_20_max
-      value: 19.98564944586283
+      value: 23.124541998877756
     - type: nauc_precision_at_20_std
-      value: 16.313152259234684
+      value: 17.78381782746071
     - type: nauc_precision_at_3_diff1
-      value: 22.401426703012387
+      value: 24.54315060981724
     - type: nauc_precision_at_3_max
-      value: 27.664284153790934
+      value: 29.024787047578688
     - type: nauc_precision_at_3_std
-      value: 2.0415835028145013
+      value: 2.9413457351587358
     - type: nauc_precision_at_5_diff1
-      value: 16.858040191181527
+      value: 18.10984788563448
     - type: nauc_precision_at_5_max
-      value: 26.95159466584669
+      value: 26.76601771821192
     - type: nauc_precision_at_5_std
-      value: 5.337376948898463
+      value: 5.542771678992256
     - type: nauc_recall_at_1000_diff1
-      value: 33.419325094531246
+      value: 8.52588694953907
     - type: nauc_recall_at_1000_max
-      value: 81.65994088738964
+      value: 73.41790358239734
     - type: nauc_recall_at_1000_std
-      value: 63.36886394313217
+      value: 69.61314473084202
     - type: nauc_recall_at_100_diff1
-      value: 33.73442949813673
+      value: 28.871721524145038
     - type: nauc_recall_at_100_max
-      value: 64.50622866427926
+      value: 59.065368924170045
     - type: nauc_recall_at_100_std
-      value: 46.52235851200254
+      value: 49.80520453249347
     - type: nauc_recall_at_10_diff1
-      value: 29.788714544862056
+      value: 29.03782265490603
     - type: nauc_recall_at_10_max
-      value: 38.99828655870941
+      value: 37.75072625287093
     - type: nauc_recall_at_10_std
-      value: 1.7091690344792725
+      value: 10.62020740095944
     - type: nauc_recall_at_1_diff1
-      value: 40.79178035869281
+      value: 40.29366709249466
     - type: nauc_recall_at_1_max
-      value: 21.840846704021168
+      value: 22.701930006989834
     - type: nauc_recall_at_1_std
-      value: -6.154432706859515
+      value: -2.5108119794353128
     - type: nauc_recall_at_20_diff1
-      value: 29.268077606585464
+      value: 27.404333563376582
     - type: nauc_recall_at_20_max
-      value: 46.544672010268386
+      value: 44.726703401012806
     - type: nauc_recall_at_20_std
-      value: 11.559943847242257
+      value: 20.97357245935641
     - type: nauc_recall_at_3_diff1
-      value: 32.274860688833726
+      value: 31.63227526877648
     - type: nauc_recall_at_3_max
-      value: 29.74799709828914
+      value: 29.884975719908446
     - type: nauc_recall_at_3_std
-      value: -4.408458412201667
+      value: -0.5990776007533871
     - type: nauc_recall_at_5_diff1
-      value: 32.393551871375514
+      value: 30.05426459795973
     - type: nauc_recall_at_5_max
-      value: 34.33472583999946
+      value: 31.52192768038204
     - type: nauc_recall_at_5_std
-      value: -2.6839106423963486
+      value: 0.7177246623827043
     - type: ndcg_at_1
-      value: 41.599000000000004
+      value: 36.848
     - type: ndcg_at_10
-      value: 61.028999999999996
+      value: 57.056
     - type: ndcg_at_100
-      value: 64.55
+      value: 60.792
     - type: ndcg_at_1000
-      value: 64.948
+      value: 61.329
     - type: ndcg_at_20
-      value: 62.971
+      value: 58.857000000000006
     - type: ndcg_at_3
-      value: 53.122
+      value: 49.012
     - type: ndcg_at_5
-      value: 57.607
+      value: 53.327000000000005
     - type: precision_at_1
-      value: 41.599000000000004
+      value: 36.848
     - type: precision_at_10
-      value: 9.754
+      value: 9.368
     - type: precision_at_100
-      value: 1.172
+      value: 1.1480000000000001
     - type: precision_at_1000
-      value: 0.121
+      value: 0.12
     - type: precision_at_20
-      value: 5.346
+      value: 5.122999999999999
     - type: precision_at_3
-      value: 23.880000000000003
+      value: 22.470000000000002
     - type: precision_at_5
-      value: 16.964000000000002
+      value: 15.985
     - type: recall_at_1
-      value: 37.177
+      value: 32.830999999999996
     - type: recall_at_10
-      value: 81.658
+      value: 78.616
     - type: recall_at_100
-      value: 96.497
+      value: 94.798
     - type: recall_at_1000
-      value: 99.445
+      value: 98.71799999999999
     - type: recall_at_20
-      value: 88.75800000000001
+      value: 85.236
     - type: recall_at_3
-      value: 61.525
+      value: 57.935
     - type: recall_at_5
-      value: 71.76
+      value: 67.85900000000001
     task:
       type: Retrieval
   - dataset:
@@ -8753,287 +8753,287 @@ model-index:
       type: mteb/quora
     metrics:
     - type: main_score
-      value: 89.036
+      value: 88.727
     - type: map_at_1
-      value: 71.101
+      value: 70.762
     - type: map_at_10
-      value: 85.455
+      value: 85.11999999999999
     - type: map_at_100
-      value: 85.994
+      value: 85.664
     - type: map_at_1000
-      value: 86.008
+      value: 85.679
     - type: map_at_20
-      value: 85.828
+      value: 85.49600000000001
     - type: map_at_3
-      value: 82.53399999999999
+      value: 82.23700000000001
     - type: map_at_5
-      value: 84.436
+      value: 84.086
     - type: mrr_at_1
-      value: 81.86
+      value: 81.44
     - type: mrr_at_10
-      value: 88.11046031746035
+      value: 87.79252380952383
     - type: mrr_at_100
-      value: 88.19975129757977
+      value: 87.8869692638498
     - type: mrr_at_1000
-      value: 88.20025683960115
+      value: 87.88761260154055
     - type: mrr_at_20
-      value: 88.17505422553023
+      value: 87.85851690174293
     - type: mrr_at_3
-      value: 87.21666666666681
+      value: 86.90000000000015
     - type: mrr_at_5
-      value: 87.86166666666674
+      value: 87.52200000000002
     - type: nauc_map_at_1000_diff1
-      value: 76.87108519650897
+      value: 75.855543672975
     - type: nauc_map_at_1000_max
-      value: 33.61242692238016
+      value: 31.902412813269077
     - type: nauc_map_at_1000_std
-      value: -41.17597310279849
+      value: -43.545213020523484
     - type: nauc_map_at_100_diff1
-      value: 76.87153736524259
+      value: 75.85787106458596
     - type: nauc_map_at_100_max
-      value: 33.54970297094648
+      value: 31.872380932295602
     - type: nauc_map_at_100_std
-      value: -41.25992178085852
+      value: -43.62670414341416
     - type: nauc_map_at_10_diff1
-      value: 77.09438545715085
+      value: 76.06994047717338
     - type: nauc_map_at_10_max
-      value: 33.2308328259168
+      value: 31.50784501542894
     - type: nauc_map_at_10_std
-      value: -42.899051862463516
+      value: -45.246286655846895
     - type: nauc_map_at_1_diff1
-      value: 80.4545167505852
+      value: 80.02300553815451
     - type: nauc_map_at_1_max
-      value: 23.403575293489297
+      value: 21.754057272930545
     - type: nauc_map_at_1_std
-      value: -38.73915078390272
+      value: -40.21688684908
     - type: nauc_map_at_20_diff1
-      value: 76.94979482879727
+      value: 75.93312323976788
     - type: nauc_map_at_20_max
-      value: 33.3965542820201
+      value: 31.750666329847178
     - type: nauc_map_at_20_std
-      value: -41.86565874579091
+      value: -44.205099175719035
     - type: nauc_map_at_3_diff1
-      value: 77.49566624548056
+      value: 76.51176248218147
     - type: nauc_map_at_3_max
-      value: 31.780987466527982
+      value: 29.57618559850948
     - type: nauc_map_at_3_std
-      value: -44.21854519305753
+      value: -46.746508593043366
     - type: nauc_map_at_5_diff1
-      value: 77.42771789228605
+      value: 76.29609472997535
     - type: nauc_map_at_5_max
-      value: 32.68020733774396
+      value: 31.148450278161345
     - type: nauc_map_at_5_std
-      value: -44.02529373114044
+      value: -46.15412773135915
     - type: nauc_mrr_at_1000_diff1
-      value: 77.2505984468272
+      value: 76.58410473550458
     - type: nauc_mrr_at_1000_max
-      value: 35.55233116927507
+      value: 34.349405634766505
     - type: nauc_mrr_at_1000_std
-      value: -36.53616122640594
+      value: -38.71411943881118
     - type: nauc_mrr_at_100_diff1
-      value: 77.2505647746378
+      value: 76.58429204389566
     - type: nauc_mrr_at_100_max
-      value: 35.55185874722589
+      value: 34.34925219271846
     - type: nauc_mrr_at_100_std
-      value: -36.536878149072706
+      value: -38.71580773780872
     - type: nauc_mrr_at_10_diff1
-      value: 77.28454775401565
+      value: 76.63814613681649
     - type: nauc_mrr_at_10_max
-      value: 35.66029990876809
+      value: 34.48850149896092
     - type: nauc_mrr_at_10_std
-      value: -36.59040430274804
+      value: -38.7768979856703
     - type: nauc_mrr_at_1_diff1
-      value: 77.78026873953571
+      value: 77.20703493053294
     - type: nauc_mrr_at_1_max
-      value: 34.24444208714401
+      value: 33.323090298596966
     - type: nauc_mrr_at_1_std
-      value: -35.78176040034259
+      value: -37.60690944443488
     - type: nauc_mrr_at_20_diff1
-      value: 77.26647675316424
+      value: 76.59666662335822
     - type: nauc_mrr_at_20_max
-      value: 35.55846836956988
+      value: 34.34258983029893
     - type: nauc_mrr_at_20_std
-      value: -36.573881740702944
+      value: -38.767765407380175
     - type: nauc_mrr_at_3_diff1
-      value: 76.97249605916133
+      value: 76.36318737637336
     - type: nauc_mrr_at_3_max
-      value: 35.75239213026302
+      value: 34.47959555949338
     - type: nauc_mrr_at_3_std
-      value: -36.66948654144912
+      value: -39.14405090748447
     - type: nauc_mrr_at_5_diff1
-      value: 77.23448498990302
+      value: 76.4642433971879
     - type: nauc_mrr_at_5_max
-      value: 35.66032506714416
+      value: 34.41499543508058
     - type: nauc_mrr_at_5_std
-      value: -36.38867782403099
+      value: -38.71845104328312
     - type: nauc_ndcg_at_1000_diff1
-      value: 76.78192029636689
+      value: 75.86336366951063
     - type: nauc_ndcg_at_1000_max
-      value: 34.838983961231115
+      value: 33.144250465211336
     - type: nauc_ndcg_at_1000_std
-      value: -38.7139917221289
+      value: -41.063832282328185
     - type: nauc_ndcg_at_100_diff1
-      value: 76.74994017852701
+      value: 75.8485208193407
     - type: nauc_ndcg_at_100_max
-      value: 34.5562459567844
+      value: 32.98328804105153
     - type: nauc_ndcg_at_100_std
-      value: -39.1159390113717
+      value: -41.52631473748263
     - type: nauc_ndcg_at_10_diff1
-      value: 77.03700409583301
+      value: 76.18012008509577
     - type: nauc_ndcg_at_10_max
-      value: 34.49775612114203
+      value: 32.974938360415535
     - type: nauc_ndcg_at_10_std
-      value: -42.03003149796472
+      value: -44.38570601633005
     - type: nauc_ndcg_at_1_diff1
-      value: 77.81816314669393
+      value: 77.28230554694761
     - type: nauc_ndcg_at_1_max
-      value: 34.07485459082228
+      value: 33.03805178290934
     - type: nauc_ndcg_at_1_std
-      value: -35.94895056306454
+      value: -37.537640383402824
     - type: nauc_ndcg_at_20_diff1
-      value: 76.96510332497088
+      value: 76.02033529740791
     - type: nauc_ndcg_at_20_max
-      value: 34.450082024564146
+      value: 32.833700044235634
     - type: nauc_ndcg_at_20_std
-      value: -40.63314555768711
+      value: -42.96157266340273
     - type: nauc_ndcg_at_3_diff1
-      value: 76.151643391554
+      value: 75.26730760149606
     - type: nauc_ndcg_at_3_max
-      value: 34.66383376117758
+      value: 32.694778968778714
     - type: nauc_ndcg_at_3_std
-      value: -41.39392660300224
+      value: -44.5390979610003
     - type: nauc_ndcg_at_5_diff1
-      value: 76.92278503649814
+      value: 75.79190092587773
     - type: nauc_ndcg_at_5_max
-      value: 34.35931928202013
+      value: 33.06366329445576
     - type: nauc_ndcg_at_5_std
-      value: -42.28302402211198
+      value: -44.77082674014946
     - type: nauc_precision_at_1000_diff1
-      value: -44.32392932408826
+      value: -43.96311909671976
     - type: nauc_precision_at_1000_max
-      value: -1.5976203820441983
+      value: -2.6621016532032535
     - type: nauc_precision_at_1000_std
-      value: 38.70649763774179
+      value: 39.67056705670567
     - type: nauc_precision_at_100_diff1
-      value: -44.12260005400485
+      value: -43.66588505776995
     - type: nauc_precision_at_100_max
-      value: -3.0647204564936312
+      value: -2.6282921990659553
     - type: nauc_precision_at_100_std
-      value: 36.21137758417562
+      value: 37.054574557190094
     - type: nauc_precision_at_10_diff1
-      value: -38.874503464270056
+      value: -38.35814005471572
     - type: nauc_precision_at_10_max
-      value: -0.7995397378969676
+      value: 0.7737785747028663
     - type: nauc_precision_at_10_std
-      value: 25.08941543528278
+      value: 25.250342985520945
     - type: nauc_precision_at_1_diff1
-      value: 77.81816314669393
+      value: 77.28230554694761
     - type: nauc_precision_at_1_max
-      value: 34.07485459082228
+      value: 33.03805178290934
     - type: nauc_precision_at_1_std
-      value: -35.94895056306454
+      value: -37.537640383402824
     - type: nauc_precision_at_20_diff1
-      value: -41.93097475974228
+      value: -41.30112891380059
     - type: nauc_precision_at_20_max
-      value: -2.691181750976814
+      value: -1.2060605616858489
     - type: nauc_precision_at_20_std
-      value: 30.655007568557085
+      value: 31.13148488999237
     - type: nauc_precision_at_3_diff1
-      value: -21.109490315436517
+      value: -20.140620198671257
     - type: nauc_precision_at_3_max
-      value: 9.49736775358964
+      value: 10.264712638763026
     - type: nauc_precision_at_3_std
-      value: 9.195033684093397
+      value: 7.331085213423879
     - type: nauc_precision_at_5_diff1
-      value: -32.49764534227595
+      value: -31.808640731944752
     - type: nauc_precision_at_5_max
-      value: 3.0490365273648803
+      value: 5.297575496536465
     - type: nauc_precision_at_5_std
-      value: 18.119935851058468
+      value: 17.70286397606476
     - type: nauc_recall_at_1000_diff1
-      value: 75.62341631050762
+      value: 84.98581822669564
     - type: nauc_recall_at_1000_max
-      value: 83.86481603169511
+      value: 92.96636893753929
     - type: nauc_recall_at_1000_std
-      value: 58.55405944964621
+      value: 75.65227348803414
     - type: nauc_recall_at_100_diff1
-      value: 65.95496827539912
+      value: 68.36540923623107
     - type: nauc_recall_at_100_max
-      value: 14.97452268550046
+      value: 22.593370935999022
     - type: nauc_recall_at_100_std
-      value: -62.18680465170524
+      value: -70.87387778855451
     - type: nauc_recall_at_10_diff1
-      value: 75.08434366486102
+      value: 74.81283971432373
     - type: nauc_recall_at_10_max
-      value: 32.852276917018116
+      value: 32.69264273824776
     - type: nauc_recall_at_10_std
-      value: -62.12970511272648
+      value: -63.595111340014235
     - type: nauc_recall_at_1_diff1
-      value: 80.4545167505852
+      value: 80.02300553815451
     - type: nauc_recall_at_1_max
-      value: 23.403575293489297
+      value: 21.754057272930545
     - type: nauc_recall_at_1_std
-      value: -38.73915078390272
+      value: -40.21688684908
     - type: nauc_recall_at_20_diff1
-      value: 75.66480840772607
+      value: 74.80351474558462
     - type: nauc_recall_at_20_max
-      value: 31.230359729601208
+      value: 30.865356023355805
     - type: nauc_recall_at_20_std
-      value: -64.11261226121559
+      value: -64.32287367180344
     - type: nauc_recall_at_3_diff1
-      value: 73.81582560951404
+      value: 72.84287000152072
     - type: nauc_recall_at_3_max
-      value: 31.052473048456708
+      value: 28.816036268394075
     - type: nauc_recall_at_3_std
-      value: -49.45567344158681
+      value: -53.30450226597958
     - type: nauc_recall_at_5_diff1
-      value: 74.06384098137175
+      value: 71.85726172240405
     - type: nauc_recall_at_5_max
-      value: 31.48187742884454
+      value: 30.410801075288813
     - type: nauc_recall_at_5_std
-      value: -53.45142194227105
+      value: -56.351216833849406
     - type: ndcg_at_1
-      value: 81.84
+      value: 81.39999999999999
     - type: ndcg_at_10
-      value: 89.036
+      value: 88.727
     - type: ndcg_at_100
-      value: 90.08800000000001
+      value: 89.821
     - type: ndcg_at_1000
-      value: 90.171
+      value: 89.915
     - type: ndcg_at_20
-      value: 89.632
+      value: 89.34
     - type: ndcg_at_3
-      value: 86.39
+      value: 86.021
     - type: ndcg_at_5
-      value: 87.943
+      value: 87.558
     - type: precision_at_1
-      value: 81.84
+      value: 81.39999999999999
     - type: precision_at_10
-      value: 13.464
+      value: 13.41
     - type: precision_at_100
-      value: 1.49
+      value: 1.488
     - type: precision_at_1000
       value: 0.152
     - type: precision_at_20
-      value: 7.0760000000000005
+      value: 7.061000000000001
     - type: precision_at_3
-      value: 38.027
+      value: 37.793
     - type: precision_at_5
-      value: 24.951999999999998
+      value: 24.804000000000002
     - type: recall_at_1
-      value: 71.101
+      value: 70.762
     - type: recall_at_10
-      value: 96.071
+      value: 95.846
     - type: recall_at_100
-      value: 99.641
+      value: 99.58500000000001
     - type: recall_at_1000
       value: 99.98700000000001
     - type: recall_at_20
-      value: 97.961
+      value: 97.773
     - type: recall_at_3
-      value: 88.436
+      value: 88.08500000000001
     - type: recall_at_5
-      value: 92.898
+      value: 92.45100000000001
     task:
       type: Retrieval
   - dataset:
@@ -9044,287 +9044,287 @@ model-index:
       type: mteb/quora
     metrics:
     - type: main_score
-      value: 89.208
+      value: 89.003
     - type: map_at_1
-      value: 71.635
+      value: 71.419
     - type: map_at_10
-      value: 85.625
+      value: 85.382
     - type: map_at_100
-      value: 86.236
+      value: 85.976
     - type: map_at_1000
-      value: 86.251
+      value: 85.992
     - type: map_at_20
-      value: 86.036
+      value: 85.763
     - type: map_at_3
-      value: 82.664
+      value: 82.429
     - type: map_at_5
-      value: 84.588
+      value: 84.284
     - type: mrr_at_1
-      value: 82.42
+      value: 82.11
     - type: mrr_at_10
-      value: 88.43901190476178
+      value: 88.19897222222195
     - type: mrr_at_100
-      value: 88.52632666726963
+      value: 88.28645985411698
     - type: mrr_at_1000
-      value: 88.52691231190065
+      value: 88.28718663213955
     - type: mrr_at_20
-      value: 88.5086530013243
+      value: 88.26697522996409
     - type: mrr_at_3
-      value: 87.52666666666644
+      value: 87.27833333333302
     - type: mrr_at_5
-      value: 88.16716666666639
+      value: 87.91783333333296
     - type: nauc_map_at_1000_diff1
-      value: 76.69308460928899
+      value: 76.30261631592856
     - type: nauc_map_at_1000_max
-      value: 35.4676191405908
+      value: 34.980388292905786
     - type: nauc_map_at_1000_std
-      value: -42.45246342350121
+      value: -46.40601966994713
     - type: nauc_map_at_100_diff1
-      value: 76.69724007993696
+      value: 76.30695928935073
     - type: nauc_map_at_100_max
-      value: 35.44406733319827
+      value: 34.96244762174972
     - type: nauc_map_at_100_std
-      value: -42.503413138162486
+      value: -46.45454317042469
     - type: nauc_map_at_10_diff1
-      value: 76.91685742813964
+      value: 76.53649680864336
     - type: nauc_map_at_10_max
-      value: 35.02153657433807
+      value: 34.645533775546085
     - type: nauc_map_at_10_std
-      value: -44.367365466570426
+      value: -48.33008289480228
     - type: nauc_map_at_1_diff1
-      value: 80.55801255675962
+      value: 80.0109014135849
     - type: nauc_map_at_1_max
-      value: 27.058161138340527
+      value: 25.217498739752532
     - type: nauc_map_at_1_std
-      value: -39.4963211510531
+      value: -42.86995539685312
     - type: nauc_map_at_20_diff1
-      value: 76.76447537369087
+      value: 76.38636530247655
     - type: nauc_map_at_20_max
-      value: 35.32040158644433
+      value: 34.8747291704767
     - type: nauc_map_at_20_std
-      value: -43.21303554960284
+      value: -47.18148102037872
     - type: nauc_map_at_3_diff1
-      value: 77.40499840514137
+      value: 77.05849657272363
     - type: nauc_map_at_3_max
-      value: 33.10906358569285
+      value: 32.277142026099796
     - type: nauc_map_at_3_std
-      value: -46.04737347284554
+      value: -49.96987316659713
     - type: nauc_map_at_5_diff1
-      value: 77.15728738532938
+      value: 76.83629534126555
     - type: nauc_map_at_5_max
-      value: 34.33464314840439
+      value: 33.55739070811488
     - type: nauc_map_at_5_std
-      value: -45.89958892369562
+      value: -49.75050547962666
     - type: nauc_mrr_at_1000_diff1
-      value: 77.31291439145946
+      value: 77.09217511243467
     - type: nauc_mrr_at_1000_max
-      value: 37.230887514872805
+      value: 37.21107946309872
     - type: nauc_mrr_at_1000_std
-      value: -39.38330115067387
+      value: -43.530006121662296
     - type: nauc_mrr_at_100_diff1
-      value: 77.31258475265957
+      value: 77.09240459620786
     - type: nauc_mrr_at_100_max
-      value: 37.2318332422385
+      value: 37.21225118498791
     - type: nauc_mrr_at_100_std
-      value: -39.38278945609743
+      value: -43.53027090575838
     - type: nauc_mrr_at_10_diff1
-      value: 77.27217320343534
+      value: 77.06801760001858
     - type: nauc_mrr_at_10_max
-      value: 37.26080710249818
+      value: 37.286872397183544
     - type: nauc_mrr_at_10_std
-      value: -39.5294415983385
+      value: -43.617192424810156
     - type: nauc_mrr_at_1_diff1
-      value: 78.23833876100495
+      value: 78.14939860730118
     - type: nauc_mrr_at_1_max
-      value: 36.656764402278775
+      value: 36.345419894891194
     - type: nauc_mrr_at_1_std
-      value: -37.255149721562184
+      value: -41.791157198407774
     - type: nauc_mrr_at_20_diff1
-      value: 77.30440129198894
+      value: 77.0877040646715
     - type: nauc_mrr_at_20_max
-      value: 37.24212487079394
+      value: 37.22505075639358
     - type: nauc_mrr_at_20_std
-      value: -39.40823051440391
+      value: -43.56227666998121
     - type: nauc_mrr_at_3_diff1
-      value: 77.0650697336263
+      value: 76.74698348186915
     - type: nauc_mrr_at_3_max
-      value: 37.338365680984595
+      value: 37.44311099432756
     - type: nauc_mrr_at_3_std
-      value: -39.61465396146359
+      value: -43.7071965891009
     - type: nauc_mrr_at_5_diff1
-      value: 77.23689991901227
+      value: 77.0330357115108
     - type: nauc_mrr_at_5_max
-      value: 37.402095366186515
+      value: 37.52629069454836
     - type: nauc_mrr_at_5_std
-      value: -39.81000570358434
+      value: -43.73165678865622
     - type: nauc_ndcg_at_1000_diff1
-      value: 76.52492111059385
+      value: 76.13346466270058
     - type: nauc_ndcg_at_1000_max
-      value: 36.4917030050163
+      value: 36.30355111630145
     - type: nauc_ndcg_at_1000_std
-      value: -40.57405843022022
+      value: -44.567293200490255
     - type: nauc_ndcg_at_100_diff1
-      value: 76.52885222990776
+      value: 76.13003686446783
     - type: nauc_ndcg_at_100_max
-      value: 36.459002270403104
+      value: 36.24229918244899
     - type: nauc_ndcg_at_100_std
-      value: -40.700799028706136
+      value: -44.74039437592027
     - type: nauc_ndcg_at_10_diff1
-      value: 76.47989448348181
+      value: 76.15098624138862
     - type: nauc_ndcg_at_10_max
-      value: 36.07571701542727
+      value: 35.9426014751766
     - type: nauc_ndcg_at_10_std
-      value: -43.68216832570433
+      value: -47.59425076949253
     - type: nauc_ndcg_at_1_diff1
-      value: 78.21904562929713
+      value: 78.05404952179576
     - type: nauc_ndcg_at_1_max
-      value: 36.68800580256306
+      value: 36.386170501037306
     - type: nauc_ndcg_at_1_std
-      value: -37.1106119214964
+      value: -41.608020194302405
     - type: nauc_ndcg_at_20_diff1
-      value: 76.51018855356082
+      value: 76.12680119152564
     - type: nauc_ndcg_at_20_max
-      value: 36.25847353699082
+      value: 36.00419296655895
     - type: nauc_ndcg_at_20_std
-      value: -42.26728405297162
+      value: -46.42441388656108
     - type: nauc_ndcg_at_3_diff1
-      value: 75.98751306811951
+      value: 75.63820138905012
     - type: nauc_ndcg_at_3_max
-      value: 35.53532168839834
+      value: 35.289885704662126
     - type: nauc_ndcg_at_3_std
-      value: -43.22027231551964
+      value: -47.23927265939333
     - type: nauc_ndcg_at_5_diff1
-      value: 76.41353684969529
+      value: 76.12723497005791
     - type: nauc_ndcg_at_5_max
-      value: 35.84158818150277
+      value: 35.36445509855448
     - type: nauc_ndcg_at_5_std
-      value: -44.678250163660735
+      value: -48.35208930977703
     - type: nauc_precision_at_1000_diff1
-      value: -44.547524496944504
+      value: -44.30605136183297
     - type: nauc_precision_at_1000_max
-      value: -7.017755716303293
+      value: -5.750277685604905
     - type: nauc_precision_at_1000_std
-      value: 37.81857144040679
+      value: 39.95015688272993
     - type: nauc_precision_at_100_diff1
-      value: -44.2990697671559
+      value: -43.99883635441125
     - type: nauc_precision_at_100_max
-      value: -7.090370898560614
+      value: -5.404491662976336
     - type: nauc_precision_at_100_std
-      value: 36.74158403150684
+      value: 38.70820720987971
     - type: nauc_precision_at_10_diff1
-      value: -39.80812285102048
+      value: -39.281636489637265
     - type: nauc_precision_at_10_max
-      value: -3.2239932083528116
+      value: -0.26078620229618693
     - type: nauc_precision_at_10_std
-      value: 26.540899746112927
+      value: 27.60706091974357
     - type: nauc_precision_at_1_diff1
-      value: 78.21904562929713
+      value: 78.05404952179576
     - type: nauc_precision_at_1_max
-      value: 36.68800580256306
+      value: 36.386170501037306
     - type: nauc_precision_at_1_std
-      value: -37.1106119214964
+      value: -41.608020194302405
     - type: nauc_precision_at_20_diff1
-      value: -42.72592324685673
+      value: -42.131775738221116
     - type: nauc_precision_at_20_max
-      value: -5.3434665602492455
+      value: -2.790751064610159
     - type: nauc_precision_at_20_std
-      value: 32.0763404810473
+      value: 33.49240881529144
     - type: nauc_precision_at_3_diff1
-      value: -20.448213979815964
+      value: -19.582037618539495
     - type: nauc_precision_at_3_max
-      value: 6.48540224514135
+      value: 9.075373870080982
     - type: nauc_precision_at_3_std
-      value: 7.144269812256157
+      value: 6.435940772534901
     - type: nauc_precision_at_5_diff1
-      value: -32.73748400918877
+      value: -31.802765106740484
     - type: nauc_precision_at_5_max
-      value: 0.5351204546857261
+      value: 3.543116294761505
     - type: nauc_precision_at_5_std
-      value: 17.21939760056977
+      value: 17.833033175636356
     - type: nauc_recall_at_1000_diff1
-      value: 54.36176817603542
+      value: 39.32485644932125
     - type: nauc_recall_at_1000_max
-      value: 8.42245797354225
+      value: 39.066540922772376
     - type: nauc_recall_at_1000_std
-      value: 20.82920230407764
+      value: 20.103965232560835
     - type: nauc_recall_at_100_diff1
-      value: 70.75825465627794
+      value: 70.0251051590138
     - type: nauc_recall_at_100_max
-      value: 40.02545502828442
+      value: 34.86379347929933
     - type: nauc_recall_at_100_std
-      value: -29.381365717773434
+      value: -42.106311600640375
     - type: nauc_recall_at_10_diff1
-      value: 71.99814968277674
+      value: 72.10740423001593
     - type: nauc_recall_at_10_max
-      value: 33.07283139289303
+      value: 34.886521080051295
     - type: nauc_recall_at_10_std
-      value: -61.868754150647
+      value: -64.83306899253033
     - type: nauc_recall_at_1_diff1
-      value: 80.55801255675962
+      value: 80.0109014135849
     - type: nauc_recall_at_1_max
-      value: 27.058161138340527
+      value: 25.217498739752532
     - type: nauc_recall_at_1_std
-      value: -39.4963211510531
+      value: -42.86995539685312
     - type: nauc_recall_at_20_diff1
-      value: 72.20770471431179
+      value: 71.20093193828812
     - type: nauc_recall_at_20_max
-      value: 34.27388608815473
+      value: 33.46686672295811
     - type: nauc_recall_at_20_std
-      value: -57.02562075619354
+      value: -63.66982813610845
     - type: nauc_recall_at_3_diff1
-      value: 73.33228189075119
+      value: 72.73621188192767
     - type: nauc_recall_at_3_max
-      value: 31.031018188701548
+      value: 30.82541835421874
     - type: nauc_recall_at_3_std
-      value: -51.71143501327714
+      value: -55.217641745582725
     - type: nauc_recall_at_5_diff1
-      value: 72.23242137345602
+      value: 72.08303977300797
     - type: nauc_recall_at_5_max
-      value: 32.306978089143975
+      value: 31.70942758945847
     - type: nauc_recall_at_5_std
-      value: -58.18075857337518
+      value: -60.86547648856454
     - type: ndcg_at_1
-      value: 82.43
+      value: 82.16
     - type: ndcg_at_10
-      value: 89.208
+      value: 89.003
     - type: ndcg_at_100
-      value: 90.312
+      value: 90.109
     - type: ndcg_at_1000
-      value: 90.39500000000001
+      value: 90.205
     - type: ndcg_at_20
-      value: 89.822
+      value: 89.584
     - type: ndcg_at_3
-      value: 86.443
+      value: 86.21799999999999
     - type: ndcg_at_5
-      value: 88.051
+      value: 87.766
     - type: precision_at_1
-      value: 82.43
+      value: 82.16
     - type: precision_at_10
-      value: 13.513
+      value: 13.485
     - type: precision_at_100
-      value: 1.532
+      value: 1.529
     - type: precision_at_1000
       value: 0.157
     - type: precision_at_20
-      value: 7.158
+      value: 7.119000000000001
     - type: precision_at_3
-      value: 37.753
+      value: 37.657000000000004
     - type: precision_at_5
-      value: 24.886
+      value: 24.759999999999998
     - type: recall_at_1
-      value: 71.635
+      value: 71.419
     - type: recall_at_10
-      value: 95.967
+      value: 95.855
     - type: recall_at_100
-      value: 99.644
+      value: 99.57000000000001
     - type: recall_at_1000
-      value: 99.98599999999999
+      value: 99.984
     - type: recall_at_20
-      value: 97.897
+      value: 97.723
     - type: recall_at_3
-      value: 88.036
+      value: 87.914
     - type: recall_at_5
-      value: 92.551
+      value: 92.27300000000001
     task:
       type: Retrieval
   - dataset:
@@ -9335,869 +9335,287 @@ model-index:
       type: mteb/scidocs
     metrics:
     - type: main_score
-      value: 22.585
+      value: 21.095
     - type: map_at_1
-      value: 5.267
+      value: 4.858
     - type: map_at_10
-      value: 13.682
+      value: 12.676000000000002
     - type: map_at_100
-      value: 15.821
+      value: 14.827000000000002
     - type: map_at_1000
-      value: 16.155
+      value: 15.146999999999998
     - type: map_at_20
-      value: 14.776
+      value: 13.767
     - type: map_at_3
-      value: 9.447999999999999
+      value: 8.968
     - type: map_at_5
-      value: 11.537
+      value: 10.748000000000001
     - type: mrr_at_1
-      value: 25.900000000000002
+      value: 24.0
     - type: mrr_at_10
-      value: 37.2399206349206
+      value: 35.44234126984123
     - type: mrr_at_100
-      value: 38.27279652206334
+      value: 36.57227499851092
     - type: mrr_at_1000
-      value: 38.32018340983372
+      value: 36.62212146550235
     - type: mrr_at_20
-      value: 37.88470320013656
+      value: 36.174427675437656
     - type: mrr_at_3
-      value: 33.70000000000001
+      value: 32.366666666666646
     - type: mrr_at_5
-      value: 35.929999999999964
+      value: 34.02166666666662
     - type: nauc_map_at_1000_diff1
-      value: 15.010512584883928
+      value: 20.4331406159799
     - type: nauc_map_at_1000_max
-      value: 28.131592592280125
+      value: 27.81489710879907
     - type: nauc_map_at_1000_std
-      value: 18.23227227598505
+      value: 20.440258897270585
     - type: nauc_map_at_100_diff1
-      value: 15.038422438580948
+      value: 20.46388418195963
     - type: nauc_map_at_100_max
-      value: 28.118579098188683
+      value: 27.75644498016236
     - type: nauc_map_at_100_std
-      value: 18.102627506796637
+      value: 20.186852999395906
     - type: nauc_map_at_10_diff1
-      value: 15.2281617921156
+      value: 20.34246509025442
     - type: nauc_map_at_10_max
-      value: 26.358609940161813
+      value: 26.09709012239771
     - type: nauc_map_at_10_std
-      value: 14.028442329121555
+      value: 16.18755590764125
     - type: nauc_map_at_1_diff1
-      value: 19.804944135000376
+      value: 30.238455629371675
     - type: nauc_map_at_1_max
-      value: 20.639841719764735
+      value: 19.771326252470793
     - type: nauc_map_at_1_std
-      value: 8.423093067457737
+      value: 9.646028512988151
     - type: nauc_map_at_20_diff1
-      value: 15.2511720546573
+      value: 20.443407591914497
     - type: nauc_map_at_20_max
-      value: 27.7290112272419
+      value: 27.219474051523424
     - type: nauc_map_at_20_std
-      value: 16.279489028653636
+      value: 18.16404214650777
     - type: nauc_map_at_3_diff1
-      value: 18.969154716718396
+      value: 23.783610410420746
     - type: nauc_map_at_3_max
-      value: 25.211069495284065
+      value: 22.806294777997753
     - type: nauc_map_at_3_std
-      value: 8.183585306093075
+      value: 10.220963066295825
     - type: nauc_map_at_5_diff1
-      value: 16.995226268024048
+      value: 22.390000403879384
     - type: nauc_map_at_5_max
-      value: 26.05551249234277
+      value: 25.124629804394328
     - type: nauc_map_at_5_std
-      value: 10.672250037070603
+      value: 12.769708421601889
     - type: nauc_mrr_at_1000_diff1
-      value: 18.900489928879864
+      value: 26.335786873134847
     - type: nauc_mrr_at_1000_max
-      value: 24.818364671912125
+      value: 23.468402127347108
     - type: nauc_mrr_at_1000_std
-      value: 13.55809626059453
+      value: 15.358807703656174
     - type: nauc_mrr_at_100_diff1
-      value: 18.885312642782274
+      value: 26.33882075438782
     - type: nauc_mrr_at_100_max
-      value: 24.815818576928283
+      value: 23.4826794899285
     - type: nauc_mrr_at_100_std
-      value: 13.59041082400011
+      value: 15.391948819124835
     - type: nauc_mrr_at_10_diff1
-      value: 18.840497849547965
+      value: 26.32246417057101
     - type: nauc_mrr_at_10_max
-      value: 24.508418448385445
+      value: 23.370043401649195
     - type: nauc_mrr_at_10_std
-      value: 13.24104462801846
+      value: 15.195884523143832
     - type: nauc_mrr_at_1_diff1
-      value: 19.939676779904232
+      value: 29.957764198418413
     - type: nauc_mrr_at_1_max
-      value: 20.867982502501388
+      value: 19.67783968368079
     - type: nauc_mrr_at_1_std
-      value: 8.654485218204698
+      value: 9.9110352264558
     - type: nauc_mrr_at_20_diff1
-      value: 18.75686501314611
+      value: 26.280188638909667
     - type: nauc_mrr_at_20_max
-      value: 24.764731653376685
+      value: 23.518821014040608
     - type: nauc_mrr_at_20_std
-      value: 13.593035396029709
+      value: 15.392630335191393
     - type: nauc_mrr_at_3_diff1
-      value: 19.762798012479887
+      value: 26.174221020389133
     - type: nauc_mrr_at_3_max
-      value: 24.851437035247397
+      value: 22.916897852904736
     - type: nauc_mrr_at_3_std
-      value: 11.616646922331773
+      value: 14.054111276765582
     - type: nauc_mrr_at_5_diff1
-      value: 19.48751619117306
+      value: 26.681081196240864
     - type: nauc_mrr_at_5_max
-      value: 25.02565432972893
+      value: 23.545290286687205
     - type: nauc_mrr_at_5_std
-      value: 13.096726015560694
+      value: 14.489255948218496
     - type: nauc_ndcg_at_1000_diff1
-      value: 14.421194341988578
+      value: 19.811292218568877
     - type: nauc_ndcg_at_1000_max
-      value: 29.46627137066849
+      value: 29.271783843120513
     - type: nauc_ndcg_at_1000_std
-      value: 25.294914478704282
+      value: 27.918160529053438
     - type: nauc_ndcg_at_100_diff1
-      value: 14.188910253634393
+      value: 20.54710323459629
     - type: nauc_ndcg_at_100_max
-      value: 29.675945969703676
+      value: 29.36192055253
     - type: nauc_ndcg_at_100_std
-      value: 25.152541930218398
+      value: 27.01510356917553
     - type: nauc_ndcg_at_10_diff1
-      value: 14.950700299876996
+      value: 20.679368997415185
     - type: nauc_ndcg_at_10_max
-      value: 26.552125339735355
+      value: 26.88373404836461
     - type: nauc_ndcg_at_10_std
-      value: 16.423237887520827
+      value: 18.962516505087503
     - type: nauc_ndcg_at_1_diff1
-      value: 19.939676779904232
+      value: 29.957764198418413
     - type: nauc_ndcg_at_1_max
-      value: 20.867982502501388
+      value: 19.67783968368079
     - type: nauc_ndcg_at_1_std
-      value: 8.654485218204698
+      value: 9.9110352264558
     - type: nauc_ndcg_at_20_diff1
-      value: 14.646062844584721
+      value: 20.770661537577425
     - type: nauc_ndcg_at_20_max
-      value: 29.019613358216105
+      value: 28.494160060607204
     - type: nauc_ndcg_at_20_std
-      value: 20.258510159436103
+      value: 21.8279540883511
     - type: nauc_ndcg_at_3_diff1
-      value: 19.14228516186438
+      value: 23.47639094473142
     - type: nauc_ndcg_at_3_max
-      value: 25.884698532628796
+      value: 23.35439798694039
     - type: nauc_ndcg_at_3_std
-      value: 10.082340457184428
+      value: 12.377439535136311
     - type: nauc_ndcg_at_5_diff1
-      value: 17.648427955677832
+      value: 22.969926936390664
     - type: nauc_ndcg_at_5_max
-      value: 26.960002111496234
+      value: 26.319631914812362
     - type: nauc_ndcg_at_5_std
-      value: 13.165986859638604
+      value: 14.911857377719349
     - type: nauc_precision_at_1000_diff1
-      value: 3.837505819613137
+      value: 3.470857299493788
     - type: nauc_precision_at_1000_max
-      value: 22.085273204384773
+      value: 23.42686850704682
     - type: nauc_precision_at_1000_std
-      value: 37.749767215473746
+      value: 40.4031184750418
     - type: nauc_precision_at_100_diff1
-      value: 6.0618779651125525
+      value: 11.912902631258339
     - type: nauc_precision_at_100_max
-      value: 26.55293689015515
+      value: 27.49134680565924
     - type: nauc_precision_at_100_std
-      value: 35.92840742685366
+      value: 37.51792335831407
     - type: nauc_precision_at_10_diff1
-      value: 9.609219002496197
+      value: 14.781962138018267
     - type: nauc_precision_at_10_max
-      value: 24.7210313158673
+      value: 27.25371904985
     - type: nauc_precision_at_10_std
-      value: 19.688687883244082
+      value: 23.116512723007414
     - type: nauc_precision_at_1_diff1
-      value: 19.939676779904232
+      value: 29.957764198418413
     - type: nauc_precision_at_1_max
-      value: 20.867982502501388
+      value: 19.67783968368079
     - type: nauc_precision_at_1_std
-      value: 8.654485218204698
+      value: 9.9110352264558
     - type: nauc_precision_at_20_diff1
-      value: 8.491039455217111
+      value: 14.26689464164839
     - type: nauc_precision_at_20_max
-      value: 28.41137144178967
+      value: 28.827184932489935
     - type: nauc_precision_at_20_std
-      value: 26.3995307896142
+      value: 27.446889793638707
     - type: nauc_precision_at_3_diff1
-      value: 18.574797308038786
+      value: 20.71336447156449
     - type: nauc_precision_at_3_max
-      value: 27.317203178234887
+      value: 24.337994526159783
     - type: nauc_precision_at_3_std
-      value: 10.752025361042627
+      value: 13.397947548460653
     - type: nauc_precision_at_5_diff1
-      value: 15.19646090790648
+      value: 19.138062665558067
     - type: nauc_precision_at_5_max
-      value: 27.46968680886624
+      value: 27.822407403400668
     - type: nauc_precision_at_5_std
-      value: 15.291114444897175
+      value: 16.803790719167182
     - type: nauc_recall_at_1000_diff1
-      value: 3.8560988027864984
+      value: 3.6018207583688144
     - type: nauc_recall_at_1000_max
-      value: 21.962689956944313
+      value: 23.14090214625772
     - type: nauc_recall_at_1000_std
-      value: 39.54218946626981
+      value: 42.28594835129414
     - type: nauc_recall_at_100_diff1
-      value: 6.027047924475086
+      value: 12.001413115432843
     - type: nauc_recall_at_100_max
-      value: 26.199898112709867
+      value: 27.33100640666986
     - type: nauc_recall_at_100_std
-      value: 36.2830620090185
+      value: 37.96014315095026
     - type: nauc_recall_at_10_diff1
-      value: 9.535572267531073
+      value: 14.588748658431552
     - type: nauc_recall_at_10_max
-      value: 24.611837567240595
+      value: 26.973195318900334
     - type: nauc_recall_at_10_std
-      value: 19.643464138242795
+      value: 23.07536701691167
     - type: nauc_recall_at_1_diff1
-      value: 19.804944135000376
+      value: 30.238455629371675
     - type: nauc_recall_at_1_max
-      value: 20.639841719764735
+      value: 19.771326252470793
     - type: nauc_recall_at_1_std
-      value: 8.423093067457737
+      value: 9.646028512988151
     - type: nauc_recall_at_20_diff1
-      value: 8.380441122318603
+      value: 14.196956274661462
     - type: nauc_recall_at_20_max
-      value: 28.304675323191418
+      value: 28.56336128336403
     - type: nauc_recall_at_20_std
-      value: 26.478505583494798
+      value: 27.534839405528803
     - type: nauc_recall_at_3_diff1
-      value: 18.589842650254056
+      value: 20.73309785564631
     - type: nauc_recall_at_3_max
-      value: 27.267022468432433
+      value: 24.29211194985757
     - type: nauc_recall_at_3_std
-      value: 10.489972416983772
+      value: 13.16260070090019
     - type: nauc_recall_at_5_diff1
-      value: 14.991522037739355
+      value: 19.05897924330305
     - type: nauc_recall_at_5_max
-      value: 27.171074789756666
+      value: 27.739868919446675
     - type: nauc_recall_at_5_std
-      value: 15.06566087881635
+      value: 16.676587166110888
     - type: ndcg_at_1
-      value: 25.900000000000002
+      value: 24.0
     - type: ndcg_at_10
-      value: 22.585
+      value: 21.095
     - type: ndcg_at_100
-      value: 30.666
+      value: 29.32
     - type: ndcg_at_1000
-      value: 36.356
+      value: 34.908
     - type: ndcg_at_20
-      value: 25.469
+      value: 24.104999999999997
     - type: ndcg_at_3
-      value: 20.892
+      value: 20.051
     - type: ndcg_at_5
-      value: 18.617
+      value: 17.424999999999997
     - type: precision_at_1
-      value: 25.900000000000002
+      value: 24.0
     - type: precision_at_10
-      value: 11.84
+      value: 10.99
     - type: precision_at_100
-      value: 2.3539999999999996
+      value: 2.279
     - type: precision_at_1000
-      value: 0.372
+      value: 0.363
     - type: precision_at_20
-      value: 7.595000000000001
+      value: 7.234999999999999
     - type: precision_at_3
-      value: 19.467000000000002
+      value: 18.8
     - type: precision_at_5
-      value: 16.5
+      value: 15.340000000000002
     - type: recall_at_1
-      value: 5.267
+      value: 4.858
     - type: recall_at_10
-      value: 24.023
+      value: 22.252
     - type: recall_at_100
-      value: 47.825
+      value: 46.28
     - type: recall_at_1000
-      value: 75.613
+      value: 73.642
     - type: recall_at_20
-      value: 30.814999999999998
+      value: 29.304999999999996
     - type: recall_at_3
-      value: 11.831999999999999
+      value: 11.413
     - type: recall_at_5
-      value: 16.742
-    task:
-      type: Retrieval
-  - dataset:
-      config: default
-      name: MTEB SciFact (default)
-      revision: 0228b52cf27578f30900b9e5271d331663a030d7
-      split: test
-      type: mteb/scifact
-    metrics:
-    - type: main_score
-      value: 73.095
-    - type: map_at_1
-      value: 58.760999999999996
-    - type: map_at_10
-      value: 68.645
-    - type: map_at_100
-      value: 69.273
-    - type: map_at_1000
-      value: 69.28999999999999
-    - type: map_at_20
-      value: 69.148
-    - type: map_at_3
-      value: 65.93
-    - type: map_at_5
-      value: 67.227
-    - type: mrr_at_1
-      value: 62.0
-    - type: mrr_at_10
-      value: 69.9334656084656
-    - type: mrr_at_100
-      value: 70.4425638039262
-    - type: mrr_at_1000
-      value: 70.4592383022689
-    - type: mrr_at_20
-      value: 70.3430039931975
-    - type: mrr_at_3
-      value: 67.94444444444444
-    - type: mrr_at_5
-      value: 68.9111111111111
-    - type: nauc_map_at_1000_diff1
-      value: 73.89926164336681
-    - type: nauc_map_at_1000_max
-      value: 58.520107712601245
-    - type: nauc_map_at_1000_std
-      value: 6.203966518670752
-    - type: nauc_map_at_100_diff1
-      value: 73.88266895863376
-    - type: nauc_map_at_100_max
-      value: 58.52869559413426
-    - type: nauc_map_at_100_std
-      value: 6.2094530706982605
-    - type: nauc_map_at_10_diff1
-      value: 73.83454676041971
-    - type: nauc_map_at_10_max
-      value: 58.728632474849476
-    - type: nauc_map_at_10_std
-      value: 6.161321625117715
-    - type: nauc_map_at_1_diff1
-      value: 75.8262967666803
-    - type: nauc_map_at_1_max
-      value: 50.75430912296499
-    - type: nauc_map_at_1_std
-      value: -3.611304329879618
-    - type: nauc_map_at_20_diff1
-      value: 73.7570380099859
-    - type: nauc_map_at_20_max
-      value: 58.579878823697186
-    - type: nauc_map_at_20_std
-      value: 6.331471307882834
-    - type: nauc_map_at_3_diff1
-      value: 73.8670063410728
-    - type: nauc_map_at_3_max
-      value: 56.097293037109296
-    - type: nauc_map_at_3_std
-      value: 3.118147916941721
-    - type: nauc_map_at_5_diff1
-      value: 73.85961347670359
-    - type: nauc_map_at_5_max
-      value: 56.73699214051663
-    - type: nauc_map_at_5_std
-      value: 4.106265483441233
-    - type: nauc_mrr_at_1000_diff1
-      value: 74.43827928989487
-    - type: nauc_mrr_at_1000_max
-      value: 60.4918184019879
-    - type: nauc_mrr_at_1000_std
-      value: 8.2550027653635
-    - type: nauc_mrr_at_100_diff1
-      value: 74.42093690901741
-    - type: nauc_mrr_at_100_max
-      value: 60.499273965963
-    - type: nauc_mrr_at_100_std
-      value: 8.259231345026938
-    - type: nauc_mrr_at_10_diff1
-      value: 74.35347564500812
-    - type: nauc_mrr_at_10_max
-      value: 60.84757750349501
-    - type: nauc_mrr_at_10_std
-      value: 8.661941517184076
-    - type: nauc_mrr_at_1_diff1
-      value: 76.705227209796
-    - type: nauc_mrr_at_1_max
-      value: 57.32137546277776
-    - type: nauc_mrr_at_1_std
-      value: 4.129875191007982
-    - type: nauc_mrr_at_20_diff1
-      value: 74.30079205050251
-    - type: nauc_mrr_at_20_max
-      value: 60.53532363656904
-    - type: nauc_mrr_at_20_std
-      value: 8.32956272621327
-    - type: nauc_mrr_at_3_diff1
-      value: 74.87770487889848
-    - type: nauc_mrr_at_3_max
-      value: 60.084677423267784
-    - type: nauc_mrr_at_3_std
-      value: 7.3354753376762964
-    - type: nauc_mrr_at_5_diff1
-      value: 74.40302787656852
-    - type: nauc_mrr_at_5_max
-      value: 60.069030786945795
-    - type: nauc_mrr_at_5_std
-      value: 7.9515339665590075
-    - type: nauc_ndcg_at_1000_diff1
-      value: 73.66774503145189
-    - type: nauc_ndcg_at_1000_max
-      value: 60.51016113928767
-    - type: nauc_ndcg_at_1000_std
-      value: 8.65619371919538
-    - type: nauc_ndcg_at_100_diff1
-      value: 73.31381886910967
-    - type: nauc_ndcg_at_100_max
-      value: 60.804013515995535
-    - type: nauc_ndcg_at_100_std
-      value: 8.968020348251471
-    - type: nauc_ndcg_at_10_diff1
-      value: 72.99733432767304
-    - type: nauc_ndcg_at_10_max
-      value: 62.116824264281135
-    - type: nauc_ndcg_at_10_std
-      value: 9.809485757709925
-    - type: nauc_ndcg_at_1_diff1
-      value: 76.705227209796
-    - type: nauc_ndcg_at_1_max
-      value: 57.32137546277776
-    - type: nauc_ndcg_at_1_std
-      value: 4.129875191007982
-    - type: nauc_ndcg_at_20_diff1
-      value: 72.52123153995032
-    - type: nauc_ndcg_at_20_max
-      value: 61.27934142158071
-    - type: nauc_ndcg_at_20_std
-      value: 9.86085851593245
-    - type: nauc_ndcg_at_3_diff1
-      value: 73.29758270502096
-    - type: nauc_ndcg_at_3_max
-      value: 59.004555912521774
-    - type: nauc_ndcg_at_3_std
-      value: 6.372325905257958
-    - type: nauc_ndcg_at_5_diff1
-      value: 72.98853570048864
-    - type: nauc_ndcg_at_5_max
-      value: 58.64946586595039
-    - type: nauc_ndcg_at_5_std
-      value: 6.492229141399973
-    - type: nauc_precision_at_1000_diff1
-      value: -18.039255567985364
-    - type: nauc_precision_at_1000_max
-      value: 20.62036001220385
-    - type: nauc_precision_at_1000_std
-      value: 48.84436760568162
-    - type: nauc_precision_at_100_diff1
-      value: -7.274183459314691
-    - type: nauc_precision_at_100_max
-      value: 27.97079336127723
-    - type: nauc_precision_at_100_std
-      value: 45.54563683450541
-    - type: nauc_precision_at_10_diff1
-      value: 18.09725433020935
-    - type: nauc_precision_at_10_max
-      value: 49.11398598954457
-    - type: nauc_precision_at_10_std
-      value: 43.237184128141266
-    - type: nauc_precision_at_1_diff1
-      value: 76.705227209796
-    - type: nauc_precision_at_1_max
-      value: 57.32137546277776
-    - type: nauc_precision_at_1_std
-      value: 4.129875191007982
-    - type: nauc_precision_at_20_diff1
-      value: 1.3410525627186838
-    - type: nauc_precision_at_20_max
-      value: 37.35867159476222
-    - type: nauc_precision_at_20_std
-      value: 48.245728802102036
-    - type: nauc_precision_at_3_diff1
-      value: 46.28921347186669
-    - type: nauc_precision_at_3_max
-      value: 55.29086984891835
-    - type: nauc_precision_at_3_std
-      value: 25.485619635597068
-    - type: nauc_precision_at_5_diff1
-      value: 36.10414877829668
-    - type: nauc_precision_at_5_max
-      value: 50.74423891086506
-    - type: nauc_precision_at_5_std
-      value: 29.633563462559685
-    - type: nauc_recall_at_1000_diff1
-      value: 100.0
-    - type: nauc_recall_at_1000_max
-      value: 100.0
-    - type: nauc_recall_at_1000_std
-      value: 55.4154995331476
-    - type: nauc_recall_at_100_diff1
-      value: 63.437597261126946
-    - type: nauc_recall_at_100_max
-      value: 76.15157173980718
-    - type: nauc_recall_at_100_std
-      value: 27.439309056956162
-    - type: nauc_recall_at_10_diff1
-      value: 66.76520922141613
-    - type: nauc_recall_at_10_max
-      value: 74.88986784140963
-    - type: nauc_recall_at_10_std
-      value: 22.76893323200783
-    - type: nauc_recall_at_1_diff1
-      value: 75.8262967666803
-    - type: nauc_recall_at_1_max
-      value: 50.75430912296499
-    - type: nauc_recall_at_1_std
-      value: -3.611304329879618
-    - type: nauc_recall_at_20_diff1
-      value: 57.56881264902657
-    - type: nauc_recall_at_20_max
-      value: 74.94173978131198
-    - type: nauc_recall_at_20_std
-      value: 30.5661658602836
-    - type: nauc_recall_at_3_diff1
-      value: 69.47119910780243
-    - type: nauc_recall_at_3_max
-      value: 59.27944653429989
-    - type: nauc_recall_at_3_std
-      value: 6.2814183903482546
-    - type: nauc_recall_at_5_diff1
-      value: 68.10420927979328
-    - type: nauc_recall_at_5_max
-      value: 60.164296893761815
-    - type: nauc_recall_at_5_std
-      value: 9.5025037567499
-    - type: ndcg_at_1
-      value: 62.0
-    - type: ndcg_at_10
-      value: 73.095
-    - type: ndcg_at_100
-      value: 75.57199999999999
-    - type: ndcg_at_1000
-      value: 76.03
-    - type: ndcg_at_20
-      value: 74.785
-    - type: ndcg_at_3
-      value: 68.527
-    - type: ndcg_at_5
-      value: 70.333
-    - type: precision_at_1
-      value: 62.0
-    - type: precision_at_10
-      value: 9.667
-    - type: precision_at_100
-      value: 1.09
-    - type: precision_at_1000
-      value: 0.11299999999999999
-    - type: precision_at_20
-      value: 5.2170000000000005
-    - type: precision_at_3
-      value: 26.667
-    - type: precision_at_5
-      value: 17.267
-    - type: recall_at_1
-      value: 58.760999999999996
-    - type: recall_at_10
-      value: 85.422
-    - type: recall_at_100
-      value: 96.0
-    - type: recall_at_1000
-      value: 99.667
-    - type: recall_at_20
-      value: 91.93299999999999
-    - type: recall_at_3
-      value: 72.906
-    - type: recall_at_5
-      value: 77.694
-    task:
-      type: Retrieval
-  - dataset:
-      config: default
-      name: MTEB SciFact (default)
-      revision: 0228b52cf27578f30900b9e5271d331663a030d7
-      split: train
-      type: mteb/scifact
-    metrics:
-    - type: main_score
-      value: 76.527
-    - type: map_at_1
-      value: 62.159
-    - type: map_at_10
-      value: 72.298
-    - type: map_at_100
-      value: 72.789
-    - type: map_at_1000
-      value: 72.80499999999999
-    - type: map_at_20
-      value: 72.658
-    - type: map_at_3
-      value: 69.697
-    - type: map_at_5
-      value: 71.405
-    - type: mrr_at_1
-      value: 65.01854140914709
-    - type: mrr_at_10
-      value: 73.3364235681912
-    - type: mrr_at_100
-      value: 73.69023773006475
-    - type: mrr_at_1000
-      value: 73.70379275258956
-    - type: mrr_at_20
-      value: 73.58899784126623
-    - type: mrr_at_3
-      value: 71.63164400494436
-    - type: mrr_at_5
-      value: 72.6266996291718
-    - type: nauc_map_at_1000_diff1
-      value: 72.26196805521474
-    - type: nauc_map_at_1000_max
-      value: 54.82473601925078
-    - type: nauc_map_at_1000_std
-      value: 7.532896905808398
-    - type: nauc_map_at_100_diff1
-      value: 72.26762601665212
-    - type: nauc_map_at_100_max
-      value: 54.84436183081319
-    - type: nauc_map_at_100_std
-      value: 7.553915623782155
-    - type: nauc_map_at_10_diff1
-      value: 72.09152947041464
-    - type: nauc_map_at_10_max
-      value: 54.566662723409344
-    - type: nauc_map_at_10_std
-      value: 6.8617531224659984
-    - type: nauc_map_at_1_diff1
-      value: 76.44362554275227
-    - type: nauc_map_at_1_max
-      value: 47.92837030943323
-    - type: nauc_map_at_1_std
-      value: 1.2712665978711795
-    - type: nauc_map_at_20_diff1
-      value: 72.1932546895839
-    - type: nauc_map_at_20_max
-      value: 54.77868328671626
-    - type: nauc_map_at_20_std
-      value: 7.5390256852193085
-    - type: nauc_map_at_3_diff1
-      value: 72.32463213490826
-    - type: nauc_map_at_3_max
-      value: 51.82850176376716
-    - type: nauc_map_at_3_std
-      value: 3.313691247008456
-    - type: nauc_map_at_5_diff1
-      value: 72.07694535940702
-    - type: nauc_map_at_5_max
-      value: 53.746544557259725
-    - type: nauc_map_at_5_std
-      value: 5.460765188941276
-    - type: nauc_mrr_at_1000_diff1
-      value: 71.91364820971862
-    - type: nauc_mrr_at_1000_max
-      value: 55.999150811401144
-    - type: nauc_mrr_at_1000_std
-      value: 10.398705225694902
-    - type: nauc_mrr_at_100_diff1
-      value: 71.9166900352723
-    - type: nauc_mrr_at_100_max
-      value: 56.0158980617252
-    - type: nauc_mrr_at_100_std
-      value: 10.416397031952592
-    - type: nauc_mrr_at_10_diff1
-      value: 71.6000299472608
-    - type: nauc_mrr_at_10_max
-      value: 55.91890883710817
-    - type: nauc_mrr_at_10_std
-      value: 10.291906323764916
-    - type: nauc_mrr_at_1_diff1
-      value: 76.49718519036318
-    - type: nauc_mrr_at_1_max
-      value: 54.12604217431032
-    - type: nauc_mrr_at_1_std
-      value: 8.333140302649584
-    - type: nauc_mrr_at_20_diff1
-      value: 71.83180901219741
-    - type: nauc_mrr_at_20_max
-      value: 55.95516059386792
-    - type: nauc_mrr_at_20_std
-      value: 10.410595110736114
-    - type: nauc_mrr_at_3_diff1
-      value: 71.41066101878594
-    - type: nauc_mrr_at_3_max
-      value: 56.33030426786812
-    - type: nauc_mrr_at_3_std
-      value: 9.807092627499873
-    - type: nauc_mrr_at_5_diff1
-      value: 71.48457263107547
-    - type: nauc_mrr_at_5_max
-      value: 55.79523079804451
-    - type: nauc_mrr_at_5_std
-      value: 9.56339540662926
-    - type: nauc_ndcg_at_1000_diff1
-      value: 71.00844332582724
-    - type: nauc_ndcg_at_1000_max
-      value: 56.0830968411215
-    - type: nauc_ndcg_at_1000_std
-      value: 10.12536414515097
-    - type: nauc_ndcg_at_100_diff1
-      value: 71.08255901217294
-    - type: nauc_ndcg_at_100_max
-      value: 56.58354344196779
-    - type: nauc_ndcg_at_100_std
-      value: 10.788436869510683
-    - type: nauc_ndcg_at_10_diff1
-      value: 70.0351612983415
-    - type: nauc_ndcg_at_10_max
-      value: 55.69237259785501
-    - type: nauc_ndcg_at_10_std
-      value: 9.098137226872005
-    - type: nauc_ndcg_at_1_diff1
-      value: 76.49718519036318
-    - type: nauc_ndcg_at_1_max
-      value: 54.12604217431032
-    - type: nauc_ndcg_at_1_std
-      value: 8.333140302649584
-    - type: nauc_ndcg_at_20_diff1
-      value: 70.55288229160162
-    - type: nauc_ndcg_at_20_max
-      value: 56.02912372617168
-    - type: nauc_ndcg_at_20_std
-      value: 10.658004918812695
-    - type: nauc_ndcg_at_3_diff1
-      value: 70.05425859113052
-    - type: nauc_ndcg_at_3_max
-      value: 53.60471853426119
-    - type: nauc_ndcg_at_3_std
-      value: 5.230816816865092
-    - type: nauc_ndcg_at_5_diff1
-      value: 69.93016148017965
-    - type: nauc_ndcg_at_5_max
-      value: 54.4721191074644
-    - type: nauc_ndcg_at_5_std
-      value: 6.577620935495792
-    - type: nauc_precision_at_1000_diff1
-      value: -34.15207795410865
-    - type: nauc_precision_at_1000_max
-      value: 19.192406477803747
-    - type: nauc_precision_at_1000_std
-      value: 44.20120249056698
-    - type: nauc_precision_at_100_diff1
-      value: -21.92421802281828
-    - type: nauc_precision_at_100_max
-      value: 27.932025006196444
-    - type: nauc_precision_at_100_std
-      value: 46.15700787499129
-    - type: nauc_precision_at_10_diff1
-      value: 1.4405770914568594
-    - type: nauc_precision_at_10_max
-      value: 39.638084561158536
-    - type: nauc_precision_at_10_std
-      value: 36.69460260973796
-    - type: nauc_precision_at_1_diff1
-      value: 76.49718519036318
-    - type: nauc_precision_at_1_max
-      value: 54.12604217431032
-    - type: nauc_precision_at_1_std
-      value: 8.333140302649584
-    - type: nauc_precision_at_20_diff1
-      value: -9.073464951503986
-    - type: nauc_precision_at_20_max
-      value: 33.43558333269937
-    - type: nauc_precision_at_20_std
-      value: 43.649313315759635
-    - type: nauc_precision_at_3_diff1
-      value: 33.24438747635695
-    - type: nauc_precision_at_3_max
-      value: 49.669129551161866
-    - type: nauc_precision_at_3_std
-      value: 20.597427388463906
-    - type: nauc_precision_at_5_diff1
-      value: 14.390391464956412
-    - type: nauc_precision_at_5_max
-      value: 42.21194236044368
-    - type: nauc_precision_at_5_std
-      value: 27.341151685288402
-    - type: nauc_recall_at_1000_diff1
-      value: -13.439275396098257
-    - type: nauc_recall_at_1000_max
-      value: 70.2668332789378
-    - type: nauc_recall_at_1000_std
-      value: 81.47725384292593
-    - type: nauc_recall_at_100_diff1
-      value: 63.12484158375845
-    - type: nauc_recall_at_100_max
-      value: 78.21397899681712
-    - type: nauc_recall_at_100_std
-      value: 47.95971895328952
-    - type: nauc_recall_at_10_diff1
-      value: 59.258619066241124
-    - type: nauc_recall_at_10_max
-      value: 55.72780924365118
-    - type: nauc_recall_at_10_std
-      value: 12.070465110706309
-    - type: nauc_recall_at_1_diff1
-      value: 76.44362554275227
-    - type: nauc_recall_at_1_max
-      value: 47.92837030943323
-    - type: nauc_recall_at_1_std
-      value: 1.2712665978711795
-    - type: nauc_recall_at_20_diff1
-      value: 60.27194163739572
-    - type: nauc_recall_at_20_max
-      value: 57.859640930044556
-    - type: nauc_recall_at_20_std
-      value: 24.959871261637183
-    - type: nauc_recall_at_3_diff1
-      value: 63.809558015026404
-    - type: nauc_recall_at_3_max
-      value: 50.68780898644539
-    - type: nauc_recall_at_3_std
-      value: 0.37064353382673126
-    - type: nauc_recall_at_5_diff1
-      value: 61.34563891446967
-    - type: nauc_recall_at_5_max
-      value: 52.02870480839336
-    - type: nauc_recall_at_5_std
-      value: 3.3678431493557657
-    - type: ndcg_at_1
-      value: 65.019
-    - type: ndcg_at_10
-      value: 76.527
-    - type: ndcg_at_100
-      value: 78.476
-    - type: ndcg_at_1000
-      value: 78.859
-    - type: ndcg_at_20
-      value: 77.608
-    - type: ndcg_at_3
-      value: 72.237
-    - type: ndcg_at_5
-      value: 74.578
-    - type: precision_at_1
-      value: 65.019
-    - type: precision_at_10
-      value: 9.963
-    - type: precision_at_100
-      value: 1.099
-    - type: precision_at_1000
-      value: 0.11299999999999999
-    - type: precision_at_20
-      value: 5.235
-    - type: precision_at_3
-      value: 28.224
-    - type: precision_at_5
-      value: 18.541
-    - type: recall_at_1
-      value: 62.159
-    - type: recall_at_10
-      value: 88.177
-    - type: recall_at_100
-      value: 96.70400000000001
-    - type: recall_at_1000
-      value: 99.629
-    - type: recall_at_20
-      value: 92.171
-    - type: recall_at_3
-      value: 76.98
-    - type: recall_at_5
-      value: 82.39800000000001
+      value: 15.518
     task:
       type: Retrieval
   - dataset:
@@ -10208,287 +9626,287 @@ model-index:
       type: mteb/trec-covid
     metrics:
     - type: main_score
-      value: 85.786
+      value: 82.838
     - type: map_at_1
-      value: 0.241
+      value: 0.251
     - type: map_at_10
-      value: 2.2560000000000002
+      value: 2.165
     - type: map_at_100
-      value: 13.478000000000002
+      value: 12.354
     - type: map_at_1000
-      value: 32.080999999999996
+      value: 29.576
     - type: map_at_20
-      value: 4.034
+      value: 3.881
     - type: map_at_3
-      value: 0.721
+      value: 0.728
     - type: map_at_5
-      value: 1.202
+      value: 1.16
     - type: mrr_at_1
-      value: 92.0
+      value: 94.0
     - type: mrr_at_10
-      value: 95.66666666666666
+      value: 97.0
     - type: mrr_at_100
-      value: 95.66666666666666
+      value: 97.0
     - type: mrr_at_1000
-      value: 95.66666666666666
+      value: 97.0
     - type: mrr_at_20
-      value: 95.66666666666666
+      value: 97.0
     - type: mrr_at_3
-      value: 95.66666666666666
+      value: 97.0
     - type: mrr_at_5
-      value: 95.66666666666666
+      value: 97.0
     - type: nauc_map_at_1000_diff1
-      value: -33.856397215348224
+      value: -12.291556746894083
     - type: nauc_map_at_1000_max
-      value: 52.442628978801686
+      value: 58.410079466278965
     - type: nauc_map_at_1000_std
-      value: 78.121550023329
+      value: 76.4746309144675
     - type: nauc_map_at_100_diff1
-      value: -24.62901955392776
+      value: -7.101871793520939
     - type: nauc_map_at_100_max
-      value: 23.848254681406715
+      value: 36.39771723741155
     - type: nauc_map_at_100_std
-      value: 44.891168295557435
+      value: 58.39339407401992
     - type: nauc_map_at_10_diff1
-      value: 8.624081477851847
+      value: -7.107352291658639
     - type: nauc_map_at_10_max
-      value: -9.045454596970382
+      value: -5.168031273784038
     - type: nauc_map_at_10_std
-      value: -5.7784874943617375
+      value: 1.6874476582807705
     - type: nauc_map_at_1_diff1
-      value: 17.522197196988433
+      value: -6.925641373795307
     - type: nauc_map_at_1_max
-      value: -9.591987859324789
+      value: -16.441779478543896
     - type: nauc_map_at_1_std
-      value: -7.711185842864
+      value: -10.474198968429116
     - type: nauc_map_at_20_diff1
-      value: -0.3901783306886495
+      value: 1.5882506468964699
     - type: nauc_map_at_20_max
-      value: -2.061541912435094
+      value: 5.236313065500864
     - type: nauc_map_at_20_std
-      value: 5.1798742009931
+      value: 11.192711690463574
     - type: nauc_map_at_3_diff1
-      value: 13.263750752688159
+      value: -11.27725483179556
     - type: nauc_map_at_3_max
-      value: -9.833822942004682
+      value: -15.784380537162276
     - type: nauc_map_at_3_std
-      value: -9.816054237663943
+      value: -6.139446268064151
     - type: nauc_map_at_5_diff1
-      value: 11.492446526529632
+      value: -8.885561530316084
     - type: nauc_map_at_5_max
-      value: -10.413949409485241
+      value: -11.120358811665087
     - type: nauc_map_at_5_std
-      value: -11.239134010710497
+      value: -2.4135832895961995
     - type: nauc_mrr_at_1000_diff1
-      value: -31.20376355670401
+      value: -43.27731092437014
     - type: nauc_mrr_at_1000_max
-      value: 46.59197012138196
+      value: 32.25957049486496
     - type: nauc_mrr_at_1000_std
-      value: 80.28442146089233
+      value: 46.09399315281668
     - type: nauc_mrr_at_100_diff1
-      value: -31.20376355670401
+      value: -43.27731092437014
     - type: nauc_mrr_at_100_max
-      value: 46.59197012138196
+      value: 32.25957049486496
     - type: nauc_mrr_at_100_std
-      value: 80.28442146089233
+      value: 46.09399315281668
     - type: nauc_mrr_at_10_diff1
-      value: -31.20376355670401
+      value: -43.27731092437014
     - type: nauc_mrr_at_10_max
-      value: 46.59197012138196
+      value: 32.25957049486496
     - type: nauc_mrr_at_10_std
-      value: 80.28442146089233
+      value: 46.09399315281668
     - type: nauc_mrr_at_1_diff1
-      value: -29.108309990663138
+      value: -43.27731092436961
     - type: nauc_mrr_at_1_max
-      value: 43.23062558356683
+      value: 32.25957049486467
     - type: nauc_mrr_at_1_std
-      value: 78.64145658263308
+      value: 46.0939931528168
     - type: nauc_mrr_at_20_diff1
-      value: -31.20376355670401
+      value: -43.27731092437014
     - type: nauc_mrr_at_20_max
-      value: 46.59197012138196
+      value: 32.25957049486496
     - type: nauc_mrr_at_20_std
-      value: 80.28442146089233
+      value: 46.09399315281668
     - type: nauc_mrr_at_3_diff1
-      value: -31.20376355670401
+      value: -43.27731092437014
     - type: nauc_mrr_at_3_max
-      value: 46.59197012138196
+      value: 32.25957049486496
     - type: nauc_mrr_at_3_std
-      value: 80.28442146089233
+      value: 46.09399315281668
     - type: nauc_mrr_at_5_diff1
-      value: -31.20376355670401
+      value: -43.27731092437014
     - type: nauc_mrr_at_5_max
-      value: 46.59197012138196
+      value: 32.25957049486496
     - type: nauc_mrr_at_5_std
-      value: 80.28442146089233
+      value: 46.09399315281668
     - type: nauc_ndcg_at_1000_diff1
-      value: -30.02494733757554
+      value: -7.751556353880079
     - type: nauc_ndcg_at_1000_max
-      value: 46.879741543484386
+      value: 55.19026713468263
     - type: nauc_ndcg_at_1000_std
-      value: 71.28860776857371
+      value: 71.89952836445738
     - type: nauc_ndcg_at_100_diff1
-      value: -40.382758704499686
+      value: -25.04610843246315
     - type: nauc_ndcg_at_100_max
-      value: 46.81853301905501
+      value: 57.81019038299022
     - type: nauc_ndcg_at_100_std
-      value: 78.08882504276026
+      value: 76.08337029715734
     - type: nauc_ndcg_at_10_diff1
-      value: -37.9762225498264
+      value: -24.320444869696587
     - type: nauc_ndcg_at_10_max
-      value: 33.818776701290645
+      value: 45.733366593718706
     - type: nauc_ndcg_at_10_std
-      value: 60.60876378870803
+      value: 63.83197521298889
     - type: nauc_ndcg_at_1_diff1
-      value: -29.64995269631029
+      value: -2.2434179973565302
     - type: nauc_ndcg_at_1_max
-      value: 11.702932828760678
+      value: 18.89758153824172
     - type: nauc_ndcg_at_1_std
-      value: 46.36707663197732
+      value: 47.66548780052153
     - type: nauc_ndcg_at_20_diff1
-      value: -34.21566964686303
+      value: -15.739057357565608
     - type: nauc_ndcg_at_20_max
-      value: 35.71546714747097
+      value: 50.7706563011848
     - type: nauc_ndcg_at_20_std
-      value: 64.96478634285614
+      value: 63.55990312197961
     - type: nauc_ndcg_at_3_diff1
-      value: -40.87606957878375
+      value: -33.933097033234354
     - type: nauc_ndcg_at_3_max
-      value: 34.266783345764296
+      value: 26.964996703046246
     - type: nauc_ndcg_at_3_std
-      value: 59.417588176302125
+      value: 57.994876101611084
     - type: nauc_ndcg_at_5_diff1
-      value: -40.86776131403312
+      value: -22.851195043529472
     - type: nauc_ndcg_at_5_max
-      value: 32.103157304099696
+      value: 38.105128987050094
     - type: nauc_ndcg_at_5_std
-      value: 53.26187123017394
+      value: 62.943604828448585
     - type: nauc_precision_at_1000_diff1
-      value: -27.155383361683644
+      value: -16.566185636380467
     - type: nauc_precision_at_1000_max
-      value: 47.99609392284812
+      value: 54.001267515174554
     - type: nauc_precision_at_1000_std
-      value: 53.130872385717154
+      value: 48.99114275701267
     - type: nauc_precision_at_100_diff1
-      value: -44.040520753793835
+      value: -22.079909752890607
     - type: nauc_precision_at_100_max
-      value: 49.40807778768706
+      value: 60.72350574637335
     - type: nauc_precision_at_100_std
-      value: 76.68780066667708
+      value: 74.71317275812814
     - type: nauc_precision_at_10_diff1
-      value: -38.63910231606874
+      value: -24.67136917830623
     - type: nauc_precision_at_10_max
-      value: 42.93405560776088
+      value: 62.492642593544126
     - type: nauc_precision_at_10_std
-      value: 66.83323199380891
+      value: 63.282103984677974
     - type: nauc_precision_at_1_diff1
-      value: -29.108309990663138
+      value: -43.27731092436961
     - type: nauc_precision_at_1_max
-      value: 43.23062558356683
+      value: 32.25957049486467
     - type: nauc_precision_at_1_std
-      value: 78.64145658263308
+      value: 46.0939931528168
     - type: nauc_precision_at_20_diff1
-      value: -35.962158439352734
+      value: -10.837325491312193
     - type: nauc_precision_at_20_max
-      value: 36.22370294628403
+      value: 58.342424386156274
     - type: nauc_precision_at_20_std
-      value: 65.49049101917842
+      value: 62.94368290407747
     - type: nauc_precision_at_3_diff1
-      value: -53.11469565992303
+      value: -79.57580938134424
     - type: nauc_precision_at_3_max
-      value: 62.111220033865045
+      value: 48.46137407842722
     - type: nauc_precision_at_3_std
-      value: 67.69895731218259
+      value: 63.00886846885357
     - type: nauc_precision_at_5_diff1
-      value: -53.04735248757662
+      value: -29.041010931079686
     - type: nauc_precision_at_5_max
-      value: 60.29588164734101
+      value: 62.63017804997827
     - type: nauc_precision_at_5_std
-      value: 61.332609813217566
+      value: 64.82673075432224
     - type: nauc_recall_at_1000_diff1
-      value: -26.68853089093055
+      value: 0.8039533307403914
     - type: nauc_recall_at_1000_max
-      value: 40.15392752238839
+      value: 45.959450629336544
     - type: nauc_recall_at_1000_std
-      value: 58.18451441165892
+      value: 57.956398183989776
     - type: nauc_recall_at_100_diff1
-      value: -15.581247880461934
+      value: -1.2240331094549868
     - type: nauc_recall_at_100_max
-      value: 10.81212430083709
+      value: 20.244295844408505
     - type: nauc_recall_at_100_std
-      value: 27.018420696008477
+      value: 39.348498358223566
     - type: nauc_recall_at_10_diff1
-      value: 11.246082508546243
+      value: -5.246748847223987
     - type: nauc_recall_at_10_max
-      value: -13.581652280948264
+      value: -10.956091017853266
     - type: nauc_recall_at_10_std
-      value: -11.980214279022423
+      value: -5.697512598601129
     - type: nauc_recall_at_1_diff1
-      value: 17.522197196988433
+      value: -6.925641373795307
     - type: nauc_recall_at_1_max
-      value: -9.591987859324789
+      value: -16.441779478543896
     - type: nauc_recall_at_1_std
-      value: -7.711185842864
+      value: -10.474198968429116
     - type: nauc_recall_at_20_diff1
-      value: 4.890473144429516
+      value: 3.8478123109449007
     - type: nauc_recall_at_20_max
-      value: -8.848258614984216
+      value: -4.064799516275798
     - type: nauc_recall_at_20_std
-      value: -4.194164888978863
+      value: 1.2108812991924096
     - type: nauc_recall_at_3_diff1
-      value: 13.525152290557976
+      value: -9.004282138713936
     - type: nauc_recall_at_3_max
-      value: -13.266833552882778
+      value: -18.008369184840184
     - type: nauc_recall_at_3_std
-      value: -14.734712973008559
+      value: -8.821151791530783
     - type: nauc_recall_at_5_diff1
-      value: 12.38086304308239
+      value: -4.770943590883584
     - type: nauc_recall_at_5_max
-      value: -14.125430291797542
+      value: -14.512914457838649
     - type: nauc_recall_at_5_std
-      value: -16.303159417191377
+      value: -7.116030398151972
     - type: ndcg_at_1
-      value: 90.0
+      value: 86.0
     - type: ndcg_at_10
-      value: 85.786
+      value: 82.838
     - type: ndcg_at_100
-      value: 65.689
+      value: 62.611000000000004
     - type: ndcg_at_1000
-      value: 57.51500000000001
+      value: 54.777
     - type: ndcg_at_20
-      value: 81.291
+      value: 79.27
     - type: ndcg_at_3
-      value: 89.531
+      value: 88.011
     - type: ndcg_at_5
-      value: 88.435
+      value: 86.52
     - type: precision_at_1
-      value: 92.0
+      value: 94.0
     - type: precision_at_10
-      value: 90.0
+      value: 87.2
     - type: precision_at_100
-      value: 67.64
+      value: 64.48
     - type: precision_at_1000
-      value: 25.422
+      value: 24.168
     - type: precision_at_20
-      value: 84.89999999999999
+      value: 83.7
     - type: precision_at_3
-      value: 92.667
+      value: 94.0
     - type: precision_at_5
-      value: 93.2
+      value: 91.60000000000001
     - type: recall_at_1
-      value: 0.241
+      value: 0.251
     - type: recall_at_10
-      value: 2.37
+      value: 2.303
     - type: recall_at_100
-      value: 16.242
+      value: 15.248000000000001
     - type: recall_at_1000
-      value: 53.702000000000005
+      value: 51.12
     - type: recall_at_20
-      value: 4.343
+      value: 4.247
     - type: recall_at_3
-      value: 0.744
+      value: 0.743
     - type: recall_at_5
-      value: 1.248
+      value: 1.201
     task:
       type: Retrieval
   - dataset:
@@ -10499,287 +9917,287 @@ model-index:
       type: mteb/touche2020
     metrics:
     - type: main_score
-      value: 30.676
+      value: 30.5
     - type: map_at_1
-      value: 3.17
+      value: 3.5700000000000003
     - type: map_at_10
-      value: 12.838
+      value: 12.913
     - type: map_at_100
-      value: 19.455
+      value: 20.259
     - type: map_at_1000
-      value: 21.096999999999998
+      value: 21.834999999999997
     - type: map_at_20
-      value: 15.781
+      value: 16.241
     - type: map_at_3
-      value: 6.938
+      value: 7.027
     - type: map_at_5
-      value: 9.324
+      value: 9.499
     - type: mrr_at_1
-      value: 38.775510204081634
+      value: 46.93877551020408
     - type: mrr_at_10
-      value: 54.38208616780046
+      value: 59.007936507936506
     - type: mrr_at_100
-      value: 54.88429833086117
+      value: 59.69658022721581
     - type: mrr_at_1000
-      value: 54.88429833086117
+      value: 59.69658022721581
     - type: mrr_at_20
-      value: 54.69357918606039
+      value: 59.455483947965135
     - type: mrr_at_3
-      value: 51.02040816326531
+      value: 55.44217687074829
     - type: mrr_at_5
-      value: 52.44897959183673
+      value: 58.29931972789115
     - type: nauc_map_at_1000_diff1
-      value: 11.768546469752255
+      value: 9.910510369504589
     - type: nauc_map_at_1000_max
-      value: -6.234751836059205
+      value: -5.800076879675597
     - type: nauc_map_at_1000_std
-      value: -0.5086610596792738
+      value: 0.16322588275794053
     - type: nauc_map_at_100_diff1
-      value: 12.210218562618925
+      value: 9.656724513623926
     - type: nauc_map_at_100_max
-      value: -7.479895692892787
+      value: -6.584268120579212
     - type: nauc_map_at_100_std
-      value: -3.9456755950311653
+      value: -2.6872802242536356
     - type: nauc_map_at_10_diff1
-      value: 17.872233692928692
+      value: 0.8036112204161583
     - type: nauc_map_at_10_max
-      value: -1.4391736686946837
+      value: -2.160210350827288
     - type: nauc_map_at_10_std
-      value: -19.04083165317906
+      value: -20.0383888763022
     - type: nauc_map_at_1_diff1
-      value: 26.952695929538866
+      value: -14.746819188938662
     - type: nauc_map_at_1_max
-      value: -23.861150686867994
+      value: -18.36805682308219
     - type: nauc_map_at_1_std
-      value: -36.57857926974273
+      value: -22.512487408760773
     - type: nauc_map_at_20_diff1
-      value: 15.79525205450058
+      value: 8.885434478073687
     - type: nauc_map_at_20_max
-      value: -5.818581673388666
+      value: -5.604548063353215
     - type: nauc_map_at_20_std
-      value: -14.222828899523332
+      value: -15.144012685613262
     - type: nauc_map_at_3_diff1
-      value: 24.296906628915092
+      value: -7.047758972132971
     - type: nauc_map_at_3_max
-      value: -3.075381662286569
+      value: -15.561815701245369
     - type: nauc_map_at_3_std
-      value: -25.324259455516085
+      value: -30.427604119738294
     - type: nauc_map_at_5_diff1
-      value: 23.81656417505337
+      value: -1.82067867508142
     - type: nauc_map_at_5_max
-      value: -3.736702154899666
+      value: -5.262858250449523
     - type: nauc_map_at_5_std
-      value: -25.914105892424722
+      value: -24.233957421815187
     - type: nauc_mrr_at_1000_diff1
-      value: 17.59241956039767
+      value: -1.9260668149825904
     - type: nauc_mrr_at_1000_max
-      value: -33.70575077889871
+      value: -30.096543546430805
     - type: nauc_mrr_at_1000_std
-      value: -31.563016486948225
+      value: -14.970045391543408
     - type: nauc_mrr_at_100_diff1
-      value: 17.59241956039767
+      value: -1.9260668149825904
     - type: nauc_mrr_at_100_max
-      value: -33.70575077889871
+      value: -30.096543546430805
     - type: nauc_mrr_at_100_std
-      value: -31.563016486948225
+      value: -14.970045391543408
     - type: nauc_mrr_at_10_diff1
-      value: 16.7444853592715
+      value: -2.6073416358968546
     - type: nauc_mrr_at_10_max
-      value: -34.67620993606911
+      value: -30.945119000446585
     - type: nauc_mrr_at_10_std
-      value: -30.36717732372874
+      value: -15.455244376688151
     - type: nauc_mrr_at_1_diff1
-      value: 24.89375000365368
+      value: -6.281249674145899
     - type: nauc_mrr_at_1_max
-      value: -30.815417372385873
+      value: -23.95679641665857
     - type: nauc_mrr_at_1_std
-      value: -44.687809069434245
+      value: -15.909791421206295
     - type: nauc_mrr_at_20_diff1
-      value: 17.80682781563912
+      value: -1.26835503224596
     - type: nauc_mrr_at_20_max
-      value: -33.65132043726252
+      value: -30.332143078341034
     - type: nauc_mrr_at_20_std
-      value: -30.788168935299247
+      value: -14.161343406093216
     - type: nauc_mrr_at_3_diff1
-      value: 16.98952594458621
+      value: -4.088059284739747
     - type: nauc_mrr_at_3_max
-      value: -31.87405417907046
+      value: -29.245685372711044
     - type: nauc_mrr_at_3_std
-      value: -32.99668568417734
+      value: -19.21966851951373
     - type: nauc_mrr_at_5_diff1
-      value: 17.692734228351465
+      value: -1.857784149253863
     - type: nauc_mrr_at_5_max
-      value: -31.478014354340267
+      value: -29.188383926944155
     - type: nauc_mrr_at_5_std
-      value: -34.27625710571425
+      value: -14.947155704014756
     - type: nauc_ndcg_at_1000_diff1
-      value: 7.2521145392859925
+      value: 10.830782596268012
     - type: nauc_ndcg_at_1000_max
-      value: -11.879052032552305
+      value: -10.76019834247598
     - type: nauc_ndcg_at_1000_std
-      value: 16.868276570948492
+      value: 22.15401405704995
     - type: nauc_ndcg_at_100_diff1
-      value: 9.68273273743821
+      value: 13.25601986425452
     - type: nauc_ndcg_at_100_max
-      value: -19.509766471983163
+      value: -15.982671587208033
     - type: nauc_ndcg_at_100_std
-      value: 10.902137038006767
+      value: 16.718111839342363
     - type: nauc_ndcg_at_10_diff1
-      value: 15.249688997310848
+      value: 5.5819315259551106
     - type: nauc_ndcg_at_10_max
-      value: -10.630040416461807
+      value: -11.952721652517152
     - type: nauc_ndcg_at_10_std
-      value: -12.375334439103657
+      value: -10.474085815762676
     - type: nauc_ndcg_at_1_diff1
-      value: 23.20606123961159
+      value: -7.87103555085007
     - type: nauc_ndcg_at_1_max
-      value: -29.329783979356527
+      value: -24.704858588989737
     - type: nauc_ndcg_at_1_std
-      value: -44.10128294915467
+      value: -14.423209358330777
     - type: nauc_ndcg_at_20_diff1
-      value: 13.146989938292835
+      value: 12.404680386239459
     - type: nauc_ndcg_at_20_max
-      value: -17.320226384710132
+      value: -14.858231638706112
     - type: nauc_ndcg_at_20_std
-      value: -9.593117671485109
+      value: -6.1945024023267985
     - type: nauc_ndcg_at_3_diff1
-      value: 18.262720339591553
+      value: 1.0264436945119229
     - type: nauc_ndcg_at_3_max
-      value: -10.618248628559396
+      value: -20.50535984245989
     - type: nauc_ndcg_at_3_std
-      value: -24.069451775959436
+      value: -21.642653573064518
     - type: nauc_ndcg_at_5_diff1
-      value: 23.015053471568216
+      value: 10.221120686687174
     - type: nauc_ndcg_at_5_max
-      value: -7.6818187454174485
+      value: -14.010693047359307
     - type: nauc_ndcg_at_5_std
-      value: -23.610640745384508
+      value: -12.003565488476767
     - type: nauc_precision_at_1000_diff1
-      value: -21.295596373775506
+      value: 1.580001818770179
     - type: nauc_precision_at_1000_max
-      value: 33.313558338532154
+      value: 30.699747280072366
     - type: nauc_precision_at_1000_std
-      value: 36.00306839548485
+      value: 41.68874332471044
     - type: nauc_precision_at_100_diff1
-      value: -8.17984508673104
+      value: 22.31315643692314
     - type: nauc_precision_at_100_max
-      value: -3.5218633922770186
+      value: 2.2145528979842104
     - type: nauc_precision_at_100_std
-      value: 64.06409459764816
+      value: 71.87311377290379
     - type: nauc_precision_at_10_diff1
-      value: 9.669119653314857
+      value: 15.67863381009855
     - type: nauc_precision_at_10_max
-      value: -7.486292775323736
+      value: -7.373383448098349
     - type: nauc_precision_at_10_std
-      value: 6.05291075028193
+      value: -1.5181897666741904
     - type: nauc_precision_at_1_diff1
-      value: 24.89375000365368
+      value: -6.281249674145899
     - type: nauc_precision_at_1_max
-      value: -30.815417372385873
+      value: -23.95679641665857
     - type: nauc_precision_at_1_std
-      value: -44.687809069434245
+      value: -15.909791421206295
     - type: nauc_precision_at_20_diff1
-      value: 5.612232465910688
+      value: 34.529345904394106
     - type: nauc_precision_at_20_max
-      value: -9.493221506431967
+      value: -4.595919949898392
     - type: nauc_precision_at_20_std
-      value: 21.580627790601074
+      value: 24.29710948849588
     - type: nauc_precision_at_3_diff1
-      value: 17.374772867960296
+      value: 4.667561353420005
     - type: nauc_precision_at_3_max
-      value: -5.4513905841762496
+      value: -15.153394928732745
     - type: nauc_precision_at_3_std
-      value: -18.247738169868203
+      value: -26.737561411956428
     - type: nauc_precision_at_5_diff1
-      value: 24.856012104520754
+      value: 18.24121315157291
     - type: nauc_precision_at_5_max
-      value: -1.689335249747221
+      value: -5.679163199756771
     - type: nauc_precision_at_5_std
-      value: -17.759731374287938
+      value: -8.569605319267955
     - type: nauc_recall_at_1000_diff1
-      value: -16.083745923678773
+      value: 7.867956430137323
     - type: nauc_recall_at_1000_max
-      value: -6.4871691773402285
+      value: 2.560546440892355
     - type: nauc_recall_at_1000_std
-      value: 72.67593737144807
+      value: 75.64459996887818
     - type: nauc_recall_at_100_diff1
-      value: -2.2459215656431395
+      value: 14.288210441761784
     - type: nauc_recall_at_100_max
-      value: -22.74818872908392
+      value: -16.26081030523676
     - type: nauc_recall_at_100_std
-      value: 32.77497339706697
+      value: 34.0896349160997
     - type: nauc_recall_at_10_diff1
-      value: 8.670501799477833
+      value: 2.5271969875579505
     - type: nauc_recall_at_10_max
-      value: -9.585611028753716
+      value: -7.819191985653094
     - type: nauc_recall_at_10_std
-      value: -10.351304338231115
+      value: -16.257378614680743
     - type: nauc_recall_at_1_diff1
-      value: 26.952695929538866
+      value: -14.746819188938662
     - type: nauc_recall_at_1_max
-      value: -23.861150686867994
+      value: -18.36805682308219
     - type: nauc_recall_at_1_std
-      value: -36.57857926974273
+      value: -22.512487408760773
     - type: nauc_recall_at_20_diff1
-      value: 8.556995668015755
+      value: 16.480978109572987
     - type: nauc_recall_at_20_max
-      value: -17.78731664551538
+      value: -12.524717173853151
     - type: nauc_recall_at_20_std
-      value: -2.6521355533836433
+      value: -4.285217048975553
     - type: nauc_recall_at_3_diff1
-      value: 21.343842933377587
+      value: -7.306370544521303
     - type: nauc_recall_at_3_max
-      value: -2.6294436308829456
+      value: -20.06310095683196
     - type: nauc_recall_at_3_std
-      value: -21.662684580036945
+      value: -32.65155580982558
     - type: nauc_recall_at_5_diff1
-      value: 20.98116651540531
+      value: 1.2245135180902773
     - type: nauc_recall_at_5_max
-      value: -6.952288993104518
+      value: -7.751072966262725
     - type: nauc_recall_at_5_std
-      value: -24.78098743592733
+      value: -20.872612147846596
     - type: ndcg_at_1
-      value: 34.694
+      value: 43.878
     - type: ndcg_at_10
-      value: 30.676
+      value: 30.5
     - type: ndcg_at_100
-      value: 41.345
+      value: 42.821999999999996
     - type: ndcg_at_1000
-      value: 52.586
+      value: 53.6
     - type: ndcg_at_20
-      value: 31.176
+      value: 32.037
     - type: ndcg_at_3
-      value: 35.467
+      value: 36.179
     - type: ndcg_at_5
-      value: 32.784
+      value: 34.337
     - type: precision_at_1
-      value: 38.775999999999996
+      value: 46.939
     - type: precision_at_10
-      value: 27.346999999999998
+      value: 25.714
     - type: precision_at_100
-      value: 8.265
+      value: 8.469
     - type: precision_at_1000
-      value: 1.58
+      value: 1.584
     - type: precision_at_20
-      value: 20.51
+      value: 20.714
     - type: precision_at_3
-      value: 38.775999999999996
+      value: 37.415
     - type: precision_at_5
-      value: 33.061
+      value: 34.694
     - type: recall_at_1
-      value: 3.17
+      value: 3.5700000000000003
     - type: recall_at_10
-      value: 19.188
+      value: 18.536
     - type: recall_at_100
-      value: 50.775000000000006
+      value: 52.36300000000001
     - type: recall_at_1000
-      value: 85.392
+      value: 85.10600000000001
     - type: recall_at_20
-      value: 28.061000000000003
+      value: 28.322999999999997
     - type: recall_at_3
-      value: 7.949000000000001
+      value: 8.129
     - type: recall_at_5
-      value: 11.863
+      value: 12.350999999999999
     task:
       type: Retrieval
 tags:
